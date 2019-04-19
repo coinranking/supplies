@@ -1,0 +1,43 @@
+{
+  "name": "supplies",
+  "version": "1.0.0",
+  "description": "A Javascript library for getting up to date cryptocurrency total supplies, circulating supplies and max supplies",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinranking/supplies.git"
+  },
+  "readme": "README.md",
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/coinranking/supplies/issues"
+  },
+  "homepage": "https://coinranking.com",
+  "keywords": [
+    "cryptocurrencies",
+    "cryptocurrency",
+    "crypto",
+    "altcoin",
+    "bitcoin",
+    "ethereum",
+    "coin",
+    "supplies",
+    "circulating supply",
+    "total supply",
+    "max supply",
+    "coinranking"
+  ],
+  "author": "Coinranking B.V.",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "dependencies": {
+    "filehound": "^1.17.0"
+  }
+}
