@@ -2,6 +2,7 @@
   "name": "Ethereum",
   "symbol": "ETH",
   "decimals": 18,
+  "blockchain": "ethereum",
   "modifiers": [
     {
       "description": "Burned",

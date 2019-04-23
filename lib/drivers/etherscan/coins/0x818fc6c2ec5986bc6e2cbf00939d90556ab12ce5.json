@@ -2,6 +2,7 @@
   "name": "KIN",
   "symbol": "KIN",
   "decimals": 18,
+  "blockchain": "ethereum",
   "modifiers": [
     {
       "description": "burned",
