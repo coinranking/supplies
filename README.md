@@ -9,8 +9,7 @@ A Javascript library for getting up to date cryptocurrency total supplies, circu
 ## Getting started
 
 1. Node.js 8.10 or higher is required
-2. Redis is required
-3. Install *Supplies* using [NPM](https://www.npmjs.com/package/supplies)
+2. Install *Supplies* using [NPM](https://www.npmjs.com/package/supplies)
 
 ## Installation
 
@@ -29,16 +28,27 @@ $ npm install supplies
 
 ## Usage
 
-### Get all coins
+### List all supported drivers
 
 ```Javascript
 const supplies = require('supplies');
 
-supplies
-  .getAllCoins('ethereum')
-  .then((coins) => {
-    // Your code here
-  });
+console.log(supplies.drivers);
+```
+
+### List coins of a specific driver
+
+```Javascript
+const supplies = require('supplies');
+
+const etherscan = new supplies.Etherscan();
+
+etherscan
+  .getCoins()
+  .then((coin) => {
+    console.log(coin);
+  })
+  .catch(console.error);
 ```
 
 ### Get supply of specific coin
@@ -46,23 +56,18 @@ supplies
 ```Javascript
 const supplies = require('supplies');
 
-supplies
-  .getSupply(
-    // specific blockchain
-    'ethereum',
-    // reference on this specific blockchain;
-    // a smart contract address in this case
-    '0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5',
-  )
-  .then((supply) => {
-    // Your code here
-    // supply.total
-    // supply.circulating
-    // supply.max
-  });
-```
+const etherscan = new supplies.Etherscan();
+// reference for this specific driver;
+// a smart contract address in this case
+const reference = '0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5';
 
-## Examples
+etherscan
+  .getSupply(reference)
+  .then((supply) => {
+    console.log(supply);
+  })
+  .catch(console.error);
+```
 
 ## License
 

@@ -5,11 +5,11 @@
   "blockchain": "ethereum",
   "modifiers": [
     {
-      "description": "burned",
+      "description": "Burned",
       "reference": "0x0000000000000000000000000000000000000000"
     },
     {
-      "description": "burned",
+      "description": "Burned",
       "reference": "0x0000000000000000000000000000000000000001"
     },
     {
