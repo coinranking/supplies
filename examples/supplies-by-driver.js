@@ -1,6 +1,8 @@
 const supplies = require('../');
 
-const driver = new supplies[process.env.DRIVER]();
+const driver = new supplies[process.env.DRIVER]({
+  secret: process.env.SECRET,
+});
 
 driver
   .getCoins()
