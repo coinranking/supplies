@@ -1,7 +1,6 @@
 {
   "name": "Bitcoin",
   "symbol": "BTC",
-  "blockchain": "Bitcoin",
   "maxSupply": 21000000,
   "modifiers": []
 }

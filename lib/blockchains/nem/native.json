@@ -1,7 +1,6 @@
 {
   "name": "NEM",
   "symbol": "XEM",
-  "blockchain": "NEM",
   "maxSupply": 8999999999,
   "totalSupply": 8999999999,
   "modifiers": [

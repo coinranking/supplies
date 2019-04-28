@@ -1,7 +1,6 @@
 {
   "name": "PLOUTOZ",
   "symbol": "PLO",
-  "blockchain": "EOS",
   "modifiers": [
     {
       "description": "Burned",

@@ -1,6 +1,6 @@
 {
-  "name": "Ethereum",
-  "symbol": "ETH",
+  "name": "Ethereum Classic",
+  "symbol": "ETC",
   "decimals": 18,
   "modifiers": [
     {

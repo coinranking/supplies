@@ -1,7 +1,6 @@
 {
   "name": "Cardano",
   "symbol": "ADA",
-  "blockchain": "Cardano",
   "modifiers": [
     {
       "description": "Genesis Address",

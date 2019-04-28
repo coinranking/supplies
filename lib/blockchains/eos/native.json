@@ -1,7 +1,6 @@
 {
   "name": "EOS",
   "symbol": "EOS",
-  "blockchain": "EOS",
   "modifiers": [
     {
       "description": "Burned",
