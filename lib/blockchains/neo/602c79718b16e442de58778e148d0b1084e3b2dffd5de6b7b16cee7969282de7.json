@@ -1,0 +1,21 @@
+{
+  "name": "GAS",
+  "symbol": "GAS",
+  "maxSupply": 100000000,
+  "totalSupply": 100000000,
+  "decimals": 8,
+  "modifiers": [
+    {
+      "description": "Dev",
+      "reference": "Ae2d6qj91YL3LVUMkza7WQsaTYjzjHm4z1"
+    },
+    {
+      "description": "Foundation",
+      "reference": "AQVh2pG732YvtNaxEGkQUei3YA4cvo7d2i"
+    },
+    {
+      "description": "Burned",
+      "reference": "ASc3dPwQ9rrKFEUsE5VqFomG8w9aKyi28T"
+    }
+  ]
+}
