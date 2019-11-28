@@ -4,4 +4,6 @@ const supplies = new Supplies({
   throttling: false,
 });
 
-console.log(supplies.coins);
+const { Etherscan } = supplies.drivers;
+
+console.log(Etherscan);

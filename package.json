@@ -2,7 +2,7 @@
   "name": "supplies",
   "version": "1.0.0",
   "description": "A Javascript library for getting up to date cryptocurrency total supplies, circulating supplies and max supplies",
-  "main": "index.js",
+  "main": "lib/supply.js",
   "engines": {
     "node": ">=8.10.0"
   },

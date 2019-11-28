@@ -1,3 +1,7 @@
-const supplies = require('../');
+const Supplies = require('../');
+
+const supplies = new Supplies({
+  throttling: false,
+});
 
 console.log(supplies.drivers);

@@ -4,4 +4,4 @@ const supplies = new Supplies({
   throttling: false,
 });
 
-console.log(supplies.coins);
+console.log(supplies.blockchains);
