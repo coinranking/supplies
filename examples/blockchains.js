@@ -1,3 +1,3 @@
 const supplies = require('../');
 
-console.log(supplies.blockchains());
+console.log(supplies.selectBlockchains());
