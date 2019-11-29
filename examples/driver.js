@@ -1,8 +1,6 @@
-const Supplies = require('../');
+const supplies = require('../');
 
-const supplies = new Supplies({
-  throttling: false,
-});
+console.log(supplies.drivers);
 
 const { Etherscan } = supplies.drivers;
 

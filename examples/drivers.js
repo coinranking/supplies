@@ -1,7 +1,7 @@
-const Supplies = require('../');
+const supplies = require('../');
 
-const supplies = new Supplies({
-  throttling: false,
-});
+console.log(supplies);
 
-console.log(supplies.drivers);
+const lisk = new supplies.Lisk();
+
+lisk.getTotalSupply();
