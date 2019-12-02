@@ -1,7 +1,3 @@
-const Supplies = require('../');
+const supplies = require('../');
 
-const supplies = new Supplies({
-  throttling: false,
-});
-
-console.log(supplies.blockchains);
+console.log(supplies.selectBlockchains());
