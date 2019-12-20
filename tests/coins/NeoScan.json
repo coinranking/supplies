@@ -7,5 +7,13 @@
       "AQVh2pG732YvtNaxEGkQUei3YA4cvo7d2i",
       "ASc3dPwQ9rrKFEUsE5VqFomG8w9aKyi28T"
     ]
+  },
+  {
+    "name": "GAS",
+    "symbol": "GAS",
+    "reference": "602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7",
+    "modifiers": [
+      "Ae2d6qj91YL3LVUMkza7WQsaTYjzjHm4z1"
+    ]
   }
 ]

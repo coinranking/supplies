@@ -16,19 +16,23 @@ program
   .action(async (driverName, options) => {
     let useCache = true;
 
+    let coin;
+    if (typeof options.coin !== 'undefined') {
+      coin = JSON.parse(options.coin);
+    }
+
     let nockDone;
     if (options.record) {
+      let fixture = `${driverName}.json`;
+      if (coin && typeof coin.reference !== 'undefined') {
+        fixture = `${driverName}-${coin.reference}.json`;
+      }
       ({ nockDone } = await nock.back(
-        `${driverName}.json`,
+        fixture,
         defaultOptions(options.key),
       ));
       // Disable the cache when in record mode
       useCache = false;
-    }
-
-    let coin;
-    if (typeof options.coin !== 'undefined') {
-      coin = JSON.parse(options.coin);
     }
 
     const driver = new drivers[driverName]({

@@ -97,9 +97,85 @@ drivers.forEach((driverName) => {
       }
     }
 
-    // driver.assets
-    //   driver.supports.circulating
-    //   driver.supports.max
-    //   driver.supports.balances
+    if (driver.supports.assets) {
+      const assets = coins.filter((coin) => (typeof coin.reference !== 'undefined'));
+
+      if (assets.length === 0) {
+        throw new Error('The driver supports assets but there is no assets in the json file');
+      }
+
+      assets.forEach((asset) => {
+        describe(asset.name || asset.symbol, () => {
+          test('Total supply should be greater than zero', async () => {
+            await nock.back(`${driverName}-${asset.reference}.json`);
+            const totalSupply = await driver.fetchAssetTotalSupply(asset.reference, asset.decimals);
+            expect(totalSupply).toBeGreaterThan(0);
+          });
+
+          if (driver.supports.circulating) {
+            test('Circulating supply should be greater than zero', async () => {
+              await nock.back(`${driverName}-${asset.reference}.json`);
+              const circulatingSupply = await driver.fetchAssetCirculatingSupply(
+                asset.reference,
+                asset.decimals,
+              );
+              expect(circulatingSupply).toBeGreaterThan(0);
+            });
+
+            test('Circulating supply should be less than or equal to total supply', async () => {
+              await nock.back(`${driverName}-${asset.reference}.json`);
+              const totalSupply = await driver.fetchAssetTotalSupply(
+                asset.reference,
+                asset.decimals,
+              );
+              const circulatingSupply = await driver.fetchAssetCirculatingSupply(
+                asset.reference,
+                asset.decimals,
+              );
+              expect(circulatingSupply).toBeLessThanOrEqual(totalSupply);
+            });
+          }
+
+          if (driver.supports.max) {
+            test('Max supply should be greater than zero', async () => {
+              await nock.back(`${driverName}-${asset.reference}.json`);
+              const maxSupply = await driver.fetchAssetMaxSupply(asset.reference, asset.decimals);
+              expect(maxSupply).toBeGreaterThan(0);
+            });
+
+            test('Max supply should be greater than or equal to total supply', async () => {
+              await nock.back(`${driverName}-${asset.reference}.json`);
+              const totalSupply = await driver.fetchAssetTotalSupply(
+                asset.reference,
+                asset.decimals,
+              );
+              const maxSupply = await driver.fetchAssetMaxSupply(
+                asset.reference,
+                asset.decimals,
+              );
+              expect(maxSupply).toBeGreaterThanOrEqual(totalSupply);
+            });
+          }
+
+          if (driver.supports.balances) {
+            if (Array.isArray(asset.modifiers) === false || asset.modifiers.length === 0) {
+              throw new Error('Asset should have modifiers');
+            }
+
+            asset.modifiers.forEach((modifier) => {
+              test('Modifier balance should be greater than or equal to zero', async () => {
+                await nock.back(`${driverName}-${asset.reference}.json`);
+                const balances = await driver.fetchAssetBalance(
+                  asset.reference,
+                  modifier,
+                  asset.decimals,
+                );
+                expect(balances).toBeGreaterThanOrEqual(0);
+              });
+            });
+          }
+        });
+      });
+    }
   });
 });
