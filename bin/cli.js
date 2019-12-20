@@ -1,7 +1,11 @@
 #!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
 const program = require('commander');
 const { nock, defaultOptions } = require('../tests/helpers/nock.js');
 const drivers = require('../lib/drivers');
+
+const coinsDir = path.join(__dirname, '..', 'tests', 'coins');
 
 program
   .command('getSupply <driverName>')
@@ -22,6 +26,11 @@ program
       useCache = false;
     }
 
+    let coin;
+    if (typeof options.coin !== 'undefined') {
+      coin = JSON.parse(options.coin);
+    }
+
     const driver = new drivers[driverName]({
       useCache,
     });
@@ -30,14 +39,22 @@ program
       driver.secret = options.key;
     }
 
-    await driver
-      .getSupply(options.coin)
-      .then(console.log);
+    const supply = await driver.getSupply(coin);
 
     if (options.record) {
       nockDone();
-      // TODO: save the coin in ./coins
+      if (coin) {
+        let coins = [];
+        if (fs.existsSync(`${coinsDir}/${driverName}.json`)) {
+          coins = fs.readFileSync(`${coinsDir}/${driverName}.json`);
+          coins = JSON.parse(coins);
+        }
+        coins.push(coin);
+        fs.writeFileSync(`${coinsDir}/${driverName}.json`, JSON.stringify(coins, null, 2), { flag: 'w+' });
+      }
     }
+
+    console.log(supply);
   });
 
 program.parse(process.argv);

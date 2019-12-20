@@ -9,17 +9,5 @@
       "0xd1220a0cf47c7b9be7a2e6ba89f429762e7b9adb",
       "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae"
     ]
-  },
-  {
-    "symbol": "BAT",
-    "name": "Basic Attention Token",
-    "reference": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
-    "modifiers": [
-      "0x0000000000000000000000000000000000000000",
-      "0x0000000000000000000000000000000000000001",
-      "0x185f19b43d818e10a31be68f445ef8edcb8afb83",
-      "0x67fa2c06c9c6d4332f330e14a66bdf1873ef3d2b",
-      "0x7c31560552170ce96c4a7b018e93cddc19dc61b6"
-    ]
   }
 ]

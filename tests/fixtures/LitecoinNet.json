@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "http://explorer.litecoin.net:80",
+        "method": "GET",
+        "path": "/chain/Litecoin/q/totalbc",
+        "body": "",
+        "status": 200,
+        "response": 63673019.35336563,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 20 Dec 2019 13:48:12 GMT",
+            "Content-Type",
+            "text/plain",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "max-age=60",
+            "Expires",
+            "Fri, 20 Dec 2019 13:49:12 GMT"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://explorer.litecoin.net:80",
+        "method": "GET",
+        "path": "/chain/Litecoin/q/totalbc",
+        "body": "",
+        "status": 200,
+        "response": 63673019.35336563,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 20 Dec 2019 13:48:13 GMT",
+            "Content-Type",
+            "text/plain",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "max-age=60",
+            "Expires",
+            "Fri, 20 Dec 2019 13:49:13 GMT"
+        ],
+        "responseIsBinary": false
+    }
+]

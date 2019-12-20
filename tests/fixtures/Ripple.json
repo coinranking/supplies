@@ -1,0 +1,2506 @@
+[
+    {
+        "scope": "https://data.ripple.com:443",
+        "method": "GET",
+        "path": "/v2/network/xrp_distribution",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "success",
+            "count": 182,
+            "rows": [
+                {
+                    "date": "2016-06-05T00:00:00Z",
+                    "total": "99997364318",
+                    "distributed": "35108326973",
+                    "undistributed": "64889037345"
+                },
+                {
+                    "date": "2016-06-12T00:00:00Z",
+                    "total": "99997344164",
+                    "distributed": "35108308819",
+                    "undistributed": "64889035345"
+                },
+                {
+                    "date": "2016-06-19T00:00:00Z",
+                    "total": "99997334029",
+                    "distributed": "35345983560",
+                    "undistributed": "64651350469"
+                },
+                {
+                    "date": "2016-06-26T00:00:00Z",
+                    "total": "99997322412",
+                    "distributed": "35345971933",
+                    "undistributed": "64651350479"
+                },
+                {
+                    "date": "2016-07-03T00:00:00Z",
+                    "total": "99997309184",
+                    "distributed": "35438268570",
+                    "undistributed": "64559040613"
+                },
+                {
+                    "date": "2016-07-10T00:00:00Z",
+                    "total": "99997298223",
+                    "distributed": "35438257609",
+                    "undistributed": "64559040614"
+                },
+                {
+                    "date": "2016-07-17T00:00:00Z",
+                    "total": "99997287560",
+                    "distributed": "35550142696",
+                    "undistributed": "64447144863"
+                },
+                {
+                    "date": "2016-07-24T00:00:00Z",
+                    "total": "99997278944",
+                    "distributed": "35550137658",
+                    "undistributed": "64447141285"
+                },
+                {
+                    "date": "2016-07-31T00:00:00Z",
+                    "total": "99997268571",
+                    "distributed": "35557883251",
+                    "undistributed": "64439385320"
+                },
+                {
+                    "date": "2016-08-07T00:00:00Z",
+                    "total": "99997254213",
+                    "distributed": "35558046921",
+                    "undistributed": "64439207292"
+                },
+                {
+                    "date": "2016-08-14T00:00:00Z",
+                    "total": "99997236182",
+                    "distributed": "35562073617",
+                    "undistributed": "64435162564"
+                },
+                {
+                    "date": "2016-08-21T00:00:00Z",
+                    "total": "99997221224",
+                    "distributed": "35562730335",
+                    "undistributed": "64434490888"
+                },
+                {
+                    "date": "2016-08-28T00:00:00Z",
+                    "total": "99997213110",
+                    "distributed": "35316813001",
+                    "undistributed": "64680400109"
+                },
+                {
+                    "date": "2016-09-04T00:00:00Z",
+                    "total": "99997205581",
+                    "distributed": "35317456636",
+                    "undistributed": "64679748944"
+                },
+                {
+                    "date": "2016-09-11T00:00:00Z",
+                    "total": "99997198432",
+                    "distributed": "35457828433",
+                    "undistributed": "64539369999"
+                },
+                {
+                    "date": "2016-09-18T00:00:00Z",
+                    "total": "99997188876",
+                    "distributed": "35458607580",
+                    "undistributed": "64538581296"
+                },
+                {
+                    "date": "2016-09-25T00:00:00Z",
+                    "total": "99997179232",
+                    "distributed": "35475196836",
+                    "undistributed": "64521982395"
+                },
+                {
+                    "date": "2016-10-02T00:00:00Z",
+                    "total": "99997158326",
+                    "distributed": "35475802044",
+                    "undistributed": "64521356281"
+                },
+                {
+                    "date": "2016-10-09T00:00:00Z",
+                    "total": "99997129616",
+                    "distributed": "35475773335",
+                    "undistributed": "64521356281"
+                },
+                {
+                    "date": "2016-10-16T00:00:00Z",
+                    "total": "99997086871",
+                    "distributed": "35488165563",
+                    "undistributed": "64508921308"
+                },
+                {
+                    "date": "2016-10-23T00:00:00Z",
+                    "total": "99997043143",
+                    "distributed": "35531082209",
+                    "undistributed": "64465960934"
+                },
+                {
+                    "date": "2016-10-30T00:00:00Z",
+                    "total": "99997006553",
+                    "distributed": "35649569539",
+                    "undistributed": "64347437014"
+                },
+                {
+                    "date": "2016-11-06T00:00:00Z",
+                    "total": "99996972820",
+                    "distributed": "35765131899",
+                    "undistributed": "64231840920"
+                },
+                {
+                    "date": "2016-11-13T00:00:00Z",
+                    "total": "99996936409",
+                    "distributed": "35865094564",
+                    "undistributed": "64131841845"
+                },
+                {
+                    "date": "2016-11-20T00:00:00Z",
+                    "total": "99996875237",
+                    "distributed": "35876617244",
+                    "undistributed": "64120257992"
+                },
+                {
+                    "date": "2016-11-27T00:00:00Z",
+                    "total": "99996828986",
+                    "distributed": "35987750899",
+                    "undistributed": "64009078087"
+                },
+                {
+                    "date": "2016-12-04T00:00:00Z",
+                    "total": "99996767683",
+                    "distributed": "35994609608",
+                    "undistributed": "64002158074"
+                },
+                {
+                    "date": "2016-12-11T00:00:00Z",
+                    "total": "99996736597",
+                    "distributed": "35994578523",
+                    "undistributed": "64002158074"
+                },
+                {
+                    "date": "2016-12-18T00:00:00Z",
+                    "total": "99996713232",
+                    "distributed": "36003596482",
+                    "undistributed": "63993116750"
+                },
+                {
+                    "date": "2016-12-25T00:00:00Z",
+                    "total": "99996665467",
+                    "distributed": "36337298649",
+                    "undistributed": "63659366818"
+                },
+                {
+                    "date": "2017-01-01T00:00:00Z",
+                    "total": "99996618506",
+                    "distributed": "36338178044",
+                    "undistributed": "63658440461"
+                },
+                {
+                    "date": "2017-01-08T00:00:00Z",
+                    "total": "99996502626",
+                    "distributed": "36771322652",
+                    "undistributed": "63225179974"
+                },
+                {
+                    "date": "2017-01-15T00:00:00Z",
+                    "total": "99996101573",
+                    "distributed": "36855961691",
+                    "undistributed": "63140139881"
+                },
+                {
+                    "date": "2017-01-22T00:00:00Z",
+                    "total": "99996060586",
+                    "distributed": "36856524148",
+                    "undistributed": "63139536437"
+                },
+                {
+                    "date": "2017-01-29T00:00:00Z",
+                    "total": "99996040780",
+                    "distributed": "36856513336",
+                    "undistributed": "63139527443"
+                },
+                {
+                    "date": "2017-02-05T00:00:00Z",
+                    "total": "99995930604",
+                    "distributed": "37044533660",
+                    "undistributed": "62951396943"
+                },
+                {
+                    "date": "2017-02-12T00:00:00Z",
+                    "total": "99995902064",
+                    "distributed": "37044621729",
+                    "undistributed": "62951280335"
+                },
+                {
+                    "date": "2017-02-19T00:00:00Z",
+                    "total": "99995873096",
+                    "distributed": "37144100247",
+                    "undistributed": "62851772848"
+                },
+                {
+                    "date": "2017-02-26T00:00:00Z",
+                    "total": "99995846536",
+                    "distributed": "37406829143",
+                    "undistributed": "62589017392"
+                },
+                {
+                    "date": "2017-03-05T00:00:00Z",
+                    "total": "99995815439",
+                    "distributed": "37290640853",
+                    "undistributed": "62705174585"
+                },
+                {
+                    "date": "2017-03-12T00:00:00Z",
+                    "total": "99995788498",
+                    "distributed": "37338114912",
+                    "undistributed": "62657673585"
+                },
+                {
+                    "date": "2017-03-19T00:00:00Z",
+                    "total": "99995688517",
+                    "distributed": "37388960792",
+                    "undistributed": "62606727725"
+                },
+                {
+                    "date": "2017-03-26T00:00:00Z",
+                    "total": "99995541936",
+                    "distributed": "37514472563",
+                    "undistributed": "62481069373"
+                },
+                {
+                    "date": "2017-04-02T00:00:00Z",
+                    "total": "99995253581",
+                    "distributed": "37516282515",
+                    "undistributed": "62478971066"
+                },
+                {
+                    "date": "2017-04-09T00:00:00Z",
+                    "total": "99995048002",
+                    "distributed": "37532331339",
+                    "undistributed": "62462716662"
+                },
+                {
+                    "date": "2017-04-16T00:00:00Z",
+                    "total": "99995006593",
+                    "distributed": "37884925434",
+                    "undistributed": "62110081158"
+                },
+                {
+                    "date": "2017-04-23T00:00:00Z",
+                    "total": "99994983179",
+                    "distributed": "37884902021",
+                    "undistributed": "62110081158"
+                },
+                {
+                    "date": "2017-04-30T00:00:00Z",
+                    "total": "99994896990",
+                    "distributed": "37955579225",
+                    "undistributed": "62039317765"
+                },
+                {
+                    "date": "2017-05-07T00:00:00Z",
+                    "total": "99994799156",
+                    "distributed": "38305873865",
+                    "undistributed": "61688925291"
+                },
+                {
+                    "date": "2017-05-14T00:00:00Z",
+                    "total": "99994742943",
+                    "distributed": "38532538049",
+                    "undistributed": "61462204893"
+                },
+                {
+                    "date": "2017-05-21T00:00:00Z",
+                    "total": "99994682853",
+                    "distributed": "38249335400",
+                    "undistributed": "61745347453"
+                },
+                {
+                    "date": "2017-05-28T00:00:00Z",
+                    "total": "99994661895",
+                    "distributed": "38371693833",
+                    "undistributed": "61622968062"
+                },
+                {
+                    "date": "2017-06-04T00:00:00Z",
+                    "total": "99994644192",
+                    "distributed": "38326381283",
+                    "undistributed": "61668262909"
+                },
+                {
+                    "date": "2017-06-11T00:00:00Z",
+                    "total": "99994628433",
+                    "distributed": "38290271363",
+                    "undistributed": "61704357069"
+                },
+                {
+                    "date": "2017-06-18T00:00:00Z",
+                    "total": "99994608423",
+                    "distributed": "38291387790",
+                    "undistributed": "61703220632"
+                },
+                {
+                    "date": "2017-06-25T00:00:00Z",
+                    "total": "99994592716",
+                    "distributed": "38317458109",
+                    "undistributed": "61677134607"
+                },
+                {
+                    "date": "2017-07-02T00:00:00Z",
+                    "total": "99994578575",
+                    "distributed": "38317775693",
+                    "undistributed": "61676802881"
+                },
+                {
+                    "date": "2017-07-09T00:00:00Z",
+                    "total": "99994564337",
+                    "distributed": "38333756765",
+                    "undistributed": "61660807572"
+                },
+                {
+                    "date": "2017-07-16T00:00:00Z",
+                    "total": "99994550338",
+                    "distributed": "38332289584",
+                    "undistributed": "61662260753"
+                },
+                {
+                    "date": "2017-07-23T00:00:00Z",
+                    "total": "99994532978",
+                    "distributed": "38333090674",
+                    "undistributed": "61661442304"
+                },
+                {
+                    "date": "2017-07-30T00:00:00Z",
+                    "total": "99994523265",
+                    "distributed": "38343841883",
+                    "undistributed": "61650681381"
+                },
+                {
+                    "date": "2017-08-06T00:00:00Z",
+                    "total": "99994515438",
+                    "distributed": "38352641755",
+                    "undistributed": "61641873694",
+                    "escrowed": "11"
+                },
+                {
+                    "date": "2017-08-13T00:00:00Z",
+                    "total": "99994502751",
+                    "distributed": "38373758631",
+                    "undistributed": "61620744120"
+                },
+                {
+                    "date": "2017-08-20T00:00:00Z",
+                    "total": "99994488566",
+                    "distributed": "38396328416",
+                    "undistributed": "61598160150"
+                },
+                {
+                    "date": "2017-08-27T00:00:00Z",
+                    "total": "99994474212",
+                    "distributed": "38482276937",
+                    "undistributed": "61512197275"
+                },
+                {
+                    "date": "2017-09-03T00:00:00Z",
+                    "total": "99994465277",
+                    "distributed": "38512420843",
+                    "undistributed": "61482044434"
+                },
+                {
+                    "date": "2017-09-10T00:00:00Z",
+                    "total": "99994448206",
+                    "distributed": "38526779298",
+                    "undistributed": "61467668907"
+                },
+                {
+                    "date": "2017-09-17T00:00:00Z",
+                    "total": "99993667738",
+                    "distributed": "38531538922",
+                    "undistributed": "61462128816"
+                },
+                {
+                    "date": "2017-09-24T00:00:00Z",
+                    "total": "99993329588",
+                    "distributed": "38578329081",
+                    "undistributed": "61415000507"
+                },
+                {
+                    "date": "2017-10-01T00:00:00Z",
+                    "total": "99993307218",
+                    "distributed": "38597142499",
+                    "undistributed": "61396164719"
+                },
+                {
+                    "date": "2017-10-08T00:00:00Z",
+                    "total": "99993285884",
+                    "distributed": "38484733649",
+                    "undistributed": "61508552234"
+                },
+                {
+                    "date": "2017-10-15T00:00:00Z",
+                    "total": "99993263549",
+                    "distributed": "38497588468",
+                    "undistributed": "61495675080"
+                },
+                {
+                    "date": "2017-10-22T00:00:00Z",
+                    "total": "99993233909",
+                    "distributed": "38560798218",
+                    "undistributed": "61432435690"
+                },
+                {
+                    "date": "2017-10-29T00:00:00Z",
+                    "total": "99993214956",
+                    "distributed": "38615970340",
+                    "undistributed": "61377244615"
+                },
+                {
+                    "date": "2017-11-05T00:00:00Z",
+                    "total": "99993195805",
+                    "distributed": "38622892182",
+                    "undistributed": "61370303656",
+                    "escrowed": "33"
+                },
+                {
+                    "date": "2017-11-12T00:00:00Z",
+                    "total": "99993173757",
+                    "distributed": "38662480518",
+                    "undistributed": "61330693238"
+                },
+                {
+                    "date": "2017-11-19T00:00:00Z",
+                    "total": "99993150672",
+                    "distributed": "38688067255",
+                    "undistributed": "61305083416"
+                },
+                {
+                    "date": "2017-11-26T00:00:00Z",
+                    "total": "99993128226",
+                    "distributed": "38706833272",
+                    "undistributed": "61286294954"
+                },
+                {
+                    "date": "2017-12-03T00:00:00Z",
+                    "total": "99993093880",
+                    "distributed": "38739142483",
+                    "undistributed": "61253951372",
+                    "escrowed": "24"
+                },
+                {
+                    "date": "2017-12-10T00:00:00Z",
+                    "total": "99993059400",
+                    "distributed": "38801252486",
+                    "undistributed": "6691806889",
+                    "escrowed": "54500000024"
+                },
+                {
+                    "date": "2017-12-17T00:00:00Z",
+                    "total": "99993007619",
+                    "distributed": "38994255162",
+                    "undistributed": "5998752432",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2017-12-24T00:00:00Z",
+                    "total": "99992961850",
+                    "distributed": "39005346024",
+                    "undistributed": "5987615801",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2017-12-31T00:00:00Z",
+                    "total": "99992913216",
+                    "distributed": "39005311077",
+                    "undistributed": "5987602115",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2018-01-07T00:00:00Z",
+                    "total": "99992855589",
+                    "distributed": "39029058672",
+                    "undistributed": "6963796893",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-14T00:00:00Z",
+                    "total": "99992777885",
+                    "distributed": "39029001738",
+                    "undistributed": "6963776123",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-21T00:00:00Z",
+                    "total": "99992725510",
+                    "distributed": "39029011222",
+                    "undistributed": "6963714263",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-28T00:00:00Z",
+                    "total": "99992664799",
+                    "distributed": "39032356092",
+                    "undistributed": "6960308683",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-02-04T00:00:00Z",
+                    "total": "99992622540",
+                    "distributed": "39094802192",
+                    "undistributed": "6997820324",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-11T00:00:00Z",
+                    "total": "99992581434",
+                    "distributed": "39060882273",
+                    "undistributed": "7031699137",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-18T00:00:00Z",
+                    "total": "99992548829",
+                    "distributed": "39065864322",
+                    "undistributed": "7026684483",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-25T00:00:00Z",
+                    "total": "99992520283",
+                    "distributed": "39091956706",
+                    "undistributed": "7000563553",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-03-04T00:00:00Z",
+                    "total": "99992497246",
+                    "distributed": "39091716516",
+                    "undistributed": "7100780706",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-11T00:00:00Z",
+                    "total": "99992466986",
+                    "distributed": "39094094840",
+                    "undistributed": "7098372122",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-18T00:00:00Z",
+                    "total": "99992434971",
+                    "distributed": "39094227299",
+                    "undistributed": "7098207647",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-25T00:00:00Z",
+                    "total": "99992405149",
+                    "distributed": "39094520623",
+                    "undistributed": "7097884501",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-04-01T00:00:00Z",
+                    "total": "99992382672",
+                    "distributed": "39116050477",
+                    "undistributed": "7076332171",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-04-08T00:00:00Z",
+                    "total": "99992362643",
+                    "distributed": "39122794968",
+                    "undistributed": "7169567650",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-15T00:00:00Z",
+                    "total": "99992334929",
+                    "distributed": "39146203398",
+                    "undistributed": "7146131506",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-22T00:00:00Z",
+                    "total": "99992300953",
+                    "distributed": "39153851043",
+                    "undistributed": "7138449886",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-29T00:00:00Z",
+                    "total": "99992263539",
+                    "distributed": "39178259468",
+                    "undistributed": "7114004047",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-05-06T00:00:00Z",
+                    "total": "99992233977",
+                    "distributed": "39189968239",
+                    "undistributed": "8102265714",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-05-13T00:00:00Z",
+                    "total": "99992212012",
+                    "distributed": "39190446264",
+                    "undistributed": "8101765724",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-05-20T00:00:00Z",
+                    "total": "99992195588",
+                    "distributed": "39241645663",
+                    "undistributed": "7150549901",
+                    "escrowed": "53600000024"
+                },
+                {
+                    "date": "2018-05-27T00:00:00Z",
+                    "total": "99992075773",
+                    "distributed": "39241525848",
+                    "undistributed": "7150549901",
+                    "escrowed": "53600000024"
+                },
+                {
+                    "date": "2018-06-03T00:00:00Z",
+                    "total": "99991958570",
+                    "distributed": "39244312603",
+                    "undistributed": "8147645943",
+                    "escrowed": "52600000024"
+                },
+                {
+                    "date": "2018-06-10T00:00:00Z",
+                    "total": "99991944394",
+                    "distributed": "39245304677",
+                    "undistributed": "7246639693",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-06-17T00:00:00Z",
+                    "total": "99991933044",
+                    "distributed": "39262084448",
+                    "undistributed": "7229848572",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-06-24T00:00:00Z",
+                    "total": "99991924336",
+                    "distributed": "39262097329",
+                    "undistributed": "7229826983",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-01T00:00:00Z",
+                    "total": "99991916481",
+                    "distributed": "39262444717",
+                    "undistributed": "7229471740",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-08T00:00:00Z",
+                    "total": "99991909309",
+                    "distributed": "39287643890",
+                    "undistributed": "7204265395",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-15T00:00:00Z",
+                    "total": "99991900487",
+                    "distributed": "39295683476",
+                    "undistributed": "8196216987",
+                    "escrowed": "52500000024"
+                },
+                {
+                    "date": "2018-07-29T00:00:00Z",
+                    "total": "99991884007",
+                    "distributed": "39366010629",
+                    "undistributed": "7225873353",
+                    "escrowed": "53400000024"
+                },
+                {
+                    "date": "2018-08-05T00:00:00Z",
+                    "total": "99991874018",
+                    "distributed": "39372399467",
+                    "undistributed": "8219474526",
+                    "escrowed": "52400000024"
+                },
+                {
+                    "date": "2018-08-12T00:00:00Z",
+                    "total": "99991865246",
+                    "distributed": "39524508956",
+                    "undistributed": "7167356266",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-08-19T00:00:00Z",
+                    "total": "99991858334",
+                    "distributed": "39618209087",
+                    "undistributed": "7073649223",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-08-26T00:00:00Z",
+                    "total": "99991852985",
+                    "distributed": "39650153121",
+                    "undistributed": "7041699840",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-09-02T00:00:00Z",
+                    "total": "99991847422",
+                    "distributed": "39712852387",
+                    "undistributed": "7978995011",
+                    "escrowed": "52300000024"
+                },
+                {
+                    "date": "2018-09-09T00:00:00Z",
+                    "total": "99991841593",
+                    "distributed": "39809069106",
+                    "undistributed": "7082772463",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-16T00:00:00Z",
+                    "total": "99991836919",
+                    "distributed": "39870907279",
+                    "undistributed": "7020929616",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-23T00:00:00Z",
+                    "total": "99991826231",
+                    "distributed": "39935410492",
+                    "undistributed": "6956415715",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-30T00:00:00Z",
+                    "total": "99991817275",
+                    "distributed": "39997634397",
+                    "undistributed": "6894182854",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-10-07T00:00:00Z",
+                    "total": "99991809694",
+                    "distributed": "40173776756",
+                    "undistributed": "6918032914",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-14T00:00:00Z",
+                    "total": "99991803713",
+                    "distributed": "40178871683",
+                    "undistributed": "6912932006",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-21T00:00:00Z",
+                    "total": "99991797922",
+                    "distributed": "40205513967",
+                    "undistributed": "6886283931",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-28T00:00:00Z",
+                    "total": "99991792688",
+                    "distributed": "40205508733",
+                    "undistributed": "6886283931",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-11-04T00:00:00Z",
+                    "total": "99991787268",
+                    "distributed": "40271748947",
+                    "undistributed": "7020038297",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-11-11T00:00:00Z",
+                    "total": "99991780039",
+                    "distributed": "40327341704",
+                    "undistributed": "6964438311",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-12-02T00:00:00Z",
+                    "total": "99991757426",
+                    "distributed": "40926963305",
+                    "undistributed": "7364794107",
+                    "escrowed": "51700000013"
+                },
+                {
+                    "date": "2018-12-09T00:00:00Z",
+                    "total": "99991744391",
+                    "distributed": "40762365544",
+                    "undistributed": "6729378834",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-16T00:00:00Z",
+                    "total": "99991738974",
+                    "distributed": "40794121066",
+                    "undistributed": "6697617894",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-23T00:00:00Z",
+                    "total": "99991731412",
+                    "distributed": "40992312599",
+                    "undistributed": "6499418799",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-30T00:00:00Z",
+                    "total": "99991724864",
+                    "distributed": "41040405095",
+                    "undistributed": "6451319755",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2019-01-06T00:00:00Z",
+                    "total": "99991719383",
+                    "distributed": "41103249710",
+                    "undistributed": "6588469660",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-13T00:00:00Z",
+                    "total": "99991713681",
+                    "distributed": "41108344068",
+                    "undistributed": "6583369600",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-20T00:00:00Z",
+                    "total": "99991708587",
+                    "distributed": "41163466448",
+                    "undistributed": "6528242125",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-27T00:00:00Z",
+                    "total": "99991704087",
+                    "distributed": "41169202069",
+                    "undistributed": "6522502006",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-02-03T00:00:00Z",
+                    "total": "99991698361",
+                    "distributed": "41208093050",
+                    "undistributed": "6483605298",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-02-10T00:00:00Z",
+                    "total": "99991693523",
+                    "distributed": "41308998845",
+                    "undistributed": "6582694665",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-02-17T00:00:00Z",
+                    "total": "99991689289",
+                    "distributed": "41365634610",
+                    "undistributed": "6526054666",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-02-24T00:00:00Z",
+                    "total": "99991683860",
+                    "distributed": "41432141931",
+                    "undistributed": "6459541915",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-03-03T00:00:00Z",
+                    "total": "99991677081",
+                    "distributed": "41612797203",
+                    "undistributed": "7278879866",
+                    "escrowed": "51100000013"
+                },
+                {
+                    "date": "2019-03-10T00:00:00Z",
+                    "total": "99991672219",
+                    "distributed": "41666017553",
+                    "undistributed": "6525654653",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-17T00:00:00Z",
+                    "total": "99991667586",
+                    "distributed": "41706564590",
+                    "undistributed": "6485102983",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-24T00:00:00Z",
+                    "total": "99991663388",
+                    "distributed": "41743765071",
+                    "undistributed": "6447898304",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-31T00:00:00Z",
+                    "total": "99991658131",
+                    "distributed": "41792108527",
+                    "undistributed": "6399549591",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-04-07T00:00:00Z",
+                    "total": "99991649568",
+                    "distributed": "41970748057",
+                    "undistributed": "6520901498",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-14T00:00:00Z",
+                    "total": "99991643723",
+                    "distributed": "42004966728",
+                    "undistributed": "6486676982",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-21T00:00:00Z",
+                    "total": "99991639209",
+                    "distributed": "42087046846",
+                    "undistributed": "6404592350",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-28T00:00:00Z",
+                    "total": "99991633428",
+                    "distributed": "42133310721",
+                    "undistributed": "6358322694",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-05-05T00:00:00Z",
+                    "total": "99991629117",
+                    "distributed": "42094344173",
+                    "undistributed": "6697284931",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-12T00:00:00Z",
+                    "total": "99991626524",
+                    "distributed": "42116677673",
+                    "undistributed": "6674948838",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-19T00:00:00Z",
+                    "total": "99991617212",
+                    "distributed": "42181995112",
+                    "undistributed": "6609622086",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-26T00:00:00Z",
+                    "total": "99991610348",
+                    "distributed": "42238947941",
+                    "undistributed": "6552662395",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-06-02T00:00:00Z",
+                    "total": "99991601899",
+                    "distributed": "42501950124",
+                    "undistributed": "7289651762",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-06-09T00:00:00Z",
+                    "total": "99991595215",
+                    "distributed": "42557366069",
+                    "undistributed": "6534229146",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-16T00:00:00Z",
+                    "total": "99991588101",
+                    "distributed": "42566596173",
+                    "undistributed": "6524991927",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-23T00:00:00Z",
+                    "total": "99991579149",
+                    "distributed": "42626324406",
+                    "undistributed": "6465254743",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-30T00:00:00Z",
+                    "total": "99991569001",
+                    "distributed": "42811861267",
+                    "undistributed": "6279707734",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-07-07T00:00:00Z",
+                    "total": "99991561675",
+                    "distributed": "42813070839",
+                    "undistributed": "6578490823",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-14T00:00:00Z",
+                    "total": "99991553791",
+                    "distributed": "42832704971",
+                    "undistributed": "6558848807",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-21T00:00:00Z",
+                    "total": "99991387607",
+                    "distributed": "42872646068",
+                    "undistributed": "6518741526",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-28T00:00:00Z",
+                    "total": "99991382175",
+                    "distributed": "42890392474",
+                    "undistributed": "6500989688",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-08-04T00:00:00Z",
+                    "total": "99991376954",
+                    "distributed": "42890708341",
+                    "undistributed": "6700668600",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-11T00:00:00Z",
+                    "total": "99991371628",
+                    "distributed": "42909539227",
+                    "undistributed": "6681832389",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-18T00:00:00Z",
+                    "total": "99991366793",
+                    "distributed": "42932866967",
+                    "undistributed": "6658499813",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-25T00:00:00Z",
+                    "total": "99991362294",
+                    "distributed": "42984656144",
+                    "undistributed": "6606706137",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-09-01T00:00:00Z",
+                    "total": "99991355092",
+                    "distributed": "43024433511",
+                    "undistributed": "7566921567",
+                    "escrowed": "49400000013"
+                },
+                {
+                    "date": "2019-09-08T00:00:00Z",
+                    "total": "99991349973",
+                    "distributed": "43055012634",
+                    "undistributed": "6736337326",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-15T00:00:00Z",
+                    "total": "99991343356",
+                    "distributed": "43080011224",
+                    "undistributed": "6711332118",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-22T00:00:00Z",
+                    "total": "99991336298",
+                    "distributed": "43121735112",
+                    "undistributed": "6669601173",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-29T00:00:00Z",
+                    "total": "99991330383",
+                    "distributed": "43166787298",
+                    "undistributed": "6624543073",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-10-06T00:00:00Z",
+                    "total": "99991326173",
+                    "distributed": "43203402302",
+                    "undistributed": "6787923858",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-13T00:00:00Z",
+                    "total": "99991321535",
+                    "distributed": "43242653330",
+                    "undistributed": "6748668193",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-20T00:00:00Z",
+                    "total": "99991316762",
+                    "distributed": "43248091671",
+                    "undistributed": "6743225077",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-27T00:00:00Z",
+                    "total": "99991308084",
+                    "distributed": "43268247816",
+                    "undistributed": "6723060255",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-11-03T00:00:00Z",
+                    "total": "99991298961",
+                    "distributed": "43298481757",
+                    "undistributed": "6792817191",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-10T00:00:00Z",
+                    "total": "99991280558",
+                    "distributed": "43299885509",
+                    "undistributed": "6791395036",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-17T00:00:00Z",
+                    "total": "99991270310",
+                    "distributed": "43282591462",
+                    "undistributed": "6808678835",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-24T00:00:00Z",
+                    "total": "99991237614",
+                    "distributed": "43285660917",
+                    "undistributed": "6805576684",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-12-01T00:00:00Z",
+                    "total": "99991196964",
+                    "distributed": "43306944439",
+                    "undistributed": "7784252512",
+                    "escrowed": "48900000013"
+                },
+                {
+                    "date": "2019-12-08T00:00:00Z",
+                    "total": "99991166638",
+                    "distributed": "43310265523",
+                    "undistributed": "6780901102",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-12-15T00:00:00Z",
+                    "total": "99991146262",
+                    "distributed": "43319477613",
+                    "undistributed": "6771668635",
+                    "escrowed": "49900000013"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Server",
+            "nginx",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "max-age=30, stale-while-revalidate=60, stale-if-error=120,",
+            "X-RateLimit-Limit",
+            "60",
+            "X-RateLimit-Remaining",
+            "59",
+            "X-RateLimit-Reset",
+            "1576850191",
+            "ETag",
+            "4407",
+            "Accept-Ranges",
+            "bytes",
+            "Date",
+            "Fri, 20 Dec 2019 13:55:31 GMT",
+            "Via",
+            "1.1 varnish",
+            "Age",
+            "0",
+            "Connection",
+            "keep-alive",
+            "X-Served-By",
+            "cache-ams21029-AMS",
+            "X-Cache",
+            "MISS",
+            "X-Cache-Hits",
+            "0",
+            "X-Timer",
+            "S1576850131.306787,VS0,VE291",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://data.ripple.com:443",
+        "method": "GET",
+        "path": "/v2/network/xrp_distribution",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "success",
+            "count": 182,
+            "rows": [
+                {
+                    "date": "2016-06-05T00:00:00Z",
+                    "total": "99997364318",
+                    "distributed": "35108326973",
+                    "undistributed": "64889037345"
+                },
+                {
+                    "date": "2016-06-12T00:00:00Z",
+                    "total": "99997344164",
+                    "distributed": "35108308819",
+                    "undistributed": "64889035345"
+                },
+                {
+                    "date": "2016-06-19T00:00:00Z",
+                    "total": "99997334029",
+                    "distributed": "35345983560",
+                    "undistributed": "64651350469"
+                },
+                {
+                    "date": "2016-06-26T00:00:00Z",
+                    "total": "99997322412",
+                    "distributed": "35345971933",
+                    "undistributed": "64651350479"
+                },
+                {
+                    "date": "2016-07-03T00:00:00Z",
+                    "total": "99997309184",
+                    "distributed": "35438268570",
+                    "undistributed": "64559040613"
+                },
+                {
+                    "date": "2016-07-10T00:00:00Z",
+                    "total": "99997298223",
+                    "distributed": "35438257609",
+                    "undistributed": "64559040614"
+                },
+                {
+                    "date": "2016-07-17T00:00:00Z",
+                    "total": "99997287560",
+                    "distributed": "35550142696",
+                    "undistributed": "64447144863"
+                },
+                {
+                    "date": "2016-07-24T00:00:00Z",
+                    "total": "99997278944",
+                    "distributed": "35550137658",
+                    "undistributed": "64447141285"
+                },
+                {
+                    "date": "2016-07-31T00:00:00Z",
+                    "total": "99997268571",
+                    "distributed": "35557883251",
+                    "undistributed": "64439385320"
+                },
+                {
+                    "date": "2016-08-07T00:00:00Z",
+                    "total": "99997254213",
+                    "distributed": "35558046921",
+                    "undistributed": "64439207292"
+                },
+                {
+                    "date": "2016-08-14T00:00:00Z",
+                    "total": "99997236182",
+                    "distributed": "35562073617",
+                    "undistributed": "64435162564"
+                },
+                {
+                    "date": "2016-08-21T00:00:00Z",
+                    "total": "99997221224",
+                    "distributed": "35562730335",
+                    "undistributed": "64434490888"
+                },
+                {
+                    "date": "2016-08-28T00:00:00Z",
+                    "total": "99997213110",
+                    "distributed": "35316813001",
+                    "undistributed": "64680400109"
+                },
+                {
+                    "date": "2016-09-04T00:00:00Z",
+                    "total": "99997205581",
+                    "distributed": "35317456636",
+                    "undistributed": "64679748944"
+                },
+                {
+                    "date": "2016-09-11T00:00:00Z",
+                    "total": "99997198432",
+                    "distributed": "35457828433",
+                    "undistributed": "64539369999"
+                },
+                {
+                    "date": "2016-09-18T00:00:00Z",
+                    "total": "99997188876",
+                    "distributed": "35458607580",
+                    "undistributed": "64538581296"
+                },
+                {
+                    "date": "2016-09-25T00:00:00Z",
+                    "total": "99997179232",
+                    "distributed": "35475196836",
+                    "undistributed": "64521982395"
+                },
+                {
+                    "date": "2016-10-02T00:00:00Z",
+                    "total": "99997158326",
+                    "distributed": "35475802044",
+                    "undistributed": "64521356281"
+                },
+                {
+                    "date": "2016-10-09T00:00:00Z",
+                    "total": "99997129616",
+                    "distributed": "35475773335",
+                    "undistributed": "64521356281"
+                },
+                {
+                    "date": "2016-10-16T00:00:00Z",
+                    "total": "99997086871",
+                    "distributed": "35488165563",
+                    "undistributed": "64508921308"
+                },
+                {
+                    "date": "2016-10-23T00:00:00Z",
+                    "total": "99997043143",
+                    "distributed": "35531082209",
+                    "undistributed": "64465960934"
+                },
+                {
+                    "date": "2016-10-30T00:00:00Z",
+                    "total": "99997006553",
+                    "distributed": "35649569539",
+                    "undistributed": "64347437014"
+                },
+                {
+                    "date": "2016-11-06T00:00:00Z",
+                    "total": "99996972820",
+                    "distributed": "35765131899",
+                    "undistributed": "64231840920"
+                },
+                {
+                    "date": "2016-11-13T00:00:00Z",
+                    "total": "99996936409",
+                    "distributed": "35865094564",
+                    "undistributed": "64131841845"
+                },
+                {
+                    "date": "2016-11-20T00:00:00Z",
+                    "total": "99996875237",
+                    "distributed": "35876617244",
+                    "undistributed": "64120257992"
+                },
+                {
+                    "date": "2016-11-27T00:00:00Z",
+                    "total": "99996828986",
+                    "distributed": "35987750899",
+                    "undistributed": "64009078087"
+                },
+                {
+                    "date": "2016-12-04T00:00:00Z",
+                    "total": "99996767683",
+                    "distributed": "35994609608",
+                    "undistributed": "64002158074"
+                },
+                {
+                    "date": "2016-12-11T00:00:00Z",
+                    "total": "99996736597",
+                    "distributed": "35994578523",
+                    "undistributed": "64002158074"
+                },
+                {
+                    "date": "2016-12-18T00:00:00Z",
+                    "total": "99996713232",
+                    "distributed": "36003596482",
+                    "undistributed": "63993116750"
+                },
+                {
+                    "date": "2016-12-25T00:00:00Z",
+                    "total": "99996665467",
+                    "distributed": "36337298649",
+                    "undistributed": "63659366818"
+                },
+                {
+                    "date": "2017-01-01T00:00:00Z",
+                    "total": "99996618506",
+                    "distributed": "36338178044",
+                    "undistributed": "63658440461"
+                },
+                {
+                    "date": "2017-01-08T00:00:00Z",
+                    "total": "99996502626",
+                    "distributed": "36771322652",
+                    "undistributed": "63225179974"
+                },
+                {
+                    "date": "2017-01-15T00:00:00Z",
+                    "total": "99996101573",
+                    "distributed": "36855961691",
+                    "undistributed": "63140139881"
+                },
+                {
+                    "date": "2017-01-22T00:00:00Z",
+                    "total": "99996060586",
+                    "distributed": "36856524148",
+                    "undistributed": "63139536437"
+                },
+                {
+                    "date": "2017-01-29T00:00:00Z",
+                    "total": "99996040780",
+                    "distributed": "36856513336",
+                    "undistributed": "63139527443"
+                },
+                {
+                    "date": "2017-02-05T00:00:00Z",
+                    "total": "99995930604",
+                    "distributed": "37044533660",
+                    "undistributed": "62951396943"
+                },
+                {
+                    "date": "2017-02-12T00:00:00Z",
+                    "total": "99995902064",
+                    "distributed": "37044621729",
+                    "undistributed": "62951280335"
+                },
+                {
+                    "date": "2017-02-19T00:00:00Z",
+                    "total": "99995873096",
+                    "distributed": "37144100247",
+                    "undistributed": "62851772848"
+                },
+                {
+                    "date": "2017-02-26T00:00:00Z",
+                    "total": "99995846536",
+                    "distributed": "37406829143",
+                    "undistributed": "62589017392"
+                },
+                {
+                    "date": "2017-03-05T00:00:00Z",
+                    "total": "99995815439",
+                    "distributed": "37290640853",
+                    "undistributed": "62705174585"
+                },
+                {
+                    "date": "2017-03-12T00:00:00Z",
+                    "total": "99995788498",
+                    "distributed": "37338114912",
+                    "undistributed": "62657673585"
+                },
+                {
+                    "date": "2017-03-19T00:00:00Z",
+                    "total": "99995688517",
+                    "distributed": "37388960792",
+                    "undistributed": "62606727725"
+                },
+                {
+                    "date": "2017-03-26T00:00:00Z",
+                    "total": "99995541936",
+                    "distributed": "37514472563",
+                    "undistributed": "62481069373"
+                },
+                {
+                    "date": "2017-04-02T00:00:00Z",
+                    "total": "99995253581",
+                    "distributed": "37516282515",
+                    "undistributed": "62478971066"
+                },
+                {
+                    "date": "2017-04-09T00:00:00Z",
+                    "total": "99995048002",
+                    "distributed": "37532331339",
+                    "undistributed": "62462716662"
+                },
+                {
+                    "date": "2017-04-16T00:00:00Z",
+                    "total": "99995006593",
+                    "distributed": "37884925434",
+                    "undistributed": "62110081158"
+                },
+                {
+                    "date": "2017-04-23T00:00:00Z",
+                    "total": "99994983179",
+                    "distributed": "37884902021",
+                    "undistributed": "62110081158"
+                },
+                {
+                    "date": "2017-04-30T00:00:00Z",
+                    "total": "99994896990",
+                    "distributed": "37955579225",
+                    "undistributed": "62039317765"
+                },
+                {
+                    "date": "2017-05-07T00:00:00Z",
+                    "total": "99994799156",
+                    "distributed": "38305873865",
+                    "undistributed": "61688925291"
+                },
+                {
+                    "date": "2017-05-14T00:00:00Z",
+                    "total": "99994742943",
+                    "distributed": "38532538049",
+                    "undistributed": "61462204893"
+                },
+                {
+                    "date": "2017-05-21T00:00:00Z",
+                    "total": "99994682853",
+                    "distributed": "38249335400",
+                    "undistributed": "61745347453"
+                },
+                {
+                    "date": "2017-05-28T00:00:00Z",
+                    "total": "99994661895",
+                    "distributed": "38371693833",
+                    "undistributed": "61622968062"
+                },
+                {
+                    "date": "2017-06-04T00:00:00Z",
+                    "total": "99994644192",
+                    "distributed": "38326381283",
+                    "undistributed": "61668262909"
+                },
+                {
+                    "date": "2017-06-11T00:00:00Z",
+                    "total": "99994628433",
+                    "distributed": "38290271363",
+                    "undistributed": "61704357069"
+                },
+                {
+                    "date": "2017-06-18T00:00:00Z",
+                    "total": "99994608423",
+                    "distributed": "38291387790",
+                    "undistributed": "61703220632"
+                },
+                {
+                    "date": "2017-06-25T00:00:00Z",
+                    "total": "99994592716",
+                    "distributed": "38317458109",
+                    "undistributed": "61677134607"
+                },
+                {
+                    "date": "2017-07-02T00:00:00Z",
+                    "total": "99994578575",
+                    "distributed": "38317775693",
+                    "undistributed": "61676802881"
+                },
+                {
+                    "date": "2017-07-09T00:00:00Z",
+                    "total": "99994564337",
+                    "distributed": "38333756765",
+                    "undistributed": "61660807572"
+                },
+                {
+                    "date": "2017-07-16T00:00:00Z",
+                    "total": "99994550338",
+                    "distributed": "38332289584",
+                    "undistributed": "61662260753"
+                },
+                {
+                    "date": "2017-07-23T00:00:00Z",
+                    "total": "99994532978",
+                    "distributed": "38333090674",
+                    "undistributed": "61661442304"
+                },
+                {
+                    "date": "2017-07-30T00:00:00Z",
+                    "total": "99994523265",
+                    "distributed": "38343841883",
+                    "undistributed": "61650681381"
+                },
+                {
+                    "date": "2017-08-06T00:00:00Z",
+                    "total": "99994515438",
+                    "distributed": "38352641755",
+                    "undistributed": "61641873694",
+                    "escrowed": "11"
+                },
+                {
+                    "date": "2017-08-13T00:00:00Z",
+                    "total": "99994502751",
+                    "distributed": "38373758631",
+                    "undistributed": "61620744120"
+                },
+                {
+                    "date": "2017-08-20T00:00:00Z",
+                    "total": "99994488566",
+                    "distributed": "38396328416",
+                    "undistributed": "61598160150"
+                },
+                {
+                    "date": "2017-08-27T00:00:00Z",
+                    "total": "99994474212",
+                    "distributed": "38482276937",
+                    "undistributed": "61512197275"
+                },
+                {
+                    "date": "2017-09-03T00:00:00Z",
+                    "total": "99994465277",
+                    "distributed": "38512420843",
+                    "undistributed": "61482044434"
+                },
+                {
+                    "date": "2017-09-10T00:00:00Z",
+                    "total": "99994448206",
+                    "distributed": "38526779298",
+                    "undistributed": "61467668907"
+                },
+                {
+                    "date": "2017-09-17T00:00:00Z",
+                    "total": "99993667738",
+                    "distributed": "38531538922",
+                    "undistributed": "61462128816"
+                },
+                {
+                    "date": "2017-09-24T00:00:00Z",
+                    "total": "99993329588",
+                    "distributed": "38578329081",
+                    "undistributed": "61415000507"
+                },
+                {
+                    "date": "2017-10-01T00:00:00Z",
+                    "total": "99993307218",
+                    "distributed": "38597142499",
+                    "undistributed": "61396164719"
+                },
+                {
+                    "date": "2017-10-08T00:00:00Z",
+                    "total": "99993285884",
+                    "distributed": "38484733649",
+                    "undistributed": "61508552234"
+                },
+                {
+                    "date": "2017-10-15T00:00:00Z",
+                    "total": "99993263549",
+                    "distributed": "38497588468",
+                    "undistributed": "61495675080"
+                },
+                {
+                    "date": "2017-10-22T00:00:00Z",
+                    "total": "99993233909",
+                    "distributed": "38560798218",
+                    "undistributed": "61432435690"
+                },
+                {
+                    "date": "2017-10-29T00:00:00Z",
+                    "total": "99993214956",
+                    "distributed": "38615970340",
+                    "undistributed": "61377244615"
+                },
+                {
+                    "date": "2017-11-05T00:00:00Z",
+                    "total": "99993195805",
+                    "distributed": "38622892182",
+                    "undistributed": "61370303656",
+                    "escrowed": "33"
+                },
+                {
+                    "date": "2017-11-12T00:00:00Z",
+                    "total": "99993173757",
+                    "distributed": "38662480518",
+                    "undistributed": "61330693238"
+                },
+                {
+                    "date": "2017-11-19T00:00:00Z",
+                    "total": "99993150672",
+                    "distributed": "38688067255",
+                    "undistributed": "61305083416"
+                },
+                {
+                    "date": "2017-11-26T00:00:00Z",
+                    "total": "99993128226",
+                    "distributed": "38706833272",
+                    "undistributed": "61286294954"
+                },
+                {
+                    "date": "2017-12-03T00:00:00Z",
+                    "total": "99993093880",
+                    "distributed": "38739142483",
+                    "undistributed": "61253951372",
+                    "escrowed": "24"
+                },
+                {
+                    "date": "2017-12-10T00:00:00Z",
+                    "total": "99993059400",
+                    "distributed": "38801252486",
+                    "undistributed": "6691806889",
+                    "escrowed": "54500000024"
+                },
+                {
+                    "date": "2017-12-17T00:00:00Z",
+                    "total": "99993007619",
+                    "distributed": "38994255162",
+                    "undistributed": "5998752432",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2017-12-24T00:00:00Z",
+                    "total": "99992961850",
+                    "distributed": "39005346024",
+                    "undistributed": "5987615801",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2017-12-31T00:00:00Z",
+                    "total": "99992913216",
+                    "distributed": "39005311077",
+                    "undistributed": "5987602115",
+                    "escrowed": "55000000024"
+                },
+                {
+                    "date": "2018-01-07T00:00:00Z",
+                    "total": "99992855589",
+                    "distributed": "39029058672",
+                    "undistributed": "6963796893",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-14T00:00:00Z",
+                    "total": "99992777885",
+                    "distributed": "39029001738",
+                    "undistributed": "6963776123",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-21T00:00:00Z",
+                    "total": "99992725510",
+                    "distributed": "39029011222",
+                    "undistributed": "6963714263",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-01-28T00:00:00Z",
+                    "total": "99992664799",
+                    "distributed": "39032356092",
+                    "undistributed": "6960308683",
+                    "escrowed": "54000000024"
+                },
+                {
+                    "date": "2018-02-04T00:00:00Z",
+                    "total": "99992622540",
+                    "distributed": "39094802192",
+                    "undistributed": "6997820324",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-11T00:00:00Z",
+                    "total": "99992581434",
+                    "distributed": "39060882273",
+                    "undistributed": "7031699137",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-18T00:00:00Z",
+                    "total": "99992548829",
+                    "distributed": "39065864322",
+                    "undistributed": "7026684483",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-02-25T00:00:00Z",
+                    "total": "99992520283",
+                    "distributed": "39091956706",
+                    "undistributed": "7000563553",
+                    "escrowed": "53900000024"
+                },
+                {
+                    "date": "2018-03-04T00:00:00Z",
+                    "total": "99992497246",
+                    "distributed": "39091716516",
+                    "undistributed": "7100780706",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-11T00:00:00Z",
+                    "total": "99992466986",
+                    "distributed": "39094094840",
+                    "undistributed": "7098372122",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-18T00:00:00Z",
+                    "total": "99992434971",
+                    "distributed": "39094227299",
+                    "undistributed": "7098207647",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-03-25T00:00:00Z",
+                    "total": "99992405149",
+                    "distributed": "39094520623",
+                    "undistributed": "7097884501",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-04-01T00:00:00Z",
+                    "total": "99992382672",
+                    "distributed": "39116050477",
+                    "undistributed": "7076332171",
+                    "escrowed": "53800000024"
+                },
+                {
+                    "date": "2018-04-08T00:00:00Z",
+                    "total": "99992362643",
+                    "distributed": "39122794968",
+                    "undistributed": "7169567650",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-15T00:00:00Z",
+                    "total": "99992334929",
+                    "distributed": "39146203398",
+                    "undistributed": "7146131506",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-22T00:00:00Z",
+                    "total": "99992300953",
+                    "distributed": "39153851043",
+                    "undistributed": "7138449886",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-04-29T00:00:00Z",
+                    "total": "99992263539",
+                    "distributed": "39178259468",
+                    "undistributed": "7114004047",
+                    "escrowed": "53700000024"
+                },
+                {
+                    "date": "2018-05-06T00:00:00Z",
+                    "total": "99992233977",
+                    "distributed": "39189968239",
+                    "undistributed": "8102265714",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-05-13T00:00:00Z",
+                    "total": "99992212012",
+                    "distributed": "39190446264",
+                    "undistributed": "8101765724",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-05-20T00:00:00Z",
+                    "total": "99992195588",
+                    "distributed": "39241645663",
+                    "undistributed": "7150549901",
+                    "escrowed": "53600000024"
+                },
+                {
+                    "date": "2018-05-27T00:00:00Z",
+                    "total": "99992075773",
+                    "distributed": "39241525848",
+                    "undistributed": "7150549901",
+                    "escrowed": "53600000024"
+                },
+                {
+                    "date": "2018-06-03T00:00:00Z",
+                    "total": "99991958570",
+                    "distributed": "39244312603",
+                    "undistributed": "8147645943",
+                    "escrowed": "52600000024"
+                },
+                {
+                    "date": "2018-06-10T00:00:00Z",
+                    "total": "99991944394",
+                    "distributed": "39245304677",
+                    "undistributed": "7246639693",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-06-17T00:00:00Z",
+                    "total": "99991933044",
+                    "distributed": "39262084448",
+                    "undistributed": "7229848572",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-06-24T00:00:00Z",
+                    "total": "99991924336",
+                    "distributed": "39262097329",
+                    "undistributed": "7229826983",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-01T00:00:00Z",
+                    "total": "99991916481",
+                    "distributed": "39262444717",
+                    "undistributed": "7229471740",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-08T00:00:00Z",
+                    "total": "99991909309",
+                    "distributed": "39287643890",
+                    "undistributed": "7204265395",
+                    "escrowed": "53500000024"
+                },
+                {
+                    "date": "2018-07-15T00:00:00Z",
+                    "total": "99991900487",
+                    "distributed": "39295683476",
+                    "undistributed": "8196216987",
+                    "escrowed": "52500000024"
+                },
+                {
+                    "date": "2018-07-29T00:00:00Z",
+                    "total": "99991884007",
+                    "distributed": "39366010629",
+                    "undistributed": "7225873353",
+                    "escrowed": "53400000024"
+                },
+                {
+                    "date": "2018-08-05T00:00:00Z",
+                    "total": "99991874018",
+                    "distributed": "39372399467",
+                    "undistributed": "8219474526",
+                    "escrowed": "52400000024"
+                },
+                {
+                    "date": "2018-08-12T00:00:00Z",
+                    "total": "99991865246",
+                    "distributed": "39524508956",
+                    "undistributed": "7167356266",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-08-19T00:00:00Z",
+                    "total": "99991858334",
+                    "distributed": "39618209087",
+                    "undistributed": "7073649223",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-08-26T00:00:00Z",
+                    "total": "99991852985",
+                    "distributed": "39650153121",
+                    "undistributed": "7041699840",
+                    "escrowed": "53300000024"
+                },
+                {
+                    "date": "2018-09-02T00:00:00Z",
+                    "total": "99991847422",
+                    "distributed": "39712852387",
+                    "undistributed": "7978995011",
+                    "escrowed": "52300000024"
+                },
+                {
+                    "date": "2018-09-09T00:00:00Z",
+                    "total": "99991841593",
+                    "distributed": "39809069106",
+                    "undistributed": "7082772463",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-16T00:00:00Z",
+                    "total": "99991836919",
+                    "distributed": "39870907279",
+                    "undistributed": "7020929616",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-23T00:00:00Z",
+                    "total": "99991826231",
+                    "distributed": "39935410492",
+                    "undistributed": "6956415715",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-09-30T00:00:00Z",
+                    "total": "99991817275",
+                    "distributed": "39997634397",
+                    "undistributed": "6894182854",
+                    "escrowed": "53100000024"
+                },
+                {
+                    "date": "2018-10-07T00:00:00Z",
+                    "total": "99991809694",
+                    "distributed": "40173776756",
+                    "undistributed": "6918032914",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-14T00:00:00Z",
+                    "total": "99991803713",
+                    "distributed": "40178871683",
+                    "undistributed": "6912932006",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-21T00:00:00Z",
+                    "total": "99991797922",
+                    "distributed": "40205513967",
+                    "undistributed": "6886283931",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-10-28T00:00:00Z",
+                    "total": "99991792688",
+                    "distributed": "40205508733",
+                    "undistributed": "6886283931",
+                    "escrowed": "52900000024"
+                },
+                {
+                    "date": "2018-11-04T00:00:00Z",
+                    "total": "99991787268",
+                    "distributed": "40271748947",
+                    "undistributed": "7020038297",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-11-11T00:00:00Z",
+                    "total": "99991780039",
+                    "distributed": "40327341704",
+                    "undistributed": "6964438311",
+                    "escrowed": "52700000024"
+                },
+                {
+                    "date": "2018-12-02T00:00:00Z",
+                    "total": "99991757426",
+                    "distributed": "40926963305",
+                    "undistributed": "7364794107",
+                    "escrowed": "51700000013"
+                },
+                {
+                    "date": "2018-12-09T00:00:00Z",
+                    "total": "99991744391",
+                    "distributed": "40762365544",
+                    "undistributed": "6729378834",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-16T00:00:00Z",
+                    "total": "99991738974",
+                    "distributed": "40794121066",
+                    "undistributed": "6697617894",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-23T00:00:00Z",
+                    "total": "99991731412",
+                    "distributed": "40992312599",
+                    "undistributed": "6499418799",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2018-12-30T00:00:00Z",
+                    "total": "99991724864",
+                    "distributed": "41040405095",
+                    "undistributed": "6451319755",
+                    "escrowed": "52500000013"
+                },
+                {
+                    "date": "2019-01-06T00:00:00Z",
+                    "total": "99991719383",
+                    "distributed": "41103249710",
+                    "undistributed": "6588469660",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-13T00:00:00Z",
+                    "total": "99991713681",
+                    "distributed": "41108344068",
+                    "undistributed": "6583369600",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-20T00:00:00Z",
+                    "total": "99991708587",
+                    "distributed": "41163466448",
+                    "undistributed": "6528242125",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-01-27T00:00:00Z",
+                    "total": "99991704087",
+                    "distributed": "41169202069",
+                    "undistributed": "6522502006",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-02-03T00:00:00Z",
+                    "total": "99991698361",
+                    "distributed": "41208093050",
+                    "undistributed": "6483605298",
+                    "escrowed": "52300000013"
+                },
+                {
+                    "date": "2019-02-10T00:00:00Z",
+                    "total": "99991693523",
+                    "distributed": "41308998845",
+                    "undistributed": "6582694665",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-02-17T00:00:00Z",
+                    "total": "99991689289",
+                    "distributed": "41365634610",
+                    "undistributed": "6526054666",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-02-24T00:00:00Z",
+                    "total": "99991683860",
+                    "distributed": "41432141931",
+                    "undistributed": "6459541915",
+                    "escrowed": "52100000013"
+                },
+                {
+                    "date": "2019-03-03T00:00:00Z",
+                    "total": "99991677081",
+                    "distributed": "41612797203",
+                    "undistributed": "7278879866",
+                    "escrowed": "51100000013"
+                },
+                {
+                    "date": "2019-03-10T00:00:00Z",
+                    "total": "99991672219",
+                    "distributed": "41666017553",
+                    "undistributed": "6525654653",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-17T00:00:00Z",
+                    "total": "99991667586",
+                    "distributed": "41706564590",
+                    "undistributed": "6485102983",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-24T00:00:00Z",
+                    "total": "99991663388",
+                    "distributed": "41743765071",
+                    "undistributed": "6447898304",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-03-31T00:00:00Z",
+                    "total": "99991658131",
+                    "distributed": "41792108527",
+                    "undistributed": "6399549591",
+                    "escrowed": "51800000013"
+                },
+                {
+                    "date": "2019-04-07T00:00:00Z",
+                    "total": "99991649568",
+                    "distributed": "41970748057",
+                    "undistributed": "6520901498",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-14T00:00:00Z",
+                    "total": "99991643723",
+                    "distributed": "42004966728",
+                    "undistributed": "6486676982",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-21T00:00:00Z",
+                    "total": "99991639209",
+                    "distributed": "42087046846",
+                    "undistributed": "6404592350",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-04-28T00:00:00Z",
+                    "total": "99991633428",
+                    "distributed": "42133310721",
+                    "undistributed": "6358322694",
+                    "escrowed": "51500000013"
+                },
+                {
+                    "date": "2019-05-05T00:00:00Z",
+                    "total": "99991629117",
+                    "distributed": "42094344173",
+                    "undistributed": "6697284931",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-12T00:00:00Z",
+                    "total": "99991626524",
+                    "distributed": "42116677673",
+                    "undistributed": "6674948838",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-19T00:00:00Z",
+                    "total": "99991617212",
+                    "distributed": "42181995112",
+                    "undistributed": "6609622086",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-05-26T00:00:00Z",
+                    "total": "99991610348",
+                    "distributed": "42238947941",
+                    "undistributed": "6552662395",
+                    "escrowed": "51200000013"
+                },
+                {
+                    "date": "2019-06-02T00:00:00Z",
+                    "total": "99991601899",
+                    "distributed": "42501950124",
+                    "undistributed": "7289651762",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-06-09T00:00:00Z",
+                    "total": "99991595215",
+                    "distributed": "42557366069",
+                    "undistributed": "6534229146",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-16T00:00:00Z",
+                    "total": "99991588101",
+                    "distributed": "42566596173",
+                    "undistributed": "6524991927",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-23T00:00:00Z",
+                    "total": "99991579149",
+                    "distributed": "42626324406",
+                    "undistributed": "6465254743",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-06-30T00:00:00Z",
+                    "total": "99991569001",
+                    "distributed": "42811861267",
+                    "undistributed": "6279707734",
+                    "escrowed": "50900000000"
+                },
+                {
+                    "date": "2019-07-07T00:00:00Z",
+                    "total": "99991561675",
+                    "distributed": "42813070839",
+                    "undistributed": "6578490823",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-14T00:00:00Z",
+                    "total": "99991553791",
+                    "distributed": "42832704971",
+                    "undistributed": "6558848807",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-21T00:00:00Z",
+                    "total": "99991387607",
+                    "distributed": "42872646068",
+                    "undistributed": "6518741526",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-07-28T00:00:00Z",
+                    "total": "99991382175",
+                    "distributed": "42890392474",
+                    "undistributed": "6500989688",
+                    "escrowed": "50600000013"
+                },
+                {
+                    "date": "2019-08-04T00:00:00Z",
+                    "total": "99991376954",
+                    "distributed": "42890708341",
+                    "undistributed": "6700668600",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-11T00:00:00Z",
+                    "total": "99991371628",
+                    "distributed": "42909539227",
+                    "undistributed": "6681832389",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-18T00:00:00Z",
+                    "total": "99991366793",
+                    "distributed": "42932866967",
+                    "undistributed": "6658499813",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-08-25T00:00:00Z",
+                    "total": "99991362294",
+                    "distributed": "42984656144",
+                    "undistributed": "6606706137",
+                    "escrowed": "50400000013"
+                },
+                {
+                    "date": "2019-09-01T00:00:00Z",
+                    "total": "99991355092",
+                    "distributed": "43024433511",
+                    "undistributed": "7566921567",
+                    "escrowed": "49400000013"
+                },
+                {
+                    "date": "2019-09-08T00:00:00Z",
+                    "total": "99991349973",
+                    "distributed": "43055012634",
+                    "undistributed": "6736337326",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-15T00:00:00Z",
+                    "total": "99991343356",
+                    "distributed": "43080011224",
+                    "undistributed": "6711332118",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-22T00:00:00Z",
+                    "total": "99991336298",
+                    "distributed": "43121735112",
+                    "undistributed": "6669601173",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-09-29T00:00:00Z",
+                    "total": "99991330383",
+                    "distributed": "43166787298",
+                    "undistributed": "6624543073",
+                    "escrowed": "50200000013"
+                },
+                {
+                    "date": "2019-10-06T00:00:00Z",
+                    "total": "99991326173",
+                    "distributed": "43203402302",
+                    "undistributed": "6787923858",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-13T00:00:00Z",
+                    "total": "99991321535",
+                    "distributed": "43242653330",
+                    "undistributed": "6748668193",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-20T00:00:00Z",
+                    "total": "99991316762",
+                    "distributed": "43248091671",
+                    "undistributed": "6743225077",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-10-27T00:00:00Z",
+                    "total": "99991308084",
+                    "distributed": "43268247816",
+                    "undistributed": "6723060255",
+                    "escrowed": "50000000013"
+                },
+                {
+                    "date": "2019-11-03T00:00:00Z",
+                    "total": "99991298961",
+                    "distributed": "43298481757",
+                    "undistributed": "6792817191",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-10T00:00:00Z",
+                    "total": "99991280558",
+                    "distributed": "43299885509",
+                    "undistributed": "6791395036",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-17T00:00:00Z",
+                    "total": "99991270310",
+                    "distributed": "43282591462",
+                    "undistributed": "6808678835",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-11-24T00:00:00Z",
+                    "total": "99991237614",
+                    "distributed": "43285660917",
+                    "undistributed": "6805576684",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-12-01T00:00:00Z",
+                    "total": "99991196964",
+                    "distributed": "43306944439",
+                    "undistributed": "7784252512",
+                    "escrowed": "48900000013"
+                },
+                {
+                    "date": "2019-12-08T00:00:00Z",
+                    "total": "99991166638",
+                    "distributed": "43310265523",
+                    "undistributed": "6780901102",
+                    "escrowed": "49900000013"
+                },
+                {
+                    "date": "2019-12-15T00:00:00Z",
+                    "total": "99991146262",
+                    "distributed": "43319477613",
+                    "undistributed": "6771668635",
+                    "escrowed": "49900000013"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Server",
+            "nginx",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "max-age=30, stale-while-revalidate=60, stale-if-error=120,",
+            "X-RateLimit-Limit",
+            "60",
+            "X-RateLimit-Remaining",
+            "59",
+            "X-RateLimit-Reset",
+            "1576850191",
+            "ETag",
+            "4407",
+            "Accept-Ranges",
+            "bytes",
+            "Date",
+            "Fri, 20 Dec 2019 13:55:31 GMT",
+            "Via",
+            "1.1 varnish",
+            "Age",
+            "0",
+            "Connection",
+            "keep-alive",
+            "X-Served-By",
+            "cache-ams21022-AMS",
+            "X-Cache",
+            "HIT",
+            "X-Cache-Hits",
+            "1",
+            "X-Timer",
+            "S1576850132.632579,VS0,VE0",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    }
+]

@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 const { nock } = require('./helpers/nock');
 const supplies = require('../lib/supplies');
 
@@ -13,6 +14,8 @@ nock.disableNetConnect();
 nock.back.fixtures = path.join(__dirname, '.', 'fixtures');
 nock.back.setMode('lockdown');
 
+const coinsDir = path.join(__dirname, '.', 'coins');
+
 const { drivers, Coin } = supplies;
 
 drivers.forEach((driverName) => {
@@ -24,12 +27,21 @@ drivers.forEach((driverName) => {
 
     // Set a secret to avoid an error from being thrown while testing
     if (driver.supports.secret) {
-      driver.secret = 'OurLittleSecret';
+      driver.secret = 'maskedSecret';
     }
 
     // Load the coins from the ./coins dir and do new Coin()
+    let coins = [];
+    if (fs.existsSync(`${coinsDir}/${driverName}.json`)) {
+      coins = fs.readFileSync(`${coinsDir}/${driverName}.json`);
+      coins = JSON.parse(coins);
+      coins = coins.map((coin) => new Coin(coin));
+    }
 
     if (driver.supports.native) {
+      const [nativeCoin] = coins
+        .filter((coin) => (typeof coin.reference === 'undefined'));
+
       test('Total supply should be greater than zero', async () => {
         await nock.back(`${driverName}.json`);
         const totalSupply = await driver.fetchTotalSupply();
@@ -66,7 +78,23 @@ drivers.forEach((driverName) => {
         });
       }
 
-      // driver.supports.balances
+      if (driver.supports.balances) {
+        if (typeof nativeCoin === 'undefined') {
+          throw new Error('The driver supports balances but there is no json file in the coins directory');
+        }
+
+        if (Array.isArray(nativeCoin.modifiers) === false || nativeCoin.modifiers.length === 0) {
+          throw new Error('Native coin should have modifiers');
+        }
+
+        nativeCoin.modifiers.forEach((modifier) => {
+          test('Modifier balance should be greater than or equal to zero', async () => {
+            await nock.back(`${driverName}.json`);
+            const balances = await driver.fetchBalance(modifier);
+            expect(balances).toBeGreaterThanOrEqual(0);
+          });
+        });
+      }
     }
 
     // driver.assets

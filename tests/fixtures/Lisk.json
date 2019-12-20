@@ -1,0 +1,334 @@
+[
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/node/constants",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {},
+            "data": {
+                "build": "2019-09-19T13:35:15.000Z",
+                "commit": "e5740a8c2200a53901c6583dfc01fecef3df70c0",
+                "epoch": "2016-05-24T17:00:00.000Z",
+                "fees": {
+                    "send": "10000000",
+                    "vote": "100000000",
+                    "secondSignature": "500000000",
+                    "delegate": "2500000000",
+                    "multisignature": "500000000",
+                    "dappRegistration": "2500000000",
+                    "dappWithdrawal": "10000000",
+                    "dappDeposit": "10000000"
+                },
+                "nethash": "ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511",
+                "nonce": "NPtYafDfgdRxpfDf",
+                "milestone": "3",
+                "reward": "200000000",
+                "supply": "13713449400000000",
+                "version": "2.1.3",
+                "protocolVersion": "1.1"
+            },
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=11917631413532719541L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "11917631413532719541L",
+                    "publicKey": "81f739bfd60a8bfa5aad1d5eb6462d4d83aad11dfd7c79702025fc73a5e708d5",
+                    "balance": "400076952547797",
+                    "secondPublicKey": "4f979e4f914f909709203b7e2c59de876b994f198f2751b0b91c5a6381d8a6d9",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=14175575863689886451L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "14175575863689886451L",
+                    "publicKey": "0ef03edb81385baca9279e2c87e78acb27a82307be73c4c846195952edecc6e3",
+                    "balance": "73874877944897",
+                    "secondPublicKey": "",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=15434119221255134066L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "15434119221255134066L",
+                    "publicKey": "163e4f921de49eebe969d08f0f77e07e76f8583e5c7839ae1ae5734a6d28a43a",
+                    "balance": "271356773760838",
+                    "secondPublicKey": "9ad0ee8c16d15b3072865cb66e9c781a1af943f7853dc9240b61dee58f88554e",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=15841793714384967784L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "15841793714384967784L",
+                    "publicKey": "0cff7751b07124a79d985b376204eebf92d98c9e84639e5f7b7d88e19067f925",
+                    "balance": "13803371235514",
+                    "secondPublicKey": "",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=5726759782318848681L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "5726759782318848681L",
+                    "publicKey": "5ab9e8bd9107e3019b134cb1d4cae721da0b1b14f59927da135ec225d7099ca6",
+                    "balance": "433481507468481",
+                    "secondPublicKey": "",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://node01.lisk.io:443",
+        "method": "GET",
+        "path": "/api/accounts?address=8201357239823655010L",
+        "body": "",
+        "status": 200,
+        "response": {
+            "meta": {
+                "offset": 0,
+                "limit": 10
+            },
+            "data": [
+                {
+                    "address": "8201357239823655010L",
+                    "publicKey": "827a033569ad35087ec7080512ca0413a5eda171392141402737b0fca7c638b5",
+                    "balance": "323181475500239",
+                    "secondPublicKey": "3f57c6645c5e95b942cc4abed6da47b8f5e19411d61e40d7c1c57c01c4643e05",
+                    "asset": null
+                }
+            ],
+            "links": {}
+        },
+        "rawHeaders": [
+            "x-frame-options",
+            "DENY",
+            "content-security-policy",
+            "frame-ancestors 'none'",
+            "x-ratelimit-limit",
+            "0",
+            "x-ratelimit-remaining",
+            "0",
+            "access-control-allow-origin",
+            "*",
+            "content-type",
+            "application/json",
+            "vary",
+            "Accept-Encoding",
+            "date",
+            "Fri, 20 Dec 2019 13:47:38 GMT",
+            "transfer-encoding",
+            "chunked",
+            "strict-transport-security",
+            "max-age=15768000"
+        ],
+        "responseIsBinary": false
+    }
+]

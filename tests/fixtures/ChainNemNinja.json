@@ -1,0 +1,546 @@
+[
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDAFO2MHWRR446YHADKR43XQBDJGWFRTMICH",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "6ab8401388e67b995139c7d1ddd3ea704245ca887b81f956edc5453c7869aac8",
+                "printablekey": "NAFUNDAFO2MHWRR446YHADKR43XQBDJGWFRTMICH",
+                "balance": [
+                    {
+                        "sum": 500000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 192712319420000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 37270208484435,
+                        "type": 5
+                    }
+                ],
+                "id": 2611,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "242",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"ec722df5e9167597d1b3c1b23eba531d2846610a\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDBUKIOSTMD4BNXL7ZFE735QHN7A3FBS6CMY",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "ac4b53284650c8d3a2c5b56dbf8fce9f65cda411a07d7e24cea1cdc867cbbc9d",
+                "printablekey": "NAFUNDBUKIOSTMD4BNXL7ZFE735QHN7A3FBS6CMY",
+                "balance": [
+                    {
+                        "sum": 1036010000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 211885077630000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 179902352150000,
+                        "type": 5
+                    }
+                ],
+                "id": 2613,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "245",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"521e7ef326749f29cc8b591df04406326cd6382e\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDCJBFWXJWQZITUJOIW4O3E6YHQYQYSISPVA",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "f07caa65d1ee756ca41f019a43e4861cc0abc0cf26f9bacb792aa1e269d6f2ce",
+                "printablekey": "NAFUNDCJBFWXJWQZITUJOIW4O3E6YHQYQYSISPVA",
+                "balance": [
+                    {
+                        "sum": 508000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 211885048630000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 76000000,
+                        "type": 5
+                    }
+                ],
+                "id": 2610,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "241",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"187ac8db154cfc0b615cd70d85dca2eeea89e6c4\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDDWQUHMIKPV2JUH2VNCYEAQX3O7QKHECZUV",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "662eca63f3ec0235917a8f257e844403983d8e7bc84c05806e889bc57b38dfe4",
+                "printablekey": "NAFUNDDWQUHMIKPV2JUH2VNCYEAQX3O7QKHECZUV",
+                "balance": [
+                    {
+                        "sum": 501000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 306056260910000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 119667194973448,
+                        "type": 5
+                    }
+                ],
+                "id": 2614,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "246",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"471a839730a5cfafc373d1be007c59f4df71c455\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDEULL67VO7WCJBGBHCLCMD5KEH5EI7G5SGR",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "6360d1c79365cffb9811aa308e5e545976c1124577597eecb7848b79ec6130a3",
+                "printablekey": "NAFUNDEULL67VO7WCJBGBHCLCMD5KEH5EI7G5SGR",
+                "balance": [
+                    {
+                        "sum": 502000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 46000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 871083534590000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 1500271000000,
+                        "type": 5
+                    }
+                ],
+                "id": 2615,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "242",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"f6d891e0ef0d7f8b4e88ae451a2e9cc161eaa9df\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NAFUNDHZWSIV4ARXSGGSFONCGFGYTLCB7VOT53SR",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "ec3bb27e0d9aab1757d20bd80986f4fc19a2275b975117588220370aecc44a53",
+                "printablekey": "NAFUNDHZWSIV4ARXSGGSFONCGFGYTLCB7VOT53SR",
+                "balance": [
+                    {
+                        "sum": 258000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 211885048630000,
+                        "type": 4
+                    },
+                    {
+                        "sum": 211885268880000,
+                        "type": 5
+                    }
+                ],
+                "id": 2677,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "241",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"bca18f18d6ab096207c6466b98fbc40c2023dbcb\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NCMARKECQXP3SQZSJPCBKOQWIXRRI7LIS4FTU4VZ",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "f41b99320549741c5cce42d9e4bb836d98c50ed5415d0c3c2912d1bb50e6a0e5",
+                "printablekey": "NCMARKECQXP3SQZSJPCBKOQWIXRRI7LIS4FTU4VZ",
+                "balance": [
+                    {
+                        "sum": 222611321636245,
+                        "type": 5
+                    },
+                    {
+                        "sum": 253125204000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 40000000,
+                        "type": 2
+                    }
+                ],
+                "id": 374,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:37 GMT",
+            "Content-Type",
+            "238",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"40f0b7eaa114c89a21b9c117ab7abda41b6a7ec4\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NCONTRLFKPO6YVXO5WUIJ4SWSCSKBJIPV456RSCL",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "1ef1ba8f753b4931bfceab0ad6a08892f1735f304f6c33ce04b41d66fa10cb4b",
+                "printablekey": "NCONTRLFKPO6YVXO5WUIJ4SWSCSKBJIPV456RSCL",
+                "balance": [
+                    {
+                        "sum": 64000000,
+                        "type": 5
+                    },
+                    {
+                        "sum": 27563039000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 34000000,
+                        "type": 2
+                    }
+                ],
+                "id": 1256,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:38 GMT",
+            "Content-Type",
+            "231",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"dbb2bf164af873ccf60579324d2ba21f58fc0ca7\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NCOPERAWEWCD4A34NP5UQCCKEX44MW4SL3QYJYS5",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "6f4dc5fa7b531f56543a4b567fefea2fcf080be71af73aca9925968eeee2ad0f",
+                "printablekey": "NCOPERAWEWCD4A34NP5UQCCKEX44MW4SL3QYJYS5",
+                "balance": [
+                    {
+                        "sum": 180002053950000,
+                        "type": 5
+                    },
+                    {
+                        "sum": 180002095000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 40000000,
+                        "type": 2
+                    }
+                ],
+                "id": 3,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:38 GMT",
+            "Content-Type",
+            "229",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"03f46306fd3bd9c6284a6c032b00f8d3e270b9cb\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NCYZGD-BDTZ42-7NJVPU-JFINWY-PAQBPE-K4OBSS-7MGZ",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "4d6932a959b698582fccb2968063f93de888aa124ab1f29d14fd5a1625e94119",
+                "printablekey": "NCYZGDBDTZ427NJVPUJFINWYPAQBPEK4OBSS7MGZ",
+                "balance": [
+                    {
+                        "sum": 60552000,
+                        "type": 2
+                    },
+                    {
+                        "sum": 933493400,
+                        "type": 1
+                    }
+                ],
+                "id": 361628,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:38 GMT",
+            "Content-Type",
+            "226",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"f48e7aba90afea6d5245ca00d788693ffa30fcf9\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NDEVPOSK4OMR4PRTLYFHX4W5QTOND7TZDT2DTU4Q",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "56a7ae8caca7356fffe98e1dfdf3f4218bb837b5ec6aae927a964e2ff1861e20",
+                "printablekey": "NDEVPOSK4OMR4PRTLYFHX4W5QTOND7TZDT2DTU4Q",
+                "balance": [
+                    {
+                        "sum": 900000262000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 46000000,
+                        "type": 2
+                    }
+                ],
+                "id": 1055,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:38 GMT",
+            "Content-Type",
+            "224",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"a3d7e947e899b86c4fdd7cb8477a2acc9ea9bb22\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.nem.ninja:80",
+        "method": "GET",
+        "path": "/api3/account?address=NDEVPRE5ZWVG2PXSM54BGZBFF525G24UKVOGOZNT",
+        "body": "",
+        "status": 200,
+        "response": {
+            "raw": {
+                "publickey": "6c8267a0550072a7b89e79bd91cf621862a36bc41d4463f9fcf416759b5dd801",
+                "printablekey": "NDEVPRE5ZWVG2PXSM54BGZBFF525G24UKVOGOZNT",
+                "balance": [
+                    {
+                        "sum": 29761772366200,
+                        "type": 5
+                    },
+                    {
+                        "sum": 562500159000000,
+                        "type": 1
+                    },
+                    {
+                        "sum": 46000000,
+                        "type": 2
+                    }
+                ],
+                "id": 1257,
+                "harvestedBlocks": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.6.2",
+            "Date",
+            "Fri, 20 Dec 2019 13:23:38 GMT",
+            "Content-Type",
+            "238",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Etag",
+            "\"e656b603f1e4773540b25bb97d99e2b32eb16d38\""
+        ],
+        "responseIsBinary": false
+    }
+]

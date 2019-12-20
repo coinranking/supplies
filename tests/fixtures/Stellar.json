@@ -1,0 +1,675 @@
+[
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/ledgers?limit=1&order=desc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/ledgers?cursor=&limit=1&order=desc"
+                },
+                "next": {
+                    "href": "https://horizon.stellar.org/ledgers?cursor=117502681651609600&limit=1&order=desc"
+                },
+                "prev": {
+                    "href": "https://horizon.stellar.org/ledgers?cursor=117502681651609600&limit=1&order=asc"
+                }
+            },
+            "_embedded": {
+                "records": [
+                    {
+                        "_links": {
+                            "self": {
+                                "href": "https://horizon.stellar.org/ledgers/27358225"
+                            },
+                            "transactions": {
+                                "href": "https://horizon.stellar.org/ledgers/27358225/transactions{?cursor,limit,order}",
+                                "templated": true
+                            },
+                            "operations": {
+                                "href": "https://horizon.stellar.org/ledgers/27358225/operations{?cursor,limit,order}",
+                                "templated": true
+                            },
+                            "payments": {
+                                "href": "https://horizon.stellar.org/ledgers/27358225/payments{?cursor,limit,order}",
+                                "templated": true
+                            },
+                            "effects": {
+                                "href": "https://horizon.stellar.org/ledgers/27358225/effects{?cursor,limit,order}",
+                                "templated": true
+                            }
+                        },
+                        "id": "6cb4864513c47640986d773292b7fb7a9e646e6942134e2e7b19b7f58be37b61",
+                        "paging_token": "117502681651609600",
+                        "hash": "6cb4864513c47640986d773292b7fb7a9e646e6942134e2e7b19b7f58be37b61",
+                        "prev_hash": "68a8c7d1568b73cc78b4e370d3fba85f40aa7a428a5c2ceaa83e8f0a47d269ca",
+                        "sequence": 27358225,
+                        "successful_transaction_count": 41,
+                        "failed_transaction_count": 9,
+                        "operation_count": 83,
+                        "closed_at": "2019-12-20T13:57:31Z",
+                        "total_coins": "105443902087.3472865",
+                        "fee_pool": "1807468.2882661",
+                        "base_fee_in_stroops": 100,
+                        "base_reserve_in_stroops": 5000000,
+                        "max_tx_set_size": 1000,
+                        "protocol_version": 12,
+                        "header_xdr": "AAAADGiox9FWi3PMeLTjcNP7qF9AqnpCilws6qg+jwpH0mnK8MjW/GZDucnyNnFUHJD8H/x5tykanacIDHJbUv8dnn8AAAAAXfzTSwAAAAAAAAAABg7T8YWqhkpKj8gCNUGwpPvSJyhMcXW/qiLNsshzQrg/TMSZll481ODjEubG3AXsFkDJ3ZJ4tJKnX6fTfjLy1QGhdBEOoh6z7HlbYQAAEHBXDXplAAABFgAAAAAIcUNyAAAAZABMS0AAAAPobIokMCN25hLxIkFjvOv4IVweoprS2HFdsGyBKW8ZGHhA08BjU3AAONxzqObhJz3vJjc/3roUKINBRLz87k19hC9o1GTLAKNNQ9pXH2Bj5eWksRQf6C02DYzOUA1UVLVB6nZfIgcYBMnZRkOTCLdPO76yeqpDhqu9KrPe3YPTO3wAAAAA"
+                    }
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:37 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "977",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6"
+                },
+                "transactions": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/transactions{?cursor,limit,order}",
+                    "templated": true
+                },
+                "operations": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/operations{?cursor,limit,order}",
+                    "templated": true
+                },
+                "payments": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/payments{?cursor,limit,order}",
+                    "templated": true
+                },
+                "effects": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/effects{?cursor,limit,order}",
+                    "templated": true
+                },
+                "offers": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/offers{?cursor,limit,order}",
+                    "templated": true
+                },
+                "trades": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/trades{?cursor,limit,order}",
+                    "templated": true
+                },
+                "data": {
+                    "href": "https://horizon.stellar.org/accounts/GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6/data/{key}",
+                    "templated": true
+                }
+            },
+            "id": "GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6",
+            "account_id": "GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6",
+            "sequence": "3946838721822735",
+            "subentry_count": 0,
+            "last_modified_ledger": 18495032,
+            "thresholds": {
+                "low_threshold": 0,
+                "med_threshold": 0,
+                "high_threshold": 0
+            },
+            "flags": {
+                "auth_required": false,
+                "auth_revocable": false,
+                "auth_immutable": false
+            },
+            "balances": [
+                {
+                    "balance": "44.4696861",
+                    "buying_liabilities": "0.0000000",
+                    "selling_liabilities": "0.0000000",
+                    "asset_type": "native"
+                }
+            ],
+            "signers": [
+                {
+                    "weight": 1,
+                    "key": "GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6",
+                    "type": "ed25519_public_key"
+                }
+            ],
+            "data": {},
+            "paging_token": ""
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:38 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "555",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ"
+                },
+                "transactions": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/transactions{?cursor,limit,order}",
+                    "templated": true
+                },
+                "operations": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/operations{?cursor,limit,order}",
+                    "templated": true
+                },
+                "payments": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/payments{?cursor,limit,order}",
+                    "templated": true
+                },
+                "effects": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/effects{?cursor,limit,order}",
+                    "templated": true
+                },
+                "offers": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/offers{?cursor,limit,order}",
+                    "templated": true
+                },
+                "trades": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/trades{?cursor,limit,order}",
+                    "templated": true
+                },
+                "data": {
+                    "href": "https://horizon.stellar.org/accounts/GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ/data/{key}",
+                    "templated": true
+                }
+            },
+            "id": "GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ",
+            "account_id": "GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ",
+            "sequence": "25002744091770894",
+            "subentry_count": 10,
+            "last_modified_ledger": 27341178,
+            "thresholds": {
+                "low_threshold": 2,
+                "med_threshold": 12,
+                "high_threshold": 11
+            },
+            "flags": {
+                "auth_required": false,
+                "auth_revocable": false,
+                "auth_immutable": false
+            },
+            "balances": [
+                {
+                    "balance": "26322946.6392608",
+                    "buying_liabilities": "0.0000000",
+                    "selling_liabilities": "0.0000000",
+                    "asset_type": "native"
+                }
+            ],
+            "signers": [
+                {
+                    "weight": 1,
+                    "key": "GADLC4HWGTRPXC4SDBVEHAZHMQQXAAKJI3E4MZ4AS35OP2VT65M27HO2",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GAGBYGNAV5LVCO7DKAFRNNRRF7CISXNP7V5SQ5EPZBZM6FILEZ7B4V4F",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GAOIZREOP5MNFXZWOM7RUCVEVUWNTCIHVGFSGYHLAFIE6X7ER72R7N67",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GATBGYFMPCNLSYE4C6ZE5RZ3RKGAC3734ALOUPZPOCWX4UBFF2LYKAZI",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GA2Y42P5AAG5G2DL3VGDIHNBTDL2HL7M62QEUR6HRVGADITU4LLOW2BF",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GA3UKN673NLX5PIQBEFLR4BYKZXKC6VQDPIXOJW7MUM4B7MTK4XOBSC4",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GA55EI7SGD3XGTDEHGTMNIJDIOB4PII57BGYP3TJFOMYDOIDWM5XYNN3",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GBZHILW4YBQPRUKTMEPNNYS6ATXUDABCKISYBYTNAN2JDJNB6TKYVOND",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDBL2D45T5NSFP4QRV357Q7TAA7TGTXCDTEXPSKGNGPQKD3TGYDTZSZ2",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDFPV34DTBE7H2XQT44SRYJC2W2QCJRPRFBZE4WWGJYDMJH4AA4EUYUR",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 11,
+                    "key": "GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ",
+                    "type": "ed25519_public_key"
+                }
+            ],
+            "data": {},
+            "paging_token": ""
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:39 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "1037",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ"
+                },
+                "transactions": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/transactions{?cursor,limit,order}",
+                    "templated": true
+                },
+                "operations": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/operations{?cursor,limit,order}",
+                    "templated": true
+                },
+                "payments": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/payments{?cursor,limit,order}",
+                    "templated": true
+                },
+                "effects": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/effects{?cursor,limit,order}",
+                    "templated": true
+                },
+                "offers": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/offers{?cursor,limit,order}",
+                    "templated": true
+                },
+                "trades": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/trades{?cursor,limit,order}",
+                    "templated": true
+                },
+                "data": {
+                    "href": "https://horizon.stellar.org/accounts/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ/data/{key}",
+                    "templated": true
+                }
+            },
+            "id": "GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+            "account_id": "GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+            "sequence": "3940598134341701",
+            "subentry_count": 4,
+            "inflation_destination": "GDWNY2POLGK65VVKIH5KQSH7VWLKRTQ5M6ADLJAYC2UEHEBEARCZJWWI",
+            "last_modified_ledger": 27255046,
+            "thresholds": {
+                "low_threshold": 3,
+                "med_threshold": 3,
+                "high_threshold": 3
+            },
+            "flags": {
+                "auth_required": false,
+                "auth_revocable": false,
+                "auth_immutable": false
+            },
+            "balances": [
+                {
+                    "balance": "11834499117.4256607",
+                    "buying_liabilities": "0.0000000",
+                    "selling_liabilities": "0.0000000",
+                    "asset_type": "native"
+                }
+            ],
+            "signers": [
+                {
+                    "weight": 1,
+                    "key": "GBMALBYJT6A73SYQWOWVVCGSPUPJPBX4AFDJ7A63GG64QCNRCAFYWWEN",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GBZ3ZDKQAU2WDQA36OAPTOPQRZTSKTNEI6BERUBZRWS4GCIZJPXRUSVQ",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GC5PNDK5TVJHVLGHKWKL5T2TOWF3GLNK4CREKUAZBU6UPUR4QFFZRYQU",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDK3ZTAB5OFLTPEXKLUD6XT4UPKKMJF744JFFUESXQDTGI3G7DT5SCE2",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+                    "type": "ed25519_public_key"
+                }
+            ],
+            "data": {},
+            "paging_token": ""
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:40 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "831",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX"
+                },
+                "transactions": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/transactions{?cursor,limit,order}",
+                    "templated": true
+                },
+                "operations": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/operations{?cursor,limit,order}",
+                    "templated": true
+                },
+                "payments": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/payments{?cursor,limit,order}",
+                    "templated": true
+                },
+                "effects": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/effects{?cursor,limit,order}",
+                    "templated": true
+                },
+                "offers": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/offers{?cursor,limit,order}",
+                    "templated": true
+                },
+                "trades": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/trades{?cursor,limit,order}",
+                    "templated": true
+                },
+                "data": {
+                    "href": "https://horizon.stellar.org/accounts/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX/data/{key}",
+                    "templated": true
+                }
+            },
+            "id": "GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+            "account_id": "GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+            "sequence": "25002129911447566",
+            "subentry_count": 4,
+            "inflation_destination": "GDWNY2POLGK65VVKIH5KQSH7VWLKRTQ5M6ADLJAYC2UEHEBEARCZJWWI",
+            "home_domain": "world",
+            "last_modified_ledger": 27242154,
+            "thresholds": {
+                "low_threshold": 3,
+                "med_threshold": 3,
+                "high_threshold": 3
+            },
+            "flags": {
+                "auth_required": false,
+                "auth_revocable": false,
+                "auth_immutable": false
+            },
+            "balances": [
+                {
+                    "balance": "3762949957.4642154",
+                    "buying_liabilities": "0.0000000",
+                    "selling_liabilities": "0.0000000",
+                    "asset_type": "native"
+                }
+            ],
+            "signers": [
+                {
+                    "weight": 1,
+                    "key": "GBMALBYJT6A73SYQWOWVVCGSPUPJPBX4AFDJ7A63GG64QCNRCAFYWWEN",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GBZ3ZDKQAU2WDQA36OAPTOPQRZTSKTNEI6BERUBZRWS4GCIZJPXRUSVQ",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GC5PNDK5TVJHVLGHKWKL5T2TOWF3GLNK4CREKUAZBU6UPUR4QFFZRYQU",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDK3ZTAB5OFLTPEXKLUD6XT4UPKKMJF744JFFUESXQDTGI3G7DT5SCE2",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+                    "type": "ed25519_public_key"
+                }
+            ],
+            "data": {},
+            "paging_token": ""
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:41 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "842",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://horizon.stellar.org:443",
+        "method": "GET",
+        "path": "/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+        "body": "",
+        "status": 200,
+        "response": {
+            "_links": {
+                "self": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4"
+                },
+                "transactions": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/transactions{?cursor,limit,order}",
+                    "templated": true
+                },
+                "operations": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/operations{?cursor,limit,order}",
+                    "templated": true
+                },
+                "payments": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/payments{?cursor,limit,order}",
+                    "templated": true
+                },
+                "effects": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/effects{?cursor,limit,order}",
+                    "templated": true
+                },
+                "offers": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/offers{?cursor,limit,order}",
+                    "templated": true
+                },
+                "trades": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/trades{?cursor,limit,order}",
+                    "templated": true
+                },
+                "data": {
+                    "href": "https://horizon.stellar.org/accounts/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4/data/{key}",
+                    "templated": true
+                }
+            },
+            "id": "GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+            "account_id": "GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+            "sequence": "24946372646010884",
+            "subentry_count": 4,
+            "inflation_destination": "GDWNY2POLGK65VVKIH5KQSH7VWLKRTQ5M6ADLJAYC2UEHEBEARCZJWWI",
+            "last_modified_ledger": 26638624,
+            "thresholds": {
+                "low_threshold": 3,
+                "med_threshold": 3,
+                "high_threshold": 3
+            },
+            "flags": {
+                "auth_required": false,
+                "auth_revocable": false,
+                "auth_immutable": false
+            },
+            "balances": [
+                {
+                    "balance": "8000000000.0020728",
+                    "buying_liabilities": "0.0000000",
+                    "selling_liabilities": "0.0000000",
+                    "asset_type": "native"
+                }
+            ],
+            "signers": [
+                {
+                    "weight": 1,
+                    "key": "GBMALBYJT6A73SYQWOWVVCGSPUPJPBX4AFDJ7A63GG64QCNRCAFYWWEN",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GBZ3ZDKQAU2WDQA36OAPTOPQRZTSKTNEI6BERUBZRWS4GCIZJPXRUSVQ",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GC5PNDK5TVJHVLGHKWKL5T2TOWF3GLNK4CREKUAZBU6UPUR4QFFZRYQU",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDK3ZTAB5OFLTPEXKLUD6XT4UPKKMJF744JFFUESXQDTGI3G7DT5SCE2",
+                    "type": "ed25519_public_key"
+                },
+                {
+                    "weight": 1,
+                    "key": "GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+                    "type": "ed25519_public_key"
+                }
+            ],
+            "data": {},
+            "paging_token": ""
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache, no-store, max-age=0",
+            "Content-Disposition",
+            "inline",
+            "Content-Type",
+            "application/hal+json; charset=utf-8",
+            "Date",
+            "Fri, 20 Dec 2019 13:57:42 GMT",
+            "Vary",
+            "Origin",
+            "X-Ratelimit-Limit",
+            "101",
+            "X-Ratelimit-Remaining",
+            "100",
+            "X-Ratelimit-Reset",
+            "823",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
