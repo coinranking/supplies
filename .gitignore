@@ -16,3 +16,5 @@ env.yml
 
 # redis
 dump.rdb
+
+coverage
