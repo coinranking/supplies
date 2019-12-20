@@ -1,5 +1,7 @@
 const supplies = require('../');
 
+const { Coin } = supplies;
+
 const modifiers = [
   '11917631413532719541L',
   '14175575863689886451L',
@@ -13,8 +15,10 @@ const drivers = supplies.selectDriversByBlockchain('Lisk');
 
 const driver = new supplies[drivers[0]]();
 
+const coin = new Coin({ modifiers });
+
 driver
-  .getSupply(modifiers)
+  .getSupply(coin)
   .then((supply) => {
     console.log(supply);
   });

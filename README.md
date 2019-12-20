@@ -52,17 +52,18 @@ const supplies = require('supplies');
 const driver = new supplies.Etherscan({
   secret: 'freekey',
 });
-// Lets take the Binance Coin (BNB) for example.
+// Lets take the Basic Attention Token (BAT) for example.
 // The reference is the unique id for a specific driver;
 // which is a smart contract address in this case.
-const reference = '0xB8c77482e45F1F44dE1745F52C74426C631bDD52';
+const reference = '0x0d8775f648430679a709e98d2b0cb6250d2887ef';
 
 // Modifiers are blockchain addresses that don't count for the circulating supply.
 const modifiers = [
   '0x0000000000000000000000000000000000000000', // Burned
   '0x0000000000000000000000000000000000000001', // Burned
-  '0x00C5E04176d95A286fccE0E68c683Ca0bfec8454', // Smart Contract Lock-up
-  '0x4e9ce36e442e55ecd9025b9a6e0d88485d628a67', // Binance Foundation address
+  '0x185f19b43d818e10a31be68f445ef8edcb8afb83', // Multisig
+  '0x67fa2c06c9c6d4332f330e14a66bdf1873ef3d2b', // Team Lock up
+  '0x7c31560552170ce96c4a7b018e93cddc19dc61b6' // UGP reserve
 ];
 
 driver

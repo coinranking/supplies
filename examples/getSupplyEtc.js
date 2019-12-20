@@ -1,5 +1,7 @@
 const supplies = require('../');
 
+const { Coin } = supplies;
+
 const modifiers = [
   '0x0000000000000000000000000000000000000000',
   '0x0000000000000000000000000000000000000001',
@@ -12,8 +14,10 @@ const drivers = supplies.selectDriversByBlockchain('Ethereum Classic');
 
 const driver = new supplies[drivers[0]]();
 
+const coin = new Coin({ modifiers });
+
 driver
-  .getSupply('native', modifiers)
+  .getSupply(coin)
   .then((supply) => {
     console.log(supply);
   });

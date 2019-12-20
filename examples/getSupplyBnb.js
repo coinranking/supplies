@@ -1,5 +1,7 @@
 const supplies = require('../');
 
+const { Coin } = supplies;
+
 const modifiers = [
   '0x0000000000000000000000000000000000000000', // Burned
   '0x0000000000000000000000000000000000000001', // Burned
@@ -13,8 +15,14 @@ const driver = new supplies[drivers[0]]({
   secret: 'freekey',
 });
 
+const coin = new Coin({
+  reference: '0xB8c77482e45F1F44dE1745F52C74426C631bDD52',
+  modifiers,
+  decimals: 18,
+});
+
 driver
-  .getSupply('0xB8c77482e45F1F44dE1745F52C74426C631bDD52', modifiers)
+  .getSupply(coin)
   .then((supply) => {
     console.log(supply);
   });

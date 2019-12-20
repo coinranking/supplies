@@ -1,5 +1,7 @@
 const supplies = require('../');
 
+const { Coin } = supplies;
+
 const modifiers = [
   'GANOI26P6VAUL4NFVA4FAIOIBOR46NORONBIWUPRIGAMP7T5W5MOY4O6',
   'GAX3BRBNB5WTJ2GNEFFH7A4CZKT2FORYABDDBZR5FIIT3P7FLS2EFOZZ',
@@ -12,8 +14,10 @@ const drivers = supplies.selectDriversByBlockchain('Stellar');
 
 const driver = new supplies[drivers[0]]();
 
+const coin = new Coin({ modifiers });
+
 driver
-  .getSupply('native', modifiers)
+  .getSupply(coin)
   .then((supply) => {
     console.log(supply);
   });

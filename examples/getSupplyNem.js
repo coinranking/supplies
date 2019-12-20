@@ -1,5 +1,7 @@
 const supplies = require('../');
 
+const { Coin } = supplies;
+
 const modifiers = [
   'NAFUNDAFO2MHWRR446YHADKR43XQBDJGWFRTMICH',
   'NAFUNDBUKIOSTMD4BNXL7ZFE735QHN7A3FBS6CMY',
@@ -19,8 +21,10 @@ const drivers = supplies.selectDriversByBlockchain('Nem');
 
 const driver = new supplies[drivers[0]]();
 
+const coin = new Coin({ modifiers });
+
 driver
-  .getSupply(modifiers)
+  .getSupply(coin)
   .then((supply) => {
     console.log(supply);
   });
