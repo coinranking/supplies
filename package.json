@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/coinranking/supplies.git"
   },
-  "bin": "./bin/cli.js",
+  "bin": "./bin/supplies.js",
   "readme": "README.md",
   "scripts": {
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
