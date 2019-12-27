@@ -97,40 +97,40 @@ drivers.forEach((driverName) => {
       }
     }
 
-    if (driver.supports.assets) {
-      const assets = coins.filter((coin) => (typeof coin.reference !== 'undefined'));
+    if (driver.supports.tokens) {
+      const tokens = coins.filter((coin) => (typeof coin.reference !== 'undefined'));
 
-      if (assets.length === 0) {
-        throw new Error('The driver supports assets but there is no assets in the json file');
+      if (tokens.length === 0) {
+        throw new Error('The driver supports tokens but there is no tokens in the json file');
       }
 
-      assets.forEach((asset) => {
-        describe(asset.name || asset.symbol, () => {
+      tokens.forEach((token) => {
+        describe(token.name || token.symbol, () => {
           test('Total supply should be greater than zero', async () => {
-            await nock.back(`${driverName}-${asset.reference}.json`);
-            const totalSupply = await driver.fetchAssetTotalSupply(asset.reference, asset.decimals);
+            await nock.back(`${driverName}-${token.reference}.json`);
+            const totalSupply = await driver.fetchTokenTotalSupply(token.reference, token.decimals);
             expect(totalSupply).toBeGreaterThan(0);
           });
 
           if (driver.supports.circulating) {
             test('Circulating supply should be greater than zero', async () => {
-              await nock.back(`${driverName}-${asset.reference}.json`);
-              const circulatingSupply = await driver.fetchAssetCirculatingSupply(
-                asset.reference,
-                asset.decimals,
+              await nock.back(`${driverName}-${token.reference}.json`);
+              const circulatingSupply = await driver.fetchTokenCirculatingSupply(
+                token.reference,
+                token.decimals,
               );
               expect(circulatingSupply).toBeGreaterThan(0);
             });
 
             test('Circulating supply should be less than or equal to total supply', async () => {
-              await nock.back(`${driverName}-${asset.reference}.json`);
-              const totalSupply = await driver.fetchAssetTotalSupply(
-                asset.reference,
-                asset.decimals,
+              await nock.back(`${driverName}-${token.reference}.json`);
+              const totalSupply = await driver.fetchTokenTotalSupply(
+                token.reference,
+                token.decimals,
               );
-              const circulatingSupply = await driver.fetchAssetCirculatingSupply(
-                asset.reference,
-                asset.decimals,
+              const circulatingSupply = await driver.fetchTokenCirculatingSupply(
+                token.reference,
+                token.decimals,
               );
               expect(circulatingSupply).toBeLessThanOrEqual(totalSupply);
             });
@@ -138,37 +138,37 @@ drivers.forEach((driverName) => {
 
           if (driver.supports.max) {
             test('Max supply should be greater than zero', async () => {
-              await nock.back(`${driverName}-${asset.reference}.json`);
-              const maxSupply = await driver.fetchAssetMaxSupply(asset.reference, asset.decimals);
+              await nock.back(`${driverName}-${token.reference}.json`);
+              const maxSupply = await driver.fetchTokenMaxSupply(token.reference, token.decimals);
               expect(maxSupply).toBeGreaterThan(0);
             });
 
             test('Max supply should be greater than or equal to total supply', async () => {
-              await nock.back(`${driverName}-${asset.reference}.json`);
-              const totalSupply = await driver.fetchAssetTotalSupply(
-                asset.reference,
-                asset.decimals,
+              await nock.back(`${driverName}-${token.reference}.json`);
+              const totalSupply = await driver.fetchTokenTotalSupply(
+                token.reference,
+                token.decimals,
               );
-              const maxSupply = await driver.fetchAssetMaxSupply(
-                asset.reference,
-                asset.decimals,
+              const maxSupply = await driver.fetchTokenMaxSupply(
+                token.reference,
+                token.decimals,
               );
               expect(maxSupply).toBeGreaterThanOrEqual(totalSupply);
             });
           }
 
           if (driver.supports.balances) {
-            if (Array.isArray(asset.modifiers) === false || asset.modifiers.length === 0) {
-              throw new Error('Asset should have modifiers');
+            if (Array.isArray(token.modifiers) === false || token.modifiers.length === 0) {
+              throw new Error('Token should have modifiers');
             }
 
-            asset.modifiers.forEach((modifier) => {
+            token.modifiers.forEach((modifier) => {
               test('Modifier balance should be greater than or equal to zero', async () => {
-                await nock.back(`${driverName}-${asset.reference}.json`);
-                const balances = await driver.fetchAssetBalance(
-                  asset.reference,
+                await nock.back(`${driverName}-${token.reference}.json`);
+                const balances = await driver.fetchTokenBalance(
+                  token.reference,
                   modifier,
-                  asset.decimals,
+                  token.decimals,
                 );
                 expect(balances).toBeGreaterThanOrEqual(0);
               });
