@@ -90,7 +90,7 @@ After installation the `supplies` command will be available in your terminal.
 
     $ supplies get <driver name>
 
-#### Get supply of a specific coin or an asset
+#### Get supply of a specific coin or a token
 For the coin object see `lib/models/coin`
 
     $ supplies get <driver name> -c "<coin object>"
