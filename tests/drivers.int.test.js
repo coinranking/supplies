@@ -42,6 +42,12 @@ drivers.forEach((driverName) => {
       const [nativeCoin] = coins
         .filter((coin) => (typeof coin.reference === 'undefined'));
 
+      test('getSupply happy path', async () => {
+        await nock.back(`${driverName}.json`);
+        const supply = await driver.getSupply(nativeCoin);
+        expect(supply.circulating).toBeGreaterThan(0);
+      });
+
       test('Total supply should be greater than zero', async () => {
         await nock.back(`${driverName}.json`);
         const totalSupply = await driver.fetchTotalSupply();
@@ -106,6 +112,12 @@ drivers.forEach((driverName) => {
 
       tokens.forEach((token) => {
         describe(token.name || token.symbol, () => {
+          test('getSupply happy path', async () => {
+            await nock.back(`${driverName}-${token.reference}.json`);
+            const supply = await driver.getSupply(token);
+            expect(supply.circulating).toBeGreaterThan(0);
+          });
+
           test('Total supply should be greater than zero', async () => {
             await nock.back(`${driverName}-${token.reference}.json`);
             const totalSupply = await driver.fetchTokenTotalSupply(token.reference, token.decimals);
