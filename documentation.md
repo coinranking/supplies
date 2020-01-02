@@ -225,9 +225,9 @@ Cardano explorer driver.
 **Kind**: instance method of [<code>CardanoExplorer</code>](#Drivers.CardanoExplorer)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.CardanoExplorer+getSupply"></a>
 
@@ -236,9 +236,9 @@ Cardano explorer driver.
 **Extends**: <code>Driver.getSupply</code>  
 **Overrides**: [<code>getSupply</code>](#Driver+getSupply)  
 
-| Param | Type |
-| --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.ChainNemNinja"></a>
 
@@ -270,9 +270,9 @@ Chain Nem Ninja / Nembex driver.
 **Kind**: instance method of [<code>ChainNemNinja</code>](#Drivers.ChainNemNinja)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.ChainNemNinja+getSupply"></a>
 
@@ -281,9 +281,9 @@ Chain Nem Ninja / Nembex driver.
 **Extends**: <code>Driver.getSupply</code>  
 **Overrides**: [<code>getSupply</code>](#Driver+getSupply)  
 
-| Param | Type |
-| --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.CryptoidDash"></a>
 
@@ -370,9 +370,9 @@ tokens on the ethereum blockchain.
 **Kind**: instance method of [<code>Etherscan</code>](#Drivers.Etherscan)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.Etherscan+fetchAssetTotalSupply"></a>
 
@@ -380,10 +380,10 @@ tokens on the ethereum blockchain.
 **Kind**: instance method of [<code>Etherscan</code>](#Drivers.Etherscan)  
 **Extends**: <code>fetchAssetTotalSupply</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
-| decimals | [<code>decimalsParam</code>](#decimalsParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| decimals | [<code>decimalsParam</code>](#decimalsParam) | [decimalsParam](#decimalsParam) |
 
 <a name="Drivers.Etherscan+fetchAssetBalance"></a>
 
@@ -391,11 +391,11 @@ tokens on the ethereum blockchain.
 **Kind**: instance method of [<code>Etherscan</code>](#Drivers.Etherscan)  
 **Extends**: <code>fetchAssetBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
-| decimals | [<code>decimalsParam</code>](#decimalsParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+| decimals | [<code>decimalsParam</code>](#decimalsParam) | [decimalsParam](#decimalsParam) |
 
 <a name="Drivers.Etherscan+getSupply"></a>
 
@@ -404,9 +404,9 @@ tokens on the ethereum blockchain.
 **Extends**: <code>Driver.getSupply</code>  
 **Overrides**: [<code>getSupply</code>](#Driver+getSupply)  
 
-| Param | Type |
-| --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.Lisk"></a>
 
@@ -432,9 +432,9 @@ Lisk driver.
 **Kind**: instance method of [<code>Lisk</code>](#Drivers.Lisk)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.Lisk+getSupply"></a>
 
@@ -443,9 +443,9 @@ Lisk driver.
 **Extends**: <code>Driver.getSupply</code>  
 **Overrides**: [<code>getSupply</code>](#Driver+getSupply)  
 
-| Param | Type |
-| --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.LitecoinNet"></a>
 
@@ -537,9 +537,9 @@ NeoScan driver.
 **Kind**: instance method of [<code>NeoScan</code>](#Drivers.NeoScan)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | <code>referenceModifier</code> | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.NeoScan+fetchAssetTotalSupply"></a>
 
@@ -547,9 +547,9 @@ NeoScan driver.
 **Kind**: instance method of [<code>NeoScan</code>](#Drivers.NeoScan)  
 **Extends**: <code>fetchAssetTotalSupply</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 
 <a name="Drivers.NeoScan+fetchAssetBalance"></a>
 
@@ -557,10 +557,10 @@ NeoScan driver.
 **Kind**: instance method of [<code>NeoScan</code>](#Drivers.NeoScan)  
 **Extends**: <code>fetchAssetBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.NeoScan+getSupply"></a>
 
@@ -569,9 +569,9 @@ NeoScan driver.
 **Extends**: <code>Driver.getSupply</code>  
 **Overrides**: [<code>getSupply</code>](#Driver+getSupply)  
 
-| Param | Type |
-| --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.OmniExplorer"></a>
 
@@ -599,9 +599,9 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 **Kind**: instance method of [<code>OmniExplorer</code>](#Drivers.OmniExplorer)  
 **Extends**: <code>fetchBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.OmniExplorer+fetchAssetTotalSupply"></a>
 
@@ -609,9 +609,9 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 **Kind**: instance method of [<code>OmniExplorer</code>](#Drivers.OmniExplorer)  
 **Extends**: <code>fetchAssetTotalSupply</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 
 <a name="Drivers.OmniExplorer+fetchAssetBalance"></a>
 
@@ -619,10 +619,10 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 **Kind**: instance method of [<code>OmniExplorer</code>](#Drivers.OmniExplorer)  
 **Extends**: <code>fetchAssetBalance</code>  
 
-| Param | Type |
-| --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | 
-| modifier | [<code>modifierParam</code>](#modifierParam) | 
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Drivers.OmniExplorer+getSupply"></a>
 
@@ -633,7 +633,7 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| coin | <code>object</code> | Needed coin data |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
 <a name="Drivers.Ripple"></a>
 

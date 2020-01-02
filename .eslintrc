@@ -9,6 +9,19 @@
     "class-methods-use-this": 0,
     "no-underscore-dangle": 0
   },
+  "settings": {
+    "jsdoc": {
+      "overrideReplacesDocs": true,
+      "augmentsExtendsReplacesDocs": true,
+      "implementsReplacesDocs": true
+    }
+  },
+  "globals": {
+    "referenceParam": "readonly",
+    "modifierParam": "readonly",
+    "decimalsParam": "readonly",
+    "coinParam": "readonly"
+  },
   "plugins": [
     "jsdoc"
   ],
