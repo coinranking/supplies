@@ -439,6 +439,14 @@
                 "total_supply": "100000000.00000000"
             },
             {
+                "mintable": true,
+                "name": "EOS BEP2",
+                "original_symbol": "EOS",
+                "owner": "bnb1la8alalwjzkchd67wza3r75lj5rm7m9e85ffqr",
+                "symbol": "EOS-CDD",
+                "total_supply": "500000.00000000"
+            },
+            {
                 "mintable": false,
                 "name": "EQUAL",
                 "original_symbol": "EQL",
@@ -452,7 +460,7 @@
                 "original_symbol": "ERD",
                 "owner": "bnb1m5uzzfxs7x05sl28gg96zyecn9jwgtkpyeftyn",
                 "symbol": "ERD-D06",
-                "total_supply": "18100000000.00000000"
+                "total_supply": "17000000000.00000000"
             },
             {
                 "mintable": true,
@@ -797,14 +805,6 @@
                 "owner": "bnb15ngukylwcleljegx32ykefqxw8jz42szar6vf5",
                 "symbol": "NEXO-A84",
                 "total_supply": "100000000.00000000"
-            },
-            {
-                "mintable": false,
-                "name": "NODE",
-                "original_symbol": "NODE",
-                "owner": "bnb1xljnjk7msm5t5lwp4zv2ua80rrxzn2s2afce4j",
-                "symbol": "NODE-F3A",
-                "total_supply": "2000000000.00000000"
             }
         ],
         "rawHeaders": [
@@ -815,7 +815,7 @@
             "Connection",
             "keep-alive",
             "Date",
-            "Fri, 03 Jan 2020 13:55:21 GMT",
+            "Mon, 06 Jan 2020 13:49:01 GMT",
             "X-RateLimit-Limit-second",
             "1",
             "X-RateLimit-Remaining-second",
@@ -827,7 +827,7 @@
             "X-Bnc-Ap-Cache",
             "Hit",
             "X-Bnc-Ap-Cache-Ttl",
-            "79555",
+            "195918",
             "Access-Control-Allow-Origin",
             "*",
             "Cache-Control",
@@ -835,11 +835,11 @@
             "Strict-Transport-Security",
             "max-age=31536000",
             "X-Kong-Upstream-Latency",
-            "1",
-            "X-Kong-Proxy-Latency",
             "0",
+            "X-Kong-Proxy-Latency",
+            "1",
             "Via",
-            "kong/0.14.1, 1.1 d88e262cb7d055ed4daf7466b2147af1.cloudfront.net (CloudFront)",
+            "kong/0.14.1, 1.1 3a65445020a52e9a185051db037167bb.cloudfront.net (CloudFront)",
             "X-Frame-Options",
             "SAMEORIGIN",
             "X-Xss-Protection",
@@ -866,34 +866,10 @@
             "address": "bnb1jxfh2g85q3v0tdq56fnevx6xcxtcnhtsmcu64m",
             "balances": [
                 {
-                    "free": "259209500.89626400",
+                    "free": "13470.49910577",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "ONE-5F9"
-                },
-                {
-                    "free": "0.50000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "WICC-01D"
-                },
-                {
-                    "free": "6412049.91148060",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "DUSK-45E"
-                },
-                {
-                    "free": "11031.57555152",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "MATIC-84A"
-                },
-                {
-                    "free": "1631570.17629115",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "TOMOB-4BC"
+                    "symbol": "LTC-F07"
                 },
                 {
                     "free": "193250426.20916349",
@@ -902,118 +878,10 @@
                     "symbol": "UND-EBC"
                 },
                 {
-                    "free": "355466.17178161",
+                    "free": "8781104.99370667",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "USDSB-1AC"
-                },
-                {
-                    "free": "199978.12100000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ARN-71B"
-                },
-                {
-                    "free": "22287412.91082308",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "CAN-677"
-                },
-                {
-                    "free": "789962578.63317924",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "CBM-4B2"
-                },
-                {
-                    "free": "8034610.54107595",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "GTO-908"
-                },
-                {
-                    "free": "0.01392000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "MTXLT-286"
-                },
-                {
-                    "free": "13470.49910577",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "LTC-F07"
-                },
-                {
-                    "free": "372741.55000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "MDAB-D42"
-                },
-                {
-                    "free": "20898513.23259285",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "MITH-C76"
-                },
-                {
-                    "free": "55.00000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ART-3C9"
-                },
-                {
-                    "free": "2200.29326164",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "BCH-1FD"
-                },
-                {
-                    "free": "3288494.75187492",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "BOLT-4C6"
-                },
-                {
-                    "free": "446535711.51010796",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "COS-2E4"
-                },
-                {
-                    "free": "8980.72866359",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ETH-1C9"
-                },
-                {
-                    "free": "9.44356120",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "NEXO-A84"
-                },
-                {
-                    "free": "3181911.24368251",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "PHB-2DF"
-                },
-                {
-                    "free": "9772.00009772",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "UPX-F3E"
-                },
-                {
-                    "free": "798948.82657487",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "TUSDB-888"
-                },
-                {
-                    "free": "155230041.73039050",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "VRAB-B56"
+                    "symbol": "XRP-BF2"
                 },
                 {
                     "free": "565.32000000",
@@ -1022,88 +890,10 @@
                     "symbol": "AERGO-46B"
                 },
                 {
-                    "free": "273038058.83987368",
+                    "free": "338498.00410700",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "BLINK-9C6"
-                },
-                {
-                    "free": "1288639.57790688",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "BNB"
-                },
-                {
-                    "free": "3393.92088582",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "BTCB-1DE"
-                },
-                {
-                    "free": "2772228.76144811",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "BUSD-BD1"
-                },
-                {
-                    "free": "315241.73977425",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "KAVA-10C"
-                },
-                {
-                    "free": "210985476.88570133",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "TROY-9B8"
-                },
-                {
-                    "free": "644135.51236283",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ARPA-575"
-                },
-                {
-                    "free": "1630403254.44440281",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "CHZ-ECD"
-                },
-                {
-                    "free": "1.00000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ECO-083"
-                },
-                {
-                    "free": "609811327.73517240",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ERD-D06"
-                },
-                {
-                    "free": "2000.00000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "GIV-94E"
-                },
-                {
-                    "free": "1.00000000",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "SLV-986"
-                },
-                {
-                    "free": "8781728.82970667",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "XRP-BF2"
-                },
-                {
-                    "free": "77498488.87956633",
-                    "frozen": "0.00000000",
-                    "locked": "0.00000000",
-                    "symbol": "ANKR-E97"
+                    "symbol": "HNST-3C9"
                 },
                 {
                     "free": "1624818.62576473",
@@ -1112,10 +902,64 @@
                     "symbol": "ENTRP-C8D"
                 },
                 {
-                    "free": "22990392.97970594",
+                    "free": "28976112.99508972",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "LBA-340"
+                    "symbol": "FTM-A64"
+                },
+                {
+                    "free": "8019006.62399263",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "GTO-908"
+                },
+                {
+                    "free": "315104.70526425",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "KAVA-10C"
+                },
+                {
+                    "free": "260693360.69526365",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ONE-5F9"
+                },
+                {
+                    "free": "201979736.17370133",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "TROY-9B8"
+                },
+                {
+                    "free": "273038058.83987368",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BLINK-9C6"
+                },
+                {
+                    "free": "1277930.60985544",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BNB"
+                },
+                {
+                    "free": "447286800.87266296",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "COS-2E4"
+                },
+                {
+                    "free": "1.00000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ECO-083"
+                },
+                {
+                    "free": "0.01392000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "MTXLT-286"
                 },
                 {
                     "free": "10.00000000",
@@ -1124,28 +968,184 @@
                     "symbol": "PVT-554"
                 },
                 {
+                    "free": "804665.08344089",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "TUSDB-888"
+                },
+                {
+                    "free": "0.50000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "WICC-01D"
+                },
+                {
+                    "free": "81267271.89226633",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ANKR-E97"
+                },
+                {
+                    "free": "3396.85848507",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BTCB-1DE"
+                },
+                {
+                    "free": "2784791.60526518",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BUSD-BD1"
+                },
+                {
+                    "free": "2000.00000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "GIV-94E"
+                },
+                {
+                    "free": "20898016.79949285",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "MITH-C76"
+                },
+                {
+                    "free": "1.00000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "SLV-986"
+                },
+                {
+                    "free": "154057270.73039050",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "VRAB-B56"
+                },
+                {
+                    "free": "55.00000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ART-3C9"
+                },
+                {
+                    "free": "1053151.04495226",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BCPT-95A"
+                },
+                {
+                    "free": "520431457.70721714",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ERD-D06"
+                },
+                {
+                    "free": "8984.99078423",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ETH-1C9"
+                },
+                {
+                    "free": "22990392.97970594",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "LBA-340"
+                },
+                {
+                    "free": "2356487.66123807",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "PHB-2DF"
+                },
+                {
+                    "free": "2200.29326164",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BCH-1FD"
+                },
+                {
+                    "free": "1647584378.05562949",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "CHZ-ECD"
+                },
+                {
+                    "free": "171384.17355152",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "MATIC-84A"
+                },
+                {
+                    "free": "372741.55000000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "MDAB-D42"
+                },
+                {
+                    "free": "9772.00009772",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "UPX-F3E"
+                },
+                {
+                    "free": "355539.64095161",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "USDSB-1AC"
+                },
+                {
+                    "free": "198486.03020000",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ARN-71B"
+                },
+                {
+                    "free": "598460.46936283",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "ARPA-575"
+                },
+                {
                     "free": "45605.00637205",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
                     "symbol": "QARK-FCE"
                 },
                 {
-                    "free": "1056198.30133196",
+                    "free": "22247888.53330508",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "BCPT-95A"
+                    "symbol": "CAN-677"
                 },
                 {
-                    "free": "33746148.18224872",
+                    "free": "9.44356120",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "FTM-A64"
+                    "symbol": "NEXO-A84"
                 },
                 {
-                    "free": "338498.00410700",
+                    "free": "6295972.17924060",
                     "frozen": "0.00000000",
                     "locked": "0.00000000",
-                    "symbol": "HNST-3C9"
+                    "symbol": "DUSK-45E"
+                },
+                {
+                    "free": "1638141.43999515",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "TOMOB-4BC"
+                },
+                {
+                    "free": "3288494.75187492",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "BOLT-4C6"
+                },
+                {
+                    "free": "789958335.51117924",
+                    "frozen": "0.00000000",
+                    "locked": "0.00000000",
+                    "symbol": "CBM-4B2"
                 }
             ],
             "flags": 0,
@@ -1184,7 +1184,7 @@
                 11,
                 77
             ],
-            "sequence": 450723
+            "sequence": 452723
         },
         "rawHeaders": [
             "Content-Type",
@@ -1194,7 +1194,7 @@
             "Connection",
             "keep-alive",
             "Date",
-            "Fri, 03 Jan 2020 13:55:21 GMT",
+            "Mon, 06 Jan 2020 13:49:02 GMT",
             "X-RateLimit-Limit-second",
             "5",
             "X-RateLimit-Remaining-second",
@@ -1212,9 +1212,9 @@
             "X-Kong-Upstream-Latency",
             "2",
             "X-Kong-Proxy-Latency",
-            "1",
+            "0",
             "Via",
-            "kong/0.14.1, 1.1 ef3fdf4c8ab8a4babeb402e6d03ee7c3.cloudfront.net (CloudFront)",
+            "kong/0.14.1, 1.1 b48fca327a980187d93a198e7530195c.cloudfront.net (CloudFront)",
             "X-Frame-Options",
             "SAMEORIGIN",
             "X-Xss-Protection",
