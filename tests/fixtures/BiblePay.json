@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "http://explorer.biblepay.org:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 1955417918.693246,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Tue, 14 Jan 2020 09:16:00 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "\"-1697152072\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://explorer.biblepay.org:80",
+        "method": "GET",
+        "path": "/ext/getbalance/BLsMvLH1PHgrXq74EuhBWrwB9zo6TmKz6T",
+        "body": "",
+        "status": 200,
+        "response": 104456618.84729432,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Tue, 14 Jan 2020 09:16:01 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "\"1355130006\""
+        ],
+        "responseIsBinary": false
+    }
+]
