@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://buysellcoin.org:3001",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 21330.0592,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "11",
+            "ETag",
+            "\"1154336470\"",
+            "Date",
+            "Tue, 14 Jan 2020 09:36:51 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://buysellcoin.org:3001",
+        "method": "GET",
+        "path": "/ext/getbalance/BjZXyE5rz3AxKTtjZPrg9i6AjT8G77K1iX",
+        "body": "",
+        "status": 200,
+        "response": 10277.28239404,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "14",
+            "ETag",
+            "\"2057364666\"",
+            "Date",
+            "Tue, 14 Jan 2020 09:36:51 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
