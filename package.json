@@ -48,7 +48,6 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@iteratec/semantic-release-bitbucket": "^1.1.1",
     "@semantic-release/changelog": "^4.0.0",
     "@semantic-release/git": "^8.0.0",
     "commitizen": "^4.0.3",
@@ -85,8 +84,7 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@iteratec/semantic-release-bitbucket"
+      "@semantic-release/npm"
     ],
     "prepare": [
       "@semantic-release/changelog",
