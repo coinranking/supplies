@@ -17,3 +17,26 @@ pipelines:
           script:
             - npm install
             - npm run test
+  master:
+    - parallel:
+      - step:
+          name: Lint
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run lint
+      - step:
+          name: Test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run test
+    - step:
+        name: Release
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run semantic-release
