@@ -1,0 +1,79 @@
+[
+    {
+        "scope": "https://api.algoexplorer.io:443",
+        "method": "GET",
+        "path": "/v1/status",
+        "body": "",
+        "status": 200,
+        "response": {
+            "round": 4394672,
+            "totalStake": 2360353642.985296,
+            "onlineStake": 1850980195.186672,
+            "offlineStake": 509373447.798624,
+            "timestamp": 1579542785,
+            "circulatingSupply": 3055700941.131062,
+            "network": "mainnet",
+            "genesisTimestamp": 1560211200
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.5",
+            "Date",
+            "Mon, 20 Jan 2020 17:53:10 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "223",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, private",
+            "ETag",
+            "W/\"df-zToM8iFJiwL+ndEwQUAVmja+9S4\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.algoexplorer.io:443",
+        "method": "GET",
+        "path": "/v1/account/SL4FL4VQRLRN24WMOL5FIDFTRHVU6OTC7VB2THQNEIKBQFHQKGIXMIPGHU",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "SL4FL4VQRLRN24WMOL5FIDFTRHVU6OTC7VB2THQNEIKBQFHQKGIXMIPGHU",
+            "numTxs": 1,
+            "balance": 200000,
+            "rewards": 0,
+            "status": "Offline"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.5",
+            "Date",
+            "Mon, 20 Jan 2020 17:53:10 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "131",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, private",
+            "ETag",
+            "W/\"83-O+MetDJpEEw5rBO+z4njVIqD3RY\""
+        ],
+        "responseIsBinary": false
+    }
+]
