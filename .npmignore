@@ -22,4 +22,5 @@ coverage
 supplies.gif
 
 # test files
+/tests/coins
 /tests/fixtures
