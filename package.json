@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coinranking/supplies.git"
+    "url": "https://bitbucket.org/trinarydigital/supplies"
   },
   "bin": "./bin/supplies.js",
   "readme": "README.md",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/coinranking/supplies/issues"
   },
-  "homepage": "https://github.com/coinranking/supplies",
+  "homepage": "https://coinranking.com",
   "keywords": [
     "cryptocurrencies",
     "cryptocurrency",
