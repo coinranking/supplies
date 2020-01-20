@@ -1,5 +1,5 @@
 {
-  "name": "supplies",
+  "name": "@coinranking/supplies",
   "version": "1.0.0",
   "description": "A Javascript library for getting up to date cryptocurrency total supplies, circulating supplies and max supplies",
   "main": "lib/supplies.js",
@@ -16,7 +16,8 @@
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
     "cm": "git-cz",
-    "docs": "jsdoc2md lib/**/*.js > documentation.md"
+    "docs": "jsdoc2md lib/**/*.js > documentation.md",
+    "semantic-release": "semantic-release"
   },
   "bugs": {
     "url": "https://github.com/coinranking/supplies/issues"
@@ -47,6 +48,9 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.3",
     "@commitlint/config-conventional": "^8.3.3",
+    "@iteratec/semantic-release-bitbucket": "^1.1.1",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^8.0.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.7.2",
@@ -57,12 +61,46 @@
     "jest": "^25.0.0",
     "jsdoc": "^3.6.3",
     "jsdoc-to-markdown": "^5.0.3",
-    "nock": "^11.7.0"
+    "nock": "^11.7.0",
+    "semantic-release": "^16.0.2"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/tests/helpers/"
+    ],
+    "coverageDirectory": "./coverage/",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "clover"
+    ],
+    "collectCoverage": true
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@iteratec/semantic-release-bitbucket"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
+      }
+    ]
   },
   "husky": {
     "hooks": {
