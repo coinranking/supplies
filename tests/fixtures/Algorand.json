@@ -6,20 +6,20 @@
         "body": "",
         "status": 200,
         "response": {
-            "round": 4394672,
-            "totalStake": 2360353642.985296,
-            "onlineStake": 1850980195.186672,
-            "offlineStake": 509373447.798624,
-            "timestamp": 1579542785,
-            "circulatingSupply": 3055700941.131062,
+            "round": 4433257,
+            "totalStake": 2381604688.699708,
+            "onlineStake": 1871612562.564602,
+            "offlineStake": 509992126.135106,
+            "timestamp": 1579714415,
+            "circulatingSupply": 3057951986.826732,
             "network": "mainnet",
             "genesisTimestamp": 1560211200
         },
         "rawHeaders": [
             "Server",
-            "nginx/1.17.5",
+            "nginx/1.14.0 (Ubuntu)",
             "Date",
-            "Mon, 20 Jan 2020 17:53:10 GMT",
+            "Wed, 22 Jan 2020 17:33:41 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
@@ -35,7 +35,7 @@
             "Cache-Control",
             "no-store, no-cache, must-revalidate, private",
             "ETag",
-            "W/\"df-zToM8iFJiwL+ndEwQUAVmja+9S4\""
+            "W/\"df-61RtRbjVpv4MXkCXmlFUsxWyAMU\""
         ],
         "responseIsBinary": false
     },
@@ -47,20 +47,21 @@
         "status": 200,
         "response": {
             "address": "SL4FL4VQRLRN24WMOL5FIDFTRHVU6OTC7VB2THQNEIKBQFHQKGIXMIPGHU",
-            "numTxs": 1,
-            "balance": 200000,
-            "rewards": 0,
+            "numTxs": 2,
+            "balance": 471069264,
+            "rewards": 399970,
+            "pendingRewards": 399970,
             "status": "Offline"
         },
         "rawHeaders": [
             "Server",
-            "nginx/1.17.5",
+            "nginx/1.14.0 (Ubuntu)",
             "Date",
-            "Mon, 20 Jan 2020 17:53:10 GMT",
+            "Wed, 22 Jan 2020 17:33:42 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
-            "131",
+            "163",
             "Connection",
             "keep-alive",
             "Access-Control-Allow-Origin",
@@ -72,7 +73,7 @@
             "Cache-Control",
             "no-store, no-cache, must-revalidate, private",
             "ETag",
-            "W/\"83-O+MetDJpEEw5rBO+z4njVIqD3RY\""
+            "W/\"a3-ApYReVDeY6vZM2r2Oaxfe3/qFqA\""
         ],
         "responseIsBinary": false
     }
