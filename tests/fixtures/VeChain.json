@@ -2,7 +2,7 @@
     {
         "scope": "https://vechainstats.com:443",
         "method": "GET",
-        "path": "/pro/vechain-tokens-cg//?auth=cg-5cby-XYrE-r9V&token=vet",
+        "path": "/pro/vechain-tokens-cg//?auth=maskedSecret&token=vet",
         "body": "",
         "status": 200,
         "response": {
@@ -26,7 +26,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Mon, 20 Jan 2020 17:02:28 GMT",
+            "Wed, 22 Jan 2020 17:38:55 GMT",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -34,7 +34,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=db1e1f7dad862810975ce153f073ed0041579539748; expires=Wed, 19-Feb-20 17:02:28 GMT; path=/; domain=.vechainstats.com; HttpOnly; SameSite=Lax",
+            "__cfduid=d6aaa1613546ac8b556441bd60f64aba61579714735; expires=Fri, 21-Feb-20 17:38:55 GMT; path=/; domain=.vechainstats.com; HttpOnly; SameSite=Lax",
             "Cache-Control",
             "no-store, no-cache, must-revalidate, max-age=0",
             "Strict-Transport-Security",
