@@ -15,7 +15,7 @@
             "Server",
             "nginx/1.17.7",
             "Date",
-            "Wed, 22 Jan 2020 17:24:19 GMT",
+            "Wed, 22 Jan 2020 17:27:58 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
@@ -37,7 +37,7 @@
             "Via",
             "1.1 google",
             "Set-Cookie",
-            "GCLB=CKaHpN_1i5aUNw; path=/; HttpOnly",
+            "GCLB=CNGL4q-M2_L-gwE; path=/; HttpOnly",
             "Alt-Svc",
             "clear"
         ],
