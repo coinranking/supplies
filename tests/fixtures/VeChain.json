@@ -26,7 +26,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Wed, 22 Jan 2020 17:38:55 GMT",
+            "Thu, 23 Jan 2020 11:38:33 GMT",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -34,7 +34,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d6aaa1613546ac8b556441bd60f64aba61579714735; expires=Fri, 21-Feb-20 17:38:55 GMT; path=/; domain=.vechainstats.com; HttpOnly; SameSite=Lax",
+            "__cfduid=dc7e5bd037660a1cb784b5d3cbbabdc2b1579779513; expires=Sat, 22-Feb-20 11:38:33 GMT; path=/; domain=.vechainstats.com; HttpOnly; SameSite=Lax",
             "Cache-Control",
             "no-store, no-cache, must-revalidate, max-age=0",
             "Strict-Transport-Security",
