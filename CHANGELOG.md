@@ -1,3 +1,19 @@
+# [1.1.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.0.0...v1.1.0) (2020-01-23)
+
+
+### Bug Fixes
+
+* change blockchain value and add circulating function ([11a8a3a](https://bitbucket.org/trinarydigital/supplies/commits/11a8a3a6c88d90c969aef20e15a0b4b56fc56a09))
+* divide by 10^8 ([80b39ee](https://bitbucket.org/trinarydigital/supplies/commits/80b39ee2e997bbfc7fd4d155e8d1b0c285a729ce))
+* remove circulating supply ([fe9470e](https://bitbucket.org/trinarydigital/supplies/commits/fe9470ec81b3bd62bda3a348836575a9887b19d8))
+
+
+### Features
+
+* algoexplorer driver ([12cb226](https://bitbucket.org/trinarydigital/supplies/commits/12cb22685bdd93677677ea73e982010a3995a5be))
+* decred supply ([35b247e](https://bitbucket.org/trinarydigital/supplies/commits/35b247e108678a59a1c08c59af543521ce4adbcd))
+* set native to true ([6ab2d57](https://bitbucket.org/trinarydigital/supplies/commits/6ab2d57122eed69dff351976b43c58d9916de585))
+
 # 1.0.0 (2020-01-20)
 
 
