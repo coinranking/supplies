@@ -1,3 +1,16 @@
+# [1.2.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.1.0...v1.2.0) (2020-01-23)
+
+
+### Bug Fixes
+
+* add getter and setter for secret ([1da9709](https://bitbucket.org/trinarydigital/supplies/commits/1da9709fd65ca5669b60336b51266dab6ca1ce86))
+* add secret key to url ([e9e4d08](https://bitbucket.org/trinarydigital/supplies/commits/e9e4d08bbe206832f2f77ec27f44841cbe7155d8))
+
+
+### Features
+
+* vechain driver ([454824c](https://bitbucket.org/trinarydigital/supplies/commits/454824c694b24e0801d30570faeca3025c734c58))
+
 # [1.1.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.0.0...v1.1.0) (2020-01-23)
 
 
