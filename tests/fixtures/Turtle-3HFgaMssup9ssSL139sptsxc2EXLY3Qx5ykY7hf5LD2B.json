@@ -27,7 +27,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3HFgaMssup9ssSL139sptsxc2EXLY3Qx5ykY7hf5LD2B",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401448
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.00000000",
@@ -50,7 +50,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "Fr2kNhe7XR3E16W7Mfh7NhNcsQWLXx3hSLjoFgpbFsNj",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401448
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.000",
@@ -73,7 +73,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "ExbYSuz4DZwf9grp3K8s3CSbNtE9fob2DtTKgbLGFXsJ",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401449
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.00000000",
@@ -96,7 +96,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A62sRG58HFbWUNvFoEEjX4U3txXKcLm11MXWWS429qpN",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401449
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.00000000",
@@ -119,7 +119,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A62sRG58HFbWUNvFoEEjX4U3txXKcLm11MXWWS429qpN",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401449
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.00000000",
@@ -142,10 +142,10 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A62sRG58HFbWUNvFoEEjX4U3txXKcLm11MXWWS429qpN",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401449
+                "timestamp": 1579887996687
             },
             {
-                "24h_volume": "1855.00000000",
+                "24h_volume": "48241.29629630",
                 "symbol": "DOGE/BTC",
                 "24h_vwap": "0.00000027",
                 "24h_low": "0.00000027",
@@ -161,11 +161,11 @@
                 "priceAssetID": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "0.00050085",
-                "24h_high": "0.00000027",
+                "24h_priceVolume": "0.01302515",
+                "24h_high": "0.00000028",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
-                "24h_close": "0.00000027",
-                "timestamp": 1579718401449
+                "24h_close": "0.00000028",
+                "timestamp": 1579887996687
             },
             {
                 "24h_volume": "0.00000000",
@@ -188,17 +188,17 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401449
+                "timestamp": 1579887996688
             },
             {
-                "24h_volume": "1.00000000",
+                "24h_volume": "0.00000000",
                 "symbol": "DOGE/TN",
-                "24h_vwap": "0.94500000",
-                "24h_low": "0.94500000",
+                "24h_vwap": "0.00000000",
+                "24h_low": "0.00000000",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "100000000.00000000",
                 "amountAssetCirculatingSupply": "1000000.00000000",
-                "24h_open": "0.94500000",
+                "24h_open": "0.00000000",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "99999999.00000000",
                 "priceAssetName": "TN",
@@ -207,11 +207,11 @@
                 "priceAssetID": "TN",
                 "priceAssetMaxSupply": "100000000.00000000",
                 "priceAssetTotalSupply": "100000000.00000000",
-                "24h_priceVolume": "0.94500000",
-                "24h_high": "0.94500000",
+                "24h_priceVolume": "0.00000000",
+                "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
-                "24h_close": "0.94500000",
-                "timestamp": 1579718401450
+                "24h_close": "0.00000000",
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -234,7 +234,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401450
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -257,17 +257,17 @@
                 "24h_high": "0.00",
                 "amountAssetID": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
                 "24h_close": "0.00",
-                "timestamp": 1579718401450
+                "timestamp": 1579887996688
             },
             {
-                "24h_volume": "3.04580808",
+                "24h_volume": "3.76564685",
                 "symbol": "ETH/TN",
-                "24h_vwap": "83756.12164098",
-                "24h_low": "77064.21198741",
+                "24h_vwap": "75320.92195391",
+                "24h_low": "70000.00000000",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "100000000.00000000",
                 "amountAssetCirculatingSupply": "11.00000000",
-                "24h_open": "79809.33366549",
+                "24h_open": "87519.31297154",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "500000.00000000",
                 "priceAssetName": "TN",
@@ -276,11 +276,11 @@
                 "priceAssetID": "TN",
                 "priceAssetMaxSupply": "100000000.00000000",
                 "priceAssetTotalSupply": "100000000.00000000",
-                "24h_priceVolume": "255105.07204355",
-                "24h_high": "88883.02798152",
+                "24h_priceVolume": "283631.99249483",
+                "24h_high": "98148.98734236",
                 "amountAssetID": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
-                "24h_close": "83464.10360257",
-                "timestamp": 1579718401450
+                "24h_close": "73127.36811721",
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -303,7 +303,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "4xUv25qFsjQ1Gd6oCmzU14FoPMSDXrwub5PbKRgETf97",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401450
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "1.00000000",
@@ -326,7 +326,7 @@
                 "24h_high": "20.00000000",
                 "amountAssetID": "4xUv25qFsjQ1Gd6oCmzU14FoPMSDXrwub5PbKRgETf97",
                 "24h_close": "20.00000000",
-                "timestamp": 1579718401450
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00",
@@ -349,7 +349,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3GvqjyJFBe1fpiYnGsmiZ1YJTkYiRktQ86M2KMzcTb2s",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00",
@@ -372,7 +372,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3GvqjyJFBe1fpiYnGsmiZ1YJTkYiRktQ86M2KMzcTb2s",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00",
@@ -395,7 +395,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3GvqjyJFBe1fpiYnGsmiZ1YJTkYiRktQ86M2KMzcTb2s",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "1.00000000",
@@ -418,7 +418,7 @@
                 "24h_high": "1.00000000",
                 "amountAssetID": "5Dy1qVUzEwq6WEUGMy7CkkkbmFuxb2RTBRfs4JKc5b88",
                 "24h_close": "1.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -441,7 +441,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3vB9hXHTCYbPiQNuyxCQgXF6AvFg51ozGKL9QkwoCwaS",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.000000",
@@ -464,7 +464,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7jcY6DDYsSo7NuZEAruWhrB5apebA2cERhrBx6RFk5tL",
                 "24h_close": "0.00",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.000000",
@@ -487,7 +487,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7jcY6DDYsSo7NuZEAruWhrB5apebA2cERhrBx6RFk5tL",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -510,7 +510,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -533,7 +533,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -556,7 +556,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -579,7 +579,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -602,7 +602,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00",
@@ -625,7 +625,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "bqs5DvxtTTN3kPQV95q4vjKFSRBcXEsFPuZgvhYkZC5",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -648,7 +648,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7tC2ZukogadhvHUdKQyWJ2cbk6T1viTCFJMgevVeTY1Y",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0",
@@ -671,7 +671,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7tC2ZukogadhvHUdKQyWJ2cbk6T1viTCFJMgevVeTY1Y",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -694,7 +694,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HBxBjymrCC8TuL8rwCLr2vakDEq4obqkMwYYPEZtTauA",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -717,7 +717,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HBxBjymrCC8TuL8rwCLr2vakDEq4obqkMwYYPEZtTauA",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
                 "24h_volume": "0.00000000",
@@ -740,17 +740,17 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HBxBjymrCC8TuL8rwCLr2vakDEq4obqkMwYYPEZtTauA",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996688
             },
             {
-                "24h_volume": "1505.99325178",
+                "24h_volume": "10.00000000",
                 "symbol": "TN/BTC",
-                "24h_vwap": "0.00000029",
-                "24h_low": "0.00000029",
+                "24h_vwap": "0.00000031",
+                "24h_low": "0.00000031",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "0.00000000",
                 "amountAssetCirculatingSupply": "100000000.00000000",
-                "24h_open": "0.00000030",
+                "24h_open": "0.00000031",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "100000000.00000000",
                 "priceAssetName": "Bitcoin",
@@ -759,21 +759,21 @@
                 "priceAssetID": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "0.00043673",
+                "24h_priceVolume": "0.00000310",
                 "24h_high": "0.00000031",
                 "amountAssetID": "TN",
                 "24h_close": "0.00000031",
-                "timestamp": 1579718401451
+                "timestamp": 1579887996689
             },
             {
-                "24h_volume": "0.00000000",
+                "24h_volume": "100.00000000",
                 "symbol": "TN/LTC",
-                "24h_vwap": "0.00000000",
-                "24h_low": "0.00000000",
+                "24h_vwap": "0.00004000",
+                "24h_low": "0.00004000",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "0.00000000",
                 "amountAssetCirculatingSupply": "100000000.00000000",
-                "24h_open": "0.00000000",
+                "24h_open": "0.00004000",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "100000000.00000000",
                 "priceAssetName": "Litecoin",
@@ -782,21 +782,21 @@
                 "priceAssetID": "3vB9hXHTCYbPiQNuyxCQgXF6AvFg51ozGKL9QkwoCwaS",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "0.00000000",
-                "24h_high": "0.00000000",
+                "24h_priceVolume": "0.00400000",
+                "24h_high": "0.00004000",
                 "amountAssetID": "TN",
-                "24h_close": "0.00000000",
-                "timestamp": 1579718401452
+                "24h_close": "0.00004000",
+                "timestamp": 1579887996689
             },
             {
-                "24h_volume": "4259826.04975091",
+                "24h_volume": "29748.39785933",
                 "symbol": "TN/WAVES",
-                "24h_vwap": "0.00310107",
-                "24h_low": "0.00303288",
+                "24h_vwap": "0.00337816",
+                "24h_low": "0.00327392",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "0.00000000",
                 "amountAssetCirculatingSupply": "100000000.00000000",
-                "24h_open": "0.00312334",
+                "24h_open": "0.00345654",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "100000000.00000000",
                 "priceAssetName": "Waves",
@@ -805,11 +805,11 @@
                 "priceAssetID": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "13210.01876810",
-                "24h_high": "0.00343762",
+                "24h_priceVolume": "100.49484771",
+                "24h_high": "0.00360940",
                 "amountAssetID": "TN",
-                "24h_close": "0.00332213",
-                "timestamp": 1579718401452
+                "24h_close": "0.00328066",
+                "timestamp": 1579887996689
             },
             {
                 "24h_volume": "0.00000000",
@@ -832,17 +832,17 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "2R7raH74LuuiCbJbcv3Aa7g14WY1vYPUGushCUJFwW1f",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401452
+                "timestamp": 1579887996689
             },
             {
-                "24h_volume": "253.68097283",
+                "24h_volume": "299.24789207",
                 "symbol": "TUSD/TN",
-                "24h_vwap": "809.57227291",
-                "24h_low": "702.78032296",
+                "24h_vwap": "738.74425441",
+                "24h_low": "94.55123801",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "100000000.00000000",
                 "amountAssetCirculatingSupply": "2118.00000000",
-                "24h_open": "885.65500759",
+                "24h_open": "794.48363299",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "infinite",
                 "priceAssetName": "TN",
@@ -851,21 +851,21 @@
                 "priceAssetID": "TN",
                 "priceAssetMaxSupply": "100000000.00000000",
                 "priceAssetTotalSupply": "100000000.00000000",
-                "24h_priceVolume": "205373.08176800",
+                "24h_priceVolume": "221067.66091101",
                 "24h_high": "910.00000000",
                 "amountAssetID": "2R7raH74LuuiCbJbcv3Aa7g14WY1vYPUGushCUJFwW1f",
-                "24h_close": "840.71906165",
-                "timestamp": 1579718401453
+                "24h_close": "94.55123801",
+                "timestamp": 1579887996690
             },
             {
-                "24h_volume": "119.62494846",
+                "24h_volume": "0.00000000",
                 "symbol": "WAVES/BTC",
-                "24h_vwap": "0.00009700",
-                "24h_low": "0.00009700",
+                "24h_vwap": "0.00000000",
+                "24h_low": "0.00000000",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "0.00000000",
                 "amountAssetCirculatingSupply": "0.00000000",
-                "24h_open": "0.00009700",
+                "24h_open": "0.00000000",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "0.00000000",
                 "priceAssetName": "Bitcoin",
@@ -874,11 +874,11 @@
                 "priceAssetID": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "0.01160362",
-                "24h_high": "0.00009700",
+                "24h_priceVolume": "0.00000000",
+                "24h_high": "0.00000000",
                 "amountAssetID": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
-                "24h_close": "0.00009700",
-                "timestamp": 1579718401453
+                "24h_close": "0.00000000",
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -901,17 +901,17 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
-                "24h_volume": "100.00000000",
+                "24h_volume": "0.00000000",
                 "symbol": "WGR/BTC",
-                "24h_vwap": "0.00000500",
-                "24h_low": "0.00000500",
+                "24h_vwap": "0.00000000",
+                "24h_low": "0.00000000",
                 "amountAssetDecimals": 8,
                 "priceAssetCirculatingSupply": "0.00000000",
                 "amountAssetCirculatingSupply": "0.00000000",
-                "24h_open": "0.00000500",
+                "24h_open": "0.00000000",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "0.00000000",
                 "priceAssetName": "Bitcoin",
@@ -920,11 +920,11 @@
                 "priceAssetID": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
                 "priceAssetMaxSupply": "0.00000000",
                 "priceAssetTotalSupply": "0.00000000",
-                "24h_priceVolume": "0.00050000",
-                "24h_high": "0.00000500",
+                "24h_priceVolume": "0.00000000",
+                "24h_high": "0.00000000",
                 "amountAssetID": "91NnG9iyUs3ZT3tqK1oQ3ddpgAkE7v5Kbcgp2hhnDhqd",
-                "24h_close": "0.00000500",
-                "timestamp": 1579718401453
+                "24h_close": "0.00000000",
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -947,7 +947,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "91NnG9iyUs3ZT3tqK1oQ3ddpgAkE7v5Kbcgp2hhnDhqd",
                 "24h_close": "0.00",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -970,7 +970,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "91NnG9iyUs3ZT3tqK1oQ3ddpgAkE7v5Kbcgp2hhnDhqd",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -993,7 +993,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "51awpt1CUDzSTmrbrNVGuwTFu3Fzg55TW7V4pcCsftME",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0",
@@ -1016,7 +1016,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "Hv5qGnUr1gfVFg9WV7NHA3Z8G97TqTchSrs4UoVfZwQy",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1039,7 +1039,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1062,7 +1062,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDSpZtSRWjSavaWDoDWimsbdsAkQwT8EAhyPnKnTFTui",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1085,7 +1085,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1108,7 +1108,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1131,7 +1131,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.0000000",
@@ -1154,7 +1154,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfY5uAF9jR3eMnvnPNQNf64ckezyaBXofNURhuq9bW51",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1177,7 +1177,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7LSm5SSjZ5ghJtwgbYNkLPyExwV2L434foNVqXRgt37H",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1200,7 +1200,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1223,7 +1223,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "BaUQsmVyRTgS1TtFbZcTvPKJmCbnfepcSPUXtgdw5Ucj",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1246,7 +1246,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DHDJjET42tsdsoqtcFg6vQQUNP5RvqAUoeaCFtfbdLR",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1269,7 +1269,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401453
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1292,7 +1292,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DoWtNTpKNLj7XrWWonZZKzwG7VuyxaPeoEmGAtKFc7jF",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1315,7 +1315,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DiBtP52GhwJrbwQCRTdiEmDmnS43UPb83rRJyCNFKhzZ",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1338,7 +1338,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1361,7 +1361,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "79jWQxTiV925jubY2c48vwJqVN2z1hU3rXX8uqdhuQnY",
                 "24h_close": "0.00",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1384,7 +1384,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "JC2KF8ydvKUczfWwrqyw2j8ELn2aWRPjcyJWD52E134j",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1407,7 +1407,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "B5gHxDADo6Qj1t2BHB893kAivsZn6paWriSNgf7nDUVR",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1430,7 +1430,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DoWtNTpKNLj7XrWWonZZKzwG7VuyxaPeoEmGAtKFc7jF",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1453,7 +1453,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "CUCixrJ96hunfmV7VHDhtsBRcjC5MaR91SbGCtzJivUW",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1476,7 +1476,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1499,7 +1499,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "79jWQxTiV925jubY2c48vwJqVN2z1hU3rXX8uqdhuQnY",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1522,7 +1522,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1545,7 +1545,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "79jWQxTiV925jubY2c48vwJqVN2z1hU3rXX8uqdhuQnY",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0",
@@ -1568,7 +1568,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7i8n3vRmi8whqYqsnLYyzWKYJq6TYKFJ6XHPtUXpyk5j",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1591,7 +1591,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1614,7 +1614,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "9PuQeQnhTHeHwa7YYGWpJZXJMWjCQZTeateRWVGJSvni",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.000",
@@ -1637,7 +1637,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "gkLVV56jMqhCS9A2SJKowgcx9YySgstZXGjtQCoxJD8",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1660,7 +1660,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "51awpt1CUDzSTmrbrNVGuwTFu3Fzg55TW7V4pcCsftME",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1683,7 +1683,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DiBtP52GhwJrbwQCRTdiEmDmnS43UPb83rRJyCNFKhzZ",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0",
@@ -1706,7 +1706,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1729,7 +1729,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00",
@@ -1752,7 +1752,7 @@
                 "24h_high": "0.000",
                 "amountAssetID": "3GvqjyJFBe1fpiYnGsmiZ1YJTkYiRktQ86M2KMzcTb2s",
                 "24h_close": "0.000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0",
@@ -1775,7 +1775,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "6bQgNiWB6ZgSZmBAk6e1bRdKH8fLLFD8RWVmsQXD3exo",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0",
@@ -1798,7 +1798,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7pAxzBTL4HZjTmSvDXRPwsGXhxwPtd41vY9Wp7GFFL4q",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996690
             },
             {
                 "24h_volume": "0.00000000",
@@ -1821,7 +1821,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1844,7 +1844,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "a2UGmhhpTEmCCb98Cd4HnxRQALshwLzFXFXZVhhXJfh",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1867,7 +1867,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1890,7 +1890,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401454
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1913,7 +1913,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DJEsVYyW6DJFrcDXVAz6fD1VVEK8MbXvDNu3t27hXWAk",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1936,7 +1936,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "91NnG9iyUs3ZT3tqK1oQ3ddpgAkE7v5Kbcgp2hhnDhqd",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1959,7 +1959,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "GgHATaBmpoAksSV7w7kKBMpsKQp9S743a2nb92ci8ijA",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -1982,7 +1982,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A62sRG58HFbWUNvFoEEjX4U3txXKcLm11MXWWS429qpN",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2005,7 +2005,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2028,7 +2028,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "8SPSfMDoMCCUFZjVBQZpnspYdxCjj8Z4vuo7iaBj6Gbd",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2051,7 +2051,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DiBtP52GhwJrbwQCRTdiEmDmnS43UPb83rRJyCNFKhzZ",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2074,7 +2074,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "Fs5Jh72vGTMQutVJxAd4XCdCE8ZNY1A5pqXbHvffUkFg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2097,7 +2097,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2120,7 +2120,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2143,7 +2143,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.0000000",
@@ -2166,7 +2166,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "GBKS9gvAEAfVDFEVSCbw4jP4QgNJ9ChmgDNdqxZbovL6",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2189,7 +2189,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "B4vC9iLrKRbMMv7dNJ4q1fL8F6dNQMfVNa14UQwNyn7V",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.000000",
@@ -2212,7 +2212,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "8QhjSTaCjTpoyZJEYaJfu3zwypG7vJuyfRKgtuL9kz5b",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.000",
@@ -2235,7 +2235,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "gkLVV56jMqhCS9A2SJKowgcx9YySgstZXGjtQCoxJD8",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2258,7 +2258,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "79jWQxTiV925jubY2c48vwJqVN2z1hU3rXX8uqdhuQnY",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.000",
@@ -2281,7 +2281,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "ExbYSuz4DZwf9grp3K8s3CSbNtE9fob2DtTKgbLGFXsJ",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2304,7 +2304,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "B4vC9iLrKRbMMv7dNJ4q1fL8F6dNQMfVNa14UQwNyn7V",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401455
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.0",
@@ -2327,7 +2327,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7SEnqfQsxGE7pH1ns9JmyHa6HLa7WbYY18NBuZY8q9dU",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2350,7 +2350,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3bTmAjYV17AxAoFFXoDkfwvb5y7YuA5zZrNEPraMUMKi",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2373,7 +2373,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "B5gHxDADo6Qj1t2BHB893kAivsZn6paWriSNgf7nDUVR",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2396,7 +2396,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2419,7 +2419,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3zihpJH2adSgdfogAQ8VoQz3a44SJ8XaApJr9mjK2PSx",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0",
@@ -2442,7 +2442,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7tC2ZukogadhvHUdKQyWJ2cbk6T1viTCFJMgevVeTY1Y",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2465,7 +2465,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0",
@@ -2488,7 +2488,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5WAjxjmLTeRVri9r1adCmkik6EUpSBpn3TqVbt4yxG8t",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.000",
@@ -2511,7 +2511,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3GfMouzT8KC8HQxZj1NFPsdwwPeXuiRt1gukrnGfQNLw",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2534,7 +2534,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "3zihpJH2adSgdfogAQ8VoQz3a44SJ8XaApJr9mjK2PSx",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2557,7 +2557,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Mt84bm9DjRCCV6rzvB5nzw8zvynQQ4xkUDfgLNmTnP1",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00",
@@ -2580,7 +2580,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "6DL8Pq4PSLwdzvbcKcvJXuu6PSLSK1NyGnG488Vqm4iG",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2603,7 +2603,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2626,7 +2626,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "TN",
                 "24h_close": "0.00",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2649,7 +2649,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.0000",
@@ -2672,7 +2672,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "6PCtQJEEPFqm46tUJyZ6zd4zGLfGLfCmfyDHhpPsGBjP",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2695,7 +2695,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "FeyXYSd45ruZfGDHByvtmqYcjd4fwbmwBjPwkut9vv73",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2718,7 +2718,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "91NnG9iyUs3ZT3tqK1oQ3ddpgAkE7v5Kbcgp2hhnDhqd",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2741,7 +2741,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2764,7 +2764,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "A8jSBb33GztWpuCypUW9hJYPnTtJGZ7SDuSZfHCaeV49",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2787,7 +2787,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0.00000000",
@@ -2810,7 +2810,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "51awpt1CUDzSTmrbrNVGuwTFu3Fzg55TW7V4pcCsftME",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996691
             },
             {
                 "24h_volume": "0",
@@ -2833,7 +2833,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "7tC2ZukogadhvHUdKQyWJ2cbk6T1viTCFJMgevVeTY1Y",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.000",
@@ -2856,7 +2856,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "H4KcCnm4MvdEBaWjQdV4WRqpWJXQXLvZvUNP7odGsbys",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -2879,17 +2879,17 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DoWtNTpKNLj7XrWWonZZKzwG7VuyxaPeoEmGAtKFc7jF",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401456
+                "timestamp": 1579887996692
             },
             {
-                "24h_volume": "112009",
+                "24h_volume": "111337",
                 "symbol": "",
-                "24h_vwap": "3.89419221",
-                "24h_low": "3.80066121",
+                "24h_vwap": "3.89891690",
+                "24h_low": "3.80005151",
                 "amountAssetDecimals": 0,
                 "priceAssetCirculatingSupply": "100000000",
                 "amountAssetCirculatingSupply": "101688",
-                "24h_open": "3.87816427",
+                "24h_open": "3.83529294",
                 "priceAssetDecimals": 8,
                 "amountAssetMaxSupply": "10000000",
                 "priceAssetName": "TN",
@@ -2898,11 +2898,11 @@
                 "priceAssetID": "TN",
                 "priceAssetMaxSupply": "100000000",
                 "priceAssetTotalSupply": "100000000",
-                "24h_priceVolume": "436184.57480240",
-                "24h_high": "3.99886888",
+                "24h_priceVolume": "434093.71144501",
+                "24h_high": "3.99951126",
                 "amountAssetID": "6HVTc8CwMwhpQ9pqkYjUQSsAQDybvuhAy5Ywu8naaHNZ",
-                "24h_close": "3.99886888",
-                "timestamp": 1579718401457
+                "24h_close": "3.88153025",
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -2925,7 +2925,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
                 "24h_close": "0.00",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.0000000",
@@ -2948,7 +2948,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "5Wb3o3KVvKw98Ms96q8c5TBA4g6QSq6Ze18pARJ6ByVa",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -2971,7 +2971,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DoWtNTpKNLj7XrWWonZZKzwG7VuyxaPeoEmGAtKFc7jF",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -2994,7 +2994,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "9PUfk47dMZyKjRJpF3QBe1Fk8Z1Fx5mc3UADnz2sXUYE",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -3017,7 +3017,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -3040,7 +3040,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DoWtNTpKNLj7XrWWonZZKzwG7VuyxaPeoEmGAtKFc7jF",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00",
@@ -3063,7 +3063,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "79jWQxTiV925jubY2c48vwJqVN2z1hU3rXX8uqdhuQnY",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -3086,7 +3086,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "645yVRdW7V2NVHojniikpwQoZXu8PGBBMXZGyTys91YD",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0",
@@ -3109,7 +3109,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "DfutD8DdUhDphHoaMds2RQhw7oCmsf7W41s2zR5ZDq9F",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0",
@@ -3132,7 +3132,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "9bc4JdiFHcohsYFseJZ2zZEBPRLhHvKowVY1ZcwR25vm",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -3155,7 +3155,7 @@
                 "24h_high": "0.00",
                 "amountAssetID": "7dCsp292yVYsUvPekqvwWGy8yNAJe47VUyapstfb9HPp",
                 "24h_close": "0.00",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0",
@@ -3178,7 +3178,7 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "84Vm9dHYZpMGKtMZ4yxrNvmkWQMhXB14jVSJ3qgWvN1A",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             },
             {
                 "24h_volume": "0.00000000",
@@ -3201,18 +3201,18 @@
                 "24h_high": "0.00000000",
                 "amountAssetID": "GmEMLiDPNg8LjvKoVo5FAUDDQ2pcsDLgL2wGyDkxJRGP",
                 "24h_close": "0.00000000",
-                "timestamp": 1579718401457
+                "timestamp": 1579887996692
             }
         ],
         "rawHeaders": [
             "Server",
             "nginx/1.14.2",
             "Date",
-            "Wed, 22 Jan 2020 18:40:01 GMT",
+            "Fri, 24 Jan 2020 17:46:36 GMT",
             "Content-Type",
             "application/json;charset=UTF-8",
             "Content-Length",
-            "93150",
+            "93141",
             "Connection",
             "keep-alive"
         ],
