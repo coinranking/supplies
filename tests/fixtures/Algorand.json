@@ -1,0 +1,80 @@
+[
+    {
+        "scope": "https://api.algoexplorer.io:443",
+        "method": "GET",
+        "path": "/v1/status",
+        "body": "",
+        "status": 200,
+        "response": {
+            "round": 4433257,
+            "totalStake": 2381604688.699708,
+            "onlineStake": 1871612562.564602,
+            "offlineStake": 509992126.135106,
+            "timestamp": 1579714415,
+            "circulatingSupply": 3057951986.826732,
+            "network": "mainnet",
+            "genesisTimestamp": 1560211200
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 22 Jan 2020 17:33:41 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "223",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, private",
+            "ETag",
+            "W/\"df-61RtRbjVpv4MXkCXmlFUsxWyAMU\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.algoexplorer.io:443",
+        "method": "GET",
+        "path": "/v1/account/SL4FL4VQRLRN24WMOL5FIDFTRHVU6OTC7VB2THQNEIKBQFHQKGIXMIPGHU",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "SL4FL4VQRLRN24WMOL5FIDFTRHVU6OTC7VB2THQNEIKBQFHQKGIXMIPGHU",
+            "numTxs": 2,
+            "balance": 471069264,
+            "rewards": 399970,
+            "pendingRewards": 399970,
+            "status": "Offline"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 22 Jan 2020 17:33:42 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "163",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, private",
+            "ETag",
+            "W/\"a3-ApYReVDeY6vZM2r2Oaxfe3/qFqA\""
+        ],
+        "responseIsBinary": false
+    }
+]
