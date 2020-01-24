@@ -8,7 +8,7 @@
         "response": 2100000000,
         "rawHeaders": [
             "Date",
-            "Thu, 23 Jan 2020 12:50:05 GMT",
+            "Fri, 24 Jan 2020 17:51:37 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
@@ -70,7 +70,7 @@
         ],
         "rawHeaders": [
             "Date",
-            "Thu, 23 Jan 2020 12:50:07 GMT",
+            "Fri, 24 Jan 2020 17:51:39 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
