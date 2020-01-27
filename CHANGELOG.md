@@ -1,3 +1,52 @@
+# [1.3.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.2.0...v1.3.0) (2020-01-27)
+
+
+### Bug Fixes
+
+* merged ([df9c96e](https://bitbucket.org/trinarydigital/supplies/commits/df9c96e5a6524674977863d98d23e2b419cbd6c3))
+* remove token fetching ([fcf6303](https://bitbucket.org/trinarydigital/supplies/commits/fcf63031491b449c3a2c3fda2d66b81af93a234d))
+* remove token in options ([4be5954](https://bitbucket.org/trinarydigital/supplies/commits/4be595412449dda799418d65032a0fc2b28edc35))
+* rename function of max ([989639c](https://bitbucket.org/trinarydigital/supplies/commits/989639c5157818dbb182acdbc0abeb28070b5d4f))
+
+
+### Features
+
+* add tokenSupply ([3b63cdb](https://bitbucket.org/trinarydigital/supplies/commits/3b63cdb148d634a7e29689c4caf92f889aec3081))
+* add total supply, circulating and max ([da06906](https://bitbucket.org/trinarydigital/supplies/commits/da06906604b85536ce9e81e60c4242612946b2c3))
+* qtum ([c332152](https://bitbucket.org/trinarydigital/supplies/commits/c3321520c533805bb04dda749e36e9cf7bdf18e1))
+* qtum driver ([813ca8c](https://bitbucket.org/trinarydigital/supplies/commits/813ca8c5006d4cfea1c1a36c126b45665430a162))
+* turtle ([33b1aae](https://bitbucket.org/trinarydigital/supplies/commits/33b1aae7256bc87ec9f1914007e2ef33f3576f57))
+* turtle driver ([e692953](https://bitbucket.org/trinarydigital/supplies/commits/e692953d6452862a7e37b8dba2cf7ac0a91d92a0))
+
+# [1.2.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.1.0...v1.2.0) (2020-01-23)
+
+
+### Bug Fixes
+
+* add getter and setter for secret ([1da9709](https://bitbucket.org/trinarydigital/supplies/commits/1da9709fd65ca5669b60336b51266dab6ca1ce86))
+* add secret key to url ([e9e4d08](https://bitbucket.org/trinarydigital/supplies/commits/e9e4d08bbe206832f2f77ec27f44841cbe7155d8))
+
+
+### Features
+
+* vechain driver ([454824c](https://bitbucket.org/trinarydigital/supplies/commits/454824c694b24e0801d30570faeca3025c734c58))
+
+# [1.1.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.0.0...v1.1.0) (2020-01-23)
+
+
+### Bug Fixes
+
+* change blockchain value and add circulating function ([11a8a3a](https://bitbucket.org/trinarydigital/supplies/commits/11a8a3a6c88d90c969aef20e15a0b4b56fc56a09))
+* divide by 10^8 ([80b39ee](https://bitbucket.org/trinarydigital/supplies/commits/80b39ee2e997bbfc7fd4d155e8d1b0c285a729ce))
+* remove circulating supply ([fe9470e](https://bitbucket.org/trinarydigital/supplies/commits/fe9470ec81b3bd62bda3a348836575a9887b19d8))
+
+
+### Features
+
+* algoexplorer driver ([12cb226](https://bitbucket.org/trinarydigital/supplies/commits/12cb22685bdd93677677ea73e982010a3995a5be))
+* decred supply ([35b247e](https://bitbucket.org/trinarydigital/supplies/commits/35b247e108678a59a1c08c59af543521ce4adbcd))
+* set native to true ([6ab2d57](https://bitbucket.org/trinarydigital/supplies/commits/6ab2d57122eed69dff351976b43c58d9916de585))
+
 # 1.0.0 (2020-01-20)
 
 

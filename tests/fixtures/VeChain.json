@@ -1,0 +1,55 @@
+[
+    {
+        "scope": "https://vechainstats.com:443",
+        "method": "GET",
+        "path": "/pro/vechain-tokens-cg//?auth=maskedSecret&token=vet",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 1000,
+            "message": "Ok",
+            "result": [
+                {
+                    "token_ticker": "vet",
+                    "token_name": "VeChain",
+                    "token_type": "native",
+                    "token_decimals": "18",
+                    "circulation": "62711696917",
+                    "total_supply": "85985052277",
+                    "max_supply": "86712634466",
+                    "link_website": "https://www.vechain.org/",
+                    "link_whitepaper": "https://www.vechain.org/whitepaper/",
+                    "link_contract": null,
+                    "note_circulation_source": "VeChain Financial Executive Report Vol. 9; Token burn included"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 23 Jan 2020 11:38:33 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dc7e5bd037660a1cb784b5d3cbbabdc2b1579779513; expires=Sat, 22-Feb-20 11:38:33 GMT; path=/; domain=.vechainstats.com; HttpOnly; SameSite=Lax",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, max-age=0",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

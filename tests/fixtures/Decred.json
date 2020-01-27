@@ -1,0 +1,46 @@
+[
+    {
+        "scope": "https://dcrdata.decred.org:443",
+        "method": "GET",
+        "path": "/api/supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "block_height": 417034,
+            "block_hash": "000000000000000022157f0ae6e3374cc7083a1cf03df43040c216c088292ff5",
+            "supply_mined": 1099092862292869,
+            "supply_ultimate": 2099999999800912
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.7",
+            "Date",
+            "Wed, 22 Jan 2020 17:27:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "171",
+            "Vary",
+            "Origin",
+            "Referrer-Policy",
+            "same-origin",
+            "Content-Security-Policy-Report-Only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' wss://*.dcrdata.org; manifest-src 'self'",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Strict-Transport-Security",
+            "max-age=15552001",
+            "Via",
+            "1.1 google",
+            "Set-Cookie",
+            "GCLB=CNGL4q-M2_L-gwE; path=/; HttpOnly",
+            "Alt-Svc",
+            "clear"
+        ],
+        "responseIsBinary": false
+    }
+]
