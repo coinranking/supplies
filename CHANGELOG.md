@@ -1,3 +1,22 @@
+# [1.4.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.3.0...v1.4.0) (2020-01-29)
+
+
+### Bug Fixes
+
+* add test ([bbb0e4b](https://bitbucket.org/trinarydigital/supplies/commits/bbb0e4b74c6a76da698db852f3428ceb93f235e6))
+* changes ([74361b0](https://bitbucket.org/trinarydigital/supplies/commits/74361b04dcb19076080a8a9f7607d131d703adce))
+* remove fetchBalance ([955dd64](https://bitbucket.org/trinarydigital/supplies/commits/955dd6443dac0fe7262fb5a3b24ee4123c5cb748))
+* remove fetchBalance ([e70ac2c](https://bitbucket.org/trinarydigital/supplies/commits/e70ac2c21d5827583223256f3906ad182dae9e21))
+* remove native in options ([6f8aa6c](https://bitbucket.org/trinarydigital/supplies/commits/6f8aa6cb00c2cf8bd90a1f3fe1fddf2f453eb644))
+* remove tokens ([119f0e0](https://bitbucket.org/trinarydigital/supplies/commits/119f0e074ef5e74ea87501c9238c0a90dd523149))
+* remove unused argument ([164414c](https://bitbucket.org/trinarydigital/supplies/commits/164414c5fe3ab42703b9a3295013cbcfe8bbc726))
+
+
+### Features
+
+* blockmeta driver ([c3c6778](https://bitbucket.org/trinarydigital/supplies/commits/c3c67780729c3539758b958affaa87bd415bb0f0))
+* started nervos driver, but api not working ([9dfab64](https://bitbucket.org/trinarydigital/supplies/commits/9dfab6448d121a1a89ecfd42e8ad78c2c24f8394))
+
 # [1.3.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.2.0...v1.3.0) (2020-01-27)
 
 
