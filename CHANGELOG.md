@@ -1,3 +1,10 @@
+# [1.5.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.4.0...v1.5.0) (2020-01-30)
+
+
+### Features
+
+* add support for DDKoin ([3d0c4ed](https://bitbucket.org/trinarydigital/supplies/commits/3d0c4edbf77d66a007290d5dcc9f5e1baf48ad1a))
+
 # [1.4.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.3.0...v1.4.0) (2020-01-29)
 
 
