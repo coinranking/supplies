@@ -99,7 +99,7 @@
             * [.fetchMaxSupply()](#Driver.Ripple+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.Ripple+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
-            * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
@@ -668,7 +668,7 @@ tokens on the Waves blockchain.
 **Extends**: [<code>Driver</code>](#Driver)  
 
 * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
-    * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
     * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
     * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
@@ -676,11 +676,11 @@ tokens on the Waves blockchain.
 
 <a name="Driver.Waves+fetchTotalSupply"></a>
 
-#### waves.fetchTotalSupply() ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+#### waves.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
 get total supply for Wave token
 
 **Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
-**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
 <a name="Driver.Waves+fetchTokenTotalSupply"></a>
 
 #### waves.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
@@ -691,7 +691,7 @@ get total supply for specific asset id
 
 | Param | Type | Description |
 | --- | --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | asset id [referenceParam](#referenceParam) |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 
 <a name="Driver.Waves+fetchBalance"></a>
 
