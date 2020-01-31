@@ -103,7 +103,7 @@
             * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
-            * [.getSupply(reference, modifiers)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+            * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="new_Driver_new"></a>
 
@@ -672,7 +672,7 @@ tokens on the Waves blockchain.
     * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
     * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
     * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
-    * [.getSupply(reference, modifiers)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+    * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.Waves+fetchTotalSupply"></a>
 
@@ -720,14 +720,15 @@ fetch balance value of asset id for specific wallet
 
 <a name="Driver.Waves+getSupply"></a>
 
-#### waves.getSupply(reference, modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+#### waves.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
-| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
+| coin.reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| coin.modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Model"></a>
 
