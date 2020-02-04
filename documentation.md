@@ -202,7 +202,7 @@ BlockchainInfo driver. Supports circulating and max supply for BTC.
 
 ### Driver~BlockchairLitecoin ⇐ [<code>Driver</code>](#Driver)
 Blockchair driver. Supports total suplpy and balance
-for native token on Bitcoin SV blockchain.
+for native token on Litecoin blockchain.
 
 **Kind**: inner class of [<code>Driver</code>](#Driver)  
 **Extends**: [<code>Driver</code>](#Driver)  
