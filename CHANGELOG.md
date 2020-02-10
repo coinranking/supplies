@@ -1,3 +1,19 @@
+# [1.6.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.5.0...v1.6.0) (2020-02-10)
+
+
+### Bug Fixes
+
+* change array param ([0601c98](https://bitbucket.org/trinarydigital/supplies/commits/0601c986d9a7770829b2621d3f78e5c4b816800f))
+* change augments comment ([e18463e](https://bitbucket.org/trinarydigital/supplies/commits/e18463ee00c0b0f061a05d7bc2eb9d82e14fec55))
+* update docs ([209ad8b](https://bitbucket.org/trinarydigital/supplies/commits/209ad8b09acb94b23dcd5e7d5121fe09b0dd5ebc))
+* update docs again (object) ([94c339d](https://bitbucket.org/trinarydigital/supplies/commits/94c339dd299c6752616cb4dad14444154892ef14))
+
+
+### Features
+
+* add docs ([32ca255](https://bitbucket.org/trinarydigital/supplies/commits/32ca255c3e418a5fb343c0e13a94dc8307540040))
+* waves driver ([53666ae](https://bitbucket.org/trinarydigital/supplies/commits/53666aed918bddd048fe13728eae40bd88f4c6a1))
+
 # [1.5.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.4.0...v1.5.0) (2020-01-30)
 
 
