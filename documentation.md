@@ -62,6 +62,9 @@
             * [.fetchTotalSupply()](#Driver.CryptoidDash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.CryptoidDash+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.CryptoidDash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~DiaEthereumClassic](#Driver.DiaEthereumClassic) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchCirculatingSupply()](#Driver.DiaEthereumClassic+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.getSupply()](#Driver.DiaEthereumClassic+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~DogeChain](#Driver.DogeChain) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.DogeChain+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.DogeChain+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -102,6 +105,12 @@
             * [.fetchCirculatingSupply()](#Driver.Ripple+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.Ripple+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.Ripple+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+            * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="new_Driver_new"></a>
 
@@ -350,6 +359,31 @@ Cryptoid Dash driver.
 
 #### cryptoidDash.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>CryptoidDash</code>](#Driver.CryptoidDash)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.DiaEthereumClassic"></a>
+
+### Driver~DiaEthereumClassic ⇐ [<code>Driver</code>](#Driver)
+DiaEthereumClassic driver. Supports total supply
+for native token based on Ethereum blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~DiaEthereumClassic](#Driver.DiaEthereumClassic) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchCirculatingSupply()](#Driver.DiaEthereumClassic+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.getSupply()](#Driver.DiaEthereumClassic+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.DiaEthereumClassic+fetchCirculatingSupply"></a>
+
+#### diaEthereumClassic.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+get total supply for
+
+**Kind**: instance method of [<code>DiaEthereumClassic</code>](#Driver.DiaEthereumClassic)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.DiaEthereumClassic+getSupply"></a>
+
+#### diaEthereumClassic.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>DiaEthereumClassic</code>](#Driver.DiaEthereumClassic)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.DogeChain"></a>
 
@@ -699,6 +733,78 @@ Ripple driver.
 #### ripple.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Ripple</code>](#Driver.Ripple)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.Waves"></a>
+
+### Driver~Waves ⇐ [<code>Driver</code>](#Driver)
+Waves driver. Supports balance and total supply for waves and other
+tokens on the Waves blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+    * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Waves+fetchTotalSupply"></a>
+
+#### waves.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for Wave token
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Waves+fetchTokenTotalSupply"></a>
+
+#### waves.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+get total supply for specific asset id
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+
+<a name="Driver.Waves+fetchBalance"></a>
+
+#### waves.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Waves+fetchTokenBalance"></a>
+
+#### waves.fetchTokenBalance(reference, modifier) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+fetch balance value of asset id for specific wallet
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Waves+getSupply"></a>
+
+#### waves.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
+| coin.reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| coin.modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Model"></a>
 
 ## Model
