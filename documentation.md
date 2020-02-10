@@ -48,7 +48,7 @@
         * [~BlockchairBitcoinCash](#Driver.BlockchairBitcoinCash) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.BlockchairBitcoinCash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BlockchairBitcoinCash+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-            * [.getSupply(coin)](#Driver.BlockchairBitcoinCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+            * [.getSupply(modifiers)](#Driver.BlockchairBitcoinCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~CardanoExplorer](#Driver.CardanoExplorer) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.CardanoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.CardanoExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -219,7 +219,7 @@ for native token on Bitcoin Cash blockchain.
 * [~BlockchairBitcoinCash](#Driver.BlockchairBitcoinCash) ⇐ [<code>Driver</code>](#Driver)
     * [.fetchTotalSupply()](#Driver.BlockchairBitcoinCash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchBalance(modifier)](#Driver.BlockchairBitcoinCash+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-    * [.getSupply(coin)](#Driver.BlockchairBitcoinCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+    * [.getSupply(modifiers)](#Driver.BlockchairBitcoinCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.BlockchairBitcoinCash+fetchTotalSupply"></a>
 
@@ -242,14 +242,13 @@ get balance value for specific wallet address
 
 <a name="Driver.BlockchairBitcoinCash+getSupply"></a>
 
-#### blockchairBitcoinCash.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+#### blockchairBitcoinCash.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>BlockchairBitcoinCash</code>](#Driver.BlockchairBitcoinCash)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
-| coin.modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Driver.CardanoExplorer"></a>
 
