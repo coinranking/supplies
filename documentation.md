@@ -48,7 +48,7 @@
         * [~BlockchairLitecoin](#Driver.BlockchairLitecoin) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.BlockchairLitecoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BlockchairLitecoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-            * [.getSupply(coin)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+            * [.getSupply(modifiers)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~CardanoExplorer](#Driver.CardanoExplorer) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.CardanoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.CardanoExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -210,7 +210,7 @@ for native token on Litecoin blockchain.
 * [~BlockchairLitecoin](#Driver.BlockchairLitecoin) ⇐ [<code>Driver</code>](#Driver)
     * [.fetchTotalSupply()](#Driver.BlockchairLitecoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchBalance(modifier)](#Driver.BlockchairLitecoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-    * [.getSupply(coin)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+    * [.getSupply(modifiers)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.BlockchairLitecoin+fetchTotalSupply"></a>
 
@@ -233,14 +233,13 @@ get balance value for specific wallet address
 
 <a name="Driver.BlockchairLitecoin+getSupply"></a>
 
-#### blockchairLitecoin.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+#### blockchairLitecoin.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>BlockchairLitecoin</code>](#Driver.BlockchairLitecoin)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
-| coin.modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Driver.CardanoExplorer"></a>
 
