@@ -1,3 +1,15 @@
+# [1.7.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.6.0...v1.7.0) (2020-02-10)
+
+
+### Bug Fixes
+
+* update docs ([145efdd](https://bitbucket.org/trinarydigital/supplies/commits/145efdd68f60464561b4b3972b0c3e1aeb14b289))
+
+
+### Features
+
+* dia ethereum classic ([90ec36f](https://bitbucket.org/trinarydigital/supplies/commits/90ec36f559f7568f58db0801525037d0d73c92c3))
+
 # [1.6.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.5.0...v1.6.0) (2020-02-10)
 
 
