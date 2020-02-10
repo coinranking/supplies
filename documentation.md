@@ -36,8 +36,8 @@
         * [.fetchCirculatingSupply](#Driver.fetchCirculatingSupply) ⇒ <code>number</code>
         * [.fetchMaxSupply](#Driver.fetchMaxSupply) ⇒ <code>number</code>
         * [.fetchBalance](#Driver.fetchBalance) ⇒ <code>number</code>
-        * [.fetchAssetTotalSupply](#Driver.fetchAssetTotalSupply) ⇒ <code>number</code>
-        * [.fetchAssetBalance](#Driver.fetchAssetBalance) ⇒ <code>number</code>
+        * [.fetchTokenTotalSupply](#Driver.fetchTokenTotalSupply) ⇒ <code>number</code>
+        * [.fetchTokenBalance](#Driver.fetchTokenBalance) ⇒ <code>number</code>
         * [.getSupply](#Driver.getSupply) ⇒ [<code>Promise.&lt;Supply&gt;</code>](#Model.Supply)
     * _inner_
         * [~BlockchainInfo](#Driver.BlockchainInfo) ⇐ [<code>Driver</code>](#Driver)
@@ -65,8 +65,8 @@
         * [~Etherscan](#Driver.Etherscan) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Etherscan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Etherscan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-            * [.fetchAssetTotalSupply(reference, decimals)](#Driver.Etherscan+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-            * [.fetchAssetBalance(reference, modifier, decimals)](#Driver.Etherscan+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+            * [.fetchTokenTotalSupply(reference, decimals)](#Driver.Etherscan+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchTokenBalance(reference, modifier, decimals)](#Driver.Etherscan+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
             * [.getSupply(coin)](#Driver.Etherscan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Lisk](#Driver.Lisk) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Lisk+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
@@ -84,20 +84,26 @@
         * [~NeoScan](#Driver.NeoScan) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.NeoScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.NeoScan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-            * [.fetchAssetTotalSupply(reference)](#Driver.NeoScan+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-            * [.fetchAssetBalance(reference, modifier)](#Driver.NeoScan+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+            * [.fetchTokenTotalSupply(reference)](#Driver.NeoScan+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchTokenBalance(reference, modifier)](#Driver.NeoScan+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
             * [.getSupply(coin)](#Driver.NeoScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~OmniExplorer](#Driver.OmniExplorer) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.OmniExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.OmniExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-            * [.fetchAssetTotalSupply(reference)](#Driver.OmniExplorer+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-            * [.fetchAssetBalance(reference, modifier)](#Driver.OmniExplorer+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+            * [.fetchTokenTotalSupply(reference)](#Driver.OmniExplorer+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchTokenBalance(reference, modifier)](#Driver.OmniExplorer+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
             * [.getSupply(coin)](#Driver.OmniExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Ripple](#Driver.Ripple) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Ripple+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.Ripple+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.Ripple+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.Ripple+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+            * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="new_Driver_new"></a>
 
@@ -107,42 +113,42 @@ Driver parent class, to be extended by drivers for specific block explorers.
 <a name="Driver.fetchTotalSupply"></a>
 
 ### Driver.fetchTotalSupply ⇒ <code>number</code>
-Fetch the total supply of a coin
+Fetch the total supply of a coin.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - All the currently mined coins.  
 <a name="Driver.fetchCirculatingSupply"></a>
 
 ### Driver.fetchCirculatingSupply ⇒ <code>number</code>
-Fetch the circulating supply of a coin
+Fetch the circulating supply of a coin.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - The total supply minus coins not in circulation, such as burned, premined or escrowed coins.  
 <a name="Driver.fetchMaxSupply"></a>
 
 ### Driver.fetchMaxSupply ⇒ <code>number</code>
-Fetch the maximum supply of a coin
+Fetch the maximum supply of a coin.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - The maximum possible amount of supply ever to be reached.  
 <a name="Driver.fetchBalance"></a>
 
 ### Driver.fetchBalance ⇒ <code>number</code>
-Fetch the balance
+Fetch the balance.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - Amount on a specific address.  
-<a name="Driver.fetchAssetTotalSupply"></a>
+<a name="Driver.fetchTokenTotalSupply"></a>
 
-### Driver.fetchAssetTotalSupply ⇒ <code>number</code>
-Fetch the total supply of an asset, i.e. a token on a blockchain.
+### Driver.fetchTokenTotalSupply ⇒ <code>number</code>
+Fetch the total supply of an token.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - Total amount of a token.  
-<a name="Driver.fetchAssetBalance"></a>
+<a name="Driver.fetchTokenBalance"></a>
 
-### Driver.fetchAssetBalance ⇒ <code>number</code>
-Fetch asset balance
+### Driver.fetchTokenBalance ⇒ <code>number</code>
+Fetch token balance.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - Balance of a specific token on a specific address, to be used as supply modifier in order to
@@ -344,8 +350,8 @@ tokens on the ethereum blockchain.
 * [~Etherscan](#Driver.Etherscan) ⇐ [<code>Driver</code>](#Driver)
     * [.fetchTotalSupply()](#Driver.Etherscan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchBalance(modifier)](#Driver.Etherscan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-    * [.fetchAssetTotalSupply(reference, decimals)](#Driver.Etherscan+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-    * [.fetchAssetBalance(reference, modifier, decimals)](#Driver.Etherscan+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+    * [.fetchTokenTotalSupply(reference, decimals)](#Driver.Etherscan+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchTokenBalance(reference, modifier, decimals)](#Driver.Etherscan+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
     * [.getSupply(coin)](#Driver.Etherscan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.Etherscan+fetchTotalSupply"></a>
@@ -363,22 +369,22 @@ tokens on the ethereum blockchain.
 | --- | --- | --- |
 | modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
-<a name="Driver.Etherscan+fetchAssetTotalSupply"></a>
+<a name="Driver.Etherscan+fetchTokenTotalSupply"></a>
 
-#### etherscan.fetchAssetTotalSupply(reference, decimals) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
+#### etherscan.fetchTokenTotalSupply(reference, decimals) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
 **Kind**: instance method of [<code>Etherscan</code>](#Driver.Etherscan)  
-**Extends**: [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 | decimals | [<code>decimalsParam</code>](#decimalsParam) | [decimalsParam](#decimalsParam) |
 
-<a name="Driver.Etherscan+fetchAssetBalance"></a>
+<a name="Driver.Etherscan+fetchTokenBalance"></a>
 
-#### etherscan.fetchAssetBalance(reference, modifier, decimals) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+#### etherscan.fetchTokenBalance(reference, modifier, decimals) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
 **Kind**: instance method of [<code>Etherscan</code>](#Driver.Etherscan)  
-**Extends**: [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -507,8 +513,8 @@ NeoScan driver.
 * [~NeoScan](#Driver.NeoScan) ⇐ [<code>Driver</code>](#Driver)
     * [.fetchTotalSupply()](#Driver.NeoScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchBalance(modifier)](#Driver.NeoScan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-    * [.fetchAssetTotalSupply(reference)](#Driver.NeoScan+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-    * [.fetchAssetBalance(reference, modifier)](#Driver.NeoScan+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+    * [.fetchTokenTotalSupply(reference)](#Driver.NeoScan+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchTokenBalance(reference, modifier)](#Driver.NeoScan+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
     * [.getSupply(coin)](#Driver.NeoScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.NeoScan+fetchTotalSupply"></a>
@@ -526,21 +532,21 @@ NeoScan driver.
 | --- | --- | --- |
 | modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
-<a name="Driver.NeoScan+fetchAssetTotalSupply"></a>
+<a name="Driver.NeoScan+fetchTokenTotalSupply"></a>
 
-#### neoScan.fetchAssetTotalSupply(reference) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
+#### neoScan.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
 **Kind**: instance method of [<code>NeoScan</code>](#Driver.NeoScan)  
-**Extends**: [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 
-<a name="Driver.NeoScan+fetchAssetBalance"></a>
+<a name="Driver.NeoScan+fetchTokenBalance"></a>
 
-#### neoScan.fetchAssetBalance(reference, modifier) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+#### neoScan.fetchTokenBalance(reference, modifier) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
 **Kind**: instance method of [<code>NeoScan</code>](#Driver.NeoScan)  
-**Extends**: [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -568,8 +574,8 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 * [~OmniExplorer](#Driver.OmniExplorer) ⇐ [<code>Driver</code>](#Driver)
     * [.fetchTotalSupply()](#Driver.OmniExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
     * [.fetchBalance(modifier)](#Driver.OmniExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
-    * [.fetchAssetTotalSupply(reference)](#Driver.OmniExplorer+fetchAssetTotalSupply) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
-    * [.fetchAssetBalance(reference, modifier)](#Driver.OmniExplorer+fetchAssetBalance) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+    * [.fetchTokenTotalSupply(reference)](#Driver.OmniExplorer+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchTokenBalance(reference, modifier)](#Driver.OmniExplorer+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
     * [.getSupply(coin)](#Driver.OmniExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="Driver.OmniExplorer+fetchTotalSupply"></a>
@@ -587,21 +593,21 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 | --- | --- | --- |
 | modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
-<a name="Driver.OmniExplorer+fetchAssetTotalSupply"></a>
+<a name="Driver.OmniExplorer+fetchTokenTotalSupply"></a>
 
-#### omniExplorer.fetchAssetTotalSupply(reference) ⇐ [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)
+#### omniExplorer.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
 **Kind**: instance method of [<code>OmniExplorer</code>](#Driver.OmniExplorer)  
-**Extends**: [<code>fetchAssetTotalSupply</code>](#Driver.fetchAssetTotalSupply)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
 
 | Param | Type | Description |
 | --- | --- | --- |
 | reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
 
-<a name="Driver.OmniExplorer+fetchAssetBalance"></a>
+<a name="Driver.OmniExplorer+fetchTokenBalance"></a>
 
-#### omniExplorer.fetchAssetBalance(reference, modifier) ⇐ [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)
+#### omniExplorer.fetchTokenBalance(reference, modifier) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
 **Kind**: instance method of [<code>OmniExplorer</code>](#Driver.OmniExplorer)  
-**Extends**: [<code>fetchAssetBalance</code>](#Driver.fetchAssetBalance)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -652,6 +658,78 @@ Ripple driver.
 #### ripple.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Ripple</code>](#Driver.Ripple)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.Waves"></a>
+
+### Driver~Waves ⇐ [<code>Driver</code>](#Driver)
+Waves driver. Supports balance and total supply for waves and other
+tokens on the Waves blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Waves+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.fetchTokenBalance(reference, modifier)](#Driver.Waves+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+    * [.getSupply(coin)](#Driver.Waves+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Waves+fetchTotalSupply"></a>
+
+#### waves.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for Wave token
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Waves+fetchTokenTotalSupply"></a>
+
+#### waves.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+get total supply for specific asset id
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+
+<a name="Driver.Waves+fetchBalance"></a>
+
+#### waves.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Waves+fetchTokenBalance"></a>
+
+#### waves.fetchTokenBalance(reference, modifier) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+fetch balance value of asset id for specific wallet
+
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Waves+getSupply"></a>
+
+#### waves.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Waves</code>](#Driver.Waves)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
+| coin.reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| coin.modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Model"></a>
 
 ## Model
