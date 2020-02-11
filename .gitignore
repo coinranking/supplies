@@ -18,3 +18,7 @@ env.yml
 dump.rdb
 
 coverage
+
+CHANGELOG.md
+DOCUMENTATION.md
+documentation.md
