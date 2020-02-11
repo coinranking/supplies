@@ -1,3 +1,10 @@
+## [1.7.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.7.0...v1.7.1) (2020-02-11)
+
+
+### Bug Fixes
+
+* **dia:** the dia-ethereum-classic driver supports ethereum classic ([d4ffe09](https://bitbucket.org/trinarydigital/supplies/commits/d4ffe095076e221fcaae95295c444e8c85701134))
+
 # [1.7.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.6.0...v1.7.0) (2020-02-10)
 
 
