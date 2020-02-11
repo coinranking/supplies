@@ -40,4 +40,5 @@ pipelines:
             - node
           script:
             - npm install
+            - npm run docs
             - npm run semantic-release
