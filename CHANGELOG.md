@@ -1,3 +1,17 @@
+# [1.8.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.7.1...v1.8.0) (2020-02-11)
+
+
+### Bug Fixes
+
+* remove extra param definition and update docs ([64cd98a](https://bitbucket.org/trinarydigital/supplies/commits/64cd98a2df0cbaf016e7b3353859c078d036971e))
+* small fix in comment ([27507f5](https://bitbucket.org/trinarydigital/supplies/commits/27507f526f5bd737eb24ae942a79db3dd08c887b))
+* update docs ([2e2987f](https://bitbucket.org/trinarydigital/supplies/commits/2e2987f5727db0c99f760ab6e944fecef983a7f0))
+
+
+### Features
+
+* blockchair litecoin driver ([79098ba](https://bitbucket.org/trinarydigital/supplies/commits/79098babf73ff68226a383e6b669712f9d1bcd2e))
+
 ## [1.7.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.7.0...v1.7.1) (2020-02-11)
 
 
