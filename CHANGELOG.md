@@ -1,3 +1,10 @@
+# [1.9.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.8.0...v1.9.0) (2020-02-11)
+
+
+### Features
+
+* ignore the documentation but generate dynamicly ([52e4cc9](https://bitbucket.org/trinarydigital/supplies/commits/52e4cc9c4dd1dac96c6c98f2058baaa42bb44691))
+
 # [1.8.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.7.1...v1.8.0) (2020-02-11)
 
 
