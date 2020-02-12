@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/supplies",
-  "version": "1.5.0",
+  "version": "1.10.2",
   "description": "A Javascript library for getting up to date cryptocurrency total supplies, circulating supplies and max supplies",
   "main": "lib/supplies.js",
   "engines": {
@@ -16,7 +16,7 @@
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
     "cm": "git-cz",
-    "docs": "jsdoc2md lib/**/*.js > documentation.md",
+    "docs": "jsdoc2md lib/**/*.js > DOCUMENTATION.md",
     "semantic-release": "semantic-release"
   },
   "bugs": {
@@ -96,6 +96,7 @@
         "assets": [
           "package.json",
           "package-lock.json",
+          "DOCUMENTATION.md",
           "CHANGELOG.md"
         ],
         "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
