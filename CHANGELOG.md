@@ -1,3 +1,11 @@
+## [1.10.3](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.2...v1.10.3) (2020-02-12)
+
+
+### Bug Fixes
+
+* remove hardcoded useCache options ([f38b1d6](https://bitbucket.org/trinarydigital/supplies/commits/f38b1d658786344cf04fdfb737b00f26d66de9f3))
+* replace the fixtures ([60644b9](https://bitbucket.org/trinarydigital/supplies/commits/60644b909976735173f9c6f808785570a9a7026f))
+
 ## [1.10.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.1...v1.10.2) (2020-02-12)
 
 
