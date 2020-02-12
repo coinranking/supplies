@@ -1,3 +1,10 @@
+## [1.10.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.0...v1.10.1) (2020-02-12)
+
+
+### Bug Fixes
+
+* remove duplicates from the blockchains ([d393357](https://bitbucket.org/trinarydigital/supplies/commits/d393357cbd3bbb6a4acc144b0f056e59e7e27ecd))
+
 # [1.10.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.9.0...v1.10.0) (2020-02-11)
 
 
