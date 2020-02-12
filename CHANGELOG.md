@@ -1,3 +1,10 @@
+## [1.10.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.1...v1.10.2) (2020-02-12)
+
+
+### Bug Fixes
+
+* **waves:** address balances are returned as decimal instead of integer ([8b103e8](https://bitbucket.org/trinarydigital/supplies/commits/8b103e8d45f09c750da52d5d308ff3704701f2cb))
+
 ## [1.10.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.0...v1.10.1) (2020-02-12)
 
 
