@@ -98,12 +98,14 @@ For the coin object see `lib/models/coin`
 #### Flags
 
 
-| Name     | Flag                | Description
-| -------- | ------------------- | ---
-| Coin     | `-c`, `--coin <type>` | For passing down a Coin object so the driver knows which reference to use as well as which modifiers
-| Record   | `-r`, `--record`      | Record the requests and coin, and save them as fixtures. This is for developing purposes
-| Key      | `-k`, `--key <type>`  | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures
-| No cache | `--nocache`         | Skip using the cache
+| Name      | Flag                    | Description
+| ----------| ------------------------| ---
+| Decimals  | `-d`, `--decimals`      | 'Some drivers like Etherscan require decimals')
+| Reference | `-r`, `--reference`     | 'Reference is a unique id for a specific driver; for example a smart contract address')
+| Modifiers | `-m`, `--modifiers`     | 'Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma.')
+| Record    | `-R`, `--record`        | Record the requests and coin, and save them as fixtures. This is for developing purposes
+| API Key   | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures
+| No cache  | `--nocache`             | Skip using the cache
 
 ## Development
 
