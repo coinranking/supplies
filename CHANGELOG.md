@@ -1,3 +1,11 @@
+## [1.10.4](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.3...v1.10.4) (2020-02-13)
+
+
+### Bug Fixes
+
+* **etherscan:** tokens with 0 decimals no longer default to 18 ([40734e7](https://bitbucket.org/trinarydigital/supplies/commits/40734e70eac1016b13b599622a59b49cec6a6c22))
+* **etherscan:** tokens with 0 decimals no longer default to 18 ([4d08125](https://bitbucket.org/trinarydigital/supplies/commits/4d08125c4ebe285c561cbecb185d60201a307c50))
+
 ## [1.10.3](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.2...v1.10.3) (2020-02-12)
 
 
