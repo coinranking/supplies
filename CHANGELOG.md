@@ -1,3 +1,10 @@
+## [1.10.5](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.4...v1.10.5) (2020-02-13)
+
+
+### Bug Fixes
+
+* respect the support options in the happy path tests ([6e224fe](https://bitbucket.org/trinarydigital/supplies/commits/6e224fe4bcb9d309a1df18390c57901e9a46383b))
+
 ## [1.10.4](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.3...v1.10.4) (2020-02-13)
 
 
