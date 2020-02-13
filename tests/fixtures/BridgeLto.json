@@ -5,10 +5,10 @@
         "path": "/stats/total-supply",
         "body": "",
         "status": 200,
-        "response": 453398314.5246403,
+        "response": 453398314.5246404,
         "rawHeaders": [
             "Date",
-            "Thu, 13 Feb 2020 16:00:39 GMT",
+            "Thu, 13 Feb 2020 18:43:14 GMT",
             "Content-Type",
             "text/html; charset=utf-8",
             "Content-Length",
@@ -30,7 +30,7 @@
             "X-XSS-Protection",
             "1; mode=block",
             "ETag",
-            "W/\"11-R2IcQpgdFjrn2d9RhPACB01oTN0\""
+            "W/\"11-mgjShccf1tFIXcFxb902PVP1WA8\""
         ],
         "responseIsBinary": false
     },
@@ -42,14 +42,14 @@
         "status": 200,
         "response": {
             "address": "3Jq8mnhRquuXCiFUwTLZFVSzmQt3Fu6F7HQ",
-            "regular": 4879316400000,
-            "generating": 104879316400000,
-            "available": 4879316400000,
-            "effective": 104879316400000
+            "regular": 4790036400000,
+            "generating": 104790036400000,
+            "available": 4790036400000,
+            "effective": 104790036400000
         },
         "rawHeaders": [
             "Date",
-            "Thu, 13 Feb 2020 16:00:39 GMT",
+            "Thu, 13 Feb 2020 18:43:15 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
