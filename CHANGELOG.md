@@ -1,3 +1,15 @@
+# [1.13.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.12.0...v1.13.0) (2020-02-14)
+
+
+### Bug Fixes
+
+* convert array to string ([49b2e3c](https://bitbucket.org/trinarydigital/supplies/commits/49b2e3c5206f9f4b26950d07673eb34f8029ca7c))
+
+
+### Features
+
+* bare driver ([7549628](https://bitbucket.org/trinarydigital/supplies/commits/7549628d631d32fcfea0af7291b00ee773da0888))
+
 # [1.12.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.11.0...v1.12.0) (2020-02-14)
 
 
