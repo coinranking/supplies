@@ -53,6 +53,9 @@
             * [.fetchTotalSupply()](#Driver.BlockchairLitecoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BlockchairLitecoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~BlocksEos](#Driver.BlocksEos) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.BlocksEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchMaxSupply()](#Driver.BlocksEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
         * [~BridgeLto](#Driver.BridgeLto) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.BridgeLto+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BridgeLto+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -83,6 +86,10 @@
             * [.fetchTokenTotalSupply(reference, decimals)](#Driver.Etherscan+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
             * [.fetchTokenBalance(reference, modifier, decimals)](#Driver.Etherscan+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
             * [.getSupply(coin)](#Driver.Etherscan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Helpico](#Driver.Helpico) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Helpico+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Helpico+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Helpico+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Lisk](#Driver.Lisk) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Lisk+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Lisk+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -301,6 +308,33 @@ get balance value for specific wallet address
 | --- | --- | --- |
 | modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
+<a name="Driver.BlocksEos"></a>
+
+### Driver~BlocksEos ⇐ [<code>Driver</code>](#Driver)
+Blocks explorer. Supports total and max supply
+for EOS token.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~BlocksEos](#Driver.BlocksEos) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.BlocksEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchMaxSupply()](#Driver.BlocksEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+
+<a name="Driver.BlocksEos+fetchTotalSupply"></a>
+
+#### blocksEos.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>BlocksEos</code>](#Driver.BlocksEos)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.BlocksEos+fetchMaxSupply"></a>
+
+#### blocksEos.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+get max total supply for native token
+
+**Kind**: instance method of [<code>BlocksEos</code>](#Driver.BlocksEos)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
 <a name="Driver.BridgeLto"></a>
 
 ### Driver~BridgeLto ⇐ [<code>Driver</code>](#Driver)
@@ -570,6 +604,52 @@ tokens on the ethereum blockchain.
 | Param | Type | Description |
 | --- | --- | --- |
 | coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
+
+<a name="Driver.Helpico"></a>
+
+### Driver~Helpico ⇐ [<code>Driver</code>](#Driver)
+Helpico driver. Supports total supply and balance
+for specific wallet address for native token GMT on
+Helpico blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Helpico](#Driver.Helpico) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Helpico+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Helpico+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Helpico+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Helpico+fetchTotalSupply"></a>
+
+#### helpico.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Helpico</code>](#Driver.Helpico)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Helpico+fetchBalance"></a>
+
+#### helpico.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Helpico</code>](#Driver.Helpico)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Helpico+getSupply"></a>
+
+#### helpico.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+get supply
+
+**Kind**: instance method of [<code>Helpico</code>](#Driver.Helpico)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | {@link } |
 
 <a name="Driver.Lisk"></a>
 

@@ -1,3 +1,17 @@
+# [1.12.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.11.0...v1.12.0) (2020-02-14)
+
+
+### Bug Fixes
+
+* add comments ([490a534](https://bitbucket.org/trinarydigital/supplies/commits/490a5347853052c7d19fa7adecb52c7476b21121))
+* remove hardcoded options ([4655984](https://bitbucket.org/trinarydigital/supplies/commits/465598411eef83aab43b3188e24395af79e94311))
+
+
+### Features
+
+* blocks eos driver ([f5abda7](https://bitbucket.org/trinarydigital/supplies/commits/f5abda7d2ccc49e2dde7d85eb4096ddf88fc9c86))
+* helpico driver ([dc22100](https://bitbucket.org/trinarydigital/supplies/commits/dc221000e0dc7dce5b0e735365ba1c17e7aadcb2))
+
 # [1.11.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.5...v1.11.0) (2020-02-14)
 
 
