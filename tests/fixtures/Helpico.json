@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://helpico.tech:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 5013283.72711634,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "\"132670423\"",
+            "Date",
+            "Fri, 14 Feb 2020 07:49:43 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://helpico.tech:80",
+        "method": "GET",
+        "path": "/ext/getbalance/H8WMu99F1S4JbrZwus5dFS1qdbr2PQGRH5",
+        "body": "",
+        "status": 200,
+        "response": 4153.24633875,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "13",
+            "ETag",
+            "\"1992706259\"",
+            "Date",
+            "Fri, 14 Feb 2020 07:49:43 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
