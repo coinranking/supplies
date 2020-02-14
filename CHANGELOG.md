@@ -1,3 +1,15 @@
+# [1.14.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.13.0...v1.14.0) (2020-02-14)
+
+
+### Bug Fixes
+
+* convert array to string ([2d52560](https://bitbucket.org/trinarydigital/supplies/commits/2d525607e778c18541946ac17627556d951efa00))
+
+
+### Features
+
+* xaya driver ([0c27404](https://bitbucket.org/trinarydigital/supplies/commits/0c274042d2c1d599aebe28d2ea5b7fbafd90f9dd))
+
 # [1.13.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.12.0...v1.13.0) (2020-02-14)
 
 
