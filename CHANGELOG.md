@@ -1,3 +1,18 @@
+# [1.11.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.5...v1.11.0) (2020-02-14)
+
+
+### Bug Fixes
+
+* comments and remove fetchCirculatingSupply ([bd5ec4c](https://bitbucket.org/trinarydigital/supplies/commits/bd5ec4c576cc84947a429ee058c28becad499a62))
+* remove hardcoded options ([9137b0b](https://bitbucket.org/trinarydigital/supplies/commits/9137b0b1599817b90232a02b42235e5d935b0d7d))
+* remove supports circulating ([0a1432b](https://bitbucket.org/trinarydigital/supplies/commits/0a1432b38da4ea8db66a2d1114612697ac428209))
+
+
+### Features
+
+* balance function ([d719045](https://bitbucket.org/trinarydigital/supplies/commits/d719045e8ef0dce519bda7982c8b2fd1e9227307))
+* fetch balance and total supply ([72a7f9b](https://bitbucket.org/trinarydigital/supplies/commits/72a7f9b574532693c5cd01715b0064bc99a867ff))
+
 ## [1.10.5](https://bitbucket.org/trinarydigital/supplies/compare/v1.10.4...v1.10.5) (2020-02-13)
 
 
