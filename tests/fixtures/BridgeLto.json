@@ -1,0 +1,66 @@
+[
+    {
+        "scope": "https://bridge.lto.network:443",
+        "method": "GET",
+        "path": "/stats/total-supply",
+        "body": "",
+        "status": 200,
+        "response": 453398314.5246404,
+        "rawHeaders": [
+            "Date",
+            "Thu, 13 Feb 2020 18:43:14 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "ETag",
+            "W/\"11-mgjShccf1tFIXcFxb902PVP1WA8\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://nodes.lto.network:443",
+        "method": "GET",
+        "path": "/addresses/balance/details/3Jq8mnhRquuXCiFUwTLZFVSzmQt3Fu6F7HQ",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "3Jq8mnhRquuXCiFUwTLZFVSzmQt3Fu6F7HQ",
+            "regular": 4790036400000,
+            "generating": 104790036400000,
+            "available": 4790036400000,
+            "effective": 104790036400000
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 13 Feb 2020 18:43:15 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "182",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.15.6",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    }
+]
