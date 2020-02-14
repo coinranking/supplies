@@ -1,0 +1,58 @@
+[
+    {
+        "scope": "https://explorer.bare.network:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 342565.91143882,
+        "rawHeaders": [
+            "Date",
+            "Fri, 14 Feb 2020 08:56:41 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=da245846d87db3c7704cda1836b47fe301581670600; expires=Sun, 15-Mar-20 08:56:40 GMT; path=/; domain=.bare.network; HttpOnly; SameSite=Lax",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.bare.network:443",
+        "method": "GET",
+        "path": "/ext/getbalance/B4WbXbjYRdoGVJw48QGZ86McDFAZ4HkVo1",
+        "body": "",
+        "status": 200,
+        "response": 12406.37697308,
+        "rawHeaders": [
+            "Date",
+            "Fri, 14 Feb 2020 08:56:41 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
