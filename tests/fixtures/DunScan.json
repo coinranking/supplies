@@ -1,0 +1,50 @@
+[
+    {
+        "scope": "https://api6.dunscan.io:443",
+        "method": "GET",
+        "path": "/v4/tokens",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "hash": "KT1CfJrFPrqxeZhPg2eiY2oYfHuqQrtvGfQr",
+                "name": "Mess token",
+                "symbol": "Mess",
+                "supply": "1000000000000",
+                "decimals": 6,
+                "version": "1.0"
+            }
+        ],
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3",
+            "Date",
+            "Fri, 21 Feb 2020 16:54:10 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "139",
+            "Connection",
+            "keep-alive",
+            "accept",
+            "application/json",
+            "accept-encoding",
+            "gzip, deflate",
+            "access-control-allow-headers",
+            "Accept, Content-Type",
+            "access-control-allow-methods",
+            "POST, GET, OPTIONS",
+            "access-control-allow-origin",
+            "*",
+            "host",
+            "127.0.0.1:8084",
+            "x-forwarded-for",
+            "185.244.92.237",
+            "x-real-ip",
+            "185.244.92.237",
+            "X-Cache-Status",
+            "HIT"
+        ],
+        "responseIsBinary": false
+    }
+]
