@@ -133,6 +133,10 @@
             * [.fetchTotalSupply()](#Driver.SmartHoldem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.SmartHoldem+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.SmartHoldem+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~StashExplorer](#Driver.StashExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.StashExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.StashExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.StashExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
@@ -1046,6 +1050,48 @@ get balance for specific wallet address
 
 #### smartHoldem.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>SmartHoldem</code>](#Driver.SmartHoldem)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.StashExplorer"></a>
+
+### Driver~StashExplorer ⇐ [<code>Driver</code>](#Driver)
+Stash explorer. Supports total supply
+and balance for specific address
+on Stash blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~StashExplorer](#Driver.StashExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.StashExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.StashExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.StashExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.StashExplorer+fetchTotalSupply"></a>
+
+#### stashExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.StashExplorer+fetchBalance"></a>
+
+#### stashExplorer.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.StashExplorer+getSupply"></a>
+
+#### stashExplorer.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |

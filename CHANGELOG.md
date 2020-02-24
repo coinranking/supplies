@@ -1,3 +1,15 @@
+# [1.17.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.16.0...v1.17.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* add comment param ([f83f2ff](https://bitbucket.org/trinarydigital/supplies/commits/f83f2ffa11b744997875410f2056ee42086c70d8))
+
+
+### Features
+
+* stash explorer driver ([94381d2](https://bitbucket.org/trinarydigital/supplies/commits/94381d29acdb3aa57bd94f5a90f21a0c07fdad3a))
+
 # [1.16.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.15.0...v1.16.0) (2020-02-24)
 
 
