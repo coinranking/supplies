@@ -1,3 +1,12 @@
+# [1.19.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.18.0...v1.19.0) (2020-02-24)
+
+
+### Features
+
+* doge cash driver ([dd11503](https://bitbucket.org/trinarydigital/supplies/commits/dd11503cabbf643c9ae817ac4c94d29bcc9e825d))
+* konjungate driver ([cd836ca](https://bitbucket.org/trinarydigital/supplies/commits/cd836ca2412a7a3f3fa39b27996d45a9b03244b2))
+* prux driver ([2ac6ef3](https://bitbucket.org/trinarydigital/supplies/commits/2ac6ef36ef99504645f9d3f354052f03d3ecd53a))
+
 # [1.18.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.17.0...v1.18.0) (2020-02-24)
 
 
