@@ -44,6 +44,10 @@
             * [.fetchTotalSupply()](#Driver.Bare+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Bare+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.Bare+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Beyondcoin](#Driver.Beyondcoin) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Beyondcoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Beyondcoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Beyondcoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~BlockchainInfo](#Driver.BlockchainInfo) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.BlockchainInfo+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.BlockchainInfo+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -80,6 +84,10 @@
         * [~DiaEthereumClassic](#Driver.DiaEthereumClassic) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchCirculatingSupply()](#Driver.DiaEthereumClassic+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.DiaEthereumClassic+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~DogeCash](#Driver.DogeCash) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.DogeCash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.DogeCash+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.DogeCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~DogeChain](#Driver.DogeChain) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.DogeChain+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.DogeChain+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -94,6 +102,10 @@
             * [.fetchTotalSupply()](#Driver.Helpico+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Helpico+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.Helpico+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Konjungate](#Driver.Konjungate) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Konjungate+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Konjungate+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Konjungate+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Lisk](#Driver.Lisk) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Lisk+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Lisk+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -107,6 +119,10 @@
             * [.fetchTotalSupply()](#Driver.MoneroBlocks+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.MoneroBlocks+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.MoneroBlocks+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~MyspesExplorer](#Driver.MyspesExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.MyspesExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.MyspesExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.MyspesExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~NeoScan](#Driver.NeoScan) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.NeoScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.NeoScan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -119,11 +135,32 @@
             * [.fetchTokenTotalSupply(reference)](#Driver.OmniExplorer+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
             * [.fetchTokenBalance(reference, modifier)](#Driver.OmniExplorer+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
             * [.getSupply(coin)](#Driver.OmniExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Prux](#Driver.Prux) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Prux+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Prux+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Prux+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Rapids](#Driver.Rapids) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Rapids+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Rapids+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Rapids+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Ripple](#Driver.Ripple) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Ripple+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.Ripple+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.Ripple+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.Ripple+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~RyoExplorer](#Driver.RyoExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.RyoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.RyoExplorer+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.fetchMaxSupply()](#Driver.RyoExplorer+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+            * [.getSupply()](#Driver.RyoExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~SmartHoldem](#Driver.SmartHoldem) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.SmartHoldem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.SmartHoldem+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.SmartHoldem+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~StashExplorer](#Driver.StashExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.StashExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.StashExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.StashExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
@@ -241,6 +278,49 @@ get supply
 | Param | Type | Description |
 | --- | --- | --- |
 | modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | {@link } |
+
+<a name="Driver.Beyondcoin"></a>
+
+### Driver~Beyondcoin ⇐ [<code>Driver</code>](#Driver)
+Beyondcoin explorer. Supports total supply
+and balance for specific address on
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Beyondcoin](#Driver.Beyondcoin) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Beyondcoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Beyondcoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Beyondcoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Beyondcoin+fetchTotalSupply"></a>
+
+#### beyondcoin.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Beyondcoin</code>](#Driver.Beyondcoin)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Beyondcoin+fetchBalance"></a>
+
+#### beyondcoin.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Beyondcoin</code>](#Driver.Beyondcoin)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Beyondcoin+getSupply"></a>
+
+#### beyondcoin.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Beyondcoin</code>](#Driver.Beyondcoin)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Driver.BlockchainInfo"></a>
 
@@ -567,6 +647,49 @@ get total supply for
 #### diaEthereumClassic.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>DiaEthereumClassic</code>](#Driver.DiaEthereumClassic)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.DogeCash"></a>
+
+### Driver~DogeCash ⇐ [<code>Driver</code>](#Driver)
+DogeCash explorer. Supports total supply
+and balance value for specific address.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~DogeCash](#Driver.DogeCash) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.DogeCash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.DogeCash+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.DogeCash+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.DogeCash+fetchTotalSupply"></a>
+
+#### dogeCash.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>DogeCash</code>](#Driver.DogeCash)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.DogeCash+fetchBalance"></a>
+
+#### dogeCash.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>DogeCash</code>](#Driver.DogeCash)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.DogeCash+getSupply"></a>
+
+#### dogeCash.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>DogeCash</code>](#Driver.DogeCash)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.DogeChain"></a>
 
 ### Driver~DogeChain ⇐ [<code>Driver</code>](#Driver)
@@ -705,6 +828,50 @@ get supply
 | --- | --- | --- |
 | modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | {@link } |
 
+<a name="Driver.Konjungate"></a>
+
+### Driver~Konjungate ⇐ [<code>Driver</code>](#Driver)
+Konjungate explorer. Supports total supply
+for native token and fetch balance info
+from specific address.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Konjungate](#Driver.Konjungate) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Konjungate+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Konjungate+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Konjungate+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Konjungate+fetchTotalSupply"></a>
+
+#### konjungate.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Konjungate</code>](#Driver.Konjungate)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Konjungate+fetchBalance"></a>
+
+#### konjungate.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Konjungate</code>](#Driver.Konjungate)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Konjungate+getSupply"></a>
+
+#### konjungate.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Konjungate</code>](#Driver.Konjungate)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.Lisk"></a>
 
 ### Driver~Lisk ⇐ [<code>Driver</code>](#Driver)
@@ -805,6 +972,50 @@ MoneroBlocks driver.
 #### moneroBlocks.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>MoneroBlocks</code>](#Driver.MoneroBlocks)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.MyspesExplorer"></a>
+
+### Driver~MyspesExplorer ⇐ [<code>Driver</code>](#Driver)
+MyspesExplorer driver. Supports
+total supply and balance for native
+token SpesCoin on CryptoNote blockchain
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~MyspesExplorer](#Driver.MyspesExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.MyspesExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.MyspesExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.MyspesExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.MyspesExplorer+fetchTotalSupply"></a>
+
+#### myspesExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.MyspesExplorer+fetchBalance"></a>
+
+#### myspesExplorer.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.MyspesExplorer+getSupply"></a>
+
+#### myspesExplorer.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.NeoScan"></a>
 
 ### Driver~NeoScan ⇐ [<code>Driver</code>](#Driver)
@@ -927,6 +1138,92 @@ Omniexplorer driver. Supports circulating and max supply for tokens.
 | --- | --- | --- |
 | coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
+<a name="Driver.Prux"></a>
+
+### Driver~Prux ⇐ [<code>Driver</code>](#Driver)
+Prux explorer. Supports total supply
+and balance for specific address.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Prux](#Driver.Prux) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Prux+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Prux+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Prux+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Prux+fetchTotalSupply"></a>
+
+#### prux.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Prux</code>](#Driver.Prux)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Prux+fetchBalance"></a>
+
+#### prux.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Prux</code>](#Driver.Prux)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Prux+getSupply"></a>
+
+#### prux.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Prux</code>](#Driver.Prux)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Rapids"></a>
+
+### Driver~Rapids ⇐ [<code>Driver</code>](#Driver)
+Rapids explorer. Supports total supply
+and balance for specific address.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Rapids](#Driver.Rapids) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Rapids+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Rapids+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Rapids+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Rapids+fetchTotalSupply"></a>
+
+#### rapids.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Rapids</code>](#Driver.Rapids)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Rapids+fetchBalance"></a>
+
+#### rapids.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Rapids</code>](#Driver.Rapids)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Rapids+getSupply"></a>
+
+#### rapids.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Rapids</code>](#Driver.Rapids)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.Ripple"></a>
 
 ### Driver~Ripple ⇐ [<code>Driver</code>](#Driver)
@@ -961,6 +1258,130 @@ Ripple driver.
 #### ripple.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Ripple</code>](#Driver.Ripple)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.RyoExplorer"></a>
+
+### Driver~RyoExplorer ⇐ [<code>Driver</code>](#Driver)
+Ryo explorer. Supports circulating supply
+for native token Ryo.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~RyoExplorer](#Driver.RyoExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.RyoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.RyoExplorer+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.fetchMaxSupply()](#Driver.RyoExplorer+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+    * [.getSupply()](#Driver.RyoExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.RyoExplorer+fetchTotalSupply"></a>
+
+#### ryoExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+fetch total supply for native token.
+
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.RyoExplorer+fetchCirculatingSupply"></a>
+
+#### ryoExplorer.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+fetch circulating supply for native token.
+
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.RyoExplorer+fetchMaxSupply"></a>
+
+#### ryoExplorer.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
+<a name="Driver.RyoExplorer+getSupply"></a>
+
+#### ryoExplorer.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.SmartHoldem"></a>
+
+### Driver~SmartHoldem ⇐ [<code>Driver</code>](#Driver)
+SmartHoldem explorer. Supports total supply
+and balance for STH coin.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~SmartHoldem](#Driver.SmartHoldem) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.SmartHoldem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.SmartHoldem+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.SmartHoldem+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.SmartHoldem+fetchTotalSupply"></a>
+
+#### smartHoldem.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>SmartHoldem</code>](#Driver.SmartHoldem)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.SmartHoldem+fetchBalance"></a>
+
+#### smartHoldem.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>SmartHoldem</code>](#Driver.SmartHoldem)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.SmartHoldem+getSupply"></a>
+
+#### smartHoldem.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>SmartHoldem</code>](#Driver.SmartHoldem)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.StashExplorer"></a>
+
+### Driver~StashExplorer ⇐ [<code>Driver</code>](#Driver)
+Stash explorer. Supports total supply
+and balance for specific address
+on Stash blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~StashExplorer](#Driver.StashExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.StashExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.StashExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.StashExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.StashExplorer+fetchTotalSupply"></a>
+
+#### stashExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.StashExplorer+fetchBalance"></a>
+
+#### stashExplorer.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.StashExplorer+getSupply"></a>
+
+#### stashExplorer.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>StashExplorer</code>](#Driver.StashExplorer)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.Waves"></a>
 
 ### Driver~Waves ⇐ [<code>Driver</code>](#Driver)

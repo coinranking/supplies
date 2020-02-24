@@ -1,3 +1,64 @@
+# [1.20.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.19.0...v1.20.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* options and description ([f28e8f5](https://bitbucket.org/trinarydigital/supplies/commits/f28e8f5d6c84ae44610232e085c76eae1745978d))
+
+
+### Features
+
+* beyondcoin explorer driver ([620f137](https://bitbucket.org/trinarydigital/supplies/commits/620f137a9982d69db744168ca5f1bdab3e34b624))
+* rapids driver ([f7c98b2](https://bitbucket.org/trinarydigital/supplies/commits/f7c98b23d7948751280e7a6de835372cd91b142e))
+
+# [1.19.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.18.0...v1.19.0) (2020-02-24)
+
+
+### Features
+
+* doge cash driver ([dd11503](https://bitbucket.org/trinarydigital/supplies/commits/dd11503cabbf643c9ae817ac4c94d29bcc9e825d))
+* konjungate driver ([cd836ca](https://bitbucket.org/trinarydigital/supplies/commits/cd836ca2412a7a3f3fa39b27996d45a9b03244b2))
+* prux driver ([2ac6ef3](https://bitbucket.org/trinarydigital/supplies/commits/2ac6ef36ef99504645f9d3f354052f03d3ecd53a))
+
+# [1.18.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.17.0...v1.18.0) (2020-02-24)
+
+
+### Features
+
+* myspes explorer driver ([2d29463](https://bitbucket.org/trinarydigital/supplies/commits/2d2946324df97cb72a20b9e9669ab4da8e17faa5))
+
+# [1.17.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.16.0...v1.17.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* add comment param ([f83f2ff](https://bitbucket.org/trinarydigital/supplies/commits/f83f2ffa11b744997875410f2056ee42086c70d8))
+
+
+### Features
+
+* stash explorer driver ([94381d2](https://bitbucket.org/trinarydigital/supplies/commits/94381d29acdb3aa57bd94f5a90f21a0c07fdad3a))
+
+# [1.16.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.15.0...v1.16.0) (2020-02-24)
+
+
+### Features
+
+* add total and max for Ryo Currency ([69a6fb5](https://bitbucket.org/trinarydigital/supplies/commits/69a6fb5286513f10709290c47cbb978b761c4e35))
+* ryo explorer ([eb671fc](https://bitbucket.org/trinarydigital/supplies/commits/eb671fc2b9c33c6032bfa789f235a8a86e90975c))
+
+# [1.15.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.14.0...v1.15.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* smartholdem option fix ([36b4367](https://bitbucket.org/trinarydigital/supplies/commits/36b4367b12d77d16763a4ef98ff449edaef0507e))
+
+
+### Features
+
+* smartholdem driver ([0a8bfac](https://bitbucket.org/trinarydigital/supplies/commits/0a8bfaca90824f081f3662e03ca3ddeef2f33ae9))
+
 # [1.14.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.13.0...v1.14.0) (2020-02-14)
 
 
