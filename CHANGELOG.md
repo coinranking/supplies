@@ -1,3 +1,15 @@
+# [1.15.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.14.0...v1.15.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* smartholdem option fix ([36b4367](https://bitbucket.org/trinarydigital/supplies/commits/36b4367b12d77d16763a4ef98ff449edaef0507e))
+
+
+### Features
+
+* smartholdem driver ([0a8bfac](https://bitbucket.org/trinarydigital/supplies/commits/0a8bfaca90824f081f3662e03ca3ddeef2f33ae9))
+
 # [1.14.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.13.0...v1.14.0) (2020-02-14)
 
 
