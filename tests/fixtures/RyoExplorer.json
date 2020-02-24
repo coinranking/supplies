@@ -7,9 +7,9 @@
         "status": 200,
         "response": {
             "data": {
-                "blk_no": 357998,
-                "coinbase": 18159013846413370,
-                "fee": 12252770447200
+                "blk_no": 358938,
+                "coinbase": 18245820672054390,
+                "fee": 12274709447200
             },
             "status": "success"
         },
@@ -17,7 +17,39 @@
             "Server",
             "nginx/1.10.3 (Ubuntu)",
             "Date",
-            "Fri, 21 Feb 2020 16:14:45 GMT",
+            "Mon, 24 Feb 2020 10:14:54 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "95",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.ryo-currency.com:443",
+        "method": "GET",
+        "path": "/api/emission",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "blk_no": 358938,
+                "coinbase": 18245820672054390,
+                "fee": 12274709447200
+            },
+            "status": "success"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 24 Feb 2020 10:14:54 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
