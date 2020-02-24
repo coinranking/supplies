@@ -1,3 +1,16 @@
+# [1.20.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.19.0...v1.20.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* options and description ([f28e8f5](https://bitbucket.org/trinarydigital/supplies/commits/f28e8f5d6c84ae44610232e085c76eae1745978d))
+
+
+### Features
+
+* beyondcoin explorer driver ([620f137](https://bitbucket.org/trinarydigital/supplies/commits/620f137a9982d69db744168ca5f1bdab3e34b624))
+* rapids driver ([f7c98b2](https://bitbucket.org/trinarydigital/supplies/commits/f7c98b23d7948751280e7a6de835372cd91b142e))
+
 # [1.19.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.18.0...v1.19.0) (2020-02-24)
 
 
