@@ -124,6 +124,11 @@
             * [.fetchCirculatingSupply()](#Driver.Ripple+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.Ripple+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.Ripple+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~RyoExplorer](#Driver.RyoExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.RyoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.RyoExplorer+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.fetchMaxSupply()](#Driver.RyoExplorer+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+            * [.getSupply()](#Driver.RyoExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~SmartHoldem](#Driver.SmartHoldem) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.SmartHoldem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.SmartHoldem+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -964,6 +969,45 @@ Ripple driver.
 
 #### ripple.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Ripple</code>](#Driver.Ripple)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.RyoExplorer"></a>
+
+### Driver~RyoExplorer ⇐ [<code>Driver</code>](#Driver)
+Ryo explorer. Supports circulating supply
+for native token Ryo.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~RyoExplorer](#Driver.RyoExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.RyoExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.RyoExplorer+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.fetchMaxSupply()](#Driver.RyoExplorer+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+    * [.getSupply()](#Driver.RyoExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.RyoExplorer+fetchTotalSupply"></a>
+
+#### ryoExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+fetch total supply for native token.
+
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.RyoExplorer+fetchCirculatingSupply"></a>
+
+#### ryoExplorer.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+fetch circulating supply for native token.
+
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.RyoExplorer+fetchMaxSupply"></a>
+
+#### ryoExplorer.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
+<a name="Driver.RyoExplorer+getSupply"></a>
+
+#### ryoExplorer.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.SmartHoldem"></a>
 

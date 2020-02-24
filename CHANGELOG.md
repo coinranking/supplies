@@ -1,3 +1,11 @@
+# [1.16.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.15.0...v1.16.0) (2020-02-24)
+
+
+### Features
+
+* add total and max for Ryo Currency ([69a6fb5](https://bitbucket.org/trinarydigital/supplies/commits/69a6fb5286513f10709290c47cbb978b761c4e35))
+* ryo explorer ([eb671fc](https://bitbucket.org/trinarydigital/supplies/commits/eb671fc2b9c33c6032bfa789f235a8a86e90975c))
+
 # [1.15.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.14.0...v1.15.0) (2020-02-24)
 
 
