@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://discover.konjungate.net:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 551171205.5411735,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "ETag",
+            "\"1752625346\"",
+            "Date",
+            "Fri, 21 Feb 2020 17:18:08 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://discover.konjungate.net:80",
+        "method": "GET",
+        "path": "/ext/getbalance/KtjjN15DXTHrHYRasZy7bnhVaKRmfsDJBW",
+        "body": "",
+        "status": 200,
+        "response": 17250.00032322,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "14",
+            "ETag",
+            "\"-2005205384\"",
+            "Date",
+            "Fri, 21 Feb 2020 17:18:08 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
