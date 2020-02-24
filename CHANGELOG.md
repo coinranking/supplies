@@ -1,3 +1,10 @@
+# [1.18.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.17.0...v1.18.0) (2020-02-24)
+
+
+### Features
+
+* myspes explorer driver ([2d29463](https://bitbucket.org/trinarydigital/supplies/commits/2d2946324df97cb72a20b9e9669ab4da8e17faa5))
+
 # [1.17.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.16.0...v1.17.0) (2020-02-24)
 
 

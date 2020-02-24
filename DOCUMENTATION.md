@@ -107,6 +107,10 @@
             * [.fetchTotalSupply()](#Driver.MoneroBlocks+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.MoneroBlocks+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.MoneroBlocks+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~MyspesExplorer](#Driver.MyspesExplorer) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.MyspesExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.MyspesExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.MyspesExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~NeoScan](#Driver.NeoScan) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.NeoScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.NeoScan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -818,6 +822,50 @@ MoneroBlocks driver.
 #### moneroBlocks.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>MoneroBlocks</code>](#Driver.MoneroBlocks)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.MyspesExplorer"></a>
+
+### Driver~MyspesExplorer ⇐ [<code>Driver</code>](#Driver)
+MyspesExplorer driver. Supports
+total supply and balance for native
+token SpesCoin on CryptoNote blockchain
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~MyspesExplorer](#Driver.MyspesExplorer) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.MyspesExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.MyspesExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.MyspesExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.MyspesExplorer+fetchTotalSupply"></a>
+
+#### myspesExplorer.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.MyspesExplorer+fetchBalance"></a>
+
+#### myspesExplorer.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.MyspesExplorer+getSupply"></a>
+
+#### myspesExplorer.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>MyspesExplorer</code>](#Driver.MyspesExplorer)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.NeoScan"></a>
 
 ### Driver~NeoScan ⇐ [<code>Driver</code>](#Driver)
