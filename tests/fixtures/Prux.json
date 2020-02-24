@@ -1,0 +1,58 @@
+[
+    {
+        "scope": "https://explorer.prux.info:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 47734.26476328,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 18:01:03 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=de9161ffc1652f4d2446cbe89da086fab1582308062; expires=Sun, 22-Mar-20 18:01:02 GMT; path=/; domain=.prux.info; HttpOnly; SameSite=Lax",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.prux.info:443",
+        "method": "GET",
+        "path": "/ext/getbalance/P9nCSaCcrtzuoPyL6s5oEpwKnEu5cyKrah",
+        "body": "",
+        "status": 200,
+        "response": 0.00239874,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 18:01:04 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
