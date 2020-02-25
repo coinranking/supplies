@@ -1,0 +1,64 @@
+[
+    {
+        "scope": "https://api.ether1.org:443",
+        "method": "GET",
+        "path": "/api.php?api=total_supply",
+        "body": "",
+        "status": 200,
+        "response": 42858914,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 24 Feb 2020 16:53:25 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "PHPSESSID=s17gh0rrafrl0uci4hpuhhp1mv; path=/",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.ether1.org:443",
+        "method": "GET",
+        "path": "/api?module=account&action=balance&address=0xFBd45D6ED333c4ae16d379ca470690E3F8d0D2a2",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "1",
+            "result": "4490755447118627194456736",
+            "message": "OK"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.16.1",
+            "Date",
+            "Mon, 24 Feb 2020 16:53:26 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "66",
+            "Connection",
+            "keep-alive",
+            "access-control-allow-credentials",
+            "true",
+            "access-control-allow-origin",
+            "*",
+            "access-control-expose-headers",
+            "",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "FfZk2e3lxxoO_coNBCIi"
+        ],
+        "responseIsBinary": false
+    }
+]
