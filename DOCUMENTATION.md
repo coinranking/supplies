@@ -128,6 +128,10 @@ get max supply
             * [.fetchTotalSupply()](#Driver.DogeChain+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.DogeChain+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.DogeChain+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Ether1](#Driver.Ether1) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Ether1+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Ether1+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Ether1+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Etherscan](#Driver.Etherscan) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Etherscan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Etherscan+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -754,6 +758,49 @@ Dogechain driver.
 #### dogeChain.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>DogeChain</code>](#Driver.DogeChain)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.Ether1"></a>
+
+### Driver~Ether1 ⇐ [<code>Driver</code>](#Driver)
+Ether-1 driver. Supports total supply and balance
+for native token ETHO on Ether-11 blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Ether1](#Driver.Ether1) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Ether1+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Ether1+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Ether1+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Ether1+fetchTotalSupply"></a>
+
+#### ether1.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Ether1</code>](#Driver.Ether1)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Ether1+fetchBalance"></a>
+
+#### ether1.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Ether1</code>](#Driver.Ether1)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Ether1+getSupply"></a>
+
+#### ether1.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Ether1</code>](#Driver.Ether1)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.Etherscan"></a>
 
 ### Driver~Etherscan ⇐ [<code>Driver</code>](#Driver)

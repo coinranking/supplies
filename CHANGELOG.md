@@ -1,3 +1,10 @@
+# [1.22.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.21.0...v1.22.0) (2020-02-25)
+
+
+### Features
+
+* ether1 driver ([423c554](https://bitbucket.org/trinarydigital/supplies/commits/423c554990beb1e17b4937153452d9aa5b39c7f6))
+
 # [1.21.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.20.0...v1.21.0) (2020-02-25)
 
 
