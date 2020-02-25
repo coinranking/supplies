@@ -193,6 +193,10 @@ get max supply
             * [.fetchCirculatingSupply()](#Driver.RyoExplorer+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.RyoExplorer+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.RyoExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Sierracoin](#Driver.Sierracoin) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Sierracoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Sierracoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Sierracoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~SmartHoldem](#Driver.SmartHoldem) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.SmartHoldem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.SmartHoldem+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -1380,6 +1384,50 @@ fetch circulating supply for native token.
 #### ryoExplorer.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>RyoExplorer</code>](#Driver.RyoExplorer)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.Sierracoin"></a>
+
+### Driver~Sierracoin ⇐ [<code>Driver</code>](#Driver)
+Sierra driver. Supports total supply
+and balance for specific address for
+native token on Sierracoin blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Sierracoin](#Driver.Sierracoin) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Sierracoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Sierracoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Sierracoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Sierracoin+fetchTotalSupply"></a>
+
+#### sierracoin.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Sierracoin</code>](#Driver.Sierracoin)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Sierracoin+fetchBalance"></a>
+
+#### sierracoin.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Sierracoin</code>](#Driver.Sierracoin)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Sierracoin+getSupply"></a>
+
+#### sierracoin.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Sierracoin</code>](#Driver.Sierracoin)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
 <a name="Driver.SmartHoldem"></a>
 
 ### Driver~SmartHoldem ⇐ [<code>Driver</code>](#Driver)

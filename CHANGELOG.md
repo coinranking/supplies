@@ -1,3 +1,11 @@
+# [1.23.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.22.0...v1.23.0) (2020-02-25)
+
+
+### Features
+
+* 2x2 driver ([82e73f7](https://bitbucket.org/trinarydigital/supplies/commits/82e73f7f23bc7e44e5aebe6317e964c255b505f6))
+* sierracoin driver ([88d8ec7](https://bitbucket.org/trinarydigital/supplies/commits/88d8ec7202cb24848f2a5985886b351e94e8b432))
+
 # [1.22.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.21.0...v1.22.0) (2020-02-25)
 
 
