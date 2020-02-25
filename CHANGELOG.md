@@ -1,3 +1,16 @@
+# [1.21.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.20.0...v1.21.0) (2020-02-25)
+
+
+### Bug Fixes
+
+* add circulating supply ([aa30394](https://bitbucket.org/trinarydigital/supplies/commits/aa3039414dd0be8d192bcc81e544925389884e6c))
+* bitcoinrh driver remove circulation ([25f9c00](https://bitbucket.org/trinarydigital/supplies/commits/25f9c0030dc251e1a19ee4bb458b375a197e996d))
+
+
+### Features
+
+* bitcoinrh driver ([93baa8c](https://bitbucket.org/trinarydigital/supplies/commits/93baa8cc84c2a453aede4b04c86628a55f360aa0))
+
 # [1.20.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.19.0...v1.20.0) (2020-02-24)
 
 

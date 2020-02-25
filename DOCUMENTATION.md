@@ -1,6 +1,10 @@
 ## Classes
 
 <dl>
+<dt><a href="#Bitcoinrh">Bitcoinrh</a></dt>
+<dd><p>Bitcoinrh explorer. Supports total, max and circulating supply
+for native coin Bitcoin Rhodium.</p>
+</dd>
 <dt><a href="#Driver">Driver</a></dt>
 <dd></dd>
 <dt><a href="#Model">Model</a></dt>
@@ -24,6 +28,38 @@
 </dd>
 </dl>
 
+<a name="Bitcoinrh"></a>
+
+## Bitcoinrh
+Bitcoinrh explorer. Supports total, max and circulating supply
+for native coin Bitcoin Rhodium.
+
+**Kind**: global class  
+
+* [Bitcoinrh](#Bitcoinrh)
+    * [.fetchTotalSupply()](#Bitcoinrh+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchMaxSupply()](#Bitcoinrh+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+    * [.getSupply()](#Bitcoinrh+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Bitcoinrh+fetchTotalSupply"></a>
+
+### bitcoinrh.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply
+
+**Kind**: instance method of [<code>Bitcoinrh</code>](#Bitcoinrh)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Bitcoinrh+fetchMaxSupply"></a>
+
+### bitcoinrh.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+get max supply
+
+**Kind**: instance method of [<code>Bitcoinrh</code>](#Bitcoinrh)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
+<a name="Bitcoinrh+getSupply"></a>
+
+### bitcoinrh.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Bitcoinrh</code>](#Bitcoinrh)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver"></a>
 
 ## Driver
