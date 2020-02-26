@@ -1,0 +1,44 @@
+[
+    {
+        "scope": "https://explorer.sierracoin.net:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 5237791.66611503,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "\"-1747481727\"",
+            "Date",
+            "Mon, 24 Feb 2020 17:15:40 GMT"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.sierracoin.net:443",
+        "method": "GET",
+        "path": "/ext/getbalance/SbLVyTxtaVfPB1HAXXWg3zxAQiELAda8Nf",
+        "body": "",
+        "status": 200,
+        "response": 10308,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "5",
+            "ETag",
+            "\"2065779502\"",
+            "Date",
+            "Mon, 24 Feb 2020 17:15:41 GMT"
+        ],
+        "responseIsBinary": false
+    }
+]
