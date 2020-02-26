@@ -1,3 +1,16 @@
+# [1.24.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.2...v1.24.0) (2020-02-26)
+
+
+### Bug Fixes
+
+* regenerate fixtures for BinanceDex ([0e9d06a](https://bitbucket.org/trinarydigital/supplies/commits/0e9d06afd3763a9608976a02fb408b199168808d))
+
+
+### Features
+
+* add support for MillenEOS ([76e0b22](https://bitbucket.org/trinarydigital/supplies/commits/76e0b2200d184336267645981431f37d6e367282))
+* remove Bloks because it was incomplete ([a9addac](https://bitbucket.org/trinarydigital/supplies/commits/a9addac5dbcff1fb65b62e28a51d4795ddd876f7))
+
 ## [1.23.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.1...v1.23.2) (2020-02-26)
 
 
