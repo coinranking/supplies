@@ -1,3 +1,10 @@
+## [1.23.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.0...v1.23.1) (2020-02-26)
+
+
+### Bug Fixes
+
+* return 0 in tokenbalances on waves ([1689db4](https://bitbucket.org/trinarydigital/supplies/commits/1689db45c67a33879e6911e6830416862c5a0a81))
+
 # [1.23.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.22.0...v1.23.0) (2020-02-25)
 
 
