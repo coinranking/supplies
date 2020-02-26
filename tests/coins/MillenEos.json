@@ -1,0 +1,25 @@
+[
+  {
+    "modifiers": [
+      "eosio.ramfee",
+      "eosio.bpay",
+      "eosio",
+      "eosio.ram",
+      "eosio.unregd",
+      "eosio.vpay",
+      "eosio.msig",
+      "eosio.saving",
+      "eosio.names",
+      "eosio.token",
+      "b1"
+    ]
+  },
+  {
+    "reference": "WAL",
+    "modifiers": [
+      "b1",
+      "fund.wal",
+      "team.wal"
+    ]
+  }
+]

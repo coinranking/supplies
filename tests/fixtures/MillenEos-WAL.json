@@ -1,0 +1,1192 @@
+[
+    {
+        "scope": "https://api.milleneos.com:443",
+        "method": "GET",
+        "path": "/token?symbol=WAL",
+        "body": "",
+        "status": 200,
+        "response": {
+            "account": "whaleextoken",
+            "accountCreationTime": 1534754866,
+            "holders": 17383,
+            "info": {
+                "desc": {
+                    "en": "WhaleEx is the decentralized exchange (DEX) based on EOS, aiming to be the top DEX with the highest liquidity all over the world. The WhaleEx team has the strong belief that only the DEX can ensure the security of users' assets. WhaleEx also has self-developed off-chain trade matching engine being capable of handling millions TPS in real time. Besides, WhaleEx is the first decentralized exchange that supports repo trade mining. WhaleEx fully contributes itself to prospering the EOS ecosystem, providing services for Dapps and users within the ecosystem. The EOS World Tour initiated by WhaleEx has been supported by fifty-nine BPs around the world.",
+                    "zh": "WhaleEx鲸交所是EOS去中心化交易所，愿景是成为全球流动性最强的去中心化交易所。我们坚信只有去中心化交易所才能真正保护用户的资产安全，让交易平台没有作恶的能力。WhaleEx自主研发百万级TPS线下撮合引擎，是全球第一家支持回购型交易挖矿的去中心化交易所。WhaleEx专注于EOS生态上的DAPP 和用户，为EOS的生态繁荣积极贡献，发起的EOS全球行活动已经获得了全球59家EOS节点的支持。"
+                },
+                "issuer": "whaleextoken",
+                "links": {
+                    "telegram": "https://t.me/WhaleExGroup",
+                    "twitter": "https://twitter.com/WhaleExchange"
+                },
+                "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/whaleextoken/WAL.png",
+                "name": "WAL",
+                "precision": 3,
+                "website": "https://www.whaleex.com/",
+                "whitepaper": "https://static.whaleex.com.cn/whitepaper/WhaleEx_zh.1.12.pdf"
+            },
+            "maxSupply": "10000000000.000",
+            "supply": "10000000000.000",
+            "symbol": "WAL",
+            "time": 1541305893
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 26 Feb 2020 16:14:07 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1721",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000;",
+            "Content-Security-Policy-Report-Only",
+            "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.milleneos.com:443",
+        "method": "GET",
+        "path": "/balance/b1",
+        "body": "",
+        "status": 200,
+        "response": {
+            "account": "b1",
+            "balances": [
+                {
+                    "amount": "1000.0000000000",
+                    "code": "alibabapoole",
+                    "currency": "EPT"
+                },
+                {
+                    "amount": "0.1000000000",
+                    "code": "athenastoken",
+                    "currency": "ATHENA"
+                },
+                {
+                    "amount": "11.9924000000",
+                    "code": "baccaratoken",
+                    "currency": "BAP"
+                },
+                {
+                    "amount": "0.2100000000",
+                    "code": "bastoken1111",
+                    "currency": "BAS"
+                },
+                {
+                    "amount": "5.0000000000",
+                    "code": "bet24tokens1",
+                    "currency": "CHIP"
+                },
+                {
+                    "amount": "65.6773000000",
+                    "code": "betdicetoken",
+                    "currency": "DICE"
+                },
+                {
+                    "amount": "0.0100000000",
+                    "code": "betdividends",
+                    "currency": "BET"
+                },
+                {
+                    "amount": "1006.1117000000",
+                    "code": "betkingtoken",
+                    "currency": "BKT"
+                },
+                {
+                    "amount": "1.3024000000",
+                    "code": "bgbgbgbgbgbg",
+                    "currency": "BG"
+                },
+                {
+                    "amount": "0.0205000000",
+                    "code": "billionairet",
+                    "currency": "XBL"
+                },
+                {
+                    "amount": "3089.5175000000",
+                    "code": "bingobetoken",
+                    "currency": "BINGO"
+                },
+                {
+                    "amount": "106.9996000000",
+                    "code": "biteyebiteye",
+                    "currency": "BITI"
+                },
+                {
+                    "amount": "0.0000040000",
+                    "code": "bitpietokens",
+                    "currency": "EBTC"
+                },
+                {
+                    "amount": "0.0000268400",
+                    "code": "bitpietokens",
+                    "currency": "EETH"
+                },
+                {
+                    "amount": "0.0235529800",
+                    "code": "bitpietokens",
+                    "currency": "EUSD"
+                },
+                {
+                    "amount": "6.3009000000",
+                    "code": "blockbasetkn",
+                    "currency": "BBT"
+                },
+                {
+                    "amount": "0.0015850782",
+                    "code": "bntbntbntbnt",
+                    "currency": "BNT"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "boidcomtoken",
+                    "currency": "BOID"
+                },
+                {
+                    "amount": "1.1000000000",
+                    "code": "bosibc.io",
+                    "currency": "BOS"
+                },
+                {
+                    "amount": "1016981.8146000000",
+                    "code": "buildertoken",
+                    "currency": "ADE"
+                },
+                {
+                    "amount": "1016989.8146000000",
+                    "code": "cadeositoken",
+                    "currency": "ADE"
+                },
+                {
+                    "amount": "200000006.5739000000",
+                    "code": "challengedac",
+                    "currency": "CHL"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "chengyahong1",
+                    "currency": "GOU"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "chengyahong1",
+                    "currency": "ZHU"
+                },
+                {
+                    "amount": "0.3778000000",
+                    "code": "chessiotoken",
+                    "currency": "CHESS"
+                },
+                {
+                    "amount": "2000.0000000000",
+                    "code": "codecurrency",
+                    "currency": "CELL"
+                },
+                {
+                    "amount": "0.7704000000",
+                    "code": "cryptopesosc",
+                    "currency": "PSO"
+                },
+                {
+                    "amount": "300.0000000000",
+                    "code": "cryptovgscts",
+                    "currency": "CTS"
+                },
+                {
+                    "amount": "22.0000000000",
+                    "code": "d.mail",
+                    "currency": "MAIL"
+                },
+                {
+                    "amount": "0.0000000000",
+                    "code": "dappairhodl1",
+                    "currency": "DAPPHDL"
+                },
+                {
+                    "amount": "21.0000000000",
+                    "code": "dapplinkseos",
+                    "currency": "DLX"
+                },
+                {
+                    "amount": "0.3312000000",
+                    "code": "dbetminepool",
+                    "currency": "DBET"
+                },
+                {
+                    "amount": "8229.0800000000",
+                    "code": "dexeoswallet",
+                    "currency": "PEN"
+                },
+                {
+                    "amount": "979999899.0000000000",
+                    "code": "dgvtoken1533",
+                    "currency": "DGV"
+                },
+                {
+                    "amount": "36.0000000000",
+                    "code": "dhbonetokens",
+                    "currency": "DHB"
+                },
+                {
+                    "amount": "33.0000000000",
+                    "code": "dsdsdsdsdsds",
+                    "currency": "DS"
+                },
+                {
+                    "amount": "5.0000000000",
+                    "code": "eappeappp.tp",
+                    "currency": "EAPP"
+                },
+                {
+                    "amount": "50.0000000000",
+                    "code": "ecoboostcoin",
+                    "currency": "EC"
+                },
+                {
+                    "amount": "0.3970000000",
+                    "code": "ednazztokens",
+                    "currency": "EDNA"
+                },
+                {
+                    "amount": "71.0001000000",
+                    "code": "eidosonecoin",
+                    "currency": "EIDOS"
+                },
+                {
+                    "amount": "10.0020000000",
+                    "code": "emanateoneos",
+                    "currency": "EMT"
+                },
+                {
+                    "amount": "0.2500000000",
+                    "code": "endlesstoken",
+                    "currency": "ET"
+                },
+                {
+                    "amount": "73078.2825000000",
+                    "code": "eosabctokens",
+                    "currency": "EOSABC"
+                },
+                {
+                    "amount": "0.0000000000",
+                    "code": "eosabctokens",
+                    "currency": "UNKNOWN"
+                },
+                {
+                    "amount": "50000000.2373000000",
+                    "code": "eosadddddddd",
+                    "currency": "ADD"
+                },
+                {
+                    "amount": "67.0365000000",
+                    "code": "eosatidiumio",
+                    "currency": "ATD"
+                },
+                {
+                    "amount": "0.0000000700",
+                    "code": "eosbettokens",
+                    "currency": "BTC"
+                },
+                {
+                    "amount": "0.0000010000",
+                    "code": "eosbettokens",
+                    "currency": "LTC"
+                },
+                {
+                    "amount": "0.3510000000",
+                    "code": "eosblackteam",
+                    "currency": "BLACK"
+                },
+                {
+                    "amount": "1.8009000000",
+                    "code": "eoscrashrekt",
+                    "currency": "REKT"
+                },
+                {
+                    "amount": "1000.0000000000",
+                    "code": "eoscubetoken",
+                    "currency": "CUBE"
+                },
+                {
+                    "amount": "0.3225000000",
+                    "code": "eosdactokens",
+                    "currency": "EOSDAC"
+                },
+                {
+                    "amount": "2.4000000000",
+                    "code": "eosdragontkn",
+                    "currency": "DRAGON"
+                },
+                {
+                    "amount": "2000.0000000000",
+                    "code": "eoseventoken",
+                    "currency": "SVN"
+                },
+                {
+                    "amount": "0.3100000000",
+                    "code": "eosfuntoken1",
+                    "currency": "FUN"
+                },
+                {
+                    "amount": "0.3000000000",
+                    "code": "eosggshost11",
+                    "currency": "GGS"
+                },
+                {
+                    "amount": "0.1007000000",
+                    "code": "eoshashcoins",
+                    "currency": "HASH"
+                },
+                {
+                    "amount": "6500021.7878000000",
+                    "code": "eosio.token",
+                    "currency": "EOS"
+                },
+                {
+                    "amount": "0.3324000000",
+                    "code": "eosiomeetone",
+                    "currency": "MEETONE"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "eosiomoreone",
+                    "currency": "MORE"
+                },
+                {
+                    "amount": "0.1236567800",
+                    "code": "eosiopowcoin",
+                    "currency": "POW"
+                },
+                {
+                    "amount": "2.7358000000",
+                    "code": "eosiotokener",
+                    "currency": "EGT"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "eosiotptoken",
+                    "currency": "TPT"
+                },
+                {
+                    "amount": "1.9333000000",
+                    "code": "eosjackscoin",
+                    "currency": "JKR"
+                },
+                {
+                    "amount": "1028.0000000000",
+                    "code": "eosluckchain",
+                    "currency": "LUCK"
+                },
+                {
+                    "amount": "125021.6880000000",
+                    "code": "eosluckcoin1",
+                    "currency": "LUCK"
+                },
+                {
+                    "amount": "1.0875000000",
+                    "code": "eoslucktoken",
+                    "currency": "LUCKY"
+                },
+                {
+                    "amount": "0.1000000000",
+                    "code": "eosnowbpower",
+                    "currency": "ANTE"
+                },
+                {
+                    "amount": "45283.2005000000",
+                    "code": "eospokercoin",
+                    "currency": "POKER"
+                },
+                {
+                    "amount": "5.0000000000",
+                    "code": "eosrenjieos1",
+                    "currency": "PHCC"
+                },
+                {
+                    "amount": "0.0333000000",
+                    "code": "eostgctoken1",
+                    "currency": "TGC"
+                },
+                {
+                    "amount": "1113.0000000000",
+                    "code": "eostokendddd",
+                    "currency": "MTA"
+                },
+                {
+                    "amount": "1.4000000000",
+                    "code": "eostrantoken",
+                    "currency": "EOST"
+                },
+                {
+                    "amount": "3005.0011000000",
+                    "code": "eosvoicebeta",
+                    "currency": "VOICE"
+                },
+                {
+                    "amount": "433.4081000000",
+                    "code": "eosvrtokenss",
+                    "currency": "EVR"
+                },
+                {
+                    "amount": "20000.0000000000",
+                    "code": "eoswinonewww",
+                    "currency": "WINT"
+                },
+                {
+                    "amount": "0.0979000000",
+                    "code": "eoswwwzeccom",
+                    "currency": "ZEC"
+                },
+                {
+                    "amount": "100000015.5500000000",
+                    "code": "eoxeoxeoxeox",
+                    "currency": "EOX"
+                },
+                {
+                    "amount": "0.0006000000",
+                    "code": "epraofficial",
+                    "currency": "EPRA"
+                },
+                {
+                    "amount": "1.0005000000",
+                    "code": "esbcointoken",
+                    "currency": "ESB"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "ethbntethbnt",
+                    "currency": "ETHBNT"
+                },
+                {
+                    "amount": "2002.0001000000",
+                    "code": "ethsidechain",
+                    "currency": "EETH"
+                },
+                {
+                    "amount": "510000015.0620000000",
+                    "code": "everipediaiq",
+                    "currency": "IQ"
+                },
+                {
+                    "amount": "0.0307000000",
+                    "code": "fairkuai3kkk",
+                    "currency": "KKK"
+                },
+                {
+                    "amount": "0.0009000000",
+                    "code": "fastecoadmin",
+                    "currency": "FIVE"
+                },
+                {
+                    "amount": "2.5748000000",
+                    "code": "fight22death",
+                    "currency": "NFT"
+                },
+                {
+                    "amount": "300.0000000000",
+                    "code": "finexpaprtkn",
+                    "currency": "PEOS"
+                },
+                {
+                    "amount": "3548.0000000000",
+                    "code": "fomotokeneos",
+                    "currency": "FOMO"
+                },
+                {
+                    "amount": "1000.0000000000",
+                    "code": "frogfrogcoin",
+                    "currency": "FROG"
+                },
+                {
+                    "amount": "6888.0000000000",
+                    "code": "fweosfweoscc",
+                    "currency": "FWEOS"
+                },
+                {
+                    "amount": "11.2000000000",
+                    "code": "gamebettoken",
+                    "currency": "GBT"
+                },
+                {
+                    "amount": "100.0000000000",
+                    "code": "garbagecoins",
+                    "currency": "X"
+                },
+                {
+                    "amount": "2.0613000000",
+                    "code": "gq3dsmbxguge",
+                    "currency": "INDEX"
+                },
+                {
+                    "amount": "93.5000000000",
+                    "code": "grandpacoins",
+                    "currency": "BTC"
+                },
+                {
+                    "amount": "93.5000000000",
+                    "code": "grandpacoins",
+                    "currency": "DOGE"
+                },
+                {
+                    "amount": "93.5000000000",
+                    "code": "grandpacoins",
+                    "currency": "ETH"
+                },
+                {
+                    "amount": "100000001.0100000000",
+                    "code": "gyztemjxgqge",
+                    "currency": "BTE"
+                },
+                {
+                    "amount": "630.0000000000",
+                    "code": "gyztomjugage",
+                    "currency": "CETOS"
+                },
+                {
+                    "amount": "0.1579000000",
+                    "code": "hashfuncoins",
+                    "currency": "HFC"
+                },
+                {
+                    "amount": "58.0000000000",
+                    "code": "higoldtokens",
+                    "currency": "HIG"
+                },
+                {
+                    "amount": "250253.3025000000",
+                    "code": "hirevibeshvt",
+                    "currency": "HVT"
+                },
+                {
+                    "amount": "40.0000000000",
+                    "code": "holdyourlimo",
+                    "currency": "LIMO"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "horustokenio",
+                    "currency": "HORUS"
+                },
+                {
+                    "amount": "3333.0000000000",
+                    "code": "hvthirevibes",
+                    "currency": "HVT"
+                },
+                {
+                    "amount": "12.0000000000",
+                    "code": "ipsecontract",
+                    "currency": "POST"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "iteosithbxmf",
+                    "currency": "ITB"
+                },
+                {
+                    "amount": "1111.1111000000",
+                    "code": "jediiiiiiiii",
+                    "currency": "JDI"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "keytothemoon",
+                    "currency": "FUCKZB"
+                },
+                {
+                    "amount": "185.9326000000",
+                    "code": "krowndactokn",
+                    "currency": "KROWN"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "HOU"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "HU"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "JI"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "LONG"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "MA"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "NIU"
+                },
+                {
+                    "amount": "666.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "PUSA"
+                },
+                {
+                    "amount": "20001.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "SHU"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "lilei5555555",
+                    "currency": "TU"
+                },
+                {
+                    "amount": "1000.0000000000",
+                    "code": "linzongsheng",
+                    "currency": "TEA"
+                },
+                {
+                    "amount": "320.0000000000",
+                    "code": "llgonebtotal",
+                    "currency": "LLG"
+                },
+                {
+                    "amount": "10.0000000000",
+                    "code": "luckbettoken",
+                    "currency": "LT"
+                },
+                {
+                    "amount": "20.0000000000",
+                    "code": "meetliucheng",
+                    "currency": "DPS"
+                },
+                {
+                    "amount": "500502.7777000000",
+                    "code": "metpacktoken",
+                    "currency": "MPT"
+                },
+                {
+                    "amount": "20.0000000000",
+                    "code": "mine4charity",
+                    "currency": "MICH"
+                },
+                {
+                    "amount": "23.0000000000",
+                    "code": "minemoremine",
+                    "currency": "MINE"
+                },
+                {
+                    "amount": "3.0010000000",
+                    "code": "mkstaketoken",
+                    "currency": "KEY"
+                },
+                {
+                    "amount": "100000000.0000000000",
+                    "code": "mrpoopybutt1",
+                    "currency": "MORTYS"
+                },
+                {
+                    "amount": "2438.0000000000",
+                    "code": "mutualaidaid",
+                    "currency": "MTD"
+                },
+                {
+                    "amount": "10.0000000000",
+                    "code": "muye11111111",
+                    "currency": "LDSR"
+                },
+                {
+                    "amount": "38.8888000000",
+                    "code": "newdexissuer",
+                    "currency": "NDX"
+                },
+                {
+                    "amount": "903.4900000000",
+                    "code": "novusphereio",
+                    "currency": "ATMOS"
+                },
+                {
+                    "amount": "1.4300000000",
+                    "code": "octtothemoon",
+                    "currency": "OCT"
+                },
+                {
+                    "amount": "10000000.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "A"
+                },
+                {
+                    "amount": "1000.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "BANANA"
+                },
+                {
+                    "amount": "100000000.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "IBWT"
+                },
+                {
+                    "amount": "10.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "LED"
+                },
+                {
+                    "amount": "9220.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "OGM"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "okkkkkkkkkkk",
+                    "currency": "SSS"
+                },
+                {
+                    "amount": "6550.0000000000",
+                    "code": "oo1122334455",
+                    "currency": "IPOS"
+                },
+                {
+                    "amount": "20049.3650000000",
+                    "code": "openbrmeos11",
+                    "currency": "BRM"
+                },
+                {
+                    "amount": "3.0770000000",
+                    "code": "patreostoken",
+                    "currency": "PATR"
+                },
+                {
+                    "amount": "9.0000000000",
+                    "code": "phemiclassic",
+                    "currency": "PHC"
+                },
+                {
+                    "amount": "200.0000000000",
+                    "code": "pixeos1token",
+                    "currency": "PIXEOS"
+                },
+                {
+                    "amount": "967001.5801000000",
+                    "code": "pizzatotoken",
+                    "currency": "PIZZA"
+                },
+                {
+                    "amount": "310.5224000000",
+                    "code": "playeronetkn",
+                    "currency": "PLO"
+                },
+                {
+                    "amount": "0.2386000000",
+                    "code": "ploutoztoken",
+                    "currency": "PLO"
+                },
+                {
+                    "amount": "2.1909000000",
+                    "code": "pokereotoken",
+                    "currency": "PKE"
+                },
+                {
+                    "amount": "185.6657000000",
+                    "code": "pokerktoken1",
+                    "currency": "KING"
+                },
+                {
+                    "amount": "113.0336000000",
+                    "code": "poormantoken",
+                    "currency": "POOR"
+                },
+                {
+                    "amount": "22572.1843000000",
+                    "code": "publytoken11",
+                    "currency": "PUB"
+                },
+                {
+                    "amount": "12.7777000000",
+                    "code": "pumlhealthio",
+                    "currency": "PUML"
+                },
+                {
+                    "amount": "5.0000000000",
+                    "code": "realworldcpn",
+                    "currency": "RWC"
+                },
+                {
+                    "amount": "10000.0000000000",
+                    "code": "recosiotoken",
+                    "currency": "RCS"
+                },
+                {
+                    "amount": "56.6664000000",
+                    "code": "rosdappcomio",
+                    "currency": "ROS"
+                },
+                {
+                    "amount": "2.0000000000",
+                    "code": "sandiegocoin",
+                    "currency": "SAND"
+                },
+                {
+                    "amount": "501.0500000000",
+                    "code": "sensegenesis",
+                    "currency": "SENSE"
+                },
+                {
+                    "amount": "153.3712000000",
+                    "code": "sovmintofeos",
+                    "currency": "SOV"
+                },
+                {
+                    "amount": "0.0019800000",
+                    "code": "steemoneosio",
+                    "currency": "STEEMP"
+                },
+                {
+                    "amount": "123.4567000000",
+                    "code": "svxmintofeos",
+                    "currency": "SVX"
+                },
+                {
+                    "amount": "25595.5484000000",
+                    "code": "taketooktook",
+                    "currency": "TOOK"
+                },
+                {
+                    "amount": "37.0000000000",
+                    "code": "taste.x",
+                    "currency": "TASTE"
+                },
+                {
+                    "amount": "3000.0000000000",
+                    "code": "taztokenbase",
+                    "currency": "TAZCHIP"
+                },
+                {
+                    "amount": "0.0250000000",
+                    "code": "tethertether",
+                    "currency": "USDT"
+                },
+                {
+                    "amount": "0.0001000000",
+                    "code": "texastokens1",
+                    "currency": "EPC"
+                },
+                {
+                    "amount": "80359.8766000000",
+                    "code": "thebeantoken",
+                    "currency": "BEAN"
+                },
+                {
+                    "amount": "1.9746000000",
+                    "code": "thedeosgames",
+                    "currency": "DEOS"
+                },
+                {
+                    "amount": "100.0000000000",
+                    "code": "theforcegrou",
+                    "currency": "EFOR"
+                },
+                {
+                    "amount": "7.9321000000",
+                    "code": "themarftoken",
+                    "currency": "MARF"
+                },
+                {
+                    "amount": "100000007.1987000000",
+                    "code": "thepeostoken",
+                    "currency": "PEOS"
+                },
+                {
+                    "amount": "174.7613000000",
+                    "code": "therealkarma",
+                    "currency": "KARMA"
+                },
+                {
+                    "amount": "8.4004000000",
+                    "code": "timeforestct",
+                    "currency": "PIP"
+                },
+                {
+                    "amount": "30.0000000000",
+                    "code": "tkcointkcoin",
+                    "currency": "TKC"
+                },
+                {
+                    "amount": "100.0000000000",
+                    "code": "token2clover",
+                    "currency": "CLOVER"
+                },
+                {
+                    "amount": "1.0000000000",
+                    "code": "tokendapppub",
+                    "currency": "TPT"
+                },
+                {
+                    "amount": "0.0910000000",
+                    "code": "trybenetwork",
+                    "currency": "TRYBE"
+                },
+                {
+                    "amount": "2000.0000000000",
+                    "code": "tulip.vr",
+                    "currency": "TULIP"
+                },
+                {
+                    "amount": "33300.0000000000",
+                    "code": "twerkeoscoin",
+                    "currency": "TWERK"
+                },
+                {
+                    "amount": "2000.0000000000",
+                    "code": "u.b.q",
+                    "currency": "UBQ"
+                },
+                {
+                    "amount": "100.0000000000",
+                    "code": "vig111111111",
+                    "currency": "VIG"
+                },
+                {
+                    "amount": "20162.8745000000",
+                    "code": "vosvosvosvos",
+                    "currency": "VIP"
+                },
+                {
+                    "amount": "5000012.5045000000",
+                    "code": "weosservices",
+                    "currency": "WECASH"
+                },
+                {
+                    "amount": "1000007.4472000000",
+                    "code": "wizznetwork1",
+                    "currency": "WIZZ"
+                },
+                {
+                    "amount": "0.5112000000",
+                    "code": "wwllppxhjwyl",
+                    "currency": "MSYC"
+                },
+                {
+                    "amount": "395.3660000000",
+                    "code": "yastokencode",
+                    "currency": "YAS"
+                },
+                {
+                    "amount": "33.0000000000",
+                    "code": "zkstokensr4u",
+                    "currency": "ZKS"
+                },
+                {
+                    "amount": "299.6461000000",
+                    "code": "zkstokensr4u",
+                    "currency": "ZKSPLAY"
+                },
+                {
+                    "amount": "1401.0000000000",
+                    "code": "zosdiscounts",
+                    "currency": "ZOS"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 26 Feb 2020 16:14:07 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "12615",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000;",
+            "Content-Security-Policy-Report-Only",
+            "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.milleneos.com:443",
+        "method": "GET",
+        "path": "/balance/fund.wal",
+        "body": "",
+        "status": 200,
+        "response": {
+            "account": "fund.wal",
+            "balances": [
+                {
+                    "amount": "600000000.0000000000",
+                    "code": "whaleextoken",
+                    "currency": "WAL"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 26 Feb 2020 16:14:07 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "109",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000;",
+            "Content-Security-Policy-Report-Only",
+            "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.milleneos.com:443",
+        "method": "GET",
+        "path": "/balance/team.wal",
+        "body": "",
+        "status": 200,
+        "response": {
+            "account": "team.wal",
+            "balances": [
+                {
+                    "amount": "360000000.0000000000",
+                    "code": "whaleextoken",
+                    "currency": "WAL"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 26 Feb 2020 16:14:08 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "109",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000;",
+            "Content-Security-Policy-Report-Only",
+            "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.milleneos.com:443",
+        "method": "GET",
+        "path": "/token?symbol=WAL",
+        "body": "",
+        "status": 200,
+        "response": {
+            "account": "whaleextoken",
+            "accountCreationTime": 1534754866,
+            "holders": 17383,
+            "info": {
+                "desc": {
+                    "en": "WhaleEx is the decentralized exchange (DEX) based on EOS, aiming to be the top DEX with the highest liquidity all over the world. The WhaleEx team has the strong belief that only the DEX can ensure the security of users' assets. WhaleEx also has self-developed off-chain trade matching engine being capable of handling millions TPS in real time. Besides, WhaleEx is the first decentralized exchange that supports repo trade mining. WhaleEx fully contributes itself to prospering the EOS ecosystem, providing services for Dapps and users within the ecosystem. The EOS World Tour initiated by WhaleEx has been supported by fifty-nine BPs around the world.",
+                    "zh": "WhaleEx鲸交所是EOS去中心化交易所，愿景是成为全球流动性最强的去中心化交易所。我们坚信只有去中心化交易所才能真正保护用户的资产安全，让交易平台没有作恶的能力。WhaleEx自主研发百万级TPS线下撮合引擎，是全球第一家支持回购型交易挖矿的去中心化交易所。WhaleEx专注于EOS生态上的DAPP 和用户，为EOS的生态繁荣积极贡献，发起的EOS全球行活动已经获得了全球59家EOS节点的支持。"
+                },
+                "issuer": "whaleextoken",
+                "links": {
+                    "telegram": "https://t.me/WhaleExGroup",
+                    "twitter": "https://twitter.com/WhaleExchange"
+                },
+                "logo": "https://raw.githubusercontent.com/BlockABC/eos-tokens/master/tokens/whaleextoken/WAL.png",
+                "name": "WAL",
+                "precision": 3,
+                "website": "https://www.whaleex.com/",
+                "whitepaper": "https://static.whaleex.com.cn/whitepaper/WhaleEx_zh.1.12.pdf"
+            },
+            "maxSupply": "10000000000.000",
+            "supply": "10000000000.000",
+            "symbol": "WAL",
+            "time": 1541305893
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 26 Feb 2020 16:14:08 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "1721",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000;",
+            "Content-Security-Policy-Report-Only",
+            "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH"
+        ],
+        "responseIsBinary": false
+    }
+]
