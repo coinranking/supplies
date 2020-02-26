@@ -1,3 +1,10 @@
+## [1.23.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.1...v1.23.2) (2020-02-26)
+
+
+### Bug Fixes
+
+* return 0 when balance is not there ([4c697a3](https://bitbucket.org/trinarydigital/supplies/commits/4c697a3feab5ebdc7dda8d54d9484b1fdf06eee5))
+
 ## [1.23.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.0...v1.23.1) (2020-02-26)
 
 
