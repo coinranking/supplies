@@ -1,3 +1,10 @@
+## [1.25.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.0...v1.25.1) (2020-02-28)
+
+
+### Bug Fixes
+
+* changed the CryptoNote blockchain to SpesCoin ([1b0e045](https://bitbucket.org/trinarydigital/supplies/commits/1b0e045f62caeb317b1b167f635fc94963d8abc8))
+
 # [1.25.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.24.0...v1.25.0) (2020-02-28)
 
 

@@ -1217,7 +1217,7 @@ MoneroBlocks driver.
 ### Driver~MyspesExplorer ⇐ [<code>Driver</code>](#Driver)
 MyspesExplorer driver. Supports
 total supply and balance for native
-token SpesCoin on CryptoNote blockchain
+token SpesCoin on SpesCoin blockchain
 
 **Kind**: inner class of [<code>Driver</code>](#Driver)  
 **Extends**: [<code>Driver</code>](#Driver)  
