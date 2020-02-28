@@ -1,0 +1,70 @@
+[
+    {
+        "scope": "https://blockmeta.com:443",
+        "method": "GET",
+        "path": "/api/v3/asset-totalcoins/ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "body": "",
+        "status": 200,
+        "response": 2100000000,
+        "rawHeaders": [
+            "Date",
+            "Mon, 27 Jan 2020 18:09:10 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "10",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=2592000",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Server",
+            "WAF/2.4-12.1"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://blockmeta.com:443",
+        "method": "GET",
+        "path": "/api/v2/stat/total",
+        "body": "",
+        "status": 200,
+        "response": {
+            "confirmed_block_count": 382322,
+            "orphan_block_count": 295,
+            "transaction_count": 813418,
+            "transaction_amount": 13598063547523680000,
+            "transaction_fee": 43637525042323,
+            "transaction_gas": 218187625211.615,
+            "new_address_count": 387388,
+            "new_asset_count": 174,
+            "mined_btm_amount": 156470782500000000,
+            "issue_count": 828,
+            "retire_count": 48177,
+            "mining_supply": 15784065000000000,
+            "circulating_supply": 156484065000000000,
+            "node_count": "unknown",
+            "market_capitalization": "45"
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 27 Jan 2020 18:09:12 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "472",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=2592000",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Server",
+            "WAF/2.4-12.1"
+        ],
+        "responseIsBinary": false
+    }
+]

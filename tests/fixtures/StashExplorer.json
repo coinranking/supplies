@@ -1,0 +1,58 @@
+[
+    {
+        "scope": "https://explorer.stpx.io:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 224704115.71963254,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 16:33:38 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dc37fa08a431ec7377b76f081cab1ce571582302817; expires=Sun, 22-Mar-20 16:33:37 GMT; path=/; domain=.stpx.io; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.stpx.io:443",
+        "method": "GET",
+        "path": "/ext/getbalance/Xdy7QWHgEeM8CEpQfezg2n3yBkyQ2mgUYs",
+        "body": "",
+        "status": 200,
+        "response": 61232797.99997056,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 16:33:39 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
