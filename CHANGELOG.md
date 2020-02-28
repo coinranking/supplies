@@ -1,3 +1,11 @@
+## [1.25.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.1...v1.25.2) (2020-02-28)
+
+
+### Bug Fixes
+
+* decimal places ([0580296](https://bitbucket.org/trinarydigital/supplies/commits/05802966eafef2fa2ea260c1c59f1a07b5a07a73))
+* set a default throttle and fix helpico ([9e28d70](https://bitbucket.org/trinarydigital/supplies/commits/9e28d7046d8fc5f17e8b1b8913e86cd3ad9f2d28))
+
 ## [1.25.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.0...v1.25.1) (2020-02-28)
 
 
