@@ -1,0 +1,31 @@
+[
+    {
+        "scope": "https://api.kabuto.sh:443",
+        "method": "GET",
+        "path": "/v1/account/0.0.2",
+        "body": "",
+        "status": 200,
+        "response": {
+            "id": "0.0.2",
+            "creator": null,
+            "balance": {
+                "timestamp": "2020-02-28T16:15:00.134099001Z",
+                "amount": 4032907516218683000
+            },
+            "createdAt": null,
+            "initialBalance": null,
+            "createdByTransactionHash": null
+        },
+        "rawHeaders": [
+            "content-type",
+            "application/json",
+            "access-control-allow-origin",
+            "*",
+            "transfer-encoding",
+            "chunked",
+            "date",
+            "Fri, 28 Feb 2020 16:27:11 GMT"
+        ],
+        "responseIsBinary": false
+    }
+]
