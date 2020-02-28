@@ -1,3 +1,17 @@
+# [1.26.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.2...v1.26.0) (2020-02-28)
+
+
+### Bug Fixes
+
+* blockchain info and supports object ([93e36d5](https://bitbucket.org/trinarydigital/supplies/commits/93e36d56628d5d816379e4d378cbd9f67a3cddf2))
+* dunscan change endpoints for supplies ([075b5fd](https://bitbucket.org/trinarydigital/supplies/commits/075b5fd2ae6b0c9c01bb1743b1cf635e8d225d42))
+* set the DunExplorer to the correct blockchain ([54e997f](https://bitbucket.org/trinarydigital/supplies/commits/54e997f4280140f988fc0ecf39f05c404b8fe922))
+
+
+### Features
+
+* dunscan explorer driver ([0ed6d32](https://bitbucket.org/trinarydigital/supplies/commits/0ed6d3246ff9d36b4fa86d1a21a06edc4a40c245))
+
 ## [1.25.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.1...v1.25.2) (2020-02-28)
 
 

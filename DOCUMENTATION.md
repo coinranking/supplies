@@ -133,6 +133,10 @@ get max supply
             * [.fetchTotalSupply()](#Driver.DogeChain+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.DogeChain+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.DogeChain+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~DunScan](#Driver.DunScan) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.DunScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.DunScan+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.getSupply()](#Driver.DunScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Ether1](#Driver.Ether1) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Ether1+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Ether1+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -835,6 +839,40 @@ Dogechain driver.
 
 #### dogeChain.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>DogeChain</code>](#Driver.DogeChain)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.DunScan"></a>
+
+### Driver~DunScan ⇐ [<code>Driver</code>](#Driver)
+DunScan explorer. Supports total and circulating
+ supply for native token on
+ DunScan blockchain
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~DunScan](#Driver.DunScan) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.DunScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.DunScan+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.getSupply()](#Driver.DunScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.DunScan+fetchTotalSupply"></a>
+
+#### dunScan.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.DunScan+fetchCirculatingSupply"></a>
+
+#### dunScan.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+get circulating supply for native token
+
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.DunScan+getSupply"></a>
+
+#### dunScan.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.Ether1"></a>
 
