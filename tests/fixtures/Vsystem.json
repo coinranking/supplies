@@ -1,0 +1,90 @@
+[
+    {
+        "scope": "https://explorer.v.systems:443",
+        "method": "GET",
+        "path": "/api/supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 0,
+            "msg": "",
+            "data": {
+                "GenesisSupply": 5142858000,
+                "GroupHoldSupply": 0,
+                "CirculationSupply": 3847499125,
+                "TotalSupply": 5493812691,
+                "CmcCirsupply": 1932640661
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 27 Feb 2020 08:34:09 GMT",
+            "Content-Type",
+            "147",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d925ffabcc02bd5a17f48d5a4fa4ad8b71582792448; expires=Sat, 28-Mar-20 08:34:08 GMT; path=/; domain=.v.systems; HttpOnly; SameSite=Lax",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS",
+            "Access-Control-Allow-Origin",
+            "*",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "56b8d164eff059e8-VIE"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.v.systems:443",
+        "method": "GET",
+        "path": "/api/supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 0,
+            "msg": "",
+            "data": {
+                "GenesisSupply": 5142858000,
+                "GroupHoldSupply": 0,
+                "CirculationSupply": 3847499125,
+                "TotalSupply": 5493812691,
+                "CmcCirsupply": 1932640661
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 27 Feb 2020 08:34:09 GMT",
+            "Content-Type",
+            "147",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS",
+            "Access-Control-Allow-Origin",
+            "*",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "56b8d169fb5bfca5-VIE"
+        ],
+        "responseIsBinary": false
+    }
+]

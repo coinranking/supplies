@@ -1,0 +1,54 @@
+[
+    {
+        "scope": "http://blockexplorer.xenioscoin.com:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 100161680,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 17:44:41 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d222f3540ca6206d052a5d4fdf6905bae1582307081; expires=Sun, 22-Mar-20 17:44:41 GMT; path=/; domain=.xenioscoin.com; HttpOnly; SameSite=Lax",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://blockexplorer.xenioscoin.com:80",
+        "method": "GET",
+        "path": "/ext/getbalance/Xt8rMoBE6oa1spwB1bxSXbiFventfsmdBH",
+        "body": "",
+        "status": 200,
+        "response": 92002.0016,
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Feb 2020 17:44:41 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

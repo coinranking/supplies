@@ -1,0 +1,56 @@
+[
+    {
+        "scope": "https://rapidsexplorer.com:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 22356602234.707355,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Set-Cookie",
+            "i18next=us; path=/; expires=Sun, 21 Feb 2021 17:51:12 GMT; secure",
+            "Set-Cookie",
+            "i18next=us; path=/; expires=Sun, 21 Feb 2021 17:51:12 GMT; secure",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "19",
+            "ETag",
+            "W/\"13-xrApIcjXbOqIUrMs0kb/wx5feuM\"",
+            "Date",
+            "Fri, 21 Feb 2020 17:51:12 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://rapidsexplorer.com:443",
+        "method": "GET",
+        "path": "/ext/getbalance/Rkb7wasVcs5Ajg1CfF2SGSKD61yfyim3Ju",
+        "body": "",
+        "status": 200,
+        "response": 12815711.25475866,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Set-Cookie",
+            "i18next=us; path=/; expires=Sun, 21 Feb 2021 17:51:13 GMT; secure",
+            "Set-Cookie",
+            "i18next=us; path=/; expires=Sun, 21 Feb 2021 17:51:13 GMT; secure",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "W/\"11-fIv4qQSUyJoVnl+MQoxrn+qTxq0\"",
+            "Date",
+            "Fri, 21 Feb 2020 17:51:13 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
