@@ -1,3 +1,32 @@
+# [1.25.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.24.0...v1.25.0) (2020-02-28)
+
+
+### Bug Fixes
+
+* add decimals ([11d9f39](https://bitbucket.org/trinarydigital/supplies/commits/11d9f39eaef7e6d02542a156a39ea31321ed5241))
+* change blockchain ([6905f7f](https://bitbucket.org/trinarydigital/supplies/commits/6905f7f4cba8e22d5213d34d7127e218908a81ea))
+* decimals ([636b717](https://bitbucket.org/trinarydigital/supplies/commits/636b71781a90fbfbdb9a0df51faec50e4378f7c3))
+* test pass for vsystem ([59b6069](https://bitbucket.org/trinarydigital/supplies/commits/59b606978033933ec0b1764e0e8995b5fc3c0366))
+
+
+### Features
+
+* vsystem supply ([8d53f36](https://bitbucket.org/trinarydigital/supplies/commits/8d53f36bb62e3294ae9cfe96fbe40d6a04c8906f))
+* xenios coin driver ([c36d609](https://bitbucket.org/trinarydigital/supplies/commits/c36d609c7d6bbce00ae414d29d5e45c4344e04b7))
+
+# [1.24.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.2...v1.24.0) (2020-02-26)
+
+
+### Bug Fixes
+
+* regenerate fixtures for BinanceDex ([0e9d06a](https://bitbucket.org/trinarydigital/supplies/commits/0e9d06afd3763a9608976a02fb408b199168808d))
+
+
+### Features
+
+* add support for MillenEOS ([76e0b22](https://bitbucket.org/trinarydigital/supplies/commits/76e0b2200d184336267645981431f37d6e367282))
+* remove Bloks because it was incomplete ([a9addac](https://bitbucket.org/trinarydigital/supplies/commits/a9addac5dbcff1fb65b62e28a51d4795ddd876f7))
+
 ## [1.23.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.23.1...v1.23.2) (2020-02-26)
 
 

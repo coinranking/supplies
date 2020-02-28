@@ -76,6 +76,10 @@ get max supply
         * [.fetchTokenBalance](#Driver.fetchTokenBalance) ⇒ <code>number</code>
         * [.getSupply](#Driver.getSupply) ⇒ [<code>Promise.&lt;Supply&gt;</code>](#Model.Supply)
     * _inner_
+        * [~Algorand](#Driver.Algorand) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Algorand+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Algorand+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Algorand+getSupply)
         * [~Bare](#Driver.Bare) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Bare+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Bare+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -97,9 +101,6 @@ get max supply
             * [.fetchTotalSupply()](#Driver.BlockchairLitecoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BlockchairLitecoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.BlockchairLitecoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
-        * [~BlocksEos](#Driver.BlocksEos) ⇐ [<code>Driver</code>](#Driver)
-            * [.fetchTotalSupply()](#Driver.BlocksEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
-            * [.fetchMaxSupply()](#Driver.BlocksEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
         * [~BridgeLto](#Driver.BridgeLto) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.BridgeLto+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.BridgeLto+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -113,6 +114,10 @@ get max supply
             * [.fetchMaxSupply()](#Driver.ChainNemNinja+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.fetchBalance(modifier)](#Driver.ChainNemNinja+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(coin)](#Driver.ChainNemNinja+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Cosmostation](#Driver.Cosmostation) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Cosmostation+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.Cosmostation+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.getSupply()](#Driver.Cosmostation+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~CryptoidDash](#Driver.CryptoidDash) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.CryptoidDash+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.CryptoidDash+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -155,6 +160,14 @@ get max supply
             * [.fetchCirculatingSupply()](#Driver.LitecoinNet+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.fetchMaxSupply()](#Driver.LitecoinNet+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
             * [.getSupply()](#Driver.LitecoinNet+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~MillenEos](#Driver.MillenEos) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.MillenEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.MillenEos+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.fetchMaxSupply()](#Driver.MillenEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+            * [.fetchTokenTotalSupply(reference)](#Driver.MillenEos+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+            * [.fetchTokenBalance(reference, modifier)](#Driver.MillenEos+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+            * [.fetchTokenMaxSupply(reference)](#Driver.MillenEos+fetchTokenMaxSupply) ⇐ <code>Driver.fetchTokenMaxSupply</code>
+            * [.getSupply(coin)](#Driver.MillenEos+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~MoneroBlocks](#Driver.MoneroBlocks) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.MoneroBlocks+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.MoneroBlocks+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -205,6 +218,10 @@ get max supply
             * [.fetchTotalSupply()](#Driver.StashExplorer+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.StashExplorer+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.StashExplorer+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Vsystem](#Driver.Vsystem) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Vsystem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.Vsystem+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.getSupply()](#Driver.Vsystem+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Waves](#Driver.Waves) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Waves+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchTokenTotalSupply(reference)](#Driver.Waves+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
@@ -215,6 +232,10 @@ get max supply
             * [.fetchTotalSupply()](#Driver.Xaya+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Xaya+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.Xaya+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Xenios](#Driver.Xenios) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Xenios+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchBalance(modifier)](#Driver.Xenios+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Xenios+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 
 <a name="new_Driver_new"></a>
 
@@ -276,6 +297,52 @@ such as methods to fetch total, circulating and max supply.
 | Param | Type | Description |
 | --- | --- | --- |
 | [coin] | [<code>Coin</code>](#Model.Coin) | The getSupply method gets called with an [coin instance](#Model.Coin). |
+
+<a name="Driver.Algorand"></a>
+
+### Driver~Algorand ⇐ [<code>Driver</code>](#Driver)
+Algorand driver. Supports total supply
+and balance for specific wallet address
+for native token on their blockchain
+Algorand.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Algorand](#Driver.Algorand) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Algorand+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Algorand+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Algorand+getSupply)
+
+<a name="Driver.Algorand+fetchTotalSupply"></a>
+
+#### algorand.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Algorand</code>](#Driver.Algorand)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Algorand+fetchBalance"></a>
+
+#### algorand.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Algorand</code>](#Driver.Algorand)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Algorand+getSupply"></a>
+
+#### algorand.getSupply(modifiers)
+get supply
+
+**Kind**: instance method of [<code>Algorand</code>](#Driver.Algorand)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
 <a name="Driver.Bare"></a>
 
@@ -486,33 +553,6 @@ get balance value for specific wallet address
 | --- | --- | --- |
 | modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
-<a name="Driver.BlocksEos"></a>
-
-### Driver~BlocksEos ⇐ [<code>Driver</code>](#Driver)
-Blocks explorer. Supports total and max supply
-for EOS token.
-
-**Kind**: inner class of [<code>Driver</code>](#Driver)  
-**Extends**: [<code>Driver</code>](#Driver)  
-
-* [~BlocksEos](#Driver.BlocksEos) ⇐ [<code>Driver</code>](#Driver)
-    * [.fetchTotalSupply()](#Driver.BlocksEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
-    * [.fetchMaxSupply()](#Driver.BlocksEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
-
-<a name="Driver.BlocksEos+fetchTotalSupply"></a>
-
-#### blocksEos.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
-get total supply for native token
-
-**Kind**: instance method of [<code>BlocksEos</code>](#Driver.BlocksEos)  
-**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
-<a name="Driver.BlocksEos+fetchMaxSupply"></a>
-
-#### blocksEos.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
-get max total supply for native token
-
-**Kind**: instance method of [<code>BlocksEos</code>](#Driver.BlocksEos)  
-**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
 <a name="Driver.BridgeLto"></a>
 
 ### Driver~BridgeLto ⇐ [<code>Driver</code>](#Driver)
@@ -638,6 +678,40 @@ Chain Nem Ninja / Nembex driver.
 | --- | --- | --- |
 | coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
 
+<a name="Driver.Cosmostation"></a>
+
+### Driver~Cosmostation ⇐ [<code>Driver</code>](#Driver)
+Cosmostation driver. Supports total and
+circulating supply for native token COSMOS
+on their blockchain Cosmos.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Cosmostation](#Driver.Cosmostation) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Cosmostation+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.Cosmostation+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.getSupply()](#Driver.Cosmostation+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Cosmostation+fetchTotalSupply"></a>
+
+#### cosmostation.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+fetch total supply for native token
+
+**Kind**: instance method of [<code>Cosmostation</code>](#Driver.Cosmostation)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Cosmostation+fetchCirculatingSupply"></a>
+
+#### cosmostation.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+fetch circulating supply for native token
+
+**Kind**: instance method of [<code>Cosmostation</code>](#Driver.Cosmostation)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.Cosmostation+getSupply"></a>
+
+#### cosmostation.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Cosmostation</code>](#Driver.Cosmostation)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.CryptoidDash"></a>
 
 ### Driver~CryptoidDash ⇐ [<code>Driver</code>](#Driver)
@@ -1031,6 +1105,85 @@ LitecoinNet driver.
 #### litecoinNet.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>LitecoinNet</code>](#Driver.LitecoinNet)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.MillenEos"></a>
+
+### Driver~MillenEos ⇐ [<code>Driver</code>](#Driver)
+MillenEOS driver. Supports circulating and total supply for EOS and
+tokens on the EOS blockchain.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~MillenEos](#Driver.MillenEos) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.MillenEos+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.MillenEos+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.fetchMaxSupply()](#Driver.MillenEos+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+    * [.fetchTokenTotalSupply(reference)](#Driver.MillenEos+fetchTokenTotalSupply) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+    * [.fetchTokenBalance(reference, modifier)](#Driver.MillenEos+fetchTokenBalance) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+    * [.fetchTokenMaxSupply(reference)](#Driver.MillenEos+fetchTokenMaxSupply) ⇐ <code>Driver.fetchTokenMaxSupply</code>
+    * [.getSupply(coin)](#Driver.MillenEos+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.MillenEos+fetchTotalSupply"></a>
+
+#### millenEos.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.MillenEos+fetchBalance"></a>
+
+#### millenEos.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.MillenEos+fetchMaxSupply"></a>
+
+#### millenEos.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
+<a name="Driver.MillenEos+fetchTokenTotalSupply"></a>
+
+#### millenEos.fetchTokenTotalSupply(reference) ⇐ [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>fetchTokenTotalSupply</code>](#Driver.fetchTokenTotalSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+
+<a name="Driver.MillenEos+fetchTokenBalance"></a>
+
+#### millenEos.fetchTokenBalance(reference, modifier) ⇐ [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>fetchTokenBalance</code>](#Driver.fetchTokenBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.MillenEos+fetchTokenMaxSupply"></a>
+
+#### millenEos.fetchTokenMaxSupply(reference) ⇐ <code>Driver.fetchTokenMaxSupply</code>
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: <code>Driver.fetchTokenMaxSupply</code>  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| reference | [<code>referenceParam</code>](#referenceParam) | [referenceParam](#referenceParam) |
+
+<a name="Driver.MillenEos+getSupply"></a>
+
+#### millenEos.getSupply(coin) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>MillenEos</code>](#Driver.MillenEos)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| coin | [<code>coinParam</code>](#coinParam) | [coinParam](#coinParam) |
+
 <a name="Driver.MoneroBlocks"></a>
 
 ### Driver~MoneroBlocks ⇐ [<code>Driver</code>](#Driver)
@@ -1513,6 +1666,41 @@ get total supply for native token
 | --- | --- | --- |
 | modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
 
+<a name="Driver.Vsystem"></a>
+
+### Driver~Vsystem ⇐ [<code>Driver</code>](#Driver)
+V-System driver. Supports total supply
+and balance for specific address for
+native token VSYS on their own blockchain
+V.system.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Vsystem](#Driver.Vsystem) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Vsystem+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.Vsystem+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.getSupply()](#Driver.Vsystem+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Vsystem+fetchTotalSupply"></a>
+
+#### vsystem.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Vsystem</code>](#Driver.Vsystem)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Vsystem+fetchCirculatingSupply"></a>
+
+#### vsystem.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+get circulating supply for native token
+
+**Kind**: instance method of [<code>Vsystem</code>](#Driver.Vsystem)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.Vsystem+getSupply"></a>
+
+#### vsystem.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Vsystem</code>](#Driver.Vsystem)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.Waves"></a>
 
 ### Driver~Waves ⇐ [<code>Driver</code>](#Driver)
@@ -1624,6 +1812,50 @@ get balance for specific wallet address
 get supply
 
 **Kind**: instance method of [<code>Xaya</code>](#Driver.Xaya)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Xenios"></a>
+
+### Driver~Xenios ⇐ [<code>Driver</code>](#Driver)
+Xenios driver. Supports total supply and
+balance for specific address on Xenios
+blockchain
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Xenios](#Driver.Xenios) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Xenios+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchBalance(modifier)](#Driver.Xenios+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Xenios+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Xenios+fetchTotalSupply"></a>
+
+#### xenios.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Xenios</code>](#Driver.Xenios)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Xenios+fetchBalance"></a>
+
+#### xenios.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Xenios</code>](#Driver.Xenios)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Xenios+getSupply"></a>
+
+#### xenios.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Xenios</code>](#Driver.Xenios)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |
