@@ -1,3 +1,10 @@
+## [1.26.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.0...v1.26.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* get the correct totalsupply for Algorand ([3e4d6f3](https://bitbucket.org/trinarydigital/supplies/commits/3e4d6f3f16d73b0c32b55924d8fcb5261d429043))
+
 # [1.26.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.2...v1.26.0) (2020-02-28)
 
 
