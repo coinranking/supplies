@@ -1,3 +1,39 @@
+# [1.27.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.1...v1.27.0) (2020-03-03)
+
+
+### Features
+
+* ravencoin driver ([b60ce05](https://bitbucket.org/trinarydigital/supplies/commits/b60ce05007b23fc8b942988bca21f3ac0172e788))
+
+## [1.26.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.0...v1.26.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* get the correct totalsupply for Algorand ([3e4d6f3](https://bitbucket.org/trinarydigital/supplies/commits/3e4d6f3f16d73b0c32b55924d8fcb5261d429043))
+
+# [1.26.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.2...v1.26.0) (2020-02-28)
+
+
+### Bug Fixes
+
+* blockchain info and supports object ([93e36d5](https://bitbucket.org/trinarydigital/supplies/commits/93e36d56628d5d816379e4d378cbd9f67a3cddf2))
+* dunscan change endpoints for supplies ([075b5fd](https://bitbucket.org/trinarydigital/supplies/commits/075b5fd2ae6b0c9c01bb1743b1cf635e8d225d42))
+* set the DunExplorer to the correct blockchain ([54e997f](https://bitbucket.org/trinarydigital/supplies/commits/54e997f4280140f988fc0ecf39f05c404b8fe922))
+
+
+### Features
+
+* dunscan explorer driver ([0ed6d32](https://bitbucket.org/trinarydigital/supplies/commits/0ed6d3246ff9d36b4fa86d1a21a06edc4a40c245))
+
+## [1.25.2](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.1...v1.25.2) (2020-02-28)
+
+
+### Bug Fixes
+
+* decimal places ([0580296](https://bitbucket.org/trinarydigital/supplies/commits/05802966eafef2fa2ea260c1c59f1a07b5a07a73))
+* set a default throttle and fix helpico ([9e28d70](https://bitbucket.org/trinarydigital/supplies/commits/9e28d7046d8fc5f17e8b1b8913e86cd3ad9f2d28))
+
 ## [1.25.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.25.0...v1.25.1) (2020-02-28)
 
 

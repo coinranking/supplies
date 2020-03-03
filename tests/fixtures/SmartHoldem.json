@@ -7,11 +7,11 @@
         "status": 200,
         "response": {
             "success": true,
-            "supply": 24706472720000000
+            "supply": 24707955340000000
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Feb 2020 15:26:28 GMT",
+            "Fri, 28 Feb 2020 15:08:33 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
@@ -19,7 +19,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=df09edf935d66f5674d5eb6cd6a743d821582298788; expires=Sun, 22-Mar-20 15:26:28 GMT; path=/; domain=.smartholdem.io; HttpOnly; SameSite=Lax",
+            "__cfduid=d5210554ed2227370a9cd416f79a7cdb21582902513; expires=Sun, 29-Mar-20 15:08:33 GMT; path=/; domain=.smartholdem.io; HttpOnly; SameSite=Lax; Secure",
             "X-Powered-By",
             "Express",
             "X-RateLimit-Limit",
@@ -35,7 +35,7 @@
             "Access-Control-Allow-Headers",
             "Origin, X-Requested-With, Content-Type, Accept",
             "ETag",
-            "W/\"2b-2dw04M+d/VOuXv8ZJMcb7GrwqzA\"",
+            "W/\"2b-rEVrCg1Hg1KCDBadTfi1nIS2QTA\"",
             "Vary",
             "Accept-Encoding",
             "CF-Cache-Status",
@@ -45,7 +45,7 @@
             "Server",
             "cloudflare",
             "CF-RAY",
-            "5689bd262b71dfbf-FRA"
+            "56c35086efee16f2-FRA"
         ],
         "responseIsBinary": false
     },
@@ -62,7 +62,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Feb 2020 15:26:29 GMT",
+            "Fri, 28 Feb 2020 15:08:34 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",

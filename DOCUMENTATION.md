@@ -133,6 +133,10 @@ get max supply
             * [.fetchTotalSupply()](#Driver.DogeChain+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.DogeChain+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
             * [.getSupply()](#Driver.DogeChain+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~DunScan](#Driver.DunScan) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.DunScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchCirculatingSupply()](#Driver.DunScan+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.getSupply()](#Driver.DunScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Ether1](#Driver.Ether1) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Ether1+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Ether1+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
@@ -196,6 +200,12 @@ get max supply
             * [.fetchTotalSupply()](#Driver.Rapids+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchBalance(modifier)](#Driver.Rapids+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
             * [.getSupply(modifiers)](#Driver.Rapids+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+        * [~Ravencoin](#Driver.Ravencoin) ⇐ [<code>Driver</code>](#Driver)
+            * [.fetchTotalSupply()](#Driver.Ravencoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+            * [.fetchMaxSupply()](#Driver.Ravencoin+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+            * [.fetchCirculatingSupply()](#Driver.Ravencoin+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+            * [.fetchBalance(modifier)](#Driver.Ravencoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+            * [.getSupply(modifiers)](#Driver.Ravencoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
         * [~Ripple](#Driver.Ripple) ⇐ [<code>Driver</code>](#Driver)
             * [.fetchTotalSupply()](#Driver.Ripple+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
             * [.fetchCirculatingSupply()](#Driver.Ripple+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
@@ -836,6 +846,40 @@ Dogechain driver.
 #### dogeChain.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>DogeChain</code>](#Driver.DogeChain)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+<a name="Driver.DunScan"></a>
+
+### Driver~DunScan ⇐ [<code>Driver</code>](#Driver)
+DunScan explorer. Supports total and circulating
+ supply for native token on
+ DunScan blockchain
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~DunScan](#Driver.DunScan) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.DunScan+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchCirculatingSupply()](#Driver.DunScan+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.getSupply()](#Driver.DunScan+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.DunScan+fetchTotalSupply"></a>
+
+#### dunScan.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.DunScan+fetchCirculatingSupply"></a>
+
+#### dunScan.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+get circulating supply for native token
+
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.DunScan+getSupply"></a>
+
+#### dunScan.getSupply() ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>DunScan</code>](#Driver.DunScan)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 <a name="Driver.Ether1"></a>
 
 ### Driver~Ether1 ⇐ [<code>Driver</code>](#Driver)
@@ -1458,6 +1502,67 @@ get balance for specific wallet address
 
 #### rapids.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
 **Kind**: instance method of [<code>Rapids</code>](#Driver.Rapids)  
+**Extends**: [<code>getSupply</code>](#Driver.getSupply)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifiers | [<code>Array.&lt;modifierParam&gt;</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Ravencoin"></a>
+
+### Driver~Ravencoin ⇐ [<code>Driver</code>](#Driver)
+Ravencoin driver. Supports total, max
+and circulating supply for native coin
+RVN on Ravencoin blockchain. Also supports
+balance for specific wallet address.
+
+**Kind**: inner class of [<code>Driver</code>](#Driver)  
+**Extends**: [<code>Driver</code>](#Driver)  
+
+* [~Ravencoin](#Driver.Ravencoin) ⇐ [<code>Driver</code>](#Driver)
+    * [.fetchTotalSupply()](#Driver.Ravencoin+fetchTotalSupply) ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+    * [.fetchMaxSupply()](#Driver.Ravencoin+fetchMaxSupply) ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+    * [.fetchCirculatingSupply()](#Driver.Ravencoin+fetchCirculatingSupply) ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+    * [.fetchBalance(modifier)](#Driver.Ravencoin+fetchBalance) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+    * [.getSupply(modifiers)](#Driver.Ravencoin+getSupply) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+
+<a name="Driver.Ravencoin+fetchTotalSupply"></a>
+
+#### ravencoin.fetchTotalSupply() ⇐ [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)
+get total supply for native token
+
+**Kind**: instance method of [<code>Ravencoin</code>](#Driver.Ravencoin)  
+**Extends**: [<code>fetchTotalSupply</code>](#Driver.fetchTotalSupply)  
+<a name="Driver.Ravencoin+fetchMaxSupply"></a>
+
+#### ravencoin.fetchMaxSupply() ⇐ [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)
+get max supply for native token
+
+**Kind**: instance method of [<code>Ravencoin</code>](#Driver.Ravencoin)  
+**Extends**: [<code>fetchMaxSupply</code>](#Driver.fetchMaxSupply)  
+<a name="Driver.Ravencoin+fetchCirculatingSupply"></a>
+
+#### ravencoin.fetchCirculatingSupply() ⇐ [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)
+get circulating supply
+
+**Kind**: instance method of [<code>Ravencoin</code>](#Driver.Ravencoin)  
+**Extends**: [<code>fetchCirculatingSupply</code>](#Driver.fetchCirculatingSupply)  
+<a name="Driver.Ravencoin+fetchBalance"></a>
+
+#### ravencoin.fetchBalance(modifier) ⇐ [<code>fetchBalance</code>](#Driver.fetchBalance)
+get balance for specific wallet address
+
+**Kind**: instance method of [<code>Ravencoin</code>](#Driver.Ravencoin)  
+**Extends**: [<code>fetchBalance</code>](#Driver.fetchBalance)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| modifier | [<code>modifierParam</code>](#modifierParam) | [modifierParam](#modifierParam) |
+
+<a name="Driver.Ravencoin+getSupply"></a>
+
+#### ravencoin.getSupply(modifiers) ⇐ [<code>getSupply</code>](#Driver.getSupply)
+**Kind**: instance method of [<code>Ravencoin</code>](#Driver.Ravencoin)  
 **Extends**: [<code>getSupply</code>](#Driver.getSupply)  
 
 | Param | Type | Description |
