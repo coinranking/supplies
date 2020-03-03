@@ -1,3 +1,10 @@
+# [1.27.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.1...v1.27.0) (2020-03-03)
+
+
+### Features
+
+* ravencoin driver ([b60ce05](https://bitbucket.org/trinarydigital/supplies/commits/b60ce05007b23fc8b942988bca21f3ac0172e788))
+
 ## [1.26.1](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.0...v1.26.1) (2020-03-03)
 
 
