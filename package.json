@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/trinarydigital/supplies"
+    "url": "https://github.com/coinranking/supplies.git"
   },
   "bin": "./bin/supplies.js",
   "readme": "README.md",
@@ -102,6 +102,9 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
       }
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "husky": {
     "hooks": {
