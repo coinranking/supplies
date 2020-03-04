@@ -1,0 +1,81 @@
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:12.14
+
+version: 2.1
+orbs:
+  codecov: codecov/codecov@1.0.5
+
+jobs:
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - .
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - restore_cache:
+          key: npm-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save_cache:
+          key: npm-{{ checksum "package-lock.json"}}
+          paths:
+            - ~/repo/node_modules
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - node_modules
+
+  lint:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: npm run lint
+
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: npm run test
+      - codecov/upload:
+          file: coverage/*.json
+
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - checkout
+      - run: npm run semantic-release
+
+workflows:
+  version: 2
+  build-and-release:
+    jobs:
+      - checkout_code
+      - build:
+          requires:
+            - checkout_code
+      - lint:
+          requires:
+            - build
+      - test:
+          requires:
+            - build
+      - release:
+          requires:
+            - lint
+            - test
+          filters:
+            branches:
+              only: master
