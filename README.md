@@ -1,6 +1,7 @@
 [![code-style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg?style=flat-square)](https://github.com/airbnb/javascript)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 [![npm (scoped)](https://img.shields.io/npm/v/@coinranking/supplies)](https://www.npmjs.com/package/@coinranking/supplies)
+[![codecov](https://img.shields.io/codecov/c/github/coinranking/supplies/master.svg?style=shield)](https://codecov.io/gh/coinranking/supplies)
 
 # Supplies 📦
 
