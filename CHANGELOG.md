@@ -1,3 +1,11 @@
+# [1.28.0](https://github.com/coinranking/supplies/compare/v1.27.0...v1.28.0) (2020-03-04)
+
+
+### Features
+
+* add a coverage badge ([0cdb967](https://github.com/coinranking/supplies/commit/0cdb9670a84b2c98c7b1056407af245e008139d1))
+* change the description inside the readme ([402e412](https://github.com/coinranking/supplies/commit/402e412ef721eb3080a74217cf3b0ff58e6e0fc6))
+
 # [1.27.0](https://bitbucket.org/trinarydigital/supplies/compare/v1.26.1...v1.27.0) (2020-03-03)
 
 
