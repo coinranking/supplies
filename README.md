@@ -5,7 +5,7 @@
 
 # Supplies 📦
 
-A Javascript library for getting up to date cryptocurrency total supplies, circulating supplies and max supplies.
+An open source JavaScript library for getting the cryptocurrency total, circulating and max supply from block explorers.
 
 ![](supplies.gif)
 
