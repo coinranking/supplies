@@ -1,5 +1,6 @@
 [![code-style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg?style=flat-square)](https://github.com/airbnb/javascript)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![npm (scoped)](https://img.shields.io/npm/v/@coinranking/supplies)](https://www.npmjs.com/package/@coinranking/supplies)
 
 # Supplies 📦
 
@@ -10,20 +11,27 @@ A Javascript library for getting up to date cryptocurrency total supplies, circu
 ## Getting started
 
 1. Node.js 12.13 or higher is required
+2. Install using [NPM](https://www.npmjs.com/package/@coinranking/supplies)
 
 ## Installation
 
-Coinranking Supplies is a [Node.js](https://nodejs.org/) module.
+Coinranking Supplies is a [Node.js](https://nodejs.org/) module available through the [npm registry](https://www.npmjs.com/package/@coinranking/supplies).
 
 Before installing, [download and install Node.js](https://nodejs.org/en/download/).
 Node.js 12.13 or higher is required.
+
+Installation is done using the npm install command:
+
+```shell
+npm i @coinranking/supplies
+```
 
 ## Usage
 
 List all supported drivers
 
 ```Javascript
-const { drivers } = require('supplies');
+const { drivers } = require('@coinranking/supplies');
 
 console.log(drivers);
 ```
@@ -31,7 +39,7 @@ console.log(drivers);
 List all supported blockchains
 
 ```Javascript
-const { blockchains } = require('supplies');
+const { blockchains } = require('@coinranking/supplies');
 
 console.log(blockchains);
 ```
@@ -39,7 +47,7 @@ console.log(blockchains);
 List all drivers that support a specific blockchain
 
 ```Javascript
-const { selectDriversByBlockchain } = require('supplies');
+const { selectDriversByBlockchain } = require('@coinranking/supplies');
 
 console.log(selectDriversByBlockchain('Ethereum'));
 ```
@@ -47,7 +55,7 @@ console.log(selectDriversByBlockchain('Ethereum'));
 Get the supply of specific coin
 
 ```Javascript
-const { Etherscan, Coin } = require('supplies');
+const { Etherscan, Coin } = require('@coinranking/supplies');
 
 const driver = new Etherscan({
   secret: 'freekey',
@@ -82,30 +90,33 @@ driver
 
 ## CLI
 
-After installation the `supplies` command will be available in your terminal.
+After installation the `supplies` command will be available in your terminal. The CLI is available under `node ./bin/supplies.js` when developing.
 
 ### Get
 
 #### Get the supply of a native coin
 
-    $ supplies get <driver name>
+```shell
+supplies get <driver name>
+```
 
 #### Get supply of a specific coin or a token
-For the coin object see `lib/models/coin`
 
-    $ supplies get <driver name> -c "<coin object>"
+```shell
+supplies get <driver name> -r <smart contract address>
+```
 
 #### Flags
 
 
 | Name      | Flag                    | Description
 | ----------| ------------------------| ---
-| Decimals  | `-d`, `--decimals`      | 'Some drivers like Etherscan require decimals')
-| Reference | `-r`, `--reference`     | 'Reference is a unique id for a specific driver; for example a smart contract address')
-| Modifiers | `-m`, `--modifiers`     | 'Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma.')
-| Record    | `-R`, `--record`        | Record the requests and coin, and save them as fixtures. This is for developing purposes
-| API Key   | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures
-| No cache  | `--nocache`             | Skip using the cache
+| Decimals  | `-d`, `--decimals`      | Some drivers like Etherscan require decimals.
+| Reference | `-r`, `--reference`     | Reference is a unique id for a specific driver; for example a smart contract address.
+| Modifiers | `-m`, `--modifiers`     | Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma and without spaces.
+| Record    | `-R`, `--record`        | Record the requests and coin, and save them as fixtures. This is for developing purposes.
+| API Key   | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures.
+| No cache  | `--nocache`             | Skip using the cache.
 
 ## Development
 
@@ -113,12 +124,13 @@ For the coin object see `lib/models/coin`
 
 Install dependencies
 
-    $ npm run install
-
+```shell
+npm run install
+```
 
 ## CLI
 
-The CLI is available under `./bin/supplies.js` when developing
+The CLI is available under `node ./bin/supplies.js` when developing
 
 ## Contributing
 
@@ -131,4 +143,4 @@ Bug reports and pull requests are welcome. This project is intended to be a safe
 
 ## License
 
-  [MIT](LICENSE)
+[MIT](LICENSE)
