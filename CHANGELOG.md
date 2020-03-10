@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/coinranking/supplies/compare/v1.28.0...v1.29.0) (2020-03-10)
+
+
+### Features
+
+* zilliqa driver ([c8f9f03](https://github.com/coinranking/supplies/commit/c8f9f031e89549392fcb5057852d4b3d2dda0140))
+
 # [1.28.0](https://github.com/coinranking/supplies/compare/v1.27.0...v1.28.0) (2020-03-04)
 
 
