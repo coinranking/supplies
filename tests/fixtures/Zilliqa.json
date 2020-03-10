@@ -1,0 +1,36 @@
+[
+    {
+        "scope": "https://api.viewblock.io:443",
+        "method": "GET",
+        "path": "/v1/zilliqa/addresses/zil1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq9yf6pz",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "hash": "zil1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq9yf6pz",
+                "balance": "7746401020075497110143",
+                "nonce": 0,
+                "type": "normal"
+            }
+        ],
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "Origin, X-APIKEY, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Date",
+            "Tue, 10 Mar 2020 11:35:42 GMT",
+            "ETag",
+            "W/\"74-JHqdv1I8pboQy4Mh5QOVi4iIaRo\"",
+            "Server",
+            "nginx/1.14.1",
+            "X-Powered-By",
+            "99",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
