@@ -1,3 +1,20 @@
+# [1.30.0](https://github.com/coinranking/supplies/compare/v1.29.0...v1.30.0) (2020-03-13)
+
+
+### Bug Fixes
+
+* dont parse JSON in the hedera driver ([bcc70ad](https://github.com/coinranking/supplies/commit/bcc70ad75062c9d5dba64f5e52e6524a40bf4f77))
+* options in driver ([8ff6b27](https://github.com/coinranking/supplies/commit/8ff6b276fa8b075b2a717120264dcebe4b2bdf48))
+* remove fetchBalance and maxSupply ([6317d4b](https://github.com/coinranking/supplies/commit/6317d4ba5c428c3e1fac6bb609192109c74167ef))
+* respect the new eslint standard ([ceb174f](https://github.com/coinranking/supplies/commit/ceb174fa922f76bca7197aca8030542c1d5e99e5))
+
+
+### Features
+
+* blockstack ([3742501](https://github.com/coinranking/supplies/commit/3742501923bd73ae12f562b0ba59f65998648c8c))
+* hedera hashgraph driver ([63e4c71](https://github.com/coinranking/supplies/commit/63e4c719b12bb9a942dea88bf066b9f22967249a))
+* remove balance ([9c78974](https://github.com/coinranking/supplies/commit/9c78974fca3adbb2030d8ae8adf1962cd6733a1e))
+
 # [1.29.0](https://github.com/coinranking/supplies/compare/v1.28.0...v1.29.0) (2020-03-10)
 
 
