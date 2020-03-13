@@ -1,4 +1,4 @@
-const supplies = require('../');
+const supplies = require('..');
 
 const { Coin } = supplies;
 
