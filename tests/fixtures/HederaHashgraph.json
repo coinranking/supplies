@@ -1,0 +1,31 @@
+[
+    {
+        "scope": "https://hash-hash.info:443",
+        "method": "GET",
+        "path": "/rest/stats/circulating-supply-no-decimal",
+        "body": "",
+        "status": 200,
+        "response": "3,377,366,918",
+        "rawHeaders": [
+            "Date",
+            "Fri, 13 Mar 2020 22:30:59 GMT",
+            "Content-Type",
+            "text/plain;charset=UTF-8",
+            "Content-Length",
+            "13",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d55c536083592925f81144fc295e10cda1584138658; expires=Sun, 12-Apr-20 22:30:58 GMT; path=/; domain=.hash-hash.info; HttpOnly; SameSite=Lax; Secure",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "573933d78cfde718-EWR"
+        ],
+        "responseIsBinary": false
+    }
+]
