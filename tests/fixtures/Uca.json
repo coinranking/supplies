@@ -1,0 +1,53 @@
+[
+    {
+        "scope": "https://blockexplorer.ucacoin.cash:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 5077983599.861501,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "20",
+            "ETag",
+            "W/\"14-yBH8W0/NnFMcxF82aIMe/xDzV1A\"",
+            "Date",
+            "Mon, 16 Mar 2020 16:47:01 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://blockexplorer.ucacoin.cash:443",
+        "method": "GET",
+        "path": "/ext/getaddress/USTFxHb6u3CqH2UvzTv1J1zybjG5oy5LZr",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "USTFxHb6u3CqH2UvzTv1J1zybjG5oy5LZr",
+            "sent": 24712511.18,
+            "received": 25007030,
+            "balance": "294518.82"
+        },
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "109",
+            "ETag",
+            "W/\"6d-NLDnDmuzoL4+gazohn+Bxe1SMaY\"",
+            "Date",
+            "Mon, 16 Mar 2020 16:47:01 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
