@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api-grin.blockscan.com:443",
+        "method": "GET",
+        "path": "/v1/api?module=stats&action=grinsupply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "1",
+            "message": "OK",
+            "result": "37270620"
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 23 Mar 2020 20:46:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d0af612f2398f3d0984a9f04f7998343e1584996417; expires=Wed, 22-Apr-20 20:46:57 GMT; path=/; domain=.blockscan.com; HttpOnly; SameSite=Lax; Secure",
+            "Cache-Control",
+            "private",
+            "X-AspNet-Version",
+            "4.0.30319",
+            "X-Powered-By",
+            "ASP.NET",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
