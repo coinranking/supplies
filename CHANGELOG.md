@@ -1,3 +1,27 @@
+# [1.33.0](https://github.com/coinranking/supplies/compare/v1.32.0...v1.33.0) (2020-03-25)
+
+
+### Bug Fixes
+
+* blockscan blockchain and circulating supply ([d3367ab](https://github.com/coinranking/supplies/commit/d3367ab262284e0a3ff0fd5419e280fb622d1978))
+
+
+### Features
+
+* blockscan driver ([101afbb](https://github.com/coinranking/supplies/commit/101afbbbfb6bcfef7b8ac6caac314868edf93a22))
+
+# [1.32.0](https://github.com/coinranking/supplies/compare/v1.31.0...v1.32.0) (2020-03-25)
+
+
+### Bug Fixes
+
+* urls for fetching balance and total supply ([34b4a61](https://github.com/coinranking/supplies/commit/34b4a61a0506aba861431ad153d4f5845ae6cc5d))
+
+
+### Features
+
+* create fixure ([ab6f1f0](https://github.com/coinranking/supplies/commit/ab6f1f0be928ae59b4d8972b0d6fbe6f484968a5))
+
 # [1.31.0](https://github.com/coinranking/supplies/compare/v1.30.0...v1.31.0) (2020-03-18)
 
 
