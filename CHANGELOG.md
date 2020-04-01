@@ -1,3 +1,11 @@
+# [1.34.0](https://github.com/coinranking/supplies/compare/v1.33.0...v1.34.0) (2020-04-01)
+
+
+### Features
+
+* readdcoin fixture ([19158fa](https://github.com/coinranking/supplies/commit/19158fa8a2ab2b47fff485a4fb5422fcb08be999))
+* reddcoin driver ([35e40e0](https://github.com/coinranking/supplies/commit/35e40e0b81fc11f30b8db848f750184950289bb4))
+
 # [1.33.0](https://github.com/coinranking/supplies/compare/v1.32.0...v1.33.0) (2020-03-25)
 
 
