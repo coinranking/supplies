@@ -142,7 +142,7 @@ Bug reports and pull requests are welcome. This project is intended to be a safe
 1. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 2. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
-## Socials
+## Reach out to us
 
 - [Telegram](https://t.me/CoinrankingOfficial)
 - [Forum](https://community.coinranking.com/c/developers/20)
