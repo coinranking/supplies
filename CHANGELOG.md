@@ -1,3 +1,15 @@
+# [1.35.0](https://github.com/coinranking/supplies/compare/v1.34.0...v1.35.0) (2020-04-15)
+
+
+### Bug Fixes
+
+* tether circulating supply support ([f2ca732](https://github.com/coinranking/supplies/commit/f2ca732aa1b0da3fc5b4c6c398ac533b7b3beab9))
+
+
+### Features
+
+* tether driver ([1447a2b](https://github.com/coinranking/supplies/commit/1447a2b125db19af9cdf26bb71046289baf68ec1))
+
 # [1.34.0](https://github.com/coinranking/supplies/compare/v1.33.0...v1.34.0) (2020-04-01)
 
 
