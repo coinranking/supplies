@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api.oasis.app:443",
+        "method": "GET",
+        "path": "/v1/supply/dai",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": "96788564.397572699347125922",
+            "time": "2020-04-27T19:01:57.397Z",
+            "message": "success"
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "92",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Mon, 27 Apr 2020 19:01:57 GMT",
+            "x-amzn-RequestId",
+            "9293a015-8f57-44db-9b12-9b54cb871eff",
+            "x-amz-apigw-id",
+            "LqPVzGIloAMFcsg=",
+            "X-Amzn-Trace-Id",
+            "Root=1-5ea72c25-b51e876e1c266d1c56e16866",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 fd2756277dcf50743fb09f4526b54aca.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1",
+            "X-Amz-Cf-Id",
+            "KXzW3sTjouujfPfP6AN-m-HIIgVzhtrbXE3gMMh_iwf2bjDg7CdhHQ=="
+        ],
+        "responseIsBinary": false
+    }
+]
