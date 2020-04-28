@@ -1,3 +1,11 @@
+# [1.36.0](https://github.com/coinranking/supplies/compare/v1.35.0...v1.36.0) (2020-04-28)
+
+
+### Features
+
+* change ethereum in dai inside the oasis driver ([b7725d4](https://github.com/coinranking/supplies/commit/b7725d4df64edcd119977ad3702225aae3bfd9c2))
+* oasis driver ([d4a6abe](https://github.com/coinranking/supplies/commit/d4a6abe0d4ec632610c26cf556a9f1e7acd1c2ca))
+
 # [1.35.0](https://github.com/coinranking/supplies/compare/v1.34.0...v1.35.0) (2020-04-15)
 
 
