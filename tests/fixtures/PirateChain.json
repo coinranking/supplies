@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "https://explorer.pirate.black:443",
+        "method": "GET",
+        "path": "/api/marketcap",
+        "body": "",
+        "status": 200,
+        "response": {
+            "coin": "PIRATE",
+            "priceKMD": "0.05677926",
+            "priceBTC": "0.00000348",
+            "priceUSD": "0.03100760",
+            "priceEUR": "0.02861023",
+            "priceGBP": "0.02502409",
+            "mcapKMD": 8797842.37,
+            "mcapBTC": 539.22,
+            "mcapUSD": 4804570.84,
+            "mcapEUR": 4433102.75,
+            "mcapGBP": 3877436.92,
+            "height": 865582,
+            "nethash": 67332567,
+            "diff": 255475244,
+            "blocktime": 1588182612,
+            "reward": 64,
+            "nexthalvingTS": 1606247000,
+            "nexthalvingUTC": "2020-11-24 19:43",
+            "nextreward": 32,
+            "supply": "154948168.90751"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 29 Apr 2020 17:51:46 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Upgrade",
+            "h2,h2c",
+            "Accept-Ranges",
+            "none",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    }
+]
