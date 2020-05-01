@@ -1,3 +1,10 @@
+# [1.37.0](https://github.com/coinranking/supplies/compare/v1.36.0...v1.37.0) (2020-05-01)
+
+
+### Features
+
+* piratechain driver ([91d5748](https://github.com/coinranking/supplies/commit/91d57481514f3b15d8eb89c3c3a32646986db8ce))
+
 # [1.36.0](https://github.com/coinranking/supplies/compare/v1.35.0...v1.36.0) (2020-04-28)
 
 
