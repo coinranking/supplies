@@ -1,0 +1,72 @@
+[
+    {
+        "scope": "https://www.btse.com:443",
+        "method": "GET",
+        "path": "/api/tokentransparency",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 1,
+            "msg": "Success",
+            "time": 1588604396735,
+            "data": {
+                "tokenIssued": 200000000,
+                "circulatingSupply": 4200000,
+                "totalBurned": 33800000,
+                "pendingBurn": 0
+            },
+            "success": true
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Vary",
+            "Accept-Encoding",
+            "Date",
+            "143",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "XSRF-TOKEN=8219d550-b254-4801-b388-ff34c29e8f72; Path=/",
+            "Strict-Transport-Security",
+            "max-age=31536000 ; includeSubDomains ; preload"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://www.btse.com:443",
+        "method": "GET",
+        "path": "/api/tokentransparency",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 1,
+            "msg": "Success",
+            "time": 1588604397232,
+            "data": {
+                "tokenIssued": 200000000,
+                "circulatingSupply": 4200000,
+                "totalBurned": 33800000,
+                "pendingBurn": 0
+            },
+            "success": true
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Vary",
+            "Accept-Encoding",
+            "Date",
+            "143",
+            "Connection",
+            "keep-alive",
+            "Strict-Transport-Security",
+            "max-age=31536000 ; includeSubDomains ; preload"
+        ],
+        "responseIsBinary": false
+    }
+]
