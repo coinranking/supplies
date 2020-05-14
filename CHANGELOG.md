@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/coinranking/supplies/compare/v1.37.0...v1.38.0) (2020-05-14)
+
+
+### Features
+
+* btse driver ([8330ed4](https://github.com/coinranking/supplies/commit/8330ed40ae1f2438860fa5cc349660e4ab9b3785))
+
 # [1.37.0](https://github.com/coinranking/supplies/compare/v1.36.0...v1.37.0) (2020-05-01)
 
 
