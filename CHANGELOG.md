@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/coinranking/supplies/compare/v1.38.0...v1.39.0) (2020-05-29)
+
+
+### Features
+
+* **docs:** force updating the docs automatically with this minor update ([c83793e](https://github.com/coinranking/supplies/commit/c83793ef6f4d6d11b9dd8d6d1d947022b84192a9))
+
 # [1.38.0](https://github.com/coinranking/supplies/compare/v1.37.0...v1.38.0) (2020-05-14)
 
 
