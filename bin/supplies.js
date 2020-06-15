@@ -58,6 +58,7 @@ program
       driver.secret = options.key;
     }
 
+    // eslint-disable-next-line max-len
     if (driver.supports.blockchains.length > 0 && !driver.supports.blockchains.includes(options.blockchain)) {
       console.log('Driver supports multi-blockchain, define at least one to proceed.');
       process.exit(1);
