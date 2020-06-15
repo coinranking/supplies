@@ -124,6 +124,7 @@ drivers.forEach((driverName) => {
       }
     }
 
+    // specific token/coin
     if (driver.supports.tokens) {
       const tokens = coins.filter((coin) => (typeof coin.reference !== 'undefined'));
 
@@ -224,6 +225,82 @@ drivers.forEach((driverName) => {
           }
         });
       });
+    }
+
+    // multiblockchain
+    if (driver.supports.blockchains && !driver.supports.native) {
+      const [multiBlock] = coins.filter((coin) => !!coin.blockchain);
+
+      test('getSupply happy path', async () => {
+        await nock.back(`${driverName}.json`);
+        const supply = await driver.getSupply(multiBlock);
+        if (driver.supports.total) {
+          expect(supply.total).toBeGreaterThan(0);
+        }
+        if (driver.supports.circulating) {
+          expect(supply.circulating).toBeGreaterThan(0);
+        }
+        if (driver.supports.max) {
+          expect(supply.max).toBeGreaterThan(0);
+        }
+      });
+
+      if (driver.supports.total) {
+        test('Total supply should be greater than zero', async () => {
+          await nock.back(`${driverName}.json`);
+          const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
+          expect(totalSupply).toBeGreaterThan(0);
+        });
+      }
+
+      if (driver.supports.circulating) {
+        test('Circulating supply should be greater than zero', async () => {
+          await nock.back(`${driverName}.json`);
+          const circulatingSupply = await driver.fetchCirculatingSupply(multiBlock.blockchain);
+          expect(circulatingSupply).toBeGreaterThan(0);
+        });
+
+        if (driver.supports.total) {
+          test('Circulating supply should be less than or equal to total supply', async () => {
+            await nock.back(`${driverName}.json`);
+            const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
+            const circulatingSupply = await driver.fetchCirculatingSupply(multiBlock.blockchain);
+            expect(circulatingSupply).toBeLessThanOrEqual(totalSupply);
+          });
+        }
+      }
+
+      if (driver.supports.max) {
+        test('Max supply should be greater than zero', async () => {
+          await nock.back(`${driverName}.json`);
+          const maxSupply = await driver.fetchMaxSupply(multiBlock.blockchain);
+          expect(maxSupply).toBeGreaterThan(0);
+        });
+
+        if (driver.supports.total) {
+          test('Max supply should be greater than or equal to total supply', async () => {
+            await nock.back(`${driverName}.json`);
+            const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
+            const maxSupply = await driver.fetchMaxSupply(multiBlock.blockchain);
+            expect(maxSupply).toBeGreaterThanOrEqual(totalSupply);
+          });
+        }
+      }
+
+
+      if (driver.supports.balances) {
+        if (!Array.isArray(multiBlock.modifiers) || multiBlock.modifiers.length === 0) {
+          throw new Error('Native coin should have modifiers');
+        }
+
+        multiBlock.modifiers.forEach((modifier) => {
+          test('Modifier balance should be greater than or equal to zero', async () => {
+            await nock.back(`${driverName}.json`);
+            const balances = await driver.fetchBalance(modifier, multiBlock.blockchain);
+            expect(balances).toBeGreaterThanOrEqual(0);
+          });
+        });
+      }
     }
   });
 });

@@ -1,0 +1,85 @@
+[
+    {
+        "scope": "https://api.blockchair.com:443",
+        "method": "GET",
+        "path": "/monero/stats",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "blocks": 2121347,
+                "transactions": 7730505,
+                "circulation": 17598173210091604000,
+                "difficulty": 159991679329,
+                "hashrate_24h": 1333263994,
+                "mempool_transactions": 13,
+                "mempool_size": 30514000,
+                "best_block_height": 2121346,
+                "best_block_hash": "95300e61b907fb0c1267cc137b8871609369305f2fb65e5e894e5dc298f49371",
+                "best_block_time": "2020-06-15 18:37:09",
+                "suggested_transaction_fee_per_byte_sat": 10,
+                "market_price_usd": 64.56,
+                "market_price_btc": 0.0068694224513921,
+                "market_price_usd_change_24h_percentage": -1.30596,
+                "market_cap_usd": 1136234085,
+                "market_dominance_percentage": 0.43
+            },
+            "context": {
+                "code": 200,
+                "source": "D",
+                "state": 2121347,
+                "cache": {
+                    "live": false,
+                    "duration": "Ignore",
+                    "since": "2020-06-15 18:38:52",
+                    "until": "2020-06-15 18:40:03",
+                    "time": 0.0000050067901611328125
+                },
+                "api": {
+                    "version": "2.0.58",
+                    "last_major_update": "2019-07-19 18:07:19",
+                    "next_major_update": null,
+                    "documentation": "https://blockchair.com/api/docs",
+                    "notice": "Beginning July 19th, 2019 all applications using Blockchair API on a constant basis should apply for an API key. Discover our plans here: https://api.blockchair.com/premium"
+                },
+                "time": 3.5567739009857178,
+                "render_time": 0.0039980411529541016,
+                "full_time": 0.004003047943115234,
+                "request_cost": 1
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.2",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "no-cache, private",
+            "Date",
+            "Mon, 15 Jun 2020 18:38:58 GMT",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET,POST",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Origin, Content-Type, X-Auth-Token",
+            "Referrer-Policy",
+            "strict-origin",
+            "Feature-Policy",
+            "geolocation none; midi none; notifications none; push none; sync-xhr none; microphone none; camera none; magnetometer none; gyroscope none; speaker self; vibrate none; fullscreen self; payment none;",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains",
+            "X-Frame-Options",
+            "DENY"
+        ],
+        "responseIsBinary": false
+    }
+]
