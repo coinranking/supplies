@@ -5,10 +5,10 @@
         "path": "/api/v0/info/supply",
         "body": "",
         "status": 200,
-        "response": 18989175,
+        "response": 18989250,
         "rawHeaders": [
             "Date",
-            "Tue, 16 Jun 2020 21:42:47 GMT",
+            "Tue, 16 Jun 2020 21:47:49 GMT",
             "Content-Type",
             "text/plain; charset=UTF-8",
             "Transfer-Encoding",
@@ -16,11 +16,50 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d6fc506b728f75e1279894979bff9a1631592343767; expires=Thu, 16-Jul-20 21:42:47 GMT; path=/; domain=.ergoplatform.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=dafb0207b9c917b2da578c3213abb3e351592344069; expires=Thu, 16-Jul-20 21:47:49 GMT; path=/; domain=.ergoplatform.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "0360aec1b3000090f11e8c2200000001",
+            "0360b35e22000091152cb7b200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.ergoplatform.com:443",
+        "method": "GET",
+        "path": "/addresses/88dhgzEuTXaUsySGJMvihy5bNomCkm8dKj8wUfLkiSRYU2dFwW5ycyTHFpZK3SnMBc4DjPfJu2Bk2XYH",
+        "body": "",
+        "status": 200,
+        "response": {
+            "summary": {
+                "id": "88dhgzEuTXaUsySGJMvihy5bNomCkm8dKj8wUfLkiSRYU2dFwW5ycyTHFpZK3SnMBc4DjPfJu2Bk2XYH"
+            },
+            "transactions": {
+                "confirmed": 159,
+                "totalReceived": 7762749000000,
+                "confirmedBalance": 1147528500000,
+                "totalBalance": 1147528500000,
+                "confirmedTokensBalance": [],
+                "totalTokensBalance": []
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 16 Jun 2020 21:47:50 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "0360b360e40000fc6d61a17200000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Server",
