@@ -1,3 +1,11 @@
+# [1.40.0](https://github.com/coinranking/supplies/compare/v1.39.0...v1.40.0) (2020-06-22)
+
+
+### Features
+
+* ergo explorer add modifier ([3e30edb](https://github.com/coinranking/supplies/commit/3e30edbd6c46fe3597a5b22fcae0d73a28e2f7ba))
+* ergo explorer update ([39400ff](https://github.com/coinranking/supplies/commit/39400ff57cb2c0bc9ed1e16b2cc230382f6f9a4c))
+
 # [1.39.0](https://github.com/coinranking/supplies/compare/v1.38.0...v1.39.0) (2020-05-29)
 
 
