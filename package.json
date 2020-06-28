@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/supplies",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "description": "An open source JavaScript library for getting the cryptocurrency total, circulating and max supply from block explorers.",
   "main": "lib/supplies.js",
   "engines": {
@@ -42,28 +42,28 @@
   "license": "MIT",
   "dependencies": {
     "cloudscraper": "^4.6.0",
-    "commander": "^5.0.0",
-    "node-cache": "^5.1.0",
+    "commander": "^5.1.0",
+    "node-cache": "^5.1.1",
     "request": "^2.88.2",
     "socket.io-client": "^2.3.0",
-    "uuid": "^8.0.0"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@semantic-release/changelog": "^5.0.0",
+    "@commitlint/cli": "^9.1.0",
+    "@commitlint/config-conventional": "^9.1.0",
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsdoc": "^27.0.6",
-    "husky": "^4.2.3",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsdoc": "^28.0.0",
+    "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "jsdoc": "^3.6.3",
+    "jsdoc": "^3.6.4",
     "jsdoc-to-markdown": "^6.0.1",
-    "nock": "^12.0.2",
+    "nock": "^13.0.0",
     "semantic-release": "^17.0.4"
   },
   "config": {
