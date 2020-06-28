@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const { nock } = require('./helpers/nock');
 const supplies = require('../lib/supplies');
+const Driver = require('../lib/models/driver');
 
 // Increase the timeout of the test.
 // Same timeout as a Lambda job.
@@ -43,6 +44,24 @@ drivers.forEach((driverName) => {
       coins = fs.readFileSync(`${coinsDir}/${driverName}.json`);
       coins = JSON.parse(coins);
       coins = coins.map((coin) => new Coin(coin));
+    }
+
+    /**
+     * this test was created to check if driver has
+     * correctly defined support object properties
+     * that Driver class accepts as valid
+     */
+    if (driver.supports) {
+      const instance = new Driver();
+
+      test('driver has valid support properties', () => {
+        const { supports = {} } = driver;
+
+        // eslint-disable-next-line no-restricted-syntax
+        for (const support of Object.keys(supports)) {
+          expect(Object.keys(instance.supports)).toContain(support);
+        }
+      });
     }
 
     if (driver.supports.native) {
