@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/coinranking/supplies/compare/v1.41.0...v1.42.0) (2020-07-10)
+
+
+### Features
+
+* delete the Documentation.md ([7305ff4](https://github.com/coinranking/supplies/commit/7305ff40e6d3868c1e66fa278dba8bc177dfb948))
+
 # [1.41.0](https://github.com/coinranking/supplies/compare/v1.40.0...v1.41.0) (2020-07-10)
 
 
