@@ -16,7 +16,7 @@
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
     "cm": "git-cz",
-    "docs": "jsdoc2md lib/**/*.js > DOCUMENTATION.md",
+    "docs": "jsdoc2md lib/models/*.js > DOCUMENTATION.md",
     "semantic-release": "semantic-release"
   },
   "bugs": {
