@@ -1,3 +1,10 @@
+# [1.41.0](https://github.com/coinranking/supplies/compare/v1.40.0...v1.41.0) (2020-07-10)
+
+
+### Features
+
+* change the docs to only include the classes ([a14cd66](https://github.com/coinranking/supplies/commit/a14cd66ac52236af54c4ac25b71c5304a9aac5c1))
+
 # [1.40.0](https://github.com/coinranking/supplies/compare/v1.39.0...v1.40.0) (2020-06-22)
 
 
