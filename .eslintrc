@@ -16,12 +16,6 @@
       "implementsReplacesDocs": true
     }
   },
-  "globals": {
-    "referenceParam": "readonly",
-    "modifierParam": "readonly",
-    "decimalsParam": "readonly",
-    "coinParam": "readonly"
-  },
   "plugins": [
     "jsdoc"
   ],
