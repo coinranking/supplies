@@ -1,6 +1,10 @@
 [
   {
     "modifiers": [],
+    "blockchain": "Litecoin"
+  },
+  {
+    "modifiers": [],
     "blockchain": "Emerald"
   }
 ]
