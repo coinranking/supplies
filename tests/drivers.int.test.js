@@ -306,7 +306,6 @@ drivers.forEach((driverName) => {
         }
       }
 
-
       if (driver.supports.balances) {
         if (!Array.isArray(multiBlock.modifiers) || multiBlock.modifiers.length === 0) {
           throw new Error('Native coin should have modifiers');
