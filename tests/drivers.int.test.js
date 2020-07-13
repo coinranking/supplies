@@ -251,7 +251,7 @@ drivers.forEach((driverName) => {
       const [multiBlock] = coins.filter((coin) => !!coin.blockchain);
 
       test('getSupply happy path', async () => {
-        await nock.back(`${driverName}.json`);
+        await nock.back(`${driverName}-${multiBlock}.json`);
         const supply = await driver.getSupply(multiBlock);
         if (driver.supports.total) {
           expect(supply.total).toBeGreaterThan(0);
@@ -266,7 +266,7 @@ drivers.forEach((driverName) => {
 
       if (driver.supports.total) {
         test('Total supply should be greater than zero', async () => {
-          await nock.back(`${driverName}.json`);
+          await nock.back(`${driverName}-${multiBlock}.json`);
           const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
           expect(totalSupply).toBeGreaterThan(0);
         });
@@ -274,14 +274,14 @@ drivers.forEach((driverName) => {
 
       if (driver.supports.circulating) {
         test('Circulating supply should be greater than zero', async () => {
-          await nock.back(`${driverName}.json`);
+          await nock.back(`${driverName}-${multiBlock}.json`);
           const circulatingSupply = await driver.fetchCirculatingSupply(multiBlock.blockchain);
           expect(circulatingSupply).toBeGreaterThan(0);
         });
 
         if (driver.supports.total) {
           test('Circulating supply should be less than or equal to total supply', async () => {
-            await nock.back(`${driverName}.json`);
+            await nock.back(`${driverName}-${multiBlock}.json`);
             const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
             const circulatingSupply = await driver.fetchCirculatingSupply(multiBlock.blockchain);
             expect(circulatingSupply).toBeLessThanOrEqual(totalSupply);
@@ -291,14 +291,14 @@ drivers.forEach((driverName) => {
 
       if (driver.supports.max) {
         test('Max supply should be greater than zero', async () => {
-          await nock.back(`${driverName}.json`);
+          await nock.back(`${driverName}-${multiBlock}.json`);
           const maxSupply = await driver.fetchMaxSupply(multiBlock.blockchain);
           expect(maxSupply).toBeGreaterThan(0);
         });
 
         if (driver.supports.total) {
           test('Max supply should be greater than or equal to total supply', async () => {
-            await nock.back(`${driverName}.json`);
+            await nock.back(`${driverName}-${multiBlock}.json`);
             const totalSupply = await driver.fetchTotalSupply(multiBlock.blockchain);
             const maxSupply = await driver.fetchMaxSupply(multiBlock.blockchain);
             expect(maxSupply).toBeGreaterThanOrEqual(totalSupply);
@@ -314,7 +314,7 @@ drivers.forEach((driverName) => {
 
         multiBlock.modifiers.forEach((modifier) => {
           test('Modifier balance should be greater than or equal to zero', async () => {
-            await nock.back(`${driverName}.json`);
+            await nock.back(`${driverName}-${multiBlock}.json`);
             const balances = await driver.fetchBalance(modifier, multiBlock.blockchain);
             expect(balances).toBeGreaterThanOrEqual(0);
           });
