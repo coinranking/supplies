@@ -1,3 +1,10 @@
+## [1.42.1](https://github.com/coinranking/supplies/compare/v1.42.0...v1.42.1) (2020-07-21)
+
+
+### Bug Fixes
+
+* **blockscan:** fix the supply of Grin ([ac84185](https://github.com/coinranking/supplies/commit/ac84185651a45d499215d571e1806b97d3039bb9))
+
 # [1.42.0](https://github.com/coinranking/supplies/compare/v1.41.0...v1.42.0) (2020-07-10)
 
 
