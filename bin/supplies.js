@@ -13,7 +13,7 @@ program
   .option('-r, --reference <type>', 'Reference is a unique id for a specific driver; for example a smart contract address')
   .option('-m, --modifiers [addresses]', 'Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma.')
   .option('-R, --record', 'Record the requests and parameters, and save them as fixtures')
-  .option('-B, --blockchain <type>', 'Define blockchain if driver supports multi-blockchain')
+  .option('-B, --blockchain <type>', 'Issuance blockchain; the blockchain the coin is issued on. This could be their own blockchain for coins like Bitcoin or Monero. Or for example Ethereum for ERC-20 tokens like Basic Attention Token. Providing the blockchain is required if the driver supports multiple blockchains')
   .option('-k, --key <type>', 'APIkey when required')
   .option('--nocache', 'Disable the cache')
   .action(async (driverName, options) => {
@@ -45,8 +45,10 @@ program
       driver.secret = options.key;
     }
 
-    // eslint-disable-next-line max-len
-    if (driver.supports.blockchains.length > 1 && !driver.supports.blockchains.includes(options.blockchain)) {
+    if (
+      driver.supports.blockchains.length > 1
+      && !driver.supports.blockchains.includes(options.blockchain)
+    ) {
       console.log('Driver supports multi-blockchain, define at least one to proceed.');
       process.exit(1);
     }
