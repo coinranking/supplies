@@ -1,0 +1,47 @@
+[
+    {
+        "scope": "https://siastats.info:443",
+        "method": "GET",
+        "path": "/dbs/network_status.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "block_height": 271475,
+            "block_timestamp": 1596489377,
+            "hashrate": 9272091315889540,
+            "difficulty": 5403771920335198000,
+            "coin_supply": 44594302992,
+            "coin_price_USD": 0.00316,
+            "market_cap_USD": 140917997,
+            "used_storage_TB": 694.87,
+            "network_capacity_TB": 2188.05,
+            "online_hosts": 340,
+            "active_contracts": 137424,
+            "skynet_files": 1493432,
+            "skynet_size": 9.21
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache",
+            "Content-Type",
+            "application/json",
+            "Last-Modified",
+            "Mon, 03 Aug 2020 21:18:34 GMT",
+            "Accept-Ranges",
+            "bytes",
+            "ETag",
+            "\"46d87a5db69d61:0\"",
+            "Vary",
+            "Accept-Encoding,Accept-Encoding",
+            "Server",
+            "Microsoft-IIS/10.0",
+            "X-Powered-By",
+            "ASP.NET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Date",
+            "401"
+        ],
+        "responseIsBinary": false
+    }
+]
