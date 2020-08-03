@@ -1,3 +1,40 @@
+# [2.0.0](https://github.com/coinranking/supplies/compare/v1.42.1...v2.0.0) (2020-08-03)
+
+
+* feat!: support for multiple and optional blockchains ([b584f00](https://github.com/coinranking/supplies/commit/b584f00a9076c70cecaabbe061a8134b78f008c9))
+
+
+### Bug Fixes
+
+* blockchain info for some drivers ([794f7d1](https://github.com/coinranking/supplies/commit/794f7d1b610665aecd4b6026f74a975989ecbe80))
+* change blockchain information for ripple and ryo ([94e2f78](https://github.com/coinranking/supplies/commit/94e2f7859e80950d13e23be737320ff0dececee5))
+* eslint ([a91614a](https://github.com/coinranking/supplies/commit/a91614ac999c4ecc3d9f1e92568e751a34e4fdc1))
+* lib functions support multiple blockchains ([4b70111](https://github.com/coinranking/supplies/commit/4b701119425140e36ae52741fdb4dce79ce576f9))
+* typo ([9cb847f](https://github.com/coinranking/supplies/commit/9cb847f6e7a297dd94fbe32cbf8a22545280d08a))
+
+
+### Features
+
+* coins in one fixutres ([e69e881](https://github.com/coinranking/supplies/commit/e69e8818a4b855634270a569bcad941c2128814b))
+* fix fixture for blockchair driver ([2ef1733](https://github.com/coinranking/supplies/commit/2ef1733a2919d646c6fb0e554b3ad226342b7c6a))
+* fix test file ([cc3b367](https://github.com/coinranking/supplies/commit/cc3b3674e2dfe6dd921db6526989d5ae201ae78f))
+* merged ([fadd9d3](https://github.com/coinranking/supplies/commit/fadd9d3a87563ecae1220cb66b557c060dd7b449))
+* merged ([488d2c5](https://github.com/coinranking/supplies/commit/488d2c5d1d147f225b37f2182c9fb5e1aecf97ee))
+* multi-blockchain support ([cf862a6](https://github.com/coinranking/supplies/commit/cf862a60fbd112f79d23be7e9fe9ee3028872039))
+* multiblockchain fixtures update ([1e95881](https://github.com/coinranking/supplies/commit/1e95881ef60a4ed9f94083f2fc69995114c0243c))
+* run eslint to files ([03d9828](https://github.com/coinranking/supplies/commit/03d9828e796dceaf44ec2fcdacb90a49b5d54d93))
+* support multiblockchain fixtures ([cd882f8](https://github.com/coinranking/supplies/commit/cd882f8640cc9a87b9e7d83004fd7736a5cc2bc2))
+* tested and moved to multi-blockchain support ([c5c14ea](https://github.com/coinranking/supplies/commit/c5c14ead3df220446120c180b722b430c3ab7196))
+* update descriptions JSDocs ([7208ab1](https://github.com/coinranking/supplies/commit/7208ab13bd820b99f70bca95bf5a30c859ae82ba))
+
+
+### BREAKING CHANGES
+
+* drivers handle blockchains differently now. Some don’t mention a blockchain (like Tether and Btse), some have multiple (like Blockchair and CryptoID) and some are renamed (like XRP to XRP Ledger).
+
+Co-authored-by: Nick Pater <nick@coinranking.com>
+Co-authored-by: Stella <sajcic.stella@gmail.com>
+
 ## [1.42.1](https://github.com/coinranking/supplies/compare/v1.42.0...v1.42.1) (2020-07-21)
 
 
