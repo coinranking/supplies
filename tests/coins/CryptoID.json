@@ -18,5 +18,9 @@
   {
     "modifiers": [],
     "blockchain": "Litecoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "DigiByte"
   }
 ]
