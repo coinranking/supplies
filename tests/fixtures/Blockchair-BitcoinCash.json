@@ -7,72 +7,70 @@
         "status": 200,
         "response": {
             "data": {
-                "blocks": 620697,
-                "transactions": 284482312,
-                "outputs": 758993434,
-                "circulation": 1825870214680825,
-                "blocks_24h": 115,
-                "transactions_24h": 44772,
-                "difficulty": 561861535847.51,
-                "volume_24h": 201756615251049,
-                "mempool_transactions": 109,
-                "mempool_size": 46990,
-                "mempool_tps": 0.25,
-                "mempool_total_fee_usd": 0.3429,
-                "best_block_height": 620696,
-                "best_block_hash": "000000000000000000fea9a34f4b6901074cd314615aa3ca3f81ebc1e80c277f",
-                "best_block_time": "2020-02-03 20:58:50",
-                "blockchain_size": 145642692136,
-                "average_transaction_fee_24h": 972,
-                "inflation_24h": 143750000000,
-                "median_transaction_fee_24h": 274,
-                "cdd_24h": 5953031.033796211,
+                "blocks": 643747,
+                "transactions": 290200536,
+                "outputs": 773121031,
+                "circulation": 1846090839679993,
+                "blocks_24h": 148,
+                "transactions_24h": 14225,
+                "difficulty": 460501390175.37,
+                "volume_24h": 97667305987906,
+                "mempool_transactions": 372,
+                "mempool_size": 176474,
+                "mempool_tps": 0.11666666666666667,
+                "mempool_total_fee_usd": 2.9255,
+                "best_block_height": 643746,
+                "best_block_hash": "00000000000000000121daad5ca455d0796973e2335bd1cc5643f15c152617de",
+                "best_block_time": "2020-07-13 14:38:45",
+                "blockchain_size": 148190638680,
+                "average_transaction_fee_24h": 2082,
+                "inflation_24h": 92500000000,
+                "median_transaction_fee_24h": 384,
+                "cdd_24h": 2706243.260434918,
                 "largest_transaction_24h": {
-                    "hash": "244d052bc11c948657e67cc5d48b96a13abb76bd373fefb3012be262c592dd90",
-                    "value_usd": 97703952
+                    "hash": "963ddbdac415d1a59807a6790e2ab7e2ba45e91a5d8f8fe6789e708b35e324f7",
+                    "value_usd": 17022196
                 },
-                "nodes": 1419,
-                "hashrate_24h": "3213284848659383035",
-                "inflation_usd_24h": 550821.25,
-                "average_transaction_fee_usd_24h": 0.0037283045129768606,
-                "median_transaction_fee_usd_24h": 0.0010499132,
-                "market_price_usd": 383.18,
-                "market_price_btc": 0.041182179394724,
-                "market_price_usd_change_24h_percentage": 0.39593,
-                "market_cap_usd": 6997617193,
-                "market_dominance_percentage": 2.7,
-                "countdowns": [
-                    {
-                        "event": "Reward halving",
-                        "time_left": 5581200
-                    }
-                ],
+                "nodes": 1254,
+                "hashrate_24h": "3392518714518285963",
+                "inflation_usd_24h": 218762.5,
+                "average_transaction_fee_usd_24h": 0.0049249669423550085,
+                "median_transaction_fee_usd_24h": 0.0009081599999999999,
+                "market_price_usd": 236.5,
+                "market_price_btc": 0.025418354954161,
+                "market_price_usd_change_24h_percentage": 1.13538,
+                "market_cap_usd": 4367623966,
+                "market_dominance_percentage": 1.56,
+                "countdowns": [],
                 "suggested_transaction_fee_per_byte_sat": 1
             },
             "context": {
                 "code": 200,
                 "source": "A",
-                "time": 0.6089701652526855,
-                "state": 620696,
+                "state": 643746,
                 "cache": {
                     "live": false,
                     "duration": "Ignore",
-                    "since": "2020-02-03 21:02:29",
-                    "until": "2021-02-02 21:02:29",
-                    "time": 0.0000030994415283203125
+                    "since": "2020-07-13 15:12:30",
+                    "until": "2020-07-13 15:13:41",
+                    "time": 0.0000059604644775390625
                 },
                 "api": {
-                    "version": "2.0.44",
+                    "version": "2.0.63",
                     "last_major_update": "2019-07-19 18:07:19",
-                    "next_major_update": null,
+                    "next_major_update": "2020-07-19 00:00:00",
                     "documentation": "https://blockchair.com/api/docs",
-                    "notice": "Beginning July 19th, 2019 all applications using Blockchair API on a constant basis should apply for an API key (mailto:info@blockchair.com)"
-                }
+                    "notice": "Beginning July 19th, 2020 we'll start enforcing request cost formulas, see the changelog for details"
+                },
+                "time": 0.7235100269317627,
+                "render_time": 0.059266090393066406,
+                "full_time": 0.059272050857543945,
+                "request_cost": 1
             }
         },
         "rawHeaders": [
             "Server",
-            "nginx",
+            "nginx/1.14.2",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -82,7 +80,7 @@
             "Cache-Control",
             "no-cache, private",
             "Date",
-            "Mon, 03 Feb 2020 21:02:31 GMT",
+            "Mon, 13 Jul 2020 15:12:32 GMT",
             "X-XSS-Protection",
             "1; mode=block",
             "Access-Control-Allow-Origin",
@@ -116,25 +114,29 @@
                     "address": {
                         "type": "pubkey",
                         "script_hex": "4104678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac",
-                        "balance": 6811740406,
-                        "balance_usd": 25879.8453245158,
-                        "received": 6811740406,
-                        "received_usd": 1623.4635,
+                        "balance": 6916467747,
+                        "balance_usd": 16412.0863168563,
+                        "received": 6916467747,
+                        "received_usd": 1980.7296,
                         "spent": 0,
                         "spent_usd": 0,
-                        "output_count": 1143,
-                        "unspent_output_count": 1143,
+                        "output_count": 1146,
+                        "unspent_output_count": 1146,
                         "first_seen_receiving": "2009-01-03 18:15:05",
-                        "last_seen_receiving": "2019-11-19 11:41:13",
+                        "last_seen_receiving": "2020-05-21 19:25:24",
                         "first_seen_spending": null,
                         "last_seen_spending": null,
-                        "transaction_count": 1143,
+                        "scripthash_type": null,
+                        "transaction_count": 1146,
                         "formats": {
                             "legacy": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
                             "cashaddr": "qp3wjpa3tjlj042z2wv7hahsldgwhwy0rq9sywjpyy"
                         }
                     },
                     "transactions": [
+                        "f4c9207b4bedb0dcadd1aff44aae74450e84a5efd0d5d530e69731359d45883a",
+                        "fc93c57d568cff151f08f56057eaf5acd3b3b575207ed6789c037747656e022d",
+                        "11fda45229c3b181e6ea03e97fa007f87959b2803cc2682a5fe9c125eeebb6f6",
                         "9124d05e9db01a401f7340072bcdfce89c8391bc1d1179aa661755738af86313",
                         "98de8a69cd919c1b848d143d5a58e56084531fed6efc2f2dbf25e7c27b3c46e4",
                         "e0c821857298f2bbcb3f55fb7af17fbde18a30361e8b74e621517f6574a02eab",
@@ -231,12 +233,27 @@
                         "6b476ad8046fd3997a55492df73fc311a07f294adb1e030f228d2b55577f975d",
                         "cdecbcd11725609ecdf31aaeb6e9d13782d59020298149d76fc8f6a100763474",
                         "1e0abc67ae36383dc15986055a4b75fef8b16d14762f3047902863fb5ecec486",
-                        "0cff1371fa0e023d4b48f0b41d0152144a75f7c3ff50a2aa01186be5d7c85d57",
-                        "e4073966c9891f36543c302b13939eb992573d2cbc326ff41d3a2afa99e420eb",
-                        "ea1810fec7989d71047d767a2573537224cb698ed752133db6e4823a5687e589",
-                        "ff0dbe0d3fc28de161475002643d2bcf156e2e894dfd2350ae6b23a7b097b885"
+                        "0cff1371fa0e023d4b48f0b41d0152144a75f7c3ff50a2aa01186be5d7c85d57"
                     ],
                     "utxo": [
+                        {
+                            "block_id": 636120,
+                            "transaction_hash": "f4c9207b4bedb0dcadd1aff44aae74450e84a5efd0d5d530e69731359d45883a",
+                            "index": 0,
+                            "value": 4704516
+                        },
+                        {
+                            "block_id": 628036,
+                            "transaction_hash": "fc93c57d568cff151f08f56057eaf5acd3b3b575207ed6789c037747656e022d",
+                            "index": 0,
+                            "value": 22825
+                        },
+                        {
+                            "block_id": 620982,
+                            "transaction_hash": "11fda45229c3b181e6ea03e97fa007f87959b2803cc2682a5fe9c125eeebb6f6",
+                            "index": 0,
+                            "value": 100000000
+                        },
                         {
                             "block_id": 609701,
                             "transaction_hash": "9124d05e9db01a401f7340072bcdfce89c8391bc1d1179aa661755738af86313",
@@ -818,24 +835,6 @@
                             "transaction_hash": "0cff1371fa0e023d4b48f0b41d0152144a75f7c3ff50a2aa01186be5d7c85d57",
                             "index": 0,
                             "value": 5000
-                        },
-                        {
-                            "block_id": 411367,
-                            "transaction_hash": "e4073966c9891f36543c302b13939eb992573d2cbc326ff41d3a2afa99e420eb",
-                            "index": 0,
-                            "value": 10000
-                        },
-                        {
-                            "block_id": 411366,
-                            "transaction_hash": "ea1810fec7989d71047d767a2573537224cb698ed752133db6e4823a5687e589",
-                            "index": 0,
-                            "value": 10000
-                        },
-                        {
-                            "block_id": 410431,
-                            "transaction_hash": "ff0dbe0d3fc28de161475002643d2bcf156e2e894dfd2350ae6b23a7b097b885",
-                            "index": 0,
-                            "value": 10000
                         }
                     ]
                 }
@@ -843,30 +842,33 @@
             "context": {
                 "code": 200,
                 "source": "D",
-                "time": 0.1380140781402588,
                 "limit": "100,100",
                 "offset": "0,0",
                 "results": 1,
-                "state": 620696,
+                "state": 643746,
                 "cache": {
                     "live": true,
                     "duration": 30,
-                    "since": "2020-02-03 21:02:32",
-                    "until": "2020-02-03 21:03:02",
+                    "since": "2020-07-13 15:12:33",
+                    "until": "2020-07-13 15:13:03",
                     "time": null
                 },
                 "api": {
-                    "version": "2.0.44",
+                    "version": "2.0.63",
                     "last_major_update": "2019-07-19 18:07:19",
-                    "next_major_update": null,
+                    "next_major_update": "2020-07-19 00:00:00",
                     "documentation": "https://blockchair.com/api/docs",
-                    "notice": "Beginning July 19th, 2019 all applications using Blockchair API on a constant basis should apply for an API key (mailto:info@blockchair.com)"
-                }
+                    "notice": "Beginning July 19th, 2020 we'll start enforcing request cost formulas, see the changelog for details"
+                },
+                "time": 0.16471385955810547,
+                "render_time": 0.15767693519592285,
+                "full_time": 0.3223907947540283,
+                "request_cost": 1
             }
         },
         "rawHeaders": [
             "Server",
-            "nginx",
+            "nginx/1.14.2",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -876,7 +878,7 @@
             "Cache-Control",
             "no-cache, private",
             "Date",
-            "Mon, 03 Feb 2020 21:02:32 GMT",
+            "Mon, 13 Jul 2020 15:12:33 GMT",
             "X-XSS-Protection",
             "1; mode=block",
             "Access-Control-Allow-Origin",
