@@ -22,5 +22,9 @@
   {
     "modifiers": [],
     "blockchain": "DigiByte"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "BolivarCoin"
   }
 ]
