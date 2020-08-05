@@ -1,0 +1,25 @@
+[
+    {
+        "scope": "https://explorer.fanaticoscriptos.com:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 4269731.16988223,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "\"430424697\"",
+            "Date",
+            "Wed, 05 Aug 2020 13:11:19 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
