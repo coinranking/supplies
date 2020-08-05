@@ -1,0 +1,35 @@
+[
+    {
+        "scope": "https://service-api.fragments.org:443",
+        "method": "GET",
+        "path": "/circulating-supply",
+        "body": "",
+        "status": 200,
+        "response": 373444177.7492439,
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Wed, 05 Aug 2020 14:27:45 GMT",
+            "x-amzn-RequestId",
+            "e8e2c6b1-5cec-401d-835f-ecbdf4c4c6af",
+            "x-amz-apigw-id",
+            "QzM7LGruoAMF2BA=",
+            "X-Amzn-Trace-Id",
+            "Root=1-5f2ac1e1-cea4d12c55b9db8a12ec3d7e;Sampled=0",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 9c157874a076ffdde5f5a44c4371f3a1.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1",
+            "X-Amz-Cf-Id",
+            "QA163T9GJ_7RYhe98m9ZFYqDnuua9cLkFgm_FnTL5-oKE_c2qr0h-w=="
+        ],
+        "responseIsBinary": false
+    }
+]
