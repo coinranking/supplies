@@ -1,0 +1,27 @@
+[
+    {
+        "scope": "https://explorer.bitg.org:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 11376792,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 05 Aug 2020 14:14:16 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"12-u9tciYlmhXSHiCrK8xAAFkl1bw8\""
+        ],
+        "responseIsBinary": false
+    }
+]
