@@ -1,3 +1,11 @@
+# [2.3.0](https://github.com/coinranking/supplies/compare/v2.2.0...v2.3.0) (2020-08-10)
+
+
+### Features
+
+* bolivarcoin support on cryptoid ([7b29175](https://github.com/coinranking/supplies/commit/7b29175bb3b4a2f2cd5ef3c88c6e1687187c0179))
+* trollcoin support on cryptoid ([6249538](https://github.com/coinranking/supplies/commit/6249538342cb99949d138c827deb8d0a32aee581))
+
 # [2.2.0](https://github.com/coinranking/supplies/compare/v2.1.0...v2.2.0) (2020-08-10)
 
 
