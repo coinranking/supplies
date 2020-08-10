@@ -1,0 +1,84 @@
+[
+    {
+        "scope": "https://verge-blockchain.info:443",
+        "method": "GET",
+        "path": "/api/moneysupply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "moneysupply": 16336319343.363379
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3",
+            "Date",
+            "Mon, 03 Aug 2020 21:44:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "43",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Origin",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Powered-By",
+            "API"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://verge-blockchain.info:443",
+        "method": "GET",
+        "path": "/api/balance/D6NYsdntCHYDv6X6uGzgEChnoQruHBR1De",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "balance": "9041651.946557"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3",
+            "Date",
+            "Mon, 03 Aug 2020 21:44:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "37",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Origin",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Powered-By",
+            "API"
+        ],
+        "responseIsBinary": false
+    }
+]
