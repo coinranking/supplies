@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/coinranking/supplies/compare/v2.0.0...v2.1.0) (2020-08-10)
+
+
+### Bug Fixes
+
+* support object ([b4e3849](https://github.com/coinranking/supplies/commit/b4e38491c8b2a3a30755e310a8f02b1bdb47d408))
+
+
+### Features
+
+* cryptoid extend with digibyte blockchain ([6cebb59](https://github.com/coinranking/supplies/commit/6cebb592bfd80959c221998592660ad6aa4fa1e4))
+* idena driver ([b352a2c](https://github.com/coinranking/supplies/commit/b352a2cf15b758d9afaae13f8b5695403b51bed6))
+
 # [2.0.0](https://github.com/coinranking/supplies/compare/v1.42.1...v2.0.0) (2020-08-03)
 
 
