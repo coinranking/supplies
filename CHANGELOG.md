@@ -1,3 +1,13 @@
+# [2.2.0](https://github.com/coinranking/supplies/compare/v2.1.0...v2.2.0) (2020-08-10)
+
+
+### Features
+
+* french digital reserve driver - fdr ([64f72d4](https://github.com/coinranking/supplies/commit/64f72d46e61e69e4c84e95139f72552eecb8e2ac))
+* namebase driver ([f29bc0f](https://github.com/coinranking/supplies/commit/f29bc0fc921b29411bfa1513aceaf926e6799043))
+* siastats driver ([cc934b8](https://github.com/coinranking/supplies/commit/cc934b8e3cff8d7557a2399c20d6f2a26734aed8))
+* verge driver ([b3db3fc](https://github.com/coinranking/supplies/commit/b3db3fced504877d437c4c2eeeff1428ecb44209))
+
 # [2.1.0](https://github.com/coinranking/supplies/compare/v2.0.0...v2.1.0) (2020-08-10)
 
 
