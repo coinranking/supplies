@@ -1,3 +1,13 @@
+# [2.8.0](https://github.com/coinranking/supplies/compare/v2.7.0...v2.8.0) (2020-08-11)
+
+
+### Features
+
+* navcoin driver on crpytoid ([147fd47](https://github.com/coinranking/supplies/commit/147fd47b3178aecd7999a34a742a816033f97241))
+* patricl driver on cryptoid ([1ccc6af](https://github.com/coinranking/supplies/commit/1ccc6af643468647e9640978870cb35a673660b3))
+* pivx driver on cryptoid ([356ca82](https://github.com/coinranking/supplies/commit/356ca826b424eef04f25b0eb67f22693a7fc3195))
+* stratis driver on cryptoid ([434eed8](https://github.com/coinranking/supplies/commit/434eed853dfa603ac117597803cc1489ee4f261b))
+
 # [2.7.0](https://github.com/coinranking/supplies/compare/v2.6.0...v2.7.0) (2020-08-11)
 
 
