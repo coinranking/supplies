@@ -1,3 +1,11 @@
+# [2.7.0](https://github.com/coinranking/supplies/compare/v2.6.0...v2.7.0) (2020-08-11)
+
+
+### Features
+
+* elrond driver ([6cdc56c](https://github.com/coinranking/supplies/commit/6cdc56ce1f6645b634d56baa0ed37c25fe081076))
+* pivx driver on cryptoid ([fcae300](https://github.com/coinranking/supplies/commit/fcae3005bb4ce930906e7e9d83cc39375697c977))
+
 # [2.6.0](https://github.com/coinranking/supplies/compare/v2.5.0...v2.6.0) (2020-08-11)
 
 
