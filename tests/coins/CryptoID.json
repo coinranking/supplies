@@ -42,5 +42,9 @@
   {
     "modifiers": [],
     "blockchain": "NavCoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Particl"
   }
 ]
