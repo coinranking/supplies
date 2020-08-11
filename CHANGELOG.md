@@ -1,3 +1,15 @@
+# [2.4.0](https://github.com/coinranking/supplies/compare/v2.3.0...v2.4.0) (2020-08-11)
+
+
+### Bug Fixes
+
+* add blockchain to beam driver ([39ac62f](https://github.com/coinranking/supplies/commit/39ac62f9ff7cc2ec085425d246eeaa7b54625ca6))
+
+
+### Features
+
+* beam driver ([e6ff30f](https://github.com/coinranking/supplies/commit/e6ff30f9d91f828c51434e03b0dfd556cf37b74b))
+
 # [2.3.0](https://github.com/coinranking/supplies/compare/v2.2.0...v2.3.0) (2020-08-10)
 
 
