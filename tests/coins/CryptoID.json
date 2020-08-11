@@ -34,5 +34,9 @@
   {
     "modifiers": [],
     "blockchain": "Pivx"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Stratis"
   }
 ]
