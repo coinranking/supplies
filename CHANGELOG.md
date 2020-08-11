@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/coinranking/supplies/compare/v2.5.0...v2.6.0) (2020-08-11)
+
+
+### Features
+
+* adamant driver ([d943fd0](https://github.com/coinranking/supplies/commit/d943fd0e14da7b97918d8367b07a5d456199da0e))
+
 # [2.5.0](https://github.com/coinranking/supplies/compare/v2.4.0...v2.5.0) (2020-08-11)
 
 
