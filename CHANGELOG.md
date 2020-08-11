@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/coinranking/supplies/compare/v2.4.0...v2.5.0) (2020-08-11)
+
+
+### Features
+
+* nimiq driver ([65f9919](https://github.com/coinranking/supplies/commit/65f9919bd3852fcd053b6754c44e3cbfb8bd611f))
+
 # [2.4.0](https://github.com/coinranking/supplies/compare/v2.3.0...v2.4.0) (2020-08-11)
 
 
