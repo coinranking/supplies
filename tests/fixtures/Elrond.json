@@ -1,0 +1,35 @@
+[
+    {
+        "scope": "https://api.elrond.com:443",
+        "method": "GET",
+        "path": "/circulating-supply",
+        "body": "",
+        "status": 200,
+        "response": 13508333333,
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "11",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Wed, 05 Aug 2020 14:41:05 GMT",
+            "x-amzn-RequestId",
+            "42ff274d-a6cf-4242-9aa2-6bcbd1bde09a",
+            "x-amz-apigw-id",
+            "QzO4UFANFiAFVPg=",
+            "X-Amzn-Trace-Id",
+            "Root=1-5f2ac501-a106fa68c86b4b64fbf7e44b;Sampled=0",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 3a65445020a52e9a185051db037167bb.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1",
+            "X-Amz-Cf-Id",
+            "G1XAMIijERhr3Ak2-YT1uNjYr8PJsv5NYzu2RphdgbYGiYnx3L6M3w=="
+        ],
+        "responseIsBinary": false
+    }
+]

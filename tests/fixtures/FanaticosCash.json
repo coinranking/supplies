@@ -5,7 +5,7 @@
         "path": "/ext/getmoneysupply",
         "body": "",
         "status": 200,
-        "response": 4269731.16988223,
+        "response": 4271328.16210973,
         "rawHeaders": [
             "X-Powered-By",
             "Express",
@@ -14,9 +14,32 @@
             "Content-Length",
             "17",
             "ETag",
-            "\"430424697\"",
+            "\"863477486\"",
             "Date",
-            "Wed, 05 Aug 2020 13:11:19 GMT",
+            "Thu, 13 Aug 2020 16:27:45 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.fanaticoscriptos.com:443",
+        "method": "GET",
+        "path": "/ext/getbalance/FfamQfusb9WfgLU7dEJs6tn8qMYLBvkg8X",
+        "body": "",
+        "status": 200,
+        "response": 420000,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "6",
+            "ETag",
+            "\"-669576048\"",
+            "Date",
+            "Thu, 13 Aug 2020 16:27:46 GMT",
             "Connection",
             "keep-alive"
         ],
