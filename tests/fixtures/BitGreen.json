@@ -5,12 +5,12 @@
         "path": "/ext/getmoneysupply",
         "body": "",
         "status": 200,
-        "response": 11376792,
+        "response": 11546175,
         "rawHeaders": [
             "Server",
             "nginx/1.14.0 (Ubuntu)",
             "Date",
-            "Wed, 05 Aug 2020 14:14:16 GMT",
+            "Thu, 13 Aug 2020 16:45:10 GMT",
             "Content-Type",
             "text/html; charset=utf-8",
             "Content-Length",
@@ -20,7 +20,37 @@
             "X-Powered-By",
             "Express",
             "ETag",
-            "W/\"12-u9tciYlmhXSHiCrK8xAAFkl1bw8\""
+            "W/\"12-a306BLDqM30sEMLDSkPp7d6c0mI\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.bitg.org:443",
+        "method": "GET",
+        "path": "/ext/getaddress/GUdTMN6LZb2TfnD3AAYJDTJPXBy76kVuuG",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "GUdTMN6LZb2TfnD3AAYJDTJPXBy76kVuuG",
+            "sent": 753785.65271832,
+            "received": 945921.63102725,
+            "balance": "192135.97830893"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Thu, 13 Aug 2020 16:45:10 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "126",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"7e-BOCpId9zTF/sCS+8Ube4RwTrPnk\""
         ],
         "responseIsBinary": false
     }
