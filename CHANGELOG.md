@@ -1,3 +1,14 @@
+# [2.9.0](https://github.com/coinranking/supplies/compare/v2.8.0...v2.9.0) (2020-08-14)
+
+
+### Features
+
+* add balance support and total supply ([1c722e5](https://github.com/coinranking/supplies/commit/1c722e53d6c860ff58975eea3d3fc479bfce0a55))
+* add balance support to FanaticosCash ([b460454](https://github.com/coinranking/supplies/commit/b46045477470584f9db47dc20348680071f7e5c0))
+* add description to fetchbalance function for fanaticos-cash ([beb29a5](https://github.com/coinranking/supplies/commit/beb29a50125784c49cea2ece06c1c1a7fb5a1f4a))
+* bitgreen driver ([63ad964](https://github.com/coinranking/supplies/commit/63ad964767f1f4637a7d5ccf2cbd568261e279d3))
+* fanaticos cash driver ([baec390](https://github.com/coinranking/supplies/commit/baec39003d2e970cc38fd6d6582e756025827228))
+
 # [2.8.0](https://github.com/coinranking/supplies/compare/v2.7.0...v2.8.0) (2020-08-11)
 
 
