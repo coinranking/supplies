@@ -1,0 +1,25 @@
+[
+    {
+        "scope": "http://buysellcoin.org:3001",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 5033583.2012,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "13",
+            "ETag",
+            "\"1458508689\"",
+            "Date",
+            "Mon, 17 Aug 2020 16:11:13 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
