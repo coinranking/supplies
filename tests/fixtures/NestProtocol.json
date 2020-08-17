@@ -1,0 +1,23 @@
+[
+    {
+        "scope": "https://nestprotocol.org:443",
+        "method": "GET",
+        "path": "/nestapi/circulation",
+        "body": "",
+        "status": 200,
+        "response": 1637213916,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.1.10",
+            "Date",
+            "Mon, 17 Aug 2020 16:21:48 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
