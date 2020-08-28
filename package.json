@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/supplies",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "description": "An open source JavaScript library for getting the cryptocurrency total, circulating and max supply from block explorers.",
   "main": "lib/supplies.js",
   "engines": {

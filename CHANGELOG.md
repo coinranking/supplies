@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/coinranking/supplies/compare/v2.10.0...v2.11.0) (2020-08-28)
+
+
+### Features
+
+* coin4trade driver ([15a4193](https://github.com/coinranking/supplies/commit/15a419396b8f4c7de04f3e5b597802d4bd147b4b))
+
 # [2.10.0](https://github.com/coinranking/supplies/compare/v2.9.0...v2.10.0) (2020-08-28)
 
 
