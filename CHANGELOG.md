@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/coinranking/supplies/compare/v2.12.0...v2.13.0) (2020-08-28)
+
+
+### Features
+
+* sprint driver ([7f9d858](https://github.com/coinranking/supplies/commit/7f9d858718fd824417591332684b589161d1aceb))
+
 # [2.12.0](https://github.com/coinranking/supplies/compare/v2.11.0...v2.12.0) (2020-08-28)
 
 
