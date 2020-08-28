@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/coinranking/supplies/compare/v2.11.0...v2.12.0) (2020-08-28)
+
+
+### Features
+
+* monerov driver ([267f723](https://github.com/coinranking/supplies/commit/267f723655a77dd79e4843a3bf0253ab66e477ad))
+
 # [2.11.0](https://github.com/coinranking/supplies/compare/v2.10.0...v2.11.0) (2020-08-28)
 
 
