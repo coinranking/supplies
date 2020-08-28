@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/coinranking/supplies/compare/v2.9.0...v2.10.0) (2020-08-28)
+
+
+### Features
+
+* qnodecoin driver ([f2d1587](https://github.com/coinranking/supplies/commit/f2d15874d162c4322c1b1e5ade42d78eb24726aa))
+
 # [2.9.0](https://github.com/coinranking/supplies/compare/v2.8.0...v2.9.0) (2020-08-14)
 
 
