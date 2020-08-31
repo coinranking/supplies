@@ -1,3 +1,31 @@
+# [2.13.0](https://github.com/coinranking/supplies/compare/v2.12.0...v2.13.0) (2020-08-28)
+
+
+### Features
+
+* sprint driver ([7f9d858](https://github.com/coinranking/supplies/commit/7f9d858718fd824417591332684b589161d1aceb))
+
+# [2.12.0](https://github.com/coinranking/supplies/compare/v2.11.0...v2.12.0) (2020-08-28)
+
+
+### Features
+
+* monerov driver ([267f723](https://github.com/coinranking/supplies/commit/267f723655a77dd79e4843a3bf0253ab66e477ad))
+
+# [2.11.0](https://github.com/coinranking/supplies/compare/v2.10.0...v2.11.0) (2020-08-28)
+
+
+### Features
+
+* coin4trade driver ([15a4193](https://github.com/coinranking/supplies/commit/15a419396b8f4c7de04f3e5b597802d4bd147b4b))
+
+# [2.10.0](https://github.com/coinranking/supplies/compare/v2.9.0...v2.10.0) (2020-08-28)
+
+
+### Features
+
+* qnodecoin driver ([f2d1587](https://github.com/coinranking/supplies/commit/f2d15874d162c4322c1b1e5ade42d78eb24726aa))
+
 # [2.9.0](https://github.com/coinranking/supplies/compare/v2.8.0...v2.9.0) (2020-08-14)
 
 

@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "http://chain.sprintpay.net:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 3066588.22554217,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Sun, 23 Aug 2020 09:01:09 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "\"-878484511\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://chain.sprintpay.net:80",
+        "method": "GET",
+        "path": "/ext/getbalance/SjWpsbZbkwkLzGWVze3uDtDvYAF3xWEq8j",
+        "body": "",
+        "status": 200,
+        "response": 72444.90533557,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Sun, 23 Aug 2020 09:01:10 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "14",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "\"-2041106560\""
+        ],
+        "responseIsBinary": false
+    }
+]
