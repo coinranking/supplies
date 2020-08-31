@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "https://explorer.qngnode.cc:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 4206425.05545825,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 17 Aug 2020 15:52:20 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"11-9OKqY+7pmtNt7TRVXMA1hmgMAko\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.qngnode.cc:443",
+        "method": "GET",
+        "path": "/ext/getbalance/9ECoBGxXM3vfaMdne691KGdtHwJQE2MLZB",
+        "body": "",
+        "status": 200,
+        "response": 1747159.28838551,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 17 Aug 2020 15:52:20 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "16",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"10-aAAC9XtCZdbHREZfCGdv8gGLccE\""
+        ],
+        "responseIsBinary": false
+    }
+]

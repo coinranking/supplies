@@ -1,0 +1,23 @@
+[
+    {
+        "scope": "https://explorer.monerov.online:443",
+        "method": "GET",
+        "path": "/api/emission_txt2",
+        "body": "",
+        "status": 200,
+        "response": 10961286.291954,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Sun, 23 Aug 2020 08:45:56 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "15",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]

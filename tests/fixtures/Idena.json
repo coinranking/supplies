@@ -1,0 +1,53 @@
+[
+    {
+        "scope": "https://api.idena.io:443",
+        "method": "GET",
+        "path": "/api/Coins",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "minted": "57455570.0803580181822211",
+                "burnt": "1478197.8016662131908343",
+                "totalBalance": "54544774.1177706129097775",
+                "totalStake": "1441363.1034953231020957"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 03 Aug 2020 20:01:59 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "168",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.idena.io:443",
+        "method": "GET",
+        "path": "/api/CirculatingSupply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "24975719.6180181847835274"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 03 Aug 2020 20:01:59 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "39",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
