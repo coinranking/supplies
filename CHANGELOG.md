@@ -1,3 +1,15 @@
+# [2.14.0](https://github.com/coinranking/supplies/compare/v2.13.0...v2.14.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* get first element from array to get newest total supply for hive db driver ([cb09442](https://github.com/coinranking/supplies/commit/cb09442ebc108216ab9c244027c62fb51f6abc73))
+
+
+### Features
+
+* hive driver and grammar fix ([59845e5](https://github.com/coinranking/supplies/commit/59845e5f98bcf52463eb96438003d711a6c320b4))
+
 # [2.13.0](https://github.com/coinranking/supplies/compare/v2.12.0...v2.13.0) (2020-08-28)
 
 
