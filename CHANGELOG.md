@@ -1,3 +1,20 @@
+# [2.15.0](https://github.com/coinranking/supplies/compare/v2.14.0...v2.15.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* change url for totalSupply for cache-gold driver ([9051f07](https://github.com/coinranking/supplies/commit/9051f07d5726b9c047405d9a962e6ea9516035b0))
+* remove blockchains property from nest-protocol driver ([d221b8d](https://github.com/coinranking/supplies/commit/d221b8daae6e84a8560d999cda2a5aa4d965e953))
+* remove blockchains property in neutrino-dollar driver ([80d0403](https://github.com/coinranking/supplies/commit/80d040364094e6e1f6ec8459f70ec3d6d0d50d96))
+* remove supports property in cache-gold driver ([ff25ee3](https://github.com/coinranking/supplies/commit/ff25ee3ceb70339a9563c310065d9621cd004112))
+
+
+### Features
+
+* cache gold driver ([be41983](https://github.com/coinranking/supplies/commit/be419838645caee06f60e9776e95eff84165f1e1))
+* nest protocol driver ([b43a034](https://github.com/coinranking/supplies/commit/b43a034e07c9f42ba695fa6ce9549c4698ec11e6))
+* neutrino dollar driver ([2ac3f30](https://github.com/coinranking/supplies/commit/2ac3f301e92e7dc8d25c45ee1f599aba9fcc24ff))
+
 # [2.14.0](https://github.com/coinranking/supplies/compare/v2.13.0...v2.14.0) (2020-09-01)
 
 
