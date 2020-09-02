@@ -1,0 +1,69 @@
+[
+    {
+        "scope": "http://polkadot.pro:8080",
+        "method": "GET",
+        "path": "/?q=totalcoins",
+        "body": "",
+        "status": 200,
+        "response": 9651217.451262059,
+        "rawHeaders": [
+            "Content-Type",
+            "text/plain; charset=utf-8",
+            "Content-Length",
+            "20",
+            "Date",
+            "Wed, 02 Sep 2020 14:45:14 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://kusama.subscan.io:443",
+        "method": "post",
+        "path": "/api/open/account",
+        "body": {
+            "address": "F4xQKRUagnSGjFqafyhajLs94e7Vvzvr8ebwYJceKpr8R7T"
+        },
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "address": "F4xQKRUagnSGjFqafyhajLs94e7Vvzvr8ebwYJceKpr8R7T",
+                "balance": "121112.08724904835",
+                "lock": "0"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 02 Sep 2020 14:45:15 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "149",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            ""
+        ],
+        "responseIsBinary": false
+    }
+]
