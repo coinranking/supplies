@@ -1,0 +1,116 @@
+[
+    {
+        "scope": "https://api.iost.io:443",
+        "method": "GET",
+        "path": "/getTokenInfo/iost/true",
+        "body": "",
+        "status": 200,
+        "response": {
+            "symbol": "iost",
+            "full_name": "iost",
+            "issuer": "issue.iost",
+            "total_supply": "9000000000000000000",
+            "current_supply": "2206412216301134592",
+            "decimal": 8,
+            "can_transfer": true,
+            "only_issuer_can_transfer": false,
+            "total_supply_float": 90000000000,
+            "current_supply_float": 22064122163.011345
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.12.2",
+            "Date",
+            "Wed, 02 Sep 2020 11:29:47 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "274",
+            "Connection",
+            "keep-alive",
+            "Grpc-Metadata-Content-Type",
+            "application/grpc",
+            "Vary",
+            "Origin"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.iost.io:443",
+        "method": "GET",
+        "path": "/getAccount/bigone_pool/true",
+        "body": "",
+        "status": 200,
+        "response": {
+            "name": "bigone_pool",
+            "balance": 1338240.24891164,
+            "gas_info": {
+                "current_total": 303000000,
+                "transferable_gas": 0,
+                "pledge_gas": 303000000,
+                "increase_speed": 1161.5,
+                "limit": 303000000,
+                "pledged_info": []
+            },
+            "ram_info": {
+                "available": "1347",
+                "used": "701",
+                "total": "2048"
+            },
+            "permissions": {
+                "active": {
+                    "name": "active",
+                    "group_names": [],
+                    "items": [
+                        {
+                            "id": "BhZg8uYUPgwxfJwnVsww4Zg7vqn14gPk9j1npxYQRyyY",
+                            "is_key_pair": true,
+                            "weight": "100",
+                            "permission": ""
+                        }
+                    ],
+                    "threshold": "100"
+                },
+                "owner": {
+                    "name": "owner",
+                    "group_names": [],
+                    "items": [
+                        {
+                            "id": "nM3c9e1gEJbEcgNQtM924GHe85xH9bWbyw1eaHmSn7L",
+                            "is_key_pair": true,
+                            "weight": "100",
+                            "permission": ""
+                        }
+                    ],
+                    "threshold": "100"
+                }
+            },
+            "groups": {},
+            "frozen_balances": [],
+            "vote_infos": [
+                {
+                    "option": "bigone_pool",
+                    "votes": 39157056,
+                    "cleared_votes": 0
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.12.2",
+            "Date",
+            "Wed, 02 Sep 2020 11:29:48 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "725",
+            "Connection",
+            "keep-alive",
+            "Grpc-Metadata-Content-Type",
+            "application/grpc",
+            "Vary",
+            "Origin"
+        ],
+        "responseIsBinary": false
+    }
+]
