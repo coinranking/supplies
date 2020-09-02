@@ -1,0 +1,113 @@
+[
+    {
+        "scope": "https://polkadot.subscan.io:443",
+        "method": "GET",
+        "path": "/api/scan/token",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "detail": {
+                    "DOT": {
+                        "symbol": "DOT",
+                        "token_decimals": 10,
+                        "total_issuance": "9876361684860335415",
+                        "price": "6.11400645304",
+                        "price_change": "-0.0733022",
+                        "available_balance": "2822123529234128961",
+                        "validator_bonded": "38357501010553391",
+                        "nominator_bonded": "5765377888316553506",
+                        "locked_balance": "7054038109939206452",
+                        "additional": {
+                            "block_num": 1248328,
+                            "token_decimals": 12
+                        }
+                    }
+                },
+                "token": [
+                    "DOT"
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 02 Sep 2020 10:39:55 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "424",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            ""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://polkadot.subscan.io:443",
+        "method": "post",
+        "path": "/api/open/account",
+        "body": {
+            "address": "12N3fP1LHoewn4ihcB87yERM8JdNBWo2M4LwB352PwChSHUB"
+        },
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "address": "12N3fP1LHoewn4ihcB87yERM8JdNBWo2M4LwB352PwChSHUB",
+                "balance": "12.648639999",
+                "lock": "10"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 02 Sep 2020 10:39:56 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "145",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            ""
+        ],
+        "responseIsBinary": false
+    }
+]
