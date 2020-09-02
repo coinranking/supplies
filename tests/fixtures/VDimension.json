@@ -1,0 +1,67 @@
+[
+    {
+        "scope": "https://vds.cool:443",
+        "method": "GET",
+        "path": "/koa/vds_supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 200,
+            "msg": "成功",
+            "result": {
+                "EstimateYield": 0.17,
+                "MarketCirculation": "64605549"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Wed, 02 Sep 2020 17:08:19 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "90",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://vdscool.com:443",
+        "method": "GET",
+        "path": "/api/BTC/livenet/address/VcofSpA21tiq1e88PW8U7gJV29oEj3S44WJ/balance",
+        "body": "",
+        "status": 200,
+        "response": {
+            "confirmed": 32426029880,
+            "unconfirmed": 0,
+            "balance": 32426029880
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Wed, 02 Sep 2020 17:08:21 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "63",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "s-maxage=1, max-age=1",
+            "ETag",
+            "W/\"3f-g8wXIiQIMeWpYENIXJKwWaTPKzI\""
+        ],
+        "responseIsBinary": false
+    }
+]
