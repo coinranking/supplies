@@ -1,0 +1,140 @@
+[
+    {
+        "scope": "https://apilist.tronscan.org:443",
+        "method": "post",
+        "path": "/api/system/proxy",
+        "body": {
+            "url": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=TRX&convert=BTC"
+        },
+        "status": 200,
+        "response": {
+            "status": {
+                "timestamp": "2020-09-06T13:38:21.497Z",
+                "error_code": 0,
+                "error_message": null,
+                "elapsed": 22,
+                "credit_count": 1,
+                "notice": null
+            },
+            "data": {
+                "TRX": {
+                    "id": 1958,
+                    "name": "TRON",
+                    "symbol": "TRX",
+                    "slug": "tron",
+                    "num_market_pairs": 431,
+                    "date_added": "2017-09-13T00:00:00.000Z",
+                    "tags": [
+                        "media",
+                        "payments"
+                    ],
+                    "max_supply": null,
+                    "circulating_supply": 71659657369.49,
+                    "total_supply": 100850743811.662,
+                    "is_active": 1,
+                    "platform": null,
+                    "cmc_rank": 14,
+                    "is_fiat": 0,
+                    "last_updated": "2020-09-06T13:37:11.000Z",
+                    "quote": {
+                        "BTC": {
+                            "price": 0.0000030548801785504173,
+                            "volume_24h": 333633.78653821023,
+                            "percent_change_1h": -2.14184884,
+                            "percent_change_24h": -1.55065068,
+                            "percent_change_7d": 31.88314857,
+                            "market_cap": 218911.66689976936,
+                            "last_updated": "2020-09-06T13:37:38.000Z"
+                        }
+                    }
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Sun, 06 Sep 2020 14:13:56 GMT",
+            "Content-Length",
+            "731",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+            "Access-Control-Allow-Methods",
+            "GET,POST,PUT,DELETE,OPTIONS"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://apilist.tronscan.org:443",
+        "method": "post",
+        "path": "/api/system/proxy",
+        "body": {
+            "url": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=TRX&convert=BTC"
+        },
+        "status": 200,
+        "response": {
+            "status": {
+                "timestamp": "2020-09-06T13:38:21.497Z",
+                "error_code": 0,
+                "error_message": null,
+                "elapsed": 22,
+                "credit_count": 1,
+                "notice": null
+            },
+            "data": {
+                "TRX": {
+                    "id": 1958,
+                    "name": "TRON",
+                    "symbol": "TRX",
+                    "slug": "tron",
+                    "num_market_pairs": 431,
+                    "date_added": "2017-09-13T00:00:00.000Z",
+                    "tags": [
+                        "media",
+                        "payments"
+                    ],
+                    "max_supply": null,
+                    "circulating_supply": 71659657369.49,
+                    "total_supply": 100850743811.662,
+                    "is_active": 1,
+                    "platform": null,
+                    "cmc_rank": 14,
+                    "is_fiat": 0,
+                    "last_updated": "2020-09-06T13:37:11.000Z",
+                    "quote": {
+                        "BTC": {
+                            "price": 0.0000030548801785504173,
+                            "volume_24h": 333633.78653821023,
+                            "percent_change_1h": -2.14184884,
+                            "percent_change_24h": -1.55065068,
+                            "percent_change_7d": 31.88314857,
+                            "market_cap": 218911.66689976936,
+                            "last_updated": "2020-09-06T13:37:38.000Z"
+                        }
+                    }
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Sun, 06 Sep 2020 14:13:57 GMT",
+            "Content-Length",
+            "731",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+            "Access-Control-Allow-Methods",
+            "GET,POST,PUT,DELETE,OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
