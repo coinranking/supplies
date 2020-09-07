@@ -1,3 +1,11 @@
+# [2.21.0](https://github.com/coinranking/supplies/compare/v2.20.0...v2.21.0) (2020-09-07)
+
+
+### Features
+
+* add description to postcoin driver ([4ab1280](https://github.com/coinranking/supplies/commit/4ab1280b4a3803d4337f2927adceac83df6e865e))
+* postcoin driver ([594c427](https://github.com/coinranking/supplies/commit/594c4276dffc1434ba9444cabcdc5421d915402c))
+
 # [2.20.0](https://github.com/coinranking/supplies/compare/v2.19.0...v2.20.0) (2020-09-07)
 
 
