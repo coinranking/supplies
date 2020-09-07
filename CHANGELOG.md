@@ -1,3 +1,11 @@
+# [2.20.0](https://github.com/coinranking/supplies/compare/v2.19.0...v2.20.0) (2020-09-07)
+
+
+### Features
+
+* add description to documentchain driver ([f340e5f](https://github.com/coinranking/supplies/commit/f340e5fcb226523e359a3e5f5483dfc05996c4de))
+* documentchain driver ([7d4f985](https://github.com/coinranking/supplies/commit/7d4f985aed7517c75390c367ec2a8681be2137a9))
+
 # [2.19.0](https://github.com/coinranking/supplies/compare/v2.18.0...v2.19.0) (2020-09-07)
 
 
