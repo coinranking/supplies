@@ -1,3 +1,20 @@
+# [2.16.0](https://github.com/coinranking/supplies/compare/v2.15.0...v2.16.0) (2020-09-07)
+
+
+### Bug Fixes
+
+* import Coin in hive and steemdb drivers ([2f26182](https://github.com/coinranking/supplies/commit/2f261822f60bba567e600f204614d45586c7fdb9))
+* merged and get first element from array to get newest total supply for steem db driver ([ace2795](https://github.com/coinranking/supplies/commit/ace27955c89c6137516d32bbe71a7ec9ba23f997))
+* seperate steem as single driver (not inside hive driver) ([286e153](https://github.com/coinranking/supplies/commit/286e15332b12fad0ab6cdb2fed7c130fc3cc7977))
+* steem driver total supply ([c871a5f](https://github.com/coinranking/supplies/commit/c871a5f9d3da408c1963d0e1a28e9b238f56fcf4))
+
+
+### Features
+
+* fix support object on hive ([e0f9e81](https://github.com/coinranking/supplies/commit/e0f9e81f9c88329ebb8498b2351b8dd12f83b732))
+* merged ([f2bc0cc](https://github.com/coinranking/supplies/commit/f2bc0cc813af05cfa57e818658dc472e9e67a289))
+* steem blockchain on hive ([c738ce7](https://github.com/coinranking/supplies/commit/c738ce70a2bef9b73613c251e909c6d566f3e57c))
+
 # [2.15.0](https://github.com/coinranking/supplies/compare/v2.14.0...v2.15.0) (2020-09-01)
 
 
