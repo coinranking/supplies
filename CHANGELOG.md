@@ -1,3 +1,14 @@
+# [2.18.0](https://github.com/coinranking/supplies/compare/v2.17.0...v2.18.0) (2020-09-07)
+
+
+### Features
+
+* boolberry driver ([85018c1](https://github.com/coinranking/supplies/commit/85018c1e205168dac2fd9741f761f36e0d9e2392))
+* energy web driver ([2248375](https://github.com/coinranking/supplies/commit/2248375c8e5055d16916b0686aee1bcf90ee4595))
+* iost driver ([23474ea](https://github.com/coinranking/supplies/commit/23474ea49f0d313bd7925d376d60308aba6398de))
+* remove max supply for iost because is no defined correctly ([e2c14f5](https://github.com/coinranking/supplies/commit/e2c14f5d927fe20a8f59d76a517b58ed8b9483e2))
+* solana driver ([5c7cab3](https://github.com/coinranking/supplies/commit/5c7cab3180d150c6c10aa88bdddf9c58fd1d83a6))
+
 # [2.17.0](https://github.com/coinranking/supplies/compare/v2.16.0...v2.17.0) (2020-09-07)
 
 
