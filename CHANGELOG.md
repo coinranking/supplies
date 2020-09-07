@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/coinranking/supplies/compare/v2.18.0...v2.19.0) (2020-09-07)
+
+
+### Features
+
+* mcashchain driver ([a6ae2fd](https://github.com/coinranking/supplies/commit/a6ae2fdb0dce9e8b2f5a18a62f28ce2fe711f605))
+
 # [2.18.0](https://github.com/coinranking/supplies/compare/v2.17.0...v2.18.0) (2020-09-07)
 
 
