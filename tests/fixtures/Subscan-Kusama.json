@@ -1,0 +1,77 @@
+[
+    {
+        "scope": "http://polkadot.pro:8080",
+        "method": "GET",
+        "path": "/?q=totalcoins",
+        "body": "",
+        "status": 200,
+        "response": 9651217.451262059,
+        "rawHeaders": [
+            "Content-Type",
+            "text/plain; charset=utf-8",
+            "Content-Length",
+            "20",
+            "Date",
+            "Fri, 11 Sep 2020 13:52:55 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://kusama.subscan.io:443",
+        "method": "post",
+        "path": "/api/open/account",
+        "body": {
+            "address": "G7UkJAutjbQyZGRiP8z5bBSBPBJ66JbTKAkFDq3cANwENyX"
+        },
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "address": "G7UkJAutjbQyZGRiP8z5bBSBPBJ66JbTKAkFDq3cANwENyX",
+                "balance": "35112.046714199759",
+                "lock": "0"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 11 Sep 2020 13:52:56 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "149",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            "",
+            "Referrer-Policy",
+            "origin-when-cross-origin",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    }
+]
