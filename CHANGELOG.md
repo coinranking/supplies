@@ -1,3 +1,61 @@
+# [2.21.0](https://github.com/coinranking/supplies/compare/v2.20.0...v2.21.0) (2020-09-07)
+
+
+### Features
+
+* add description to postcoin driver ([4ab1280](https://github.com/coinranking/supplies/commit/4ab1280b4a3803d4337f2927adceac83df6e865e))
+* postcoin driver ([594c427](https://github.com/coinranking/supplies/commit/594c4276dffc1434ba9444cabcdc5421d915402c))
+
+# [2.20.0](https://github.com/coinranking/supplies/compare/v2.19.0...v2.20.0) (2020-09-07)
+
+
+### Features
+
+* add description to documentchain driver ([f340e5f](https://github.com/coinranking/supplies/commit/f340e5fcb226523e359a3e5f5483dfc05996c4de))
+* documentchain driver ([7d4f985](https://github.com/coinranking/supplies/commit/7d4f985aed7517c75390c367ec2a8681be2137a9))
+
+# [2.19.0](https://github.com/coinranking/supplies/compare/v2.18.0...v2.19.0) (2020-09-07)
+
+
+### Features
+
+* mcashchain driver ([a6ae2fd](https://github.com/coinranking/supplies/commit/a6ae2fdb0dce9e8b2f5a18a62f28ce2fe711f605))
+
+# [2.18.0](https://github.com/coinranking/supplies/compare/v2.17.0...v2.18.0) (2020-09-07)
+
+
+### Features
+
+* boolberry driver ([85018c1](https://github.com/coinranking/supplies/commit/85018c1e205168dac2fd9741f761f36e0d9e2392))
+* energy web driver ([2248375](https://github.com/coinranking/supplies/commit/2248375c8e5055d16916b0686aee1bcf90ee4595))
+* iost driver ([23474ea](https://github.com/coinranking/supplies/commit/23474ea49f0d313bd7925d376d60308aba6398de))
+* remove max supply for iost because is no defined correctly ([e2c14f5](https://github.com/coinranking/supplies/commit/e2c14f5d927fe20a8f59d76a517b58ed8b9483e2))
+* solana driver ([5c7cab3](https://github.com/coinranking/supplies/commit/5c7cab3180d150c6c10aa88bdddf9c58fd1d83a6))
+
+# [2.17.0](https://github.com/coinranking/supplies/compare/v2.16.0...v2.17.0) (2020-09-07)
+
+
+### Features
+
+* nash driver ([9f1b673](https://github.com/coinranking/supplies/commit/9f1b67340cb5c56a0f883b9bb6091ce061611b62))
+
+# [2.16.0](https://github.com/coinranking/supplies/compare/v2.15.0...v2.16.0) (2020-09-07)
+
+
+### Bug Fixes
+
+* import Coin in hive and steemdb drivers ([2f26182](https://github.com/coinranking/supplies/commit/2f261822f60bba567e600f204614d45586c7fdb9))
+* merged and get first element from array to get newest total supply for steem db driver ([ace2795](https://github.com/coinranking/supplies/commit/ace27955c89c6137516d32bbe71a7ec9ba23f997))
+* seperate steem as single driver (not inside hive driver) ([286e153](https://github.com/coinranking/supplies/commit/286e15332b12fad0ab6cdb2fed7c130fc3cc7977))
+* steem driver total supply ([c871a5f](https://github.com/coinranking/supplies/commit/c871a5f9d3da408c1963d0e1a28e9b238f56fcf4))
+
+
+### Features
+
+* fix support object on hive ([e0f9e81](https://github.com/coinranking/supplies/commit/e0f9e81f9c88329ebb8498b2351b8dd12f83b732))
+* merged ([f2bc0cc](https://github.com/coinranking/supplies/commit/f2bc0cc813af05cfa57e818658dc472e9e67a289))
+* steem blockchain on hive ([c738ce7](https://github.com/coinranking/supplies/commit/c738ce70a2bef9b73613c251e909c6d566f3e57c))
+
 # [2.15.0](https://github.com/coinranking/supplies/compare/v2.14.0...v2.15.0) (2020-09-01)
 
 
