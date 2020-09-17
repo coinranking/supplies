@@ -1,0 +1,108 @@
+[
+    {
+        "scope": "https://lcd.terra.dev:443",
+        "method": "GET",
+        "path": "/supply/total",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "3535119",
+            "result": [
+                {
+                    "denom": "ukrw",
+                    "amount": "76691935500553888"
+                },
+                {
+                    "denom": "uluna",
+                    "amount": "997406401052736"
+                },
+                {
+                    "denom": "umnt",
+                    "amount": "150030516301363"
+                },
+                {
+                    "denom": "usdr",
+                    "amount": "956743815759137"
+                },
+                {
+                    "denom": "uusd",
+                    "amount": "1694849183674"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 11 Sep 2020 16:23:26 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "252",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.16.1",
+            "X-Server-Time",
+            "1599841406",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://lcd.terra.dev:443",
+        "method": "GET",
+        "path": "/bank/balances/terra1dp0taj85ruc299rkdvzp4z5pfg6z6swaed74e6",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "3535119",
+            "result": [
+                {
+                    "denom": "ukrw",
+                    "amount": "240417379171608"
+                },
+                {
+                    "denom": "uluna",
+                    "amount": "452366868250448"
+                },
+                {
+                    "denom": "umnt",
+                    "amount": "169481449733"
+                },
+                {
+                    "denom": "usdr",
+                    "amount": "943916686467490"
+                },
+                {
+                    "denom": "uusd",
+                    "amount": "293447965"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 11 Sep 2020 16:23:27 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "334",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.16.1",
+            "X-Server-Time",
+            "1599841407",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    }
+]
