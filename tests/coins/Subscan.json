@@ -1,0 +1,22 @@
+[
+  {
+    "modifiers": [
+      "G7UkJAutjbQyZGRiP8z5bBSBPBJ66JbTKAkFDq3cANwENyX"
+    ],
+    "blockchain": "Kusama"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Kusama"
+  },
+  {
+    "modifiers": [
+      "14SpfHmfGQ45J2LxUyDpbYCwwA4M7hoDa2nkr4HnTdGRDshU"
+    ],
+    "blockchain": "Polkadot"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Polkadot"
+  }
+]
