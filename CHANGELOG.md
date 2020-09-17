@@ -1,3 +1,28 @@
+# [2.22.0](https://github.com/coinranking/supplies/compare/v2.21.0...v2.22.0) (2020-09-17)
+
+
+### Bug Fixes
+
+* fixuture saving ([94ad30f](https://github.com/coinranking/supplies/commit/94ad30f2e03351fe692044abdd5c21fc0eb0e20f))
+* missing trailing comma in xinfin driver ([82a02c9](https://github.com/coinranking/supplies/commit/82a02c9fe87fc3f99519d1938ac9be4ee75f1410))
+
+
+### Features
+
+* define native to false on multiblockchain subscan driver ([06842e6](https://github.com/coinranking/supplies/commit/06842e6f3e1ec48da0dfdc81ace46a3635918e2b))
+* eosdt driver ([9f473b8](https://github.com/coinranking/supplies/commit/9f473b8a79e56206bf19dfc9d0d9cf36e32f041b))
+* merged ([f099f9d](https://github.com/coinranking/supplies/commit/f099f9d271d13b661c7d631f9820716744dcfb74))
+* oneworldcoin add max supply ([50b366a](https://github.com/coinranking/supplies/commit/50b366aff5be54e3633dc30b23cf36016d22b126))
+* oneworldcoin driver ([5a97766](https://github.com/coinranking/supplies/commit/5a977661f9b692042029c5e27ae9faab21c7d324))
+* remove blockchain definition in eosdt driver because not all currencies on EOS ([ee0f30d](https://github.com/coinranking/supplies/commit/ee0f30d2923af7339bc7a8cb2e82fed514f41223))
+* remove max from xinfin ([069bb11](https://github.com/coinranking/supplies/commit/069bb11929ea660de6a75149352b8b22aef0a208))
+* rename oneworldcoin to crypto-core driver ([ddeef35](https://github.com/coinranking/supplies/commit/ddeef35c3c35847c989e9c888ee30258055c8368))
+* rename v-dimention to vsdcool driver ([26580a8](https://github.com/coinranking/supplies/commit/26580a8ca895d94062c70ba31065ddef9d3f02fb))
+* subscan driver ([811e364](https://github.com/coinranking/supplies/commit/811e3646e40fd82804be9c4ea428c189c468deea))
+* terra driver ([74acdf5](https://github.com/coinranking/supplies/commit/74acdf5d7c61930c6a0e0ff6966d6de744e9843e))
+* v-dimensions driver ([fc71310](https://github.com/coinranking/supplies/commit/fc71310f86531d9a817ba59d5667b130e0228740))
+* xinfin driver ([36c411e](https://github.com/coinranking/supplies/commit/36c411eee91f87d44131e65c14598bce4915d3b8))
+
 # [2.21.0](https://github.com/coinranking/supplies/compare/v2.20.0...v2.21.0) (2020-09-07)
 
 
