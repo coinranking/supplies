@@ -1,0 +1,36 @@
+[
+    {
+        "scope": "https://kava3.data.kava.io:443",
+        "method": "GET",
+        "path": "/supply/total/ukava",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "1300330",
+            "result": "108837156674705"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 23 Sep 2020 20:30:35 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "47",
+            "Connection",
+            "keep-alive",
+            "X-Server-Time",
+            "1600893035",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range"
+        ],
+        "responseIsBinary": false
+    }
+]
