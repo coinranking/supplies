@@ -1,0 +1,127 @@
+[
+    {
+        "scope": "https://polkadot.subscan.io:443",
+        "method": "GET",
+        "path": "/api/scan/token",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "detail": {
+                    "DOT": {
+                        "symbol": "DOT",
+                        "token_decimals": 10,
+                        "total_issuance": "9933951224645036045",
+                        "price": "4.44601147459",
+                        "price_change": "-0.0581689",
+                        "available_balance": "2961630330824975035",
+                        "validator_bonded": "44667720707949828",
+                        "nominator_bonded": "5885057749340981442",
+                        "locked_balance": "6972120868150061010",
+                        "additional": {
+                            "block_num": 1248328,
+                            "token_decimals": 12
+                        }
+                    }
+                },
+                "token": [
+                    "DOT"
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 11 Sep 2020 13:53:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "424",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Trace-Id",
+            "",
+            "Referrer-Policy",
+            "origin-when-cross-origin",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://polkadot.subscan.io:443",
+        "method": "post",
+        "path": "/api/open/account",
+        "body": {
+            "address": "14SpfHmfGQ45J2LxUyDpbYCwwA4M7hoDa2nkr4HnTdGRDshU"
+        },
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "address": "14SpfHmfGQ45J2LxUyDpbYCwwA4M7hoDa2nkr4HnTdGRDshU",
+                "balance": "3373.08736845",
+                "lock": "0"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 11 Sep 2020 13:53:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "145",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            "",
+            "Referrer-Policy",
+            "origin-when-cross-origin",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    }
+]

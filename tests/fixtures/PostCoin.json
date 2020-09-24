@@ -1,0 +1,62 @@
+[
+    {
+        "scope": "https://explorer.postcoin.top:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 32949179.21826053,
+        "rawHeaders": [
+            "Date",
+            "Sun, 06 Sep 2020 14:30:39 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d489c800fc8e27ec621e4bbec43d350e71599402638; expires=Tue, 06-Oct-20 14:30:38 GMT; path=/; domain=.postcoin.top; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "05056c966d000090eba3098200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.postcoin.top:443",
+        "method": "GET",
+        "path": "/ext/getbalance/PKCryptoLifeDotNetBurnAddrXXXMNDfN",
+        "body": "",
+        "status": 200,
+        "response": 14945493.41636326,
+        "rawHeaders": [
+            "Date",
+            "Sun, 06 Sep 2020 14:30:39 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "05056c98100000913f62b5e200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

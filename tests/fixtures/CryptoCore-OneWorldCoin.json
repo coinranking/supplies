@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "https://owo.ccore.online:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 239455597.3643596,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Fri, 11 Sep 2020 15:00:37 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            ".AspNetCore.Culture=c%3Den%7Cuic%3Den; expires=Sat, 11 Sep 2021 15:00:37 GMT; path=/; samesite=lax",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://owo.ccore.online:443",
+        "method": "GET",
+        "path": "/ext/getbalance/oKziZBx85hhcki6bS4frfYcJejhN96DCQD",
+        "body": "",
+        "status": 200,
+        "response": 522720,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Fri, 11 Sep 2020 15:00:38 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            ".AspNetCore.Culture=c%3Den%7Cuic%3Den; expires=Sat, 11 Sep 2021 15:00:38 GMT; path=/; samesite=lax",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    }
+]
