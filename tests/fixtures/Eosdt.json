@@ -1,0 +1,54 @@
+[
+    {
+        "scope": "https://statistics.eosdt.com:443",
+        "method": "GET",
+        "path": "/api/supply/actual",
+        "body": "",
+        "status": 200,
+        "response": {
+            "currencies": [
+                {
+                    "name": "EOSDT",
+                    "supply": 2915080.505951342
+                },
+                {
+                    "name": "NUT",
+                    "supply": 9998686.047410784
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Sat, 05 Sep 2020 15:58:34 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d219bb338d607fb98c7386434aa79dd641599321510; expires=Mon, 05-Oct-20 15:58:30 GMT; path=/; domain=.eosdt.com; HttpOnly; SameSite=Lax",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Authorization,Accept,Origin,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+            "Access-Control-Allow-Methods",
+            "GET,POST,OPTIONS,PUT,DELETE,PATCH",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "050096a9f10000fc59541cb200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=0; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
