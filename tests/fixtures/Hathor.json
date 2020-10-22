@@ -1,0 +1,78 @@
+[
+    {
+        "scope": "https://api.economics.hathor.network:443",
+        "method": "GET",
+        "path": "/status",
+        "body": "",
+        "status": 200,
+        "response": {
+            "latest_update": 1603395289,
+            "backend": "https://node1.mainnet.hathor.network/v1a/",
+            "total_supply": "1,053,665,216.00",
+            "circulating_supply": "86,234,469.00",
+            "mined_tokens": "53,665,216.00",
+            "released_premined_tokens": "32,569,253.00"
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 22 Oct 2020 19:34:49 GMT",
+            "Content-Type",
+            "text/plain",
+            "Content-Length",
+            "264",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "c5421160-be12-4bcd-a59d-47008549ead1",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
+            "x-amz-apigw-id",
+            "U0_B7EwQoAMF7jw=",
+            "Access-Control-Allow-Methods",
+            "OPTIONS,GET",
+            "X-Amzn-Trace-Id",
+            "Root=1-5f91ded9-0b4c0c795e3b70da242e7dc1;Sampled=0"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.economics.hathor.network:443",
+        "method": "GET",
+        "path": "/status",
+        "body": "",
+        "status": 200,
+        "response": {
+            "latest_update": 1603395290,
+            "backend": "https://node1.mainnet.hathor.network/v1a/",
+            "total_supply": "1,053,665,280.00",
+            "circulating_supply": "86,234,533.00",
+            "mined_tokens": "53,665,280.00",
+            "released_premined_tokens": "32,569,253.00"
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 22 Oct 2020 19:34:50 GMT",
+            "Content-Type",
+            "text/plain",
+            "Content-Length",
+            "264",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "85bc30cc-0346-4fe4-a802-d2ae5f8d5088",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
+            "x-amz-apigw-id",
+            "U0_CHEQFIAMF_VQ=",
+            "Access-Control-Allow-Methods",
+            "OPTIONS,GET",
+            "X-Amzn-Trace-Id",
+            "Root=1-5f91deda-0045f76b104e984908d31b1e;Sampled=0"
+        ],
+        "responseIsBinary": false
+    }
+]
