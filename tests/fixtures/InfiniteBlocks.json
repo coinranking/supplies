@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://infiniteblocks.space:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 7433845.3779914,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "16",
+            "ETag",
+            "W/\"10-7ZcbuI2yitGP+wY6mHKLUKaf9Dk\"",
+            "Date",
+            "Wed, 23 Sep 2020 18:48:38 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://infiniteblocks.space:80",
+        "method": "GET",
+        "path": "/ext/getbalance/1JJViUvU1USyPqzMmQ4Yp6FERCyWBLF3UZ",
+        "body": "",
+        "status": 200,
+        "response": 236840.51124151,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "15",
+            "ETag",
+            "W/\"f-5r9JUWSwTIdJJOlYf1gkNiVcC2I\"",
+            "Date",
+            "Wed, 23 Sep 2020 18:48:39 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
