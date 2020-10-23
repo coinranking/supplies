@@ -57,9 +57,9 @@ program
     if (options.record) {
       let fixture = `${driverName}.json`;
 
-      if (driver.supports.blockchains.length > 1 && !coin.reference) {
+      if (driver.supports.blockchains.length >= 1 && !coin.reference) {
         fixture = `${driverName}-${coin.blockchain}.json`;
-      } else if (driver.supports.blockchains.length > 1 && !!coin.reference) {
+      } else if (driver.supports.blockchains.length >= 1 && !!coin.reference) {
         fixture = `${driverName}-${coin.blockchain}-${coin.reference}.json`;
       } else if (coin.reference) {
         fixture = `${driverName}-${coin.reference}.json`;

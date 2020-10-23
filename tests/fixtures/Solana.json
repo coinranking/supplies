@@ -1,0 +1,40 @@
+[
+    {
+        "scope": "https://api.mainnet-beta.solana.com:443",
+        "method": "GET",
+        "path": "/v0/total-supply",
+        "body": "",
+        "status": 200,
+        "response": 488621097.2288002,
+        "rawHeaders": [
+            "content-length",
+            "17",
+            "date",
+            "Wed, 02 Sep 2020 11:10:40 GMT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.mainnet-beta.solana.com:443",
+        "method": "GET",
+        "path": "/v0/circulating-supply",
+        "body": "",
+        "status": 200,
+        "response": 32691561.39411291,
+        "rawHeaders": [
+            "content-length",
+            "17",
+            "date",
+            "Wed, 02 Sep 2020 11:10:41 GMT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear"
+        ],
+        "responseIsBinary": false
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "scope": "https://explorer.boolberry.com:443",
+        "method": "GET",
+        "path": "/api/total_supply",
+        "body": "",
+        "status": 200,
+        "response": 18446744.07370955,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 02 Sep 2020 14:56:51 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept",
+            "ETag",
+            "W/\"11-+ef3HrZifXzUhD8UEQUQaM16mvs\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.boolberry.com:443",
+        "method": "GET",
+        "path": "/api/current_supply",
+        "body": "",
+        "status": 200,
+        "response": 14466186.27911335,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 02 Sep 2020 14:56:51 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept",
+            "ETag",
+            "W/\"11-cO8vCOwsLWPAP/sMQr5ofZNdgo0\""
+        ],
+        "responseIsBinary": false
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "modifiers": [
+      "G7UkJAutjbQyZGRiP8z5bBSBPBJ66JbTKAkFDq3cANwENyX"
+    ],
+    "blockchain": "Kusama"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Kusama"
+  },
+  {
+    "modifiers": [
+      "14SpfHmfGQ45J2LxUyDpbYCwwA4M7hoDa2nkr4HnTdGRDshU"
+    ],
+    "blockchain": "Polkadot"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Polkadot"
+  },
+  {
+    "modifiers": [
+      "34iy7DqUuLwf6vkhzzMq2i8SF2wKd3D5uhvYE8YeJ3CVHgYe"
+    ],
+    "blockchain": "Stafi"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Stafi"
+  }
+]
