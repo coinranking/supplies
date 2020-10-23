@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/supplies",
-  "version": "2.21.0",
+  "version": "2.25.0",
   "description": "An open source JavaScript library for getting the cryptocurrency total, circulating and max supply from block explorers.",
   "main": "lib/supplies.js",
   "engines": {
@@ -49,8 +49,8 @@
     "uuid": "^8.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.0",
-    "@commitlint/config-conventional": "^9.1.0",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.1.2",
