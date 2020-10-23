@@ -1,27 +1,27 @@
 [
     {
-        "scope": "https://kava3.data.kava.io:443",
+        "scope": "https://kava4.data.kava.io:443",
         "method": "GET",
         "path": "/supply/total/ukava",
         "body": "",
         "status": 200,
         "response": {
-            "height": "1300359",
-            "result": "108837291753128"
+            "height": "88066",
+            "result": "110430266963466"
         },
         "rawHeaders": [
             "Server",
-            "nginx/1.14.0 (Ubuntu)",
+            "nginx/1.18.0 (Ubuntu)",
             "Date",
-            "Wed, 23 Sep 2020 20:34:11 GMT",
+            "Fri, 23 Oct 2020 16:04:48 GMT",
             "Content-Type",
             "application/json",
             "Content-Length",
-            "47",
+            "45",
             "Connection",
             "keep-alive",
             "X-Server-Time",
-            "1600893251",
+            "1603469080",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Methods",
@@ -34,7 +34,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://kava3.data.kava.io:443",
+        "scope": "https://kava4.data.kava.io:443",
         "method": "GET",
         "path": "/vesting/circulatingsupply",
         "body": "",
@@ -42,9 +42,9 @@
         "response": 29442227,
         "rawHeaders": [
             "Server",
-            "nginx/1.14.0 (Ubuntu)",
+            "nginx/1.18.0 (Ubuntu)",
             "Date",
-            "Wed, 23 Sep 2020 20:34:12 GMT",
+            "Fri, 23 Oct 2020 16:04:49 GMT",
             "Content-Type",
             "text/plain; charset=utf-8",
             "Content-Length",
@@ -52,7 +52,7 @@
             "Connection",
             "keep-alive",
             "X-Server-Time",
-            "1600893252",
+            "1603469088",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Methods",
