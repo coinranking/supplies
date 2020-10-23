@@ -1,3 +1,10 @@
+# [2.23.0](https://github.com/coinranking/supplies/compare/v2.22.0...v2.23.0) (2020-10-23)
+
+
+### Features
+
+* infinite blocks driver ([2e24004](https://github.com/coinranking/supplies/commit/2e24004f8774dd91b17c47995bd26733f33eb4c4))
+
 # [2.22.0](https://github.com/coinranking/supplies/compare/v2.21.0...v2.22.0) (2020-09-17)
 
 
