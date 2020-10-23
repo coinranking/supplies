@@ -1,3 +1,12 @@
+# [2.24.0](https://github.com/coinranking/supplies/compare/v2.23.0...v2.24.0) (2020-10-23)
+
+
+### Features
+
+* add stafi support on subscan driver ([54e5a8c](https://github.com/coinranking/supplies/commit/54e5a8c3398ef2904ea0fca37197d959f2a66d83))
+* buycoinpost driver ([a090d8b](https://github.com/coinranking/supplies/commit/a090d8bafed31d85d962153dff420f2e40be5b2a))
+* merged ([ad4fdaf](https://github.com/coinranking/supplies/commit/ad4fdafee84adc1d04f8e537ab6b580eea023f05))
+
 # [2.23.0](https://github.com/coinranking/supplies/compare/v2.22.0...v2.23.0) (2020-10-23)
 
 
