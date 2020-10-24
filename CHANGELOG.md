@@ -1,3 +1,12 @@
+# [2.26.0](https://github.com/coinranking/supplies/compare/v2.25.0...v2.26.0) (2020-10-24)
+
+
+### Features
+
+* add circulating supply for kava driver ([fed09aa](https://github.com/coinranking/supplies/commit/fed09aae806aa41748bc4eafef07a0c2bf15c600))
+* change url for kava driver ([5fd6403](https://github.com/coinranking/supplies/commit/5fd6403b8786a0407be9a5425336fa1a6ef38122))
+* kava driver ([7b95332](https://github.com/coinranking/supplies/commit/7b95332cbdb4eeb9eb1fc4c3b19ff9d66f225fbd))
+
 # [2.25.0](https://github.com/coinranking/supplies/compare/v2.24.0...v2.25.0) (2020-10-23)
 
 
