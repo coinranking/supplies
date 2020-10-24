@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "https://api.hybrix.io:443",
+        "method": "GET",
+        "path": "/engine/hystat/maximumSupply",
+        "body": "",
+        "status": 200,
+        "response": 21000000,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.7",
+            "Date",
+            "Wed, 21 Oct 2020 23:34:24 GMT",
+            "Content-Type",
+            "text/plain",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.hybrix.io:443",
+        "method": "GET",
+        "path": "/engine/hystat/circulatingSupply",
+        "body": "",
+        "status": 200,
+        "response": 2830042.2121580243,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.7",
+            "Date",
+            "Wed, 21 Oct 2020 23:34:25 GMT",
+            "Content-Type",
+            "text/plain",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    }
+]

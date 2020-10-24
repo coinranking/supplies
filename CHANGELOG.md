@@ -1,3 +1,37 @@
+# [2.25.0](https://github.com/coinranking/supplies/compare/v2.24.0...v2.25.0) (2020-10-23)
+
+
+### Bug Fixes
+
+* cryptolocally description ([6ec872e](https://github.com/coinranking/supplies/commit/6ec872e5ed99867907ef5ffe6fd11803aee784c5))
+
+
+### Features
+
+* blip driver ([197a2cf](https://github.com/coinranking/supplies/commit/197a2cf5421d731020f9a06c36b70c5a5e80f640))
+* cryptoid knoxfs driver ([d825b27](https://github.com/coinranking/supplies/commit/d825b279eeba5eefe0d1d2ad8831d1fd15203dce))
+* cryptolocally driver ([d5350ce](https://github.com/coinranking/supplies/commit/d5350ce205e491d036bf87388b295ec1851b8f66))
+* hybrix driver ([3134456](https://github.com/coinranking/supplies/commit/3134456733d1c0568b89a5894730632d8b8f4239))
+* jiviz driver ([8e80241](https://github.com/coinranking/supplies/commit/8e80241c5d441d888f9dcc6351cea680124095f8))
+* modern investment coin ([602b74d](https://github.com/coinranking/supplies/commit/602b74de72cf4fc8d6414fe230dd5ab361ae921c))
+* steemdollars driver ([0155019](https://github.com/coinranking/supplies/commit/015501980d16c56915ed7f72fa43e78dd7b3ae19))
+
+# [2.24.0](https://github.com/coinranking/supplies/compare/v2.23.0...v2.24.0) (2020-10-23)
+
+
+### Features
+
+* add stafi support on subscan driver ([54e5a8c](https://github.com/coinranking/supplies/commit/54e5a8c3398ef2904ea0fca37197d959f2a66d83))
+* buycoinpost driver ([a090d8b](https://github.com/coinranking/supplies/commit/a090d8bafed31d85d962153dff420f2e40be5b2a))
+* merged ([ad4fdaf](https://github.com/coinranking/supplies/commit/ad4fdafee84adc1d04f8e537ab6b580eea023f05))
+
+# [2.23.0](https://github.com/coinranking/supplies/compare/v2.22.0...v2.23.0) (2020-10-23)
+
+
+### Features
+
+* infinite blocks driver ([2e24004](https://github.com/coinranking/supplies/commit/2e24004f8774dd91b17c47995bd26733f33eb4c4))
+
 # [2.22.0](https://github.com/coinranking/supplies/compare/v2.21.0...v2.22.0) (2020-09-17)
 
 
