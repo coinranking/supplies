@@ -1,3 +1,24 @@
+# [2.28.0](https://github.com/coinranking/supplies/compare/v2.27.0...v2.28.0) (2020-10-26)
+
+
+### Bug Fixes
+
+* fixture ([8e62d78](https://github.com/coinranking/supplies/commit/8e62d78b2081d2d8694e6cec28f9d91915e733cb))
+* total and circulating supply for trezor supply ([d7aba6f](https://github.com/coinranking/supplies/commit/d7aba6fbca8b7f29a95bd8564aaa1b1a17c9c458))
+
+
+### Features
+
+* polispay driver ([74af46a](https://github.com/coinranking/supplies/commit/74af46adf9a49658374bbdb9f77f4e8981cc2921))
+* trezor driver ([7af5025](https://github.com/coinranking/supplies/commit/7af50255876aea27f8b0c275cf3c0fb2c863eb81))
+
+# [2.27.0](https://github.com/coinranking/supplies/compare/v2.26.0...v2.27.0) (2020-10-26)
+
+
+### Features
+
+* hathor driver ([af4b670](https://github.com/coinranking/supplies/commit/af4b67084bd29b0cfde068bfdadbd0c0aa6142cd))
+
 # [2.26.0](https://github.com/coinranking/supplies/compare/v2.25.0...v2.26.0) (2020-10-24)
 
 
