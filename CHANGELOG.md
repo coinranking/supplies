@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/coinranking/supplies/compare/v2.26.0...v2.27.0) (2020-10-26)
+
+
+### Features
+
+* hathor driver ([af4b670](https://github.com/coinranking/supplies/commit/af4b67084bd29b0cfde068bfdadbd0c0aa6142cd))
+
 # [2.26.0](https://github.com/coinranking/supplies/compare/v2.25.0...v2.26.0) (2020-10-24)
 
 
