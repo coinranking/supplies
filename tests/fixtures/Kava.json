@@ -1,0 +1,67 @@
+[
+    {
+        "scope": "https://kava4.data.kava.io:443",
+        "method": "GET",
+        "path": "/supply/total/ukava",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "88066",
+            "result": "110430266963466"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Fri, 23 Oct 2020 16:04:48 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "45",
+            "Connection",
+            "keep-alive",
+            "X-Server-Time",
+            "1603469080",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://kava4.data.kava.io:443",
+        "method": "GET",
+        "path": "/vesting/circulatingsupply",
+        "body": "",
+        "status": 200,
+        "response": 29442227,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Fri, 23 Oct 2020 16:04:49 GMT",
+            "Content-Type",
+            "text/plain; charset=utf-8",
+            "Content-Length",
+            "8",
+            "Connection",
+            "keep-alive",
+            "X-Server-Time",
+            "1603469088",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range"
+        ],
+        "responseIsBinary": false
+    }
+]
