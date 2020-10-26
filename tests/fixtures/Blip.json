@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "https://explorer.blip.wtf:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 3135,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "5",
+            "ETag",
+            "\"1644995042\"",
+            "Date",
+            "Wed, 30 Sep 2020 16:58:47 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.blip.wtf:443",
+        "method": "GET",
+        "path": "/ext/getbalance/BkDRDwKWkM5Q8Pz2D7cKK3adoxf1p4iyAX",
+        "body": "",
+        "status": 200,
+        "response": 225.002,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "7",
+            "ETag",
+            "\"-235626309\"",
+            "Date",
+            "Wed, 30 Sep 2020 16:58:47 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]

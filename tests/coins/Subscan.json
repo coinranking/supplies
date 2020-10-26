@@ -18,5 +18,15 @@
   {
     "modifiers": [],
     "blockchain": "Polkadot"
+  },
+  {
+    "modifiers": [
+      "34iy7DqUuLwf6vkhzzMq2i8SF2wKd3D5uhvYE8YeJ3CVHgYe"
+    ],
+    "blockchain": "Stafi"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Stafi"
   }
 ]

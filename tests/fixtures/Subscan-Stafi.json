@@ -1,0 +1,126 @@
+[
+    {
+        "scope": "https://stafi.subscan.io:443",
+        "method": "GET",
+        "path": "/api/scan/token",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "detail": {
+                    "FIS": {
+                        "symbol": "FIS",
+                        "token_decimals": 12,
+                        "total_issuance": "100431112484883713215",
+                        "price": "0",
+                        "price_change": "0",
+                        "available_balance": "46628944391749725053",
+                        "validator_bonded": "2007244790157502710",
+                        "nominator_bonded": "13381639877753942070",
+                        "locked_balance": "53802115448444369956",
+                        "additional": null
+                    }
+                },
+                "token": [
+                    "FIS"
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 23 Sep 2020 20:57:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "373",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            "",
+            "Referrer-Policy",
+            "origin-when-cross-origin",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://stafi.subscan.io:443",
+        "method": "post",
+        "path": "/api/open/account",
+        "body": {
+            "address": "34iy7DqUuLwf6vkhzzMq2i8SF2wKd3D5uhvYE8YeJ3CVHgYe"
+        },
+        "status": 200,
+        "response": {
+            "code": 0,
+            "message": "Success",
+            "ttl": 1,
+            "data": {
+                "address": "34iy7DqUuLwf6vkhzzMq2i8SF2wKd3D5uhvYE8YeJ3CVHgYe",
+                "balance": "3160073.621599171414",
+                "lock": "0"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 23 Sep 2020 20:57:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "152",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "Content-Length",
+            "Access-Control-Max-Age",
+            "86400",
+            "Kratos-Status-Code",
+            "0",
+            "Kratos-Trace-Id",
+            "",
+            "Referrer-Policy",
+            "origin-when-cross-origin",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    }
+]
