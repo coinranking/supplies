@@ -9,25 +9,25 @@
             "genesisBlockIssue": 100000000000,
             "totalDonateBalance": 652719751205649,
             "totalFundBalance": 33177933703065630,
-            "totalBlockPay": 617876560,
-            "totalNodePay": 1853239280,
+            "totalBlockPay": 619201968,
+            "totalNodePay": 1866493360,
             "burnPerDay": 1000000000,
-            "burnByCharge": 216160036.548675,
-            "totalTurnOver": 101254955803.45132,
+            "burnByCharge": 217752865.158875,
+            "totalTurnOver": 101267942462.84113,
             "fundSumBalance": 33177933703065630,
             "donateBalance": 652719751205649,
             "fundTrx": 32525213951.85998,
-            "turnOver": 68729741851.59134
+            "turnOver": 68742728510.98114
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Fri, 23 Oct 2020 15:39:50 GMT",
+            "Mon, 26 Oct 2020 12:52:27 GMT",
             "Content-Type",
             "application/json;charset=utf-8",
             "Content-Length",
-            "427",
+            "422",
             "Connection",
             "keep-alive",
             "Access-Control-Allow-Origin",
@@ -37,7 +37,7 @@
             "Access-Control-Allow-Methods",
             "GET,POST,PUT,DELETE,OPTIONS",
             "X-Proxy-Cache",
-            "EXPIRED"
+            "HIT"
         ],
         "responseIsBinary": false
     },
@@ -51,25 +51,25 @@
             "genesisBlockIssue": 100000000000,
             "totalDonateBalance": 652719751205649,
             "totalFundBalance": 33177933703065630,
-            "totalBlockPay": 617876560,
-            "totalNodePay": 1853239280,
+            "totalBlockPay": 619201968,
+            "totalNodePay": 1866493360,
             "burnPerDay": 1000000000,
-            "burnByCharge": 216160036.548675,
-            "totalTurnOver": 101254955803.45132,
+            "burnByCharge": 217752865.158875,
+            "totalTurnOver": 101267942462.84113,
             "fundSumBalance": 33177933703065630,
             "donateBalance": 652719751205649,
             "fundTrx": 32525213951.85998,
-            "turnOver": 68729741851.59134
+            "turnOver": 68742728510.98114
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Fri, 23 Oct 2020 15:39:52 GMT",
+            "Mon, 26 Oct 2020 12:52:28 GMT",
             "Content-Type",
             "application/json;charset=utf-8",
             "Content-Length",
-            "427",
+            "422",
             "Connection",
             "keep-alive",
             "Access-Control-Allow-Origin",
@@ -79,7 +79,7 @@
             "Access-Control-Allow-Methods",
             "GET,POST,PUT,DELETE,OPTIONS",
             "X-Proxy-Cache",
-            "EXPIRED"
+            "HIT"
         ],
         "responseIsBinary": false
     }

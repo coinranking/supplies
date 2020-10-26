@@ -16,7 +16,7 @@
                     "balance": 378165754002,
                     "verify_status": 2,
                     "balanceInUsd": 0,
-                    "trxCount": 21113609,
+                    "trxCount": 21702198,
                     "date_created": 1555400628000,
                     "call_value": 0,
                     "call_token_value": 0,
@@ -36,7 +36,7 @@
             "Server",
             "nginx",
             "Date",
-            "Fri, 23 Oct 2020 15:39:14 GMT",
+            "Mon, 26 Oct 2020 12:52:14 GMT",
             "Content-Type",
             "application/json;charset=utf-8",
             "Content-Length",
@@ -109,7 +109,8 @@
                     "balance": "1",
                     "symbol": "888",
                     "decimals": 6,
-                    "name": "888Tron"
+                    "name": "888Tron",
+                    "priceInTrx": 9.2
                 },
                 {
                     "contract_address": "TEbwMVHNdXoVaamvb733EGC361fc4Aadx3",
@@ -169,10 +170,11 @@
                 },
                 {
                     "contract_address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-                    "balance": "12320793482139599",
+                    "balance": "8200731389707604",
                     "symbol": "WIN",
                     "decimals": 6,
-                    "name": "WINK"
+                    "name": "WINK",
+                    "priceInTrx": 0.00303
                 },
                 {
                     "contract_address": "TW2Mcw3SThyws62XDi32uLkmU2tRFwURe7",
@@ -197,17 +199,18 @@
                 },
                 {
                     "contract_address": "TDndaG9V79f3dVuVQHvGZjx3VWN9XxzGe9",
-                    "balance": "200",
+                    "balance": "2250",
                     "symbol": "ANB",
                     "decimals": 10,
                     "name": "ANB Finance"
                 },
                 {
                     "contract_address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
-                    "balance": "100801244873890000000000",
+                    "balance": "93878980942030000000000",
                     "symbol": "SUN",
                     "decimals": 18,
-                    "name": "SUN"
+                    "name": "SUN",
+                    "priceInTrx": 410
                 },
                 {
                     "contract_address": "TMQedokj7U7dh1edgaDDRGrzNBrWcMkhj9",
@@ -218,10 +221,11 @@
                 },
                 {
                     "contract_address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
-                    "balance": "117149407023751017429370345",
+                    "balance": "136384334136121137429370345",
                     "symbol": "JST",
                     "decimals": 18,
-                    "name": "JUST"
+                    "name": "JUST",
+                    "priceInTrx": 0.988
                 },
                 {
                     "contract_address": "TKTTgrCHhpwJafuojwdyMRndPc6SCicWeA",
@@ -355,7 +359,8 @@
                     "balance": "22000",
                     "symbol": "NOLE",
                     "decimals": 6,
-                    "name": "NoleCoin"
+                    "name": "NoleCoin",
+                    "priceInTrx": 31
                 },
                 {
                     "contract_address": "TASrsr1Qsz8eUSajiTxXSLo44uAFfvZVUG",
@@ -558,7 +563,8 @@
                     "balance": "2750115137",
                     "symbol": "KLV",
                     "decimals": 6,
-                    "name": "Klever"
+                    "name": "Klever",
+                    "priceInTrx": 0.19221
                 },
                 {
                     "contract_address": "TJ5cgUSqbXtjmQWJGDBXzCdWDtSuQeqw8T",
@@ -688,7 +694,8 @@
                     "balance": "400000000000",
                     "symbol": "TWJ",
                     "decimals": 8,
-                    "name": "TronWeeklyJournal"
+                    "name": "TronWeeklyJournal",
+                    "priceInTrx": 0.00114
                 },
                 {
                     "contract_address": "TWT9khZKuEFT5B8jQctDBsCGusCxa7ea1Z",
@@ -808,10 +815,11 @@
                 },
                 {
                     "contract_address": "TBwoSTyywvLrgjSgaatxrBhxt3DGpVuENh",
-                    "balance": "2046247",
+                    "balance": "2047767",
                     "symbol": "SEED",
                     "decimals": 6,
-                    "name": "SEED"
+                    "name": "SEED",
+                    "priceInTrx": 1.182
                 },
                 {
                     "contract_address": "TC9sJ7nJZMqZtY3yAhsv3EwZYko7QgKCUh",
@@ -867,7 +875,8 @@
                     "balance": "8",
                     "symbol": "REV",
                     "decimals": 6,
-                    "name": "Revain"
+                    "name": "Revain",
+                    "priceInTrx": 0.3002
                 },
                 {
                     "contract_address": "TSngG7y4RDSVG6QwoWM4MvVWJb3k8VLZJk",
@@ -997,10 +1006,11 @@
                 },
                 {
                     "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-                    "balance": "987909758081848",
+                    "balance": "1229713107302067",
                     "symbol": "USDT",
                     "decimals": 6,
-                    "name": "Tether USD"
+                    "name": "Tether USD",
+                    "priceInTrx": 36.764706
                 },
                 {
                     "contract_address": "TA6DL23XVytTMmBU84TN2HiadD6FkmXyht",
@@ -1125,7 +1135,7 @@
             "bandwidth": {
                 "energyRemaining": 0,
                 "totalEnergyLimit": 90000000000,
-                "totalEnergyWeight": 1876870735,
+                "totalEnergyWeight": 1866175209,
                 "netUsed": 0,
                 "storageLimit": 0,
                 "storagePercentage": 0,
@@ -2930,13 +2940,13 @@
                 "storageRemaining": 0,
                 "freeNetLimit": 5000,
                 "energyUsed": 0,
-                "freeNetRemaining": 130,
+                "freeNetRemaining": 49,
                 "netLimit": 2,
                 "netRemaining": 2,
                 "energyLimit": 0,
-                "freeNetUsed": 4870,
-                "totalNetWeight": 19989298496,
-                "freeNetPercentage": 0.974,
+                "freeNetUsed": 4951,
+                "totalNetWeight": 19981765826,
+                "freeNetPercentage": 0.9902,
                 "energyPercentage": 0,
                 "totalNetLimit": 43200000000
             },
@@ -2952,7 +2962,7 @@
             },
             "tokenBalances": [
                 {
-                    "balance": 561531487720359,
+                    "balance": 468547809821260,
                     "name": "_"
                 },
                 {
@@ -3604,7 +3614,7 @@
                     "balance": 13,
                     "name": "1001090",
                     "owner_address": "TU1LUTYDMG6iihimUpAmdnnBthawPKh1cm",
-                    "priceInTrx": 0.00322
+                    "priceInTrx": 0.0023
                 },
                 {
                     "balance": 197248,
@@ -3692,10 +3702,10 @@
                     "owner_address": "TXvVpMEUwpf8hLmyyFLVjThRoh1mAANNwr"
                 },
                 {
-                    "balance": 8120643968187092,
+                    "balance": 5535700502525475,
                     "name": "1002000",
                     "owner_address": "TF5Bn4cJCT6GVeUgyCN4rBhDg42KBrpAjg",
-                    "priceInTrx": 0.0124
+                    "priceInTrx": 0.012
                 },
                 {
                     "balance": 1,
@@ -3796,7 +3806,7 @@
                     "balance": 7,
                     "name": "1000322",
                     "owner_address": "TDGy2M9qWBepSHDEutWWxWd1JZfmAed3BP",
-                    "priceInTrx": 0.000284
+                    "priceInTrx": 0.000273
                 },
                 {
                     "balance": 1000,
@@ -3862,7 +3872,7 @@
                     "balance": 5007000000,
                     "name": "1002413",
                     "owner_address": "TV6jkvfAntSDohZF3onVSnpb4wceEPh32a",
-                    "priceInTrx": 0.0087
+                    "priceInTrx": 0.0065
                 },
                 {
                     "balance": 130010000,
@@ -4123,7 +4133,7 @@
                     "balance": 5182737,
                     "name": "1002670",
                     "owner_address": "TSCCdKhtTge29sdyEC1tnQYaPJQyywXh5L",
-                    "priceInTrx": 0.8679
+                    "priceInTrx": 0.67
                 },
                 {
                     "balance": 47914247225000000,
@@ -4314,7 +4324,7 @@
                     "balance": 1,
                     "name": "1002939",
                     "owner_address": "TAsSw8hUddYi8AN8EkDuAMS9r8pkriyUxs",
-                    "priceInTrx": 1.00002
+                    "priceInTrx": 1
                 },
                 {
                     "balance": 50000000,
@@ -4412,7 +4422,7 @@
                     "owner_address": "TFNeNVuZDUoVvCxDmbpFua12neSgnpGwot"
                 },
                 {
-                    "balance": 203,
+                    "balance": 591,
                     "name": "1003406",
                     "owner_address": "TH4W5RkEu9otmT88vk1zv4Rz8SgfCvtu5B"
                 },
@@ -4447,7 +4457,7 @@
                     "owner_address": "TMuvWA77qXTM92T2837e9bvDLQXws3H7vu"
                 },
                 {
-                    "balance": 3500000,
+                    "balance": 5500000,
                     "name": "1003402",
                     "owner_address": "TXL4BsG7opmXdbZXQ4bjX3vE8XmB63Qt7y"
                 },
@@ -4459,7 +4469,7 @@
             ],
             "balances": [
                 {
-                    "balance": 561531487720359,
+                    "balance": 468547809821260,
                     "name": "_"
                 },
                 {
@@ -5111,7 +5121,7 @@
                     "balance": 13,
                     "name": "1001090",
                     "owner_address": "TU1LUTYDMG6iihimUpAmdnnBthawPKh1cm",
-                    "priceInTrx": 0.00322
+                    "priceInTrx": 0.0023
                 },
                 {
                     "balance": 197248,
@@ -5199,10 +5209,10 @@
                     "owner_address": "TXvVpMEUwpf8hLmyyFLVjThRoh1mAANNwr"
                 },
                 {
-                    "balance": 8120643968187092,
+                    "balance": 5535700502525475,
                     "name": "1002000",
                     "owner_address": "TF5Bn4cJCT6GVeUgyCN4rBhDg42KBrpAjg",
-                    "priceInTrx": 0.0124
+                    "priceInTrx": 0.012
                 },
                 {
                     "balance": 1,
@@ -5303,7 +5313,7 @@
                     "balance": 7,
                     "name": "1000322",
                     "owner_address": "TDGy2M9qWBepSHDEutWWxWd1JZfmAed3BP",
-                    "priceInTrx": 0.000284
+                    "priceInTrx": 0.000273
                 },
                 {
                     "balance": 1000,
@@ -5369,7 +5379,7 @@
                     "balance": 5007000000,
                     "name": "1002413",
                     "owner_address": "TV6jkvfAntSDohZF3onVSnpb4wceEPh32a",
-                    "priceInTrx": 0.0087
+                    "priceInTrx": 0.0065
                 },
                 {
                     "balance": 130010000,
@@ -5630,7 +5640,7 @@
                     "balance": 5182737,
                     "name": "1002670",
                     "owner_address": "TSCCdKhtTge29sdyEC1tnQYaPJQyywXh5L",
-                    "priceInTrx": 0.8679
+                    "priceInTrx": 0.67
                 },
                 {
                     "balance": 47914247225000000,
@@ -5821,7 +5831,7 @@
                     "balance": 1,
                     "name": "1002939",
                     "owner_address": "TAsSw8hUddYi8AN8EkDuAMS9r8pkriyUxs",
-                    "priceInTrx": 1.00002
+                    "priceInTrx": 1
                 },
                 {
                     "balance": 50000000,
@@ -5919,7 +5929,7 @@
                     "owner_address": "TFNeNVuZDUoVvCxDmbpFua12neSgnpGwot"
                 },
                 {
-                    "balance": 203,
+                    "balance": 591,
                     "name": "1003406",
                     "owner_address": "TH4W5RkEu9otmT88vk1zv4Rz8SgfCvtu5B"
                 },
@@ -5954,7 +5964,7 @@
                     "owner_address": "TMuvWA77qXTM92T2837e9bvDLQXws3H7vu"
                 },
                 {
-                    "balance": 3500000,
+                    "balance": 5500000,
                     "name": "1003402",
                     "owner_address": "TXL4BsG7opmXdbZXQ4bjX3vE8XmB63Qt7y"
                 },
@@ -5964,7 +5974,7 @@
                     "owner_address": "TUmNGB19dRXyrfKkdNpwSY4fs9BdMshQKs"
                 }
             ],
-            "balance": 561531487720359,
+            "balance": 468547809821260,
             "voteTotal": 0,
             "name": "",
             "delegated": {
@@ -5980,7 +5990,7 @@
                     }
                 ]
             },
-            "totalTransactionCount": 4652080,
+            "totalTransactionCount": 4703344,
             "representative": {
                 "lastWithDrawTime": 0,
                 "allowance": 0,
@@ -5993,7 +6003,7 @@
             "Server",
             "nginx",
             "Date",
-            "Fri, 23 Oct 2020 15:39:15 GMT",
+            "Mon, 26 Oct 2020 12:52:14 GMT",
             "Content-Type",
             "application/json;charset=utf-8",
             "Transfer-Encoding",
