@@ -1,3 +1,11 @@
+# [2.29.0](https://github.com/coinranking/supplies/compare/v2.28.0...v2.29.0) (2020-10-27)
+
+
+### Features
+
+* filecoin driver ([aa4c4c9](https://github.com/coinranking/supplies/commit/aa4c4c97e4f2731866991f9958ee592a97a10c67))
+* merged ([d964037](https://github.com/coinranking/supplies/commit/d96403700dcbb5f1d9a76ddaee4a5613f7788640))
+
 # [2.28.0](https://github.com/coinranking/supplies/compare/v2.27.0...v2.28.0) (2020-10-26)
 
 
