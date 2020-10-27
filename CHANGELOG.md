@@ -1,3 +1,15 @@
+# [2.30.0](https://github.com/coinranking/supplies/compare/v2.29.0...v2.30.0) (2020-10-27)
+
+
+### Bug Fixes
+
+* fix unlimited fiscuss fyi description ([aac1b45](https://github.com/coinranking/supplies/commit/aac1b4524074d4f5d91a7a2e8966fb726853998b))
+
+
+### Features
+
+* unlimited fiscuss fyi driver ([1f9ad77](https://github.com/coinranking/supplies/commit/1f9ad7785aadcc54aecc9be22f845726716cd551))
+
 # [2.29.0](https://github.com/coinranking/supplies/compare/v2.28.0...v2.29.0) (2020-10-27)
 
 
