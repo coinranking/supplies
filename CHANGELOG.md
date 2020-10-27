@@ -1,3 +1,10 @@
+## [2.30.1](https://github.com/coinranking/supplies/compare/v2.30.0...v2.30.1) (2020-10-27)
+
+
+### Bug Fixes
+
+* monero should have 12 decimal places ([ff45992](https://github.com/coinranking/supplies/commit/ff459928e7908fa786af768d92b8747bb08f3087))
+
 # [2.30.0](https://github.com/coinranking/supplies/compare/v2.29.0...v2.30.0) (2020-10-27)
 
 
