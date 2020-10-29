@@ -1,0 +1,27 @@
+[
+    {
+        "scope": "http://api.bitcoinvault.global:80",
+        "method": "GET",
+        "path": "/status",
+        "body": "",
+        "status": 200,
+        "response": {
+            "hashrate": 4691015716494019000,
+            "height": 55715,
+            "total_coin_supply": 9103649.99999976
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.8",
+            "Date",
+            "Thu, 29 Oct 2020 13:37:15 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "87",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
