@@ -1,3 +1,14 @@
+# [2.31.0](https://github.com/coinranking/supplies/compare/v2.30.1...v2.31.0) (2020-10-29)
+
+
+### Features
+
+* eslint fix ([dafa469](https://github.com/coinranking/supplies/commit/dafa469f615c5da48bac88d031a83870c81132f1))
+* fiscussfyi driver ([5b64a0e](https://github.com/coinranking/supplies/commit/5b64a0e077a22465871813f3ed93fc430b122086))
+* phantasma driver for kcal token ([df346e7](https://github.com/coinranking/supplies/commit/df346e7cc0eadb7afd34c44c99f2d23c545bdff1))
+* phantasma driver for soul token ([ac89944](https://github.com/coinranking/supplies/commit/ac8994433aaf6e7203a97694a7054928a053dcbd))
+* re-define params for driver ([0dc63f1](https://github.com/coinranking/supplies/commit/0dc63f1760ee785951085e068a0dd6191eda25b0))
+
 ## [2.30.1](https://github.com/coinranking/supplies/compare/v2.30.0...v2.30.1) (2020-10-27)
 
 
