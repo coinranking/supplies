@@ -1,3 +1,10 @@
+# [2.32.0](https://github.com/coinranking/supplies/compare/v2.31.0...v2.32.0) (2020-10-29)
+
+
+### Features
+
+* add support for Bitcoin Vault ([f2869e8](https://github.com/coinranking/supplies/commit/f2869e82d932ff31ffd0573a65ddb7867d15758f))
+
 # [2.31.0](https://github.com/coinranking/supplies/compare/v2.30.1...v2.31.0) (2020-10-29)
 
 
