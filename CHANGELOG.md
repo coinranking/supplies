@@ -1,3 +1,51 @@
+## [2.30.1](https://github.com/coinranking/supplies/compare/v2.30.0...v2.30.1) (2020-10-27)
+
+
+### Bug Fixes
+
+* monero should have 12 decimal places ([ff45992](https://github.com/coinranking/supplies/commit/ff459928e7908fa786af768d92b8747bb08f3087))
+
+# [2.30.0](https://github.com/coinranking/supplies/compare/v2.29.0...v2.30.0) (2020-10-27)
+
+
+### Bug Fixes
+
+* fix unlimited fiscuss fyi description ([aac1b45](https://github.com/coinranking/supplies/commit/aac1b4524074d4f5d91a7a2e8966fb726853998b))
+
+
+### Features
+
+* unlimited fiscuss fyi driver ([1f9ad77](https://github.com/coinranking/supplies/commit/1f9ad7785aadcc54aecc9be22f845726716cd551))
+
+# [2.29.0](https://github.com/coinranking/supplies/compare/v2.28.0...v2.29.0) (2020-10-27)
+
+
+### Features
+
+* filecoin driver ([aa4c4c9](https://github.com/coinranking/supplies/commit/aa4c4c97e4f2731866991f9958ee592a97a10c67))
+* merged ([d964037](https://github.com/coinranking/supplies/commit/d96403700dcbb5f1d9a76ddaee4a5613f7788640))
+
+# [2.28.0](https://github.com/coinranking/supplies/compare/v2.27.0...v2.28.0) (2020-10-26)
+
+
+### Bug Fixes
+
+* fixture ([8e62d78](https://github.com/coinranking/supplies/commit/8e62d78b2081d2d8694e6cec28f9d91915e733cb))
+* total and circulating supply for trezor supply ([d7aba6f](https://github.com/coinranking/supplies/commit/d7aba6fbca8b7f29a95bd8564aaa1b1a17c9c458))
+
+
+### Features
+
+* polispay driver ([74af46a](https://github.com/coinranking/supplies/commit/74af46adf9a49658374bbdb9f77f4e8981cc2921))
+* trezor driver ([7af5025](https://github.com/coinranking/supplies/commit/7af50255876aea27f8b0c275cf3c0fb2c863eb81))
+
+# [2.27.0](https://github.com/coinranking/supplies/compare/v2.26.0...v2.27.0) (2020-10-26)
+
+
+### Features
+
+* hathor driver ([af4b670](https://github.com/coinranking/supplies/commit/af4b67084bd29b0cfde068bfdadbd0c0aa6142cd))
+
 # [2.26.0](https://github.com/coinranking/supplies/compare/v2.25.0...v2.26.0) (2020-10-24)
 
 
