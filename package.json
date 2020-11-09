@@ -45,7 +45,7 @@
     "commander": "^6.0.0",
     "node-cache": "^5.1.1",
     "request": "^2.88.2",
-    "socket.io-client": "^2.3.0",
+    "socket.io-client": "^3.0.0",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
