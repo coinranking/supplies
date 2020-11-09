@@ -1,3 +1,10 @@
+## [2.32.1](https://github.com/coinranking/supplies/compare/v2.32.0...v2.32.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* throw error if FileCoin is null ([5a3f6aa](https://github.com/coinranking/supplies/commit/5a3f6aae5a6845011a96d168770170044274c791))
+
 # [2.32.0](https://github.com/coinranking/supplies/compare/v2.31.0...v2.32.0) (2020-10-29)
 
 
