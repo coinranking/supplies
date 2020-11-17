@@ -1,3 +1,10 @@
+# [2.33.0](https://github.com/coinranking/supplies/compare/v2.32.1...v2.33.0) (2020-11-17)
+
+
+### Features
+
+* neutrino dollar set same total and circulating supply ([3ac36d8](https://github.com/coinranking/supplies/commit/3ac36d8a5e329a2cd86bd2e03cbb148e5641981c))
+
 ## [2.32.1](https://github.com/coinranking/supplies/compare/v2.32.0...v2.32.1) (2020-11-09)
 
 
