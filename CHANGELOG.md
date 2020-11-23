@@ -1,3 +1,10 @@
+# [2.34.0](https://github.com/coinranking/supplies/compare/v2.33.0...v2.34.0) (2020-11-23)
+
+
+### Features
+
+* umi driver ([3981af6](https://github.com/coinranking/supplies/commit/3981af62bd7a81ed6ff4ee21ed66480fcedf00d7))
+
 # [2.33.0](https://github.com/coinranking/supplies/compare/v2.32.1...v2.33.0) (2020-11-17)
 
 
