@@ -1,3 +1,10 @@
+# [2.35.0](https://github.com/coinranking/supplies/compare/v2.34.0...v2.35.0) (2020-12-18)
+
+
+### Features
+
+* support for web3 driver ([39bf02d](https://github.com/coinranking/supplies/commit/39bf02da96bf370b7f1aa6f7fdc4c9a71fe7f213))
+
 # [2.34.0](https://github.com/coinranking/supplies/compare/v2.33.0...v2.34.0) (2020-11-23)
 
 
