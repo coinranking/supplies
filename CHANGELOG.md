@@ -1,3 +1,10 @@
+## [2.35.2](https://github.com/coinranking/supplies/compare/v2.35.1...v2.35.2) (2020-12-24)
+
+
+### Bug Fixes
+
+* **blockchair:** blockchains with space in the name didn't work anymore ([a666992](https://github.com/coinranking/supplies/commit/a66699218d2222d38a69f97caeba6fc88a796ef6))
+
 ## [2.35.1](https://github.com/coinranking/supplies/compare/v2.35.0...v2.35.1) (2020-12-24)
 
 
