@@ -1,3 +1,10 @@
+## [2.35.3](https://github.com/coinranking/supplies/compare/v2.35.2...v2.35.3) (2020-12-24)
+
+
+### Bug Fixes
+
+* **bridgelto:** forbidden message from bridge lto ([0a19df4](https://github.com/coinranking/supplies/commit/0a19df4f51edd8a9e26e46a5b35d8a4f8f138fa6))
+
 ## [2.35.2](https://github.com/coinranking/supplies/compare/v2.35.1...v2.35.2) (2020-12-24)
 
 
