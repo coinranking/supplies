@@ -1,3 +1,10 @@
+## [2.35.1](https://github.com/coinranking/supplies/compare/v2.35.0...v2.35.1) (2020-12-24)
+
+
+### Bug Fixes
+
+* **ddkoin:** server didn't support the v3 socket.io version ([3879dd0](https://github.com/coinranking/supplies/commit/3879dd025e8ccc274c51d9f428b55299ac03de7c))
+
 # [2.35.0](https://github.com/coinranking/supplies/compare/v2.34.0...v2.35.0) (2020-12-18)
 
 
