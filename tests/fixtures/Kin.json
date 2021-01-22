@@ -1,0 +1,37 @@
+[
+    {
+        "scope": "https://stats.kininfrastructure.com:443",
+        "method": "GET",
+        "path": "/kin-in-circulation/",
+        "body": "",
+        "status": 200,
+        "response": 1534611780742.1907,
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "18",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Fri, 22 Jan 2021 20:36:04 GMT",
+            "x-amzn-RequestId",
+            "50c443c7-ff31-449c-b884-eb493aa0b8fe",
+            "Access-Control-Allow-Origin",
+            "*",
+            "x-amz-apigw-id",
+            "ZkWQMFLEoAMFicA=",
+            "X-Amzn-Trace-Id",
+            "Root=1-600b3734-5ed7d2cd7d77534c67ae22d3;Sampled=0",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 3cac3fd7fa29edd9751e89e1095c53fc.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "MUC51-C1",
+            "X-Amz-Cf-Id",
+            "D84zl6qGnWGfSK46oS6wESFWnpRqYZe_OxfVEfTmvKK0IhX2xYSsLg=="
+        ],
+        "responseIsBinary": false
+    }
+]
