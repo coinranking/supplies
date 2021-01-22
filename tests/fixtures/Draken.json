@@ -1,0 +1,49 @@
+[
+    {
+        "scope": "https://explorer.draken.tech:443",
+        "method": "POST",
+        "path": "/graphiql",
+        "body": {
+            "query": "\n          query {\n            address(hash: \"0x0000000000000000000000000000000000000066\") {\n              fetchedCoinBalance\n            }\n          }\n        "
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "address": {
+                    "fetchedCoinBalance": "15732391878536381094066057453"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 Jan 2021 21:07:15 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dbcb8a4a5d703a41f5bbc27058c72ac211611349635; expires=Sun, 21-Feb-21 21:07:15 GMT; path=/; domain=.draken.tech; HttpOnly; SameSite=Lax; Secure",
+            "access-control-allow-credentials",
+            "true",
+            "access-control-allow-origin",
+            "*",
+            "access-control-expose-headers",
+            "",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "8c3ec4319a8771d245ff34b28446420c",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "07cd8548170000fc6d56915000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
