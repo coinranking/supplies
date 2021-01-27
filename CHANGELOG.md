@@ -1,3 +1,11 @@
+# [2.37.0](https://github.com/coinranking/supplies/compare/v2.36.0...v2.37.0) (2021-01-27)
+
+
+### Features
+
+* draken driver ([f4e2790](https://github.com/coinranking/supplies/commit/f4e27909aff3b1d9fe218a57a633f20701657468))
+* easyfi driver ([7e29143](https://github.com/coinranking/supplies/commit/7e291432def34b785bba3e147ace448ec83e8ca3))
+
 # [2.36.0](https://github.com/coinranking/supplies/compare/v2.35.3...v2.36.0) (2021-01-27)
 
 
