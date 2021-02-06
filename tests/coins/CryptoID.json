@@ -50,5 +50,9 @@
   {
     "modifiers": [],
     "blockchain": "KnoxFS"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "NewYorkCoin"
   }
 ]
