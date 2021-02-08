@@ -13,7 +13,7 @@ program
   .option('-r, --reference <type>', 'Reference is a unique id for a specific driver; for example a smart contract address')
   .option('-m, --modifiers [addresses]', 'Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma.')
   .option('-R, --record', 'Record the requests and parameters, and save them as fixtures')
-  .option('-B, --blockchain <type>', 'Issuance blockchain; the blockchain the coin is issued on. This could be their own blockchain for coins like Bitcoin or Monero. Or for example Ethereum for ERC-20 tokens like Basic Attention Token. Providing the blockchain is required if the driver supports multiple blockchains')
+  .option('-b, --blockchain <type>', 'Issuance blockchain; the blockchain the coin is issued on. This could be their own blockchain for coins like Bitcoin or Monero. Or for example Ethereum for ERC-20 tokens like Basic Attention Token. Providing the blockchain is required if the driver supports multiple blockchains')
   .option('-k, --key <type>', 'APIkey when required')
   .option('--nocache', 'Disable the cache')
   .action(async (driverName, options) => {
@@ -57,9 +57,9 @@ program
     if (options.record) {
       let fixture = `${driverName}.json`;
 
-      if (driver.supports.blockchains.length > 1 && !coin.reference) {
+      if (driver.supports.blockchains.length >= 1 && !coin.reference && coin.blockchain) {
         fixture = `${driverName}-${coin.blockchain}.json`;
-      } else if (driver.supports.blockchains.length > 1 && !!coin.reference) {
+      } else if (driver.supports.blockchains.length >= 1 && !!coin.reference && coin.blockchain) {
         fixture = `${driverName}-${coin.blockchain}-${coin.reference}.json`;
       } else if (coin.reference) {
         fixture = `${driverName}-${coin.reference}.json`;

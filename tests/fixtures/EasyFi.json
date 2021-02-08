@@ -1,0 +1,33 @@
+[
+    {
+        "scope": "https://api.easyfi.network:443",
+        "method": "GET",
+        "path": "/api/cmc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "cmc": 1369336.1558931004
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "ETag",
+            "W/\"1a-93KJC6ma3ctNIEUAenQAW+ZJ75A\"",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Methods",
+            "GET, POST",
+            "X-Powered-By",
+            "ARR/3.0",
+            "Date",
+            "Fri, 22 Jan 2021 21:28:17 GMT",
+            "Content-Length",
+            "26"
+        ],
+        "responseIsBinary": false
+    }
+]

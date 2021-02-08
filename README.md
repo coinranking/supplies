@@ -110,14 +110,15 @@ supplies get <driver name> -r <smart contract address>
 #### Flags
 
 
-| Name      | Flag                    | Description
-| ----------| ------------------------| ---
-| Decimals  | `-d`, `--decimals`      | Some drivers like Etherscan require decimals.
-| Reference | `-r`, `--reference`     | Reference is a unique id for a specific driver; for example a smart contract address.
-| Modifiers | `-m`, `--modifiers`     | Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma and without spaces.
-| Record    | `-R`, `--record`        | Record the requests and coin, and save them as fixtures. This is for developing purposes.
-| API Key   | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures.
-| No cache  | `--nocache`             | Skip using the cache.
+| Name       | Flag                    | Description
+| -----------| ------------------------| ---
+| Decimals   | `-d`, `--decimals`      | Some drivers like Etherscan require decimals.
+| Reference  | `-r`, `--reference`     | Reference is a unique id for a specific driver; for example a smart contract address.
+| Blockchain | `-b`, `--blockchain`    | Issuance blockchain; the blockchain the coin is issued on. This could be their own blockchain for coins like Bitcoin or Monero. Or for example Ethereum for ERC-20 tokens like Basic Attention Token. Providing the blockchain is required if the driver supports multiple blockchains
+| Modifiers  | `-m`, `--modifiers`     | Wallets addresses to subtract from the total supply; for example wallets hold by the foundation or burn addresses. Split the addresses with a comma and without spaces.
+| Record     | `-R`, `--record`        | Record the requests and coin, and save them as fixtures. This is for developing purposes.
+| API Key    | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-r` flag the key will be masked in the fixtures.
+| No cache   | `--nocache`             | Skip using the cache.
 
 ## Development
 

@@ -1,3 +1,402 @@
+# [2.37.0](https://github.com/coinranking/supplies/compare/v2.36.0...v2.37.0) (2021-01-27)
+
+
+### Features
+
+* draken driver ([f4e2790](https://github.com/coinranking/supplies/commit/f4e27909aff3b1d9fe218a57a633f20701657468))
+* easyfi driver ([7e29143](https://github.com/coinranking/supplies/commit/7e291432def34b785bba3e147ace448ec83e8ca3))
+
+# [2.36.0](https://github.com/coinranking/supplies/compare/v2.35.3...v2.36.0) (2021-01-27)
+
+
+### Features
+
+* tkm driver ([5f11ebf](https://github.com/coinranking/supplies/commit/5f11ebf892d391d369ecdb6a940a228fc5f0baf1))
+
+## [2.35.3](https://github.com/coinranking/supplies/compare/v2.35.2...v2.35.3) (2020-12-24)
+
+
+### Bug Fixes
+
+* **bridgelto:** forbidden message from bridge lto ([0a19df4](https://github.com/coinranking/supplies/commit/0a19df4f51edd8a9e26e46a5b35d8a4f8f138fa6))
+
+## [2.35.2](https://github.com/coinranking/supplies/compare/v2.35.1...v2.35.2) (2020-12-24)
+
+
+### Bug Fixes
+
+* **blockchair:** blockchains with space in the name didn't work anymore ([a666992](https://github.com/coinranking/supplies/commit/a66699218d2222d38a69f97caeba6fc88a796ef6))
+
+## [2.35.1](https://github.com/coinranking/supplies/compare/v2.35.0...v2.35.1) (2020-12-24)
+
+
+### Bug Fixes
+
+* **ddkoin:** server didn't support the v3 socket.io version ([3879dd0](https://github.com/coinranking/supplies/commit/3879dd025e8ccc274c51d9f428b55299ac03de7c))
+
+# [2.35.0](https://github.com/coinranking/supplies/compare/v2.34.0...v2.35.0) (2020-12-18)
+
+
+### Features
+
+* support for web3 driver ([39bf02d](https://github.com/coinranking/supplies/commit/39bf02da96bf370b7f1aa6f7fdc4c9a71fe7f213))
+
+# [2.34.0](https://github.com/coinranking/supplies/compare/v2.33.0...v2.34.0) (2020-11-23)
+
+
+### Features
+
+* umi driver ([3981af6](https://github.com/coinranking/supplies/commit/3981af62bd7a81ed6ff4ee21ed66480fcedf00d7))
+
+# [2.33.0](https://github.com/coinranking/supplies/compare/v2.32.1...v2.33.0) (2020-11-17)
+
+
+### Features
+
+* neutrino dollar set same total and circulating supply ([3ac36d8](https://github.com/coinranking/supplies/commit/3ac36d8a5e329a2cd86bd2e03cbb148e5641981c))
+
+## [2.32.1](https://github.com/coinranking/supplies/compare/v2.32.0...v2.32.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* throw error if FileCoin is null ([5a3f6aa](https://github.com/coinranking/supplies/commit/5a3f6aae5a6845011a96d168770170044274c791))
+
+# [2.32.0](https://github.com/coinranking/supplies/compare/v2.31.0...v2.32.0) (2020-10-29)
+
+
+### Features
+
+* add support for Bitcoin Vault ([f2869e8](https://github.com/coinranking/supplies/commit/f2869e82d932ff31ffd0573a65ddb7867d15758f))
+
+# [2.31.0](https://github.com/coinranking/supplies/compare/v2.30.1...v2.31.0) (2020-10-29)
+
+
+### Features
+
+* eslint fix ([dafa469](https://github.com/coinranking/supplies/commit/dafa469f615c5da48bac88d031a83870c81132f1))
+* fiscussfyi driver ([5b64a0e](https://github.com/coinranking/supplies/commit/5b64a0e077a22465871813f3ed93fc430b122086))
+* phantasma driver for kcal token ([df346e7](https://github.com/coinranking/supplies/commit/df346e7cc0eadb7afd34c44c99f2d23c545bdff1))
+* phantasma driver for soul token ([ac89944](https://github.com/coinranking/supplies/commit/ac8994433aaf6e7203a97694a7054928a053dcbd))
+* re-define params for driver ([0dc63f1](https://github.com/coinranking/supplies/commit/0dc63f1760ee785951085e068a0dd6191eda25b0))
+
+## [2.30.1](https://github.com/coinranking/supplies/compare/v2.30.0...v2.30.1) (2020-10-27)
+
+
+### Bug Fixes
+
+* monero should have 12 decimal places ([ff45992](https://github.com/coinranking/supplies/commit/ff459928e7908fa786af768d92b8747bb08f3087))
+
+# [2.30.0](https://github.com/coinranking/supplies/compare/v2.29.0...v2.30.0) (2020-10-27)
+
+
+### Bug Fixes
+
+* fix unlimited fiscuss fyi description ([aac1b45](https://github.com/coinranking/supplies/commit/aac1b4524074d4f5d91a7a2e8966fb726853998b))
+
+
+### Features
+
+* unlimited fiscuss fyi driver ([1f9ad77](https://github.com/coinranking/supplies/commit/1f9ad7785aadcc54aecc9be22f845726716cd551))
+
+# [2.29.0](https://github.com/coinranking/supplies/compare/v2.28.0...v2.29.0) (2020-10-27)
+
+
+### Features
+
+* filecoin driver ([aa4c4c9](https://github.com/coinranking/supplies/commit/aa4c4c97e4f2731866991f9958ee592a97a10c67))
+* merged ([d964037](https://github.com/coinranking/supplies/commit/d96403700dcbb5f1d9a76ddaee4a5613f7788640))
+
+# [2.28.0](https://github.com/coinranking/supplies/compare/v2.27.0...v2.28.0) (2020-10-26)
+
+
+### Bug Fixes
+
+* fixture ([8e62d78](https://github.com/coinranking/supplies/commit/8e62d78b2081d2d8694e6cec28f9d91915e733cb))
+* total and circulating supply for trezor supply ([d7aba6f](https://github.com/coinranking/supplies/commit/d7aba6fbca8b7f29a95bd8564aaa1b1a17c9c458))
+
+
+### Features
+
+* polispay driver ([74af46a](https://github.com/coinranking/supplies/commit/74af46adf9a49658374bbdb9f77f4e8981cc2921))
+* trezor driver ([7af5025](https://github.com/coinranking/supplies/commit/7af50255876aea27f8b0c275cf3c0fb2c863eb81))
+
+# [2.27.0](https://github.com/coinranking/supplies/compare/v2.26.0...v2.27.0) (2020-10-26)
+
+
+### Features
+
+* hathor driver ([af4b670](https://github.com/coinranking/supplies/commit/af4b67084bd29b0cfde068bfdadbd0c0aa6142cd))
+
+# [2.26.0](https://github.com/coinranking/supplies/compare/v2.25.0...v2.26.0) (2020-10-24)
+
+
+### Features
+
+* add circulating supply for kava driver ([fed09aa](https://github.com/coinranking/supplies/commit/fed09aae806aa41748bc4eafef07a0c2bf15c600))
+* change url for kava driver ([5fd6403](https://github.com/coinranking/supplies/commit/5fd6403b8786a0407be9a5425336fa1a6ef38122))
+* kava driver ([7b95332](https://github.com/coinranking/supplies/commit/7b95332cbdb4eeb9eb1fc4c3b19ff9d66f225fbd))
+
+# [2.25.0](https://github.com/coinranking/supplies/compare/v2.24.0...v2.25.0) (2020-10-23)
+
+
+### Bug Fixes
+
+* cryptolocally description ([6ec872e](https://github.com/coinranking/supplies/commit/6ec872e5ed99867907ef5ffe6fd11803aee784c5))
+
+
+### Features
+
+* blip driver ([197a2cf](https://github.com/coinranking/supplies/commit/197a2cf5421d731020f9a06c36b70c5a5e80f640))
+* cryptoid knoxfs driver ([d825b27](https://github.com/coinranking/supplies/commit/d825b279eeba5eefe0d1d2ad8831d1fd15203dce))
+* cryptolocally driver ([d5350ce](https://github.com/coinranking/supplies/commit/d5350ce205e491d036bf87388b295ec1851b8f66))
+* hybrix driver ([3134456](https://github.com/coinranking/supplies/commit/3134456733d1c0568b89a5894730632d8b8f4239))
+* jiviz driver ([8e80241](https://github.com/coinranking/supplies/commit/8e80241c5d441d888f9dcc6351cea680124095f8))
+* modern investment coin ([602b74d](https://github.com/coinranking/supplies/commit/602b74de72cf4fc8d6414fe230dd5ab361ae921c))
+* steemdollars driver ([0155019](https://github.com/coinranking/supplies/commit/015501980d16c56915ed7f72fa43e78dd7b3ae19))
+
+# [2.24.0](https://github.com/coinranking/supplies/compare/v2.23.0...v2.24.0) (2020-10-23)
+
+
+### Features
+
+* add stafi support on subscan driver ([54e5a8c](https://github.com/coinranking/supplies/commit/54e5a8c3398ef2904ea0fca37197d959f2a66d83))
+* buycoinpost driver ([a090d8b](https://github.com/coinranking/supplies/commit/a090d8bafed31d85d962153dff420f2e40be5b2a))
+* merged ([ad4fdaf](https://github.com/coinranking/supplies/commit/ad4fdafee84adc1d04f8e537ab6b580eea023f05))
+
+# [2.23.0](https://github.com/coinranking/supplies/compare/v2.22.0...v2.23.0) (2020-10-23)
+
+
+### Features
+
+* infinite blocks driver ([2e24004](https://github.com/coinranking/supplies/commit/2e24004f8774dd91b17c47995bd26733f33eb4c4))
+
+# [2.22.0](https://github.com/coinranking/supplies/compare/v2.21.0...v2.22.0) (2020-09-17)
+
+
+### Bug Fixes
+
+* fixuture saving ([94ad30f](https://github.com/coinranking/supplies/commit/94ad30f2e03351fe692044abdd5c21fc0eb0e20f))
+* missing trailing comma in xinfin driver ([82a02c9](https://github.com/coinranking/supplies/commit/82a02c9fe87fc3f99519d1938ac9be4ee75f1410))
+
+
+### Features
+
+* define native to false on multiblockchain subscan driver ([06842e6](https://github.com/coinranking/supplies/commit/06842e6f3e1ec48da0dfdc81ace46a3635918e2b))
+* eosdt driver ([9f473b8](https://github.com/coinranking/supplies/commit/9f473b8a79e56206bf19dfc9d0d9cf36e32f041b))
+* merged ([f099f9d](https://github.com/coinranking/supplies/commit/f099f9d271d13b661c7d631f9820716744dcfb74))
+* oneworldcoin add max supply ([50b366a](https://github.com/coinranking/supplies/commit/50b366aff5be54e3633dc30b23cf36016d22b126))
+* oneworldcoin driver ([5a97766](https://github.com/coinranking/supplies/commit/5a977661f9b692042029c5e27ae9faab21c7d324))
+* remove blockchain definition in eosdt driver because not all currencies on EOS ([ee0f30d](https://github.com/coinranking/supplies/commit/ee0f30d2923af7339bc7a8cb2e82fed514f41223))
+* remove max from xinfin ([069bb11](https://github.com/coinranking/supplies/commit/069bb11929ea660de6a75149352b8b22aef0a208))
+* rename oneworldcoin to crypto-core driver ([ddeef35](https://github.com/coinranking/supplies/commit/ddeef35c3c35847c989e9c888ee30258055c8368))
+* rename v-dimention to vsdcool driver ([26580a8](https://github.com/coinranking/supplies/commit/26580a8ca895d94062c70ba31065ddef9d3f02fb))
+* subscan driver ([811e364](https://github.com/coinranking/supplies/commit/811e3646e40fd82804be9c4ea428c189c468deea))
+* terra driver ([74acdf5](https://github.com/coinranking/supplies/commit/74acdf5d7c61930c6a0e0ff6966d6de744e9843e))
+* v-dimensions driver ([fc71310](https://github.com/coinranking/supplies/commit/fc71310f86531d9a817ba59d5667b130e0228740))
+* xinfin driver ([36c411e](https://github.com/coinranking/supplies/commit/36c411eee91f87d44131e65c14598bce4915d3b8))
+
+# [2.21.0](https://github.com/coinranking/supplies/compare/v2.20.0...v2.21.0) (2020-09-07)
+
+
+### Features
+
+* add description to postcoin driver ([4ab1280](https://github.com/coinranking/supplies/commit/4ab1280b4a3803d4337f2927adceac83df6e865e))
+* postcoin driver ([594c427](https://github.com/coinranking/supplies/commit/594c4276dffc1434ba9444cabcdc5421d915402c))
+
+# [2.20.0](https://github.com/coinranking/supplies/compare/v2.19.0...v2.20.0) (2020-09-07)
+
+
+### Features
+
+* add description to documentchain driver ([f340e5f](https://github.com/coinranking/supplies/commit/f340e5fcb226523e359a3e5f5483dfc05996c4de))
+* documentchain driver ([7d4f985](https://github.com/coinranking/supplies/commit/7d4f985aed7517c75390c367ec2a8681be2137a9))
+
+# [2.19.0](https://github.com/coinranking/supplies/compare/v2.18.0...v2.19.0) (2020-09-07)
+
+
+### Features
+
+* mcashchain driver ([a6ae2fd](https://github.com/coinranking/supplies/commit/a6ae2fdb0dce9e8b2f5a18a62f28ce2fe711f605))
+
+# [2.18.0](https://github.com/coinranking/supplies/compare/v2.17.0...v2.18.0) (2020-09-07)
+
+
+### Features
+
+* boolberry driver ([85018c1](https://github.com/coinranking/supplies/commit/85018c1e205168dac2fd9741f761f36e0d9e2392))
+* energy web driver ([2248375](https://github.com/coinranking/supplies/commit/2248375c8e5055d16916b0686aee1bcf90ee4595))
+* iost driver ([23474ea](https://github.com/coinranking/supplies/commit/23474ea49f0d313bd7925d376d60308aba6398de))
+* remove max supply for iost because is no defined correctly ([e2c14f5](https://github.com/coinranking/supplies/commit/e2c14f5d927fe20a8f59d76a517b58ed8b9483e2))
+* solana driver ([5c7cab3](https://github.com/coinranking/supplies/commit/5c7cab3180d150c6c10aa88bdddf9c58fd1d83a6))
+
+# [2.17.0](https://github.com/coinranking/supplies/compare/v2.16.0...v2.17.0) (2020-09-07)
+
+
+### Features
+
+* nash driver ([9f1b673](https://github.com/coinranking/supplies/commit/9f1b67340cb5c56a0f883b9bb6091ce061611b62))
+
+# [2.16.0](https://github.com/coinranking/supplies/compare/v2.15.0...v2.16.0) (2020-09-07)
+
+
+### Bug Fixes
+
+* import Coin in hive and steemdb drivers ([2f26182](https://github.com/coinranking/supplies/commit/2f261822f60bba567e600f204614d45586c7fdb9))
+* merged and get first element from array to get newest total supply for steem db driver ([ace2795](https://github.com/coinranking/supplies/commit/ace27955c89c6137516d32bbe71a7ec9ba23f997))
+* seperate steem as single driver (not inside hive driver) ([286e153](https://github.com/coinranking/supplies/commit/286e15332b12fad0ab6cdb2fed7c130fc3cc7977))
+* steem driver total supply ([c871a5f](https://github.com/coinranking/supplies/commit/c871a5f9d3da408c1963d0e1a28e9b238f56fcf4))
+
+
+### Features
+
+* fix support object on hive ([e0f9e81](https://github.com/coinranking/supplies/commit/e0f9e81f9c88329ebb8498b2351b8dd12f83b732))
+* merged ([f2bc0cc](https://github.com/coinranking/supplies/commit/f2bc0cc813af05cfa57e818658dc472e9e67a289))
+* steem blockchain on hive ([c738ce7](https://github.com/coinranking/supplies/commit/c738ce70a2bef9b73613c251e909c6d566f3e57c))
+
+# [2.15.0](https://github.com/coinranking/supplies/compare/v2.14.0...v2.15.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* change url for totalSupply for cache-gold driver ([9051f07](https://github.com/coinranking/supplies/commit/9051f07d5726b9c047405d9a962e6ea9516035b0))
+* remove blockchains property from nest-protocol driver ([d221b8d](https://github.com/coinranking/supplies/commit/d221b8daae6e84a8560d999cda2a5aa4d965e953))
+* remove blockchains property in neutrino-dollar driver ([80d0403](https://github.com/coinranking/supplies/commit/80d040364094e6e1f6ec8459f70ec3d6d0d50d96))
+* remove supports property in cache-gold driver ([ff25ee3](https://github.com/coinranking/supplies/commit/ff25ee3ceb70339a9563c310065d9621cd004112))
+
+
+### Features
+
+* cache gold driver ([be41983](https://github.com/coinranking/supplies/commit/be419838645caee06f60e9776e95eff84165f1e1))
+* nest protocol driver ([b43a034](https://github.com/coinranking/supplies/commit/b43a034e07c9f42ba695fa6ce9549c4698ec11e6))
+* neutrino dollar driver ([2ac3f30](https://github.com/coinranking/supplies/commit/2ac3f301e92e7dc8d25c45ee1f599aba9fcc24ff))
+
+# [2.14.0](https://github.com/coinranking/supplies/compare/v2.13.0...v2.14.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* get first element from array to get newest total supply for hive db driver ([cb09442](https://github.com/coinranking/supplies/commit/cb09442ebc108216ab9c244027c62fb51f6abc73))
+
+
+### Features
+
+* hive driver and grammar fix ([59845e5](https://github.com/coinranking/supplies/commit/59845e5f98bcf52463eb96438003d711a6c320b4))
+
+# [2.13.0](https://github.com/coinranking/supplies/compare/v2.12.0...v2.13.0) (2020-08-28)
+
+
+### Features
+
+* sprint driver ([7f9d858](https://github.com/coinranking/supplies/commit/7f9d858718fd824417591332684b589161d1aceb))
+
+# [2.12.0](https://github.com/coinranking/supplies/compare/v2.11.0...v2.12.0) (2020-08-28)
+
+
+### Features
+
+* monerov driver ([267f723](https://github.com/coinranking/supplies/commit/267f723655a77dd79e4843a3bf0253ab66e477ad))
+
+# [2.11.0](https://github.com/coinranking/supplies/compare/v2.10.0...v2.11.0) (2020-08-28)
+
+
+### Features
+
+* coin4trade driver ([15a4193](https://github.com/coinranking/supplies/commit/15a419396b8f4c7de04f3e5b597802d4bd147b4b))
+
+# [2.10.0](https://github.com/coinranking/supplies/compare/v2.9.0...v2.10.0) (2020-08-28)
+
+
+### Features
+
+* qnodecoin driver ([f2d1587](https://github.com/coinranking/supplies/commit/f2d15874d162c4322c1b1e5ade42d78eb24726aa))
+
+# [2.9.0](https://github.com/coinranking/supplies/compare/v2.8.0...v2.9.0) (2020-08-14)
+
+
+### Features
+
+* add balance support and total supply ([1c722e5](https://github.com/coinranking/supplies/commit/1c722e53d6c860ff58975eea3d3fc479bfce0a55))
+* add balance support to FanaticosCash ([b460454](https://github.com/coinranking/supplies/commit/b46045477470584f9db47dc20348680071f7e5c0))
+* add description to fetchbalance function for fanaticos-cash ([beb29a5](https://github.com/coinranking/supplies/commit/beb29a50125784c49cea2ece06c1c1a7fb5a1f4a))
+* bitgreen driver ([63ad964](https://github.com/coinranking/supplies/commit/63ad964767f1f4637a7d5ccf2cbd568261e279d3))
+* fanaticos cash driver ([baec390](https://github.com/coinranking/supplies/commit/baec39003d2e970cc38fd6d6582e756025827228))
+
+# [2.8.0](https://github.com/coinranking/supplies/compare/v2.7.0...v2.8.0) (2020-08-11)
+
+
+### Features
+
+* navcoin driver on crpytoid ([147fd47](https://github.com/coinranking/supplies/commit/147fd47b3178aecd7999a34a742a816033f97241))
+* patricl driver on cryptoid ([1ccc6af](https://github.com/coinranking/supplies/commit/1ccc6af643468647e9640978870cb35a673660b3))
+* pivx driver on cryptoid ([356ca82](https://github.com/coinranking/supplies/commit/356ca826b424eef04f25b0eb67f22693a7fc3195))
+* stratis driver on cryptoid ([434eed8](https://github.com/coinranking/supplies/commit/434eed853dfa603ac117597803cc1489ee4f261b))
+
+# [2.7.0](https://github.com/coinranking/supplies/compare/v2.6.0...v2.7.0) (2020-08-11)
+
+
+### Features
+
+* elrond driver ([6cdc56c](https://github.com/coinranking/supplies/commit/6cdc56ce1f6645b634d56baa0ed37c25fe081076))
+* pivx driver on cryptoid ([fcae300](https://github.com/coinranking/supplies/commit/fcae3005bb4ce930906e7e9d83cc39375697c977))
+
+# [2.6.0](https://github.com/coinranking/supplies/compare/v2.5.0...v2.6.0) (2020-08-11)
+
+
+### Features
+
+* adamant driver ([d943fd0](https://github.com/coinranking/supplies/commit/d943fd0e14da7b97918d8367b07a5d456199da0e))
+
+# [2.5.0](https://github.com/coinranking/supplies/compare/v2.4.0...v2.5.0) (2020-08-11)
+
+
+### Features
+
+* nimiq driver ([65f9919](https://github.com/coinranking/supplies/commit/65f9919bd3852fcd053b6754c44e3cbfb8bd611f))
+
+# [2.4.0](https://github.com/coinranking/supplies/compare/v2.3.0...v2.4.0) (2020-08-11)
+
+
+### Bug Fixes
+
+* add blockchain to beam driver ([39ac62f](https://github.com/coinranking/supplies/commit/39ac62f9ff7cc2ec085425d246eeaa7b54625ca6))
+
+
+### Features
+
+* beam driver ([e6ff30f](https://github.com/coinranking/supplies/commit/e6ff30f9d91f828c51434e03b0dfd556cf37b74b))
+
+# [2.3.0](https://github.com/coinranking/supplies/compare/v2.2.0...v2.3.0) (2020-08-10)
+
+
+### Features
+
+* bolivarcoin support on cryptoid ([7b29175](https://github.com/coinranking/supplies/commit/7b29175bb3b4a2f2cd5ef3c88c6e1687187c0179))
+* trollcoin support on cryptoid ([6249538](https://github.com/coinranking/supplies/commit/6249538342cb99949d138c827deb8d0a32aee581))
+
+# [2.2.0](https://github.com/coinranking/supplies/compare/v2.1.0...v2.2.0) (2020-08-10)
+
+
+### Features
+
+* french digital reserve driver - fdr ([64f72d4](https://github.com/coinranking/supplies/commit/64f72d46e61e69e4c84e95139f72552eecb8e2ac))
+* namebase driver ([f29bc0f](https://github.com/coinranking/supplies/commit/f29bc0fc921b29411bfa1513aceaf926e6799043))
+* siastats driver ([cc934b8](https://github.com/coinranking/supplies/commit/cc934b8e3cff8d7557a2399c20d6f2a26734aed8))
+* verge driver ([b3db3fc](https://github.com/coinranking/supplies/commit/b3db3fced504877d437c4c2eeeff1428ecb44209))
+
+# [2.1.0](https://github.com/coinranking/supplies/compare/v2.0.0...v2.1.0) (2020-08-10)
+
+
+### Bug Fixes
+
+* support object ([b4e3849](https://github.com/coinranking/supplies/commit/b4e38491c8b2a3a30755e310a8f02b1bdb47d408))
+
+
+### Features
+
+* cryptoid extend with digibyte blockchain ([6cebb59](https://github.com/coinranking/supplies/commit/6cebb592bfd80959c221998592660ad6aa4fa1e4))
+* idena driver ([b352a2c](https://github.com/coinranking/supplies/commit/b352a2cf15b758d9afaae13f8b5695403b51bed6))
+
 # [2.0.0](https://github.com/coinranking/supplies/compare/v1.42.1...v2.0.0) (2020-08-03)
 
 

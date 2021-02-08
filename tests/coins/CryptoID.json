@@ -18,5 +18,37 @@
   {
     "modifiers": [],
     "blockchain": "Litecoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "DigiByte"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "BolivarCoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Trollcoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Pivx"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Stratis"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "NavCoin"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "Particl"
+  },
+  {
+    "modifiers": [],
+    "blockchain": "KnoxFS"
   }
 ]

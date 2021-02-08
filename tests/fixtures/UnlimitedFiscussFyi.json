@@ -1,0 +1,40 @@
+[
+    {
+        "scope": "https://fiscus.fyi:443",
+        "method": "GET",
+        "path": "/api/v1/uFFYI/circulatingSupply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "coin": "uFFYI",
+            "circulatingSupply": "99191487172675199499425"
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 26 Oct 2020 17:17:44 GMT",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d4e3c635538ab0008de28def792b714f41603732664; expires=Wed, 25-Nov-20 17:17:44 GMT; path=/; domain=.fiscus.fyi; HttpOnly; SameSite=Lax; Secure",
+            "Etag",
+            "W/\"9b243a9cb38bab9d4c246abf38bc634fde6c6af3\"",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "060783882400001661f714d000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=VGTurdVf%2FGx9M2m%2BYIVYxiinu%2FYp8VfCKEUuFpUXxnBeKny%2F7LdK5yOoxIr7NajXvWgvZRvmj%2BGAmlKaRVy%2B4A0iG4ps0QqGBE4D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
