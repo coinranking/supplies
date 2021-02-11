@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://explorer.cirquity.com:443",
+        "method": "GET",
+        "path": "/api/supply/atomic",
+        "body": "",
+        "status": 200,
+        "response": 3134518937760,
+        "rawHeaders": [
+            "Date",
+            "Mon, 08 Feb 2021 11:59:08 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d207438d1da9c70b981b67a78b62c44751612785548; expires=Wed, 10-Mar-21 11:59:08 GMT; path=/; domain=.cirquity.com; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "PHP/7.2.32",
+            "X-Powered-By",
+            "PleskLin",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "08231b932e0000417b1d263000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=%2F0Y20xFkOvaWQMs0us7xxHvNFfOxLOBW20cyRGX%2FaDZOsIgAd3ZztB4CJ%2FVReg1s%2FTs3x0gxqjylRtTym4d2u4Z5Z4gi8kq%2BWpVq1YmCUXuEtCoUJ7k%3D\"}]}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
