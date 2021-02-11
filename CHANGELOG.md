@@ -1,3 +1,16 @@
+# [2.40.0](https://github.com/coinranking/supplies/compare/v2.39.0...v2.40.0) (2021-02-11)
+
+
+### Bug Fixes
+
+* remove all fixtures for cirquity driver ([6c4199b](https://github.com/coinranking/supplies/commit/6c4199b147a087f124b3551f69bfa3af973dcd82))
+
+
+### Features
+
+* cirquity driver ([13c0cca](https://github.com/coinranking/supplies/commit/13c0cca165a7bab2f553e43488e2fcb8478ba1b5))
+* cirquity driver ([12bb0f4](https://github.com/coinranking/supplies/commit/12bb0f48ed39f907d77664f35c19c7e28997ba48))
+
 # [2.39.0](https://github.com/coinranking/supplies/compare/v2.38.0...v2.39.0) (2021-02-11)
 
 
