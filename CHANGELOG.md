@@ -1,3 +1,12 @@
+# [2.38.0](https://github.com/coinranking/supplies/compare/v2.37.0...v2.38.0) (2021-02-11)
+
+
+### Features
+
+* **waves:** support custom decimals if the issueTransaction is not set ([e3272d4](https://github.com/coinranking/supplies/commit/e3272d4633e4b084c00f1cf3011752a832a50bc0))
+* newyorkcoin driver ([bfdc4a8](https://github.com/coinranking/supplies/commit/bfdc4a8dd4de152006f7b46bf0abd6237837ce7a))
+* terra-usd driver ([91e3998](https://github.com/coinranking/supplies/commit/91e3998458414679743f2b19ea9380e0d3bd3c0a))
+
 # [2.37.0](https://github.com/coinranking/supplies/compare/v2.36.0...v2.37.0) (2021-01-27)
 
 
