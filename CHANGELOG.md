@@ -1,3 +1,11 @@
+# [2.39.0](https://github.com/coinranking/supplies/compare/v2.38.0...v2.39.0) (2021-02-11)
+
+
+### Features
+
+* elrond driver ([3ba4ee0](https://github.com/coinranking/supplies/commit/3ba4ee0630a2b6fb3d9f93625f441dfd9ec43747))
+* elrond driver update with new total, circulating and max supply ([cd6cb0f](https://github.com/coinranking/supplies/commit/cd6cb0f057a6ab78936d2a8c411c85b4adc73781))
+
 # [2.38.0](https://github.com/coinranking/supplies/compare/v2.37.0...v2.38.0) (2021-02-11)
 
 
