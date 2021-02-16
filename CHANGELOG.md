@@ -1,3 +1,10 @@
+# [2.41.0](https://github.com/coinranking/supplies/compare/v2.40.0...v2.41.0) (2021-02-16)
+
+
+### Features
+
+* raicoin driver ([cafdb8c](https://github.com/coinranking/supplies/commit/cafdb8c9aae089e536bd04fad79e98fdf8aeb97c))
+
 # [2.40.0](https://github.com/coinranking/supplies/compare/v2.39.0...v2.40.0) (2021-02-11)
 
 
