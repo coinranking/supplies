@@ -1,3 +1,21 @@
+# [2.42.0](https://github.com/coinranking/supplies/compare/v2.41.0...v2.42.0) (2021-02-17)
+
+
+### Bug Fixes
+
+* eslint ([f3b4ace](https://github.com/coinranking/supplies/commit/f3b4ace2a0602c697dfbc20fc6af4e43f462a969))
+* resolve conflicts ([07e29bf](https://github.com/coinranking/supplies/commit/07e29bfbcfbc66126f468ded0b97711c07a044de))
+
+
+### Features
+
+* add blockchain ([2fdf6d3](https://github.com/coinranking/supplies/commit/2fdf6d311394d08f95c98c64d0ba840ba093a164))
+* add description to tronscan driver ([7c03cf6](https://github.com/coinranking/supplies/commit/7c03cf69c9494a54d0211e60cca1f79086895ff0))
+* in the future this driver might support both TRC10 and TRC20 ([1ee4b2a](https://github.com/coinranking/supplies/commit/1ee4b2adf86b198b00f8f4e19efaa4869f79c445))
+* make this driver dedicated to TRC20 ([7585afa](https://github.com/coinranking/supplies/commit/7585afac43ecd82fcecdf3122b33288b780b3360))
+* tronscan driver ([a3c4a59](https://github.com/coinranking/supplies/commit/a3c4a590a298b72d6f429415e648c9683bd6683c))
+* tronscan fix fixtures and circulating supply ([2c8cbfa](https://github.com/coinranking/supplies/commit/2c8cbfa9241906444f072ecbd09a9fb0cdcc975b))
+
 # [2.41.0](https://github.com/coinranking/supplies/compare/v2.40.0...v2.41.0) (2021-02-16)
 
 
