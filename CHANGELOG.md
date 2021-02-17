@@ -1,3 +1,10 @@
+## [2.42.1](https://github.com/coinranking/supplies/compare/v2.42.0...v2.42.1) (2021-02-17)
+
+
+### Bug Fixes
+
+* wrong property level ([75b42bf](https://github.com/coinranking/supplies/commit/75b42bf51dfa75d9e63b25e76a979bbc9c6ddbd7))
+
 # [2.42.0](https://github.com/coinranking/supplies/compare/v2.41.0...v2.42.0) (2021-02-17)
 
 
