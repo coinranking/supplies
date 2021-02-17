@@ -1,0 +1,277 @@
+[
+    {
+        "scope": "https://phantasma.io:443",
+        "method": "GET",
+        "path": "/total_supply",
+        "body": "",
+        "status": 200,
+        "response": 98387519,
+        "rawHeaders": [
+            "Date",
+            "Thu, 29 Oct 2020 11:59:07 GMT",
+            "Content-Type",
+            "text/html",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d3262a36b6a0ff4f7f5f2f598bef412101603972747; expires=Sat, 28-Nov-20 11:59:07 GMT; path=/; domain=.phantasma.io; HttpOnly; SameSite=Lax; Secure",
+            "Cache-Control",
+            "no-cache",
+            "CF-Cache-Status",
+            "HIT",
+            "Age",
+            "401",
+            "cf-request-id",
+            "0615d2e887000029360bae1000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=ly9x3GqpQQdHhRIuRIY7cE3ncnyPzD8wAKWbla0k0FmT3RgcQad4CXAWIXH5Tq%2BZ94E%2F%2B13iAKGceJkg%2BsZKDkl%2FKtjkZBj%2FsRdcFTA%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Vary",
+            "Accept-Encoding",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://207.148.17.86:7078",
+        "method": "GET",
+        "path": "/api/getNexus",
+        "body": "",
+        "status": 200,
+        "response": {
+            "name": "mainnet",
+            "platforms": [
+                {
+                    "platform": "neo",
+                    "chain": "S3dEMj6oFEgfcwSpriewXBR5xcnwu4MJa9KmHgyaKqEhoM6",
+                    "fuel": "GAS",
+                    "tokens": [
+                        "SOUL",
+                        "NEO",
+                        "GAS"
+                    ],
+                    "interop": [
+                        {
+                            "local": "X54Dzbdck1A9fxqJizCD1m6spgoAuw3A9nn8Hh62yZFHPv7",
+                            "external": "AbFdbvacCeBrncvwYnPEtfKqyr5KU9SWAU"
+                        }
+                    ]
+                },
+                {
+                    "platform": "ethereum",
+                    "chain": "S3dJoptTKf9ASn2tWxHh9fkGH8xjHbhYutNNHkzR1WSmpK6",
+                    "fuel": "ETH",
+                    "tokens": [
+                        "SOUL",
+                        "KCAL",
+                        "ETH",
+                        "DAI"
+                    ],
+                    "interop": [
+                        {
+                            "local": "X7GaC7EvUZJ5CijbbBPYH8zvMaXzEaC5eqzpC9ZCJ5B5VxT",
+                            "external": "0xC7E4B2A917F0F16B9A8CD9D3F33B9932516F5A19"
+                        },
+                        {
+                            "local": "X6FNkraQx6pd9uxhMkyCZeXyqtgR8jMpNXWshs4ZZpw6jxT",
+                            "external": "0x009E31576F9BC3FF0ADC7449B0F57B35D8F768CC"
+                        }
+                    ]
+                }
+            ],
+            "tokens": [
+                {
+                    "symbol": "SOUL",
+                    "name": "Phantasma Stake",
+                    "decimals": 8,
+                    "currentSupply": "5196759488359905",
+                    "maxSupply": "9113637400000000",
+                    "flags": "Transferable, Fungible, Divisible, Stakable",
+                    "script": ""
+                },
+                {
+                    "symbol": "KCAL",
+                    "name": "Phantasma Energy",
+                    "decimals": 10,
+                    "currentSupply": "145821028745944503",
+                    "maxSupply": "1000000000000000000",
+                    "flags": "Transferable, Fungible, Divisible, Fuel, Burnable",
+                    "script": ""
+                },
+                {
+                    "symbol": "USD",
+                    "name": "Dollars",
+                    "decimals": 8,
+                    "currentSupply": "0",
+                    "maxSupply": "0",
+                    "flags": "Transferable, Fungible, Divisible, Fiat",
+                    "script": ""
+                },
+                {
+                    "symbol": "NEO",
+                    "name": "NEO",
+                    "decimals": 0,
+                    "currentSupply": "18",
+                    "maxSupply": "100000000",
+                    "flags": "Transferable, Fungible, Finite, Foreign",
+                    "script": ""
+                },
+                {
+                    "symbol": "GAS",
+                    "name": "GAS",
+                    "decimals": 8,
+                    "currentSupply": "47960203397",
+                    "maxSupply": "10000000000000000",
+                    "flags": "Transferable, Fungible, Finite, Divisible, Foreign",
+                    "script": ""
+                },
+                {
+                    "symbol": "ETH",
+                    "name": "Ethereum",
+                    "decimals": 18,
+                    "currentSupply": "10288034627234321497",
+                    "maxSupply": "0",
+                    "flags": "Transferable, Fungible, Divisible, Foreign",
+                    "script": ""
+                },
+                {
+                    "symbol": "DAI",
+                    "name": "Dai Stablecoin",
+                    "decimals": 18,
+                    "currentSupply": "0",
+                    "maxSupply": "0",
+                    "flags": "Transferable, Fungible, Divisible, Foreign",
+                    "script": ""
+                },
+                {
+                    "symbol": "MKNI",
+                    "name": "Mankini Token",
+                    "decimals": 0,
+                    "currentSupply": "100000",
+                    "maxSupply": "100000",
+                    "flags": "Transferable, Fungible, Finite",
+                    "script": "0D0104064F6E4D696E7404021901020309031800086F00000D0402220100AC42F8B9E617BE1524893A76A1B0CCF937782023BA35301948A8F94CEBC67A1F03040D00040941646472657373282907000D00041152756E74696D652E49735769746E6573730700040309036F000C00000B"
+                },
+                {
+                    "symbol": "TTRS",
+                    "name": "22 Racing Series",
+                    "decimals": 0,
+                    "currentSupply": "239713",
+                    "maxSupply": "0",
+                    "flags": "Transferable, Burnable",
+                    "script": "0D0104064F6E4D696E7404021901020309031800086F00000D0402220100AF133B5C9A21AC8294F97C63D64DBB34DC2B371AAD1B76E13CA3D8ECB305377603040D00040941646472657373282907000D00041152756E74696D652E49735769746E6573730700040309036F000C00000B"
+                },
+                {
+                    "symbol": "GOATI",
+                    "name": "GOATi Token",
+                    "decimals": 3,
+                    "currentSupply": "596337700",
+                    "maxSupply": "0",
+                    "flags": "Transferable, Fungible, Divisible, Burnable",
+                    "script": "0D0104064F6E4D696E7404021901020309031800086F00000D0402220100AF133B5C9A21AC8294F97C63D64DBB34DC2B371AAD1B76E13CA3D8ECB305377603040D00040941646472657373282907000D00041152756E74696D652E49735769746E6573730700040309036F000C00000B"
+                }
+            ],
+            "chains": [
+                {
+                    "name": "main",
+                    "address": "S3d7TbZxtNPdXy11hfmBLJLYn67gZTG2ibL7fJBcVdihWU4",
+                    "height": 128518,
+                    "organization": "validators",
+                    "contracts": [
+                        "validator",
+                        "governance",
+                        "consensus",
+                        "account",
+                        "exchange",
+                        "swap",
+                        "interop",
+                        "stake",
+                        "storage",
+                        "relay",
+                        "ranking",
+                        "privacy",
+                        "friends",
+                        "market",
+                        "mail",
+                        "sale"
+                    ]
+                }
+            ],
+            "governance": [
+                {
+                    "name": "nexus.protocol.version",
+                    "value": "3"
+                },
+                {
+                    "name": "validator.count",
+                    "value": "1"
+                },
+                {
+                    "name": "validator.rotation.time",
+                    "value": "120"
+                },
+                {
+                    "name": "poll.vote.limit",
+                    "value": "50000"
+                },
+                {
+                    "name": "poll.max.entries",
+                    "value": "10"
+                },
+                {
+                    "name": "poll.max.length",
+                    "value": "7776000"
+                },
+                {
+                    "name": "stake.master.threshold",
+                    "value": "5000000000000"
+                },
+                {
+                    "name": "stake.vote.threshold",
+                    "value": "100000000000"
+                },
+                {
+                    "name": "swap.fee.maker",
+                    "value": "2"
+                },
+                {
+                    "name": "swap.fee.taker",
+                    "value": "5"
+                },
+                {
+                    "name": "storage.stake.kb",
+                    "value": "40"
+                }
+            ],
+            "organizations": [
+                "validators",
+                "masters",
+                "stakers",
+                "phantom_force"
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 29 Oct 2020 11:59:07 GMT",
+            "Server",
+            "LunarServer",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "4089",
+            "Cache-Control",
+            "no-cache"
+        ],
+        "responseIsBinary": false
+    }
+]

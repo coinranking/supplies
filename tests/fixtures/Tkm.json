@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://5.189.162.110:3001",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 9207917331.538513,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "ETag",
+            "W/\"12-ThZATdLDUCjKO8y2lke+XfHrL5k\"",
+            "Date",
+            "Thu, 31 Dec 2020 11:24:59 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://5.189.162.110:3001",
+        "method": "GET",
+        "path": "/ext/getbalance/TSpTntH6vVszfm6sho7euAxAVrBRXVN52a",
+        "body": "",
+        "status": 200,
+        "response": 2072109718,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "10",
+            "ETag",
+            "W/\"a-68d2xT8rshSL40i1CgXcFUhqVd8\"",
+            "Date",
+            "Thu, 31 Dec 2020 11:25:00 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]

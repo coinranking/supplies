@@ -1,0 +1,27 @@
+[
+    {
+        "scope": "https://api.node.glif.io:443",
+        "method": "GET",
+        "path": "/statecirculatingsupply/fil",
+        "body": "",
+        "status": 200,
+        "response": 21832718,
+        "rawHeaders": [
+            "Date",
+            "Mon, 26 Oct 2020 17:52:16 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "8",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "6fca51c8-9b80-43eb-b339-03431bb43d50",
+            "x-amz-apigw-id",
+            "VB7wfGpKCYcFseQ=",
+            "X-Amzn-Trace-Id",
+            "Root=1-5f970ccf-7ed908a367d36a4d5b8e6131;Sampled=0"
+        ],
+        "responseIsBinary": false
+    }
+]
