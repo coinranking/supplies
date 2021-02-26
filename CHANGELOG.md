@@ -1,3 +1,10 @@
+## [2.42.2](https://github.com/coinranking/supplies/compare/v2.42.1...v2.42.2) (2021-02-26)
+
+
+### Bug Fixes
+
+* tronscan ([2d0c78b](https://github.com/coinranking/supplies/commit/2d0c78be5b3fae62ffc31d03f14ec336ee1b4910))
+
 ## [2.42.1](https://github.com/coinranking/supplies/compare/v2.42.0...v2.42.1) (2021-02-17)
 
 
