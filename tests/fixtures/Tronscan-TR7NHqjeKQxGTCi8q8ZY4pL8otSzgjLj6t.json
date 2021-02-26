@@ -1,0 +1,88 @@
+[
+    {
+        "scope": "https://apilist.tronscan.org:443",
+        "method": "GET",
+        "path": "/api/token_trc20?contract=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+        "body": "",
+        "status": 200,
+        "response": {
+            "total": 1,
+            "contractMap": {
+                "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": true,
+                "THPvaUhoh2Qn2y9THCZML3H815hhFhn5YC": false
+            },
+            "rangeTotal": 1,
+            "trc20_tokens": [
+                {
+                    "issue_ts": 0,
+                    "symbol": "USDT",
+                    "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                    "gain": "",
+                    "home_page": "https://tron.network/usdt",
+                    "token_desc": "USDT is the official stablecoin issued by Tether on the TRON network.",
+                    "price_trx": 0,
+                    "git_hub": "",
+                    "price": "",
+                    "total_supply_with_decimals": "14294377690728004",
+                    "social_media_list": [
+                        {
+                            "name": "Twitter",
+                            "url": "https://twitter.com/Tether_to"
+                        }
+                    ],
+                    "vip": true,
+                    "email": "",
+                    "icon_url": "https://coin.top/production/logo/usdtlogo.png",
+                    "total_supply": 0,
+                    "level": "2",
+                    "total_supply_str": "",
+                    "volume24h": 0,
+                    "index": 1,
+                    "contract_name": "TetherToken",
+                    "market_info": {
+                        "fPrecision": 6,
+                        "fShortName": "TRX",
+                        "fTokenAddr": "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
+                        "gain": -0.0015,
+                        "pairId": 48,
+                        "priceInTrx": 21.9740959831,
+                        "sPrecision": 6,
+                        "sShortName": "USDT",
+                        "sTokenAddr": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                        "txCount24h": 336,
+                        "volume24hInTrx": 2832296461342.375
+                    },
+                    "volume": 0,
+                    "issue_address": "THPvaUhoh2Qn2y9THCZML3H815hhFhn5YC",
+                    "holders_count": 2341585,
+                    "decimals": 6,
+                    "name": "Tether USD",
+                    "issue_time": "2019-04-16 20:41:20",
+                    "white_paper": "https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf",
+                    "social_media": ""
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 26 Feb 2021 13:01:18 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+            "Access-Control-Allow-Methods",
+            "GET,POST,PUT,DELETE,OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
