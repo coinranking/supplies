@@ -1,3 +1,16 @@
+# [2.43.0](https://github.com/coinranking/supplies/compare/v2.42.2...v2.43.0) (2021-03-02)
+
+
+### Bug Fixes
+
+* support balances ([083ce41](https://github.com/coinranking/supplies/commit/083ce4110aba936acf59a45129a050de3b016540))
+
+
+### Features
+
+* add support for new properties ([7790613](https://github.com/coinranking/supplies/commit/779061328782d35ff689c00a8736e8ef7d40363f))
+* use the newly added tokenBalances prop in the pipeline ([2c17a24](https://github.com/coinranking/supplies/commit/2c17a248a9ad15c831c6ac5e568bc8a2e57ce09b))
+
 ## [2.42.2](https://github.com/coinranking/supplies/compare/v2.42.1...v2.42.2) (2021-02-26)
 
 
