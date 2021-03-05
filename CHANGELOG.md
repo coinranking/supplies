@@ -1,3 +1,10 @@
+## [2.43.1](https://github.com/coinranking/supplies/compare/v2.43.0...v2.43.1) (2021-03-05)
+
+
+### Bug Fixes
+
+* tronscan modifiers ([45eb7fb](https://github.com/coinranking/supplies/commit/45eb7fb2f66d608153e69992ed44701ad9937a48))
+
 # [2.43.0](https://github.com/coinranking/supplies/compare/v2.42.2...v2.43.0) (2021-03-02)
 
 
