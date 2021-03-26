@@ -1,0 +1,79 @@
+[
+    {
+        "scope": "https://bixbexplorer.com:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 2998499.99985,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 26 Mar 2021 18:02:08 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"11-0EOciuldhl+v/TQTTmEUcqypvPU\"",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://bixbexplorer.com:443",
+        "method": "GET",
+        "path": "/ext/getaddress/B64Uad18H73ArxHfvDt3Ci9pvrkZqqr3b1",
+        "body": "",
+        "status": 200,
+        "response": {
+            "address": "B64Uad18H73ArxHfvDt3Ci9pvrkZqqr3b1",
+            "sent": 1500,
+            "received": 1500,
+            "balance": "0",
+            "last_txs": [
+                {
+                    "addresses": "fbff930b0d81333c51ad7164f94fba16a2a42f1a1d6814467321c9632a53025c",
+                    "type": "vin"
+                },
+                {
+                    "addresses": "c6d71461274ed1544888b91721660cd9a3dbdf63ee7da19a7dead353dcbdc3b9",
+                    "type": "vout"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 26 Mar 2021 18:02:09 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"124-VPoR3Nz6GkJCzpP1/QdFFW0LG0g\"",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block"
+        ],
+        "responseIsBinary": false
+    }
+]
