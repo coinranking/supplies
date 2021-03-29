@@ -1,0 +1,27 @@
+[
+    {
+        "scope": "http://blockexplorer.info:80",
+        "method": "GET",
+        "path": "/ajax/blockchain_info.php?method=totalsupply",
+        "body": "",
+        "status": 200,
+        "response": 13366550,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 26 Mar 2021 18:24:51 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Content-Length",
+            "8",
+            "Connection",
+            "keep-alive",
+            "Keep-Alive",
+            "timeout=60",
+            "Access-Control-Allow-Origin",
+            "*"
+        ],
+        "responseIsBinary": false
+    }
+]
