@@ -1,3 +1,11 @@
+# [2.44.0](https://github.com/coinranking/supplies/compare/v2.43.1...v2.44.0) (2021-03-29)
+
+
+### Features
+
+* payment coin driver ([ce9b11e](https://github.com/coinranking/supplies/commit/ce9b11e4f0f7675cc6ae62b8b797fdec557cfd9b))
+* PrcyCoin driver ([6d45e5d](https://github.com/coinranking/supplies/commit/6d45e5db2ef709938fe8261294146d64f8c1fa50))
+
 ## [2.43.1](https://github.com/coinranking/supplies/compare/v2.43.0...v2.43.1) (2021-03-05)
 
 
