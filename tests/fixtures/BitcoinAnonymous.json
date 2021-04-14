@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://explorer.bitcoinanonymous.info:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 3325659.13647037,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "\"-1652862769\"",
+            "Date",
+            "Wed, 14 Apr 2021 19:31:03 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://explorer.bitcoinanonymous.info:80",
+        "method": "GET",
+        "path": "/ext/getbalance/AQDFMroatCF86PK8RnHcwNRThi8nw9xMmZ",
+        "body": "",
+        "status": 200,
+        "response": 34,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "2",
+            "ETag",
+            "\"-1811512454\"",
+            "Date",
+            "Wed, 14 Apr 2021 19:31:03 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
