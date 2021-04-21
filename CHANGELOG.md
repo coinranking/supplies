@@ -1,3 +1,10 @@
+## [2.44.1](https://github.com/coinranking/supplies/compare/v2.44.0...v2.44.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* **web3:** lower rate limit ([1e6bc77](https://github.com/coinranking/supplies/commit/1e6bc776e8fbe18577c43df72bad189a4f202d61))
+
 # [2.44.0](https://github.com/coinranking/supplies/compare/v2.43.1...v2.44.0) (2021-03-29)
 
 
