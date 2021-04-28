@@ -1,3 +1,15 @@
+# [2.45.0](https://github.com/coinranking/supplies/compare/v2.44.1...v2.45.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **bscscan:** support for getting the tokens ([c3ad54b](https://github.com/coinranking/supplies/commit/c3ad54b95a49c01df92d02f7522358038aa1c4b2))
+
+
+### Features
+
+* BscScan driver ([71fe1b3](https://github.com/coinranking/supplies/commit/71fe1b35c3059c18045d0a147ab219549af0b469))
+
 ## [2.44.1](https://github.com/coinranking/supplies/compare/v2.44.0...v2.44.1) (2021-04-21)
 
 
