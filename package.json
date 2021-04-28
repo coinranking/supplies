@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/supplies",
-  "version": "2.42.2",
+  "version": "2.44.1",
   "description": "Cryptocurrency supply data library in JavaScript (open source) for getting total, circulating and max supplies from block explorers.",
   "main": "lib/supplies.js",
   "engines": {
@@ -45,7 +45,7 @@
     "commander": "^7.0.0",
     "node-cache": "^5.1.2",
     "request": "^2.88.2",
-    "socket.io-client": "3.1.2",
+    "socket.io-client": "4.0.1",
     "uuid": "^8.3.2",
     "web3": "^1.3.1"
   },
@@ -60,10 +60,10 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^32.0.1",
-    "husky": "^5.0.6",
+    "husky": "^6.0.0",
     "jest": "^26.6.3",
     "jsdoc": "^3.6.6",
-    "jsdoc-to-markdown": "^6.0.1",
+    "jsdoc-to-markdown": "^7.0.0",
     "nock": "^13.0.5",
     "semantic-release": "^17.3.0"
   },
