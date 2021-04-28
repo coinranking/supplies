@@ -1,0 +1,101 @@
+[
+    {
+        "scope": "https://thecelo.com:443",
+        "method": "GET",
+        "path": "/api/?method=celo_circulating",
+        "body": "",
+        "status": 200,
+        "response": {
+            "total_supply": "1000000000",
+            "circulating": "204757368",
+            "circulating_without_team": 162679275,
+            "circulating_without_reserve_team": 102679275,
+            "link_to_release_schedule": "https://docs.google.com/spreadsheets/d/1slQ5jzBwPhuneKm1TuwbG4EPdfpYVw62Hs9V6S479iA"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 28 Apr 2021 13:11:37 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://thecelo.com:443",
+        "method": "GET",
+        "path": "/api/?method=celo_circulating",
+        "body": "",
+        "status": 200,
+        "response": {
+            "total_supply": "1000000000",
+            "circulating": "204757368",
+            "circulating_without_team": 162679275,
+            "circulating_without_reserve_team": 102679275,
+            "link_to_release_schedule": "https://docs.google.com/spreadsheets/d/1slQ5jzBwPhuneKm1TuwbG4EPdfpYVw62Hs9V6S479iA"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 28 Apr 2021 13:11:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://thecelo.com:443",
+        "method": "GET",
+        "path": "/api/?method=celo_circulating",
+        "body": "",
+        "status": 200,
+        "response": {
+            "total_supply": "1000000000",
+            "circulating": "204757368",
+            "circulating_without_team": 162679275,
+            "circulating_without_reserve_team": 102679275,
+            "link_to_release_schedule": "https://docs.google.com/spreadsheets/d/1slQ5jzBwPhuneKm1TuwbG4EPdfpYVw62Hs9V6S479iA"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Wed, 28 Apr 2021 13:11:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization"
+        ],
+        "responseIsBinary": false
+    }
+]
