@@ -1,3 +1,15 @@
+# [2.50.0](https://github.com/coinranking/supplies/compare/v2.49.0...v2.50.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **Bixbcoin:** remove the blockchain, ([54b03d2](https://github.com/coinranking/supplies/commit/54b03d291499cfaf8e14c5c00cc1a9774885ef86))
+
+
+### Features
+
+* bixbcoin driver ([f009447](https://github.com/coinranking/supplies/commit/f009447bfc1e685c4e74cec55f97ea8dfc7692aa))
+
 # [2.49.0](https://github.com/coinranking/supplies/compare/v2.48.0...v2.49.0) (2021-04-28)
 
 
