@@ -1,3 +1,16 @@
+# [2.49.0](https://github.com/coinranking/supplies/compare/v2.48.0...v2.49.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **celo:** also add the total supply and subtract team from circulating ([ec1ed20](https://github.com/coinranking/supplies/commit/ec1ed208ae6a7e7adf76e8b4ef80b5f79158c192))
+
+
+### Features
+
+* betller driver ([14dcfc9](https://github.com/coinranking/supplies/commit/14dcfc95118ddaa41ee441651b1f44a2e495a3a1))
+* celo driver ([96f6ee5](https://github.com/coinranking/supplies/commit/96f6ee531235e10cbe8df74e16972cc17be86aab))
+
 # [2.48.0](https://github.com/coinranking/supplies/compare/v2.47.0...v2.48.0) (2021-04-28)
 
 
