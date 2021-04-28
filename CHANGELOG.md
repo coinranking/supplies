@@ -1,3 +1,11 @@
+# [2.46.0](https://github.com/coinranking/supplies/compare/v2.45.0...v2.46.0) (2021-04-28)
+
+
+### Features
+
+* electric cash driver ([7442249](https://github.com/coinranking/supplies/commit/7442249006092f53b6e21ed858d8523b742b021f))
+* wax driver ([23db8fe](https://github.com/coinranking/supplies/commit/23db8fe3c4ba6705845312ecabd74302dd48e956))
+
 # [2.45.0](https://github.com/coinranking/supplies/compare/v2.44.1...v2.45.0) (2021-04-28)
 
 
