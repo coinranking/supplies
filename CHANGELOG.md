@@ -1,3 +1,11 @@
+# [2.47.0](https://github.com/coinranking/supplies/compare/v2.46.0...v2.47.0) (2021-04-28)
+
+
+### Features
+
+* avalanche driver ([1813ca1](https://github.com/coinranking/supplies/commit/1813ca1c854095446c495d2ee398722cc9e07ada))
+* XCash driver ([ef97ed2](https://github.com/coinranking/supplies/commit/ef97ed2a9b3639f68b18981be93de2a469883fc4))
+
 # [2.46.0](https://github.com/coinranking/supplies/compare/v2.45.0...v2.46.0) (2021-04-28)
 
 
