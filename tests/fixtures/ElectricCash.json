@@ -1,0 +1,27 @@
+[
+    {
+        "scope": "https://api.electriccash.global:443",
+        "method": "GET",
+        "path": "/totalsupply",
+        "body": "",
+        "status": 200,
+        "response": 3039324.9999999977,
+        "rawHeaders": [
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "Strict-Transport-Security",
+            "max-age=15724800; includeSubDomains",
+            "Date",
+            "Wed, 14 Apr 2021 19:51:27 GMT",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "ak_bmsc=4480AEF88363B7D648595A559F6F0C38C31DB40FB16D0000BF47776045E01378~pl9NRBVjSNDV9b5kmDJcn3AZZmY0rlchf31VJ51IVAVVI0o+h+74rEqBFVYHCuegbNP1FzhBfePUMlzpRTWM4xgidLTWjr1G2WOYjZ9qHjuDeok8ht5ASV7co0icnJfAjTL37GeLddOXsZBLYTM06+qX5zSRONr9CVJrv+18l0MQGrYiGoQxZwLCly3dJe0iDbPGKhUe1lOZZx8nabOpldTy+sWQG2uKA/zRT04ip3S0E=; expires=Wed, 14 Apr 2021 21:51:27 GMT; max-age=7200; path=/; domain=.electriccash.global; HttpOnly",
+            "Set-Cookie",
+            "akaalb_API-Electriccash=~op=ElCash_API_IRL:API-EU|~rv=98~m=API-EU:0|~os=66f38c005b90323e9d50c56f79eb6754~id=50bbb125d8eec91186adbda24ad6f154; path=/; HttpOnly; Secure; SameSite=None"
+        ],
+        "responseIsBinary": false
+    }
+]
