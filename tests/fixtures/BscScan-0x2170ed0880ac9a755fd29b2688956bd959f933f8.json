@@ -1,0 +1,72 @@
+[
+    {
+        "scope": "https://api.bscscan.com:443",
+        "method": "GET",
+        "path": "/api?module=stats&action=tokensupply&contractaddress=0x2170ed0880ac9a755fd29b2688956bd959f933f8&apikey=maskedSecret",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "1",
+            "message": "OK",
+            "result": "1054999999998559533938826"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 28 Apr 2021 12:34:13 GMT",
+            "Content-Type",
+            "177",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "private",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "X-Frame-Options",
+            "SAMEORIGIN"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.bscscan.com:443",
+        "method": "GET",
+        "path": "/api?module=stats&action=tokenCsupply&contractaddress=0x2170ed0880ac9a755fd29b2688956bd959f933f8&apikey=maskedSecret",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "1",
+            "message": "OK",
+            "result": "1032643567797029533938826"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 28 Apr 2021 12:34:14 GMT",
+            "Content-Type",
+            "184",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "private",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Content-Type",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "X-Frame-Options",
+            "SAMEORIGIN"
+        ],
+        "responseIsBinary": false
+    }
+]
