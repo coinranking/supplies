@@ -1,3 +1,10 @@
+# [2.48.0](https://github.com/coinranking/supplies/compare/v2.47.0...v2.48.0) (2021-04-28)
+
+
+### Features
+
+* evrice driver ([432bbea](https://github.com/coinranking/supplies/commit/432bbea4a151bd331424986bb2756e01e17a6e98))
+
 # [2.47.0](https://github.com/coinranking/supplies/compare/v2.46.0...v2.47.0) (2021-04-28)
 
 
