@@ -1,3 +1,10 @@
+# [2.51.0](https://github.com/coinranking/supplies/compare/v2.50.0...v2.51.0) (2021-04-29)
+
+
+### Features
+
+* **bscscan:** support token balances ([a6c7c44](https://github.com/coinranking/supplies/commit/a6c7c443821970a8eedf8c39c026b92a3eff88d8))
+
 # [2.50.0](https://github.com/coinranking/supplies/compare/v2.49.0...v2.50.0) (2021-04-28)
 
 
