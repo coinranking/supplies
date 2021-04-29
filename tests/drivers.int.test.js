@@ -176,7 +176,7 @@ drivers.forEach((driverName) => {
             });
           }
 
-          if (driver.supports.circulating) {
+          if (driver.supports.circulating && !driver.supports.balances) {
             test('Circulating supply should be greater than zero', async () => {
               await nock.back(`${driverName}-${token.reference}.json`);
               const circulatingSupply = await driver.fetchTokenCirculatingSupply(

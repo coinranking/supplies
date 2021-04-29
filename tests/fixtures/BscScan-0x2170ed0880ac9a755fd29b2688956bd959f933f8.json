@@ -14,7 +14,7 @@
             "Server",
             "nginx",
             "Date",
-            "Wed, 28 Apr 2021 12:34:13 GMT",
+            "Thu, 29 Apr 2021 16:00:55 GMT",
             "Content-Type",
             "177",
             "Connection",
@@ -37,21 +37,21 @@
     {
         "scope": "https://api.bscscan.com:443",
         "method": "GET",
-        "path": "/api?module=stats&action=tokenCsupply&contractaddress=0x2170ed0880ac9a755fd29b2688956bd959f933f8&apikey=maskedSecret",
+        "path": "/api?module=account&action=tokenbalance&contractaddress=0x2170ed0880ac9a755fd29b2688956bd959f933f8&address=0x74e4716e431f45807dcf19f284c7aa99f18a4fbc&tag=latest&apikey=maskedSecret",
         "body": "",
         "status": 200,
         "response": {
             "status": "1",
             "message": "OK",
-            "result": "1032643567797029533938826"
+            "result": "71325429118221810900417"
         },
         "rawHeaders": [
             "Server",
             "nginx",
             "Date",
-            "Wed, 28 Apr 2021 12:34:14 GMT",
+            "Thu, 29 Apr 2021 16:00:55 GMT",
             "Content-Type",
-            "184",
+            "180",
             "Connection",
             "keep-alive",
             "Cache-Control",
