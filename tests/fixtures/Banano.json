@@ -1,0 +1,34 @@
+[
+    {
+        "scope": "https://api.creeper.banano.cc:443",
+        "method": "GET",
+        "path": "/supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "circulating": 1239824044.155531,
+            "uncirculating": 679621344.4163083,
+            "burned": 1483378280.6281605,
+            "total": 1919445388.5718393
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Tue, 11 May 2021 17:15:47 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "122",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "W/\"7a-Ug+oIFraSH76YxC7xnEKQHg8Tg8\""
+        ],
+        "responseIsBinary": false
+    }
+]
