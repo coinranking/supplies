@@ -1,3 +1,17 @@
+# [2.53.0](https://github.com/coinranking/supplies/compare/v2.52.0...v2.53.0) (2021-05-19)
+
+
+### Features
+
+* add description to akash driver ([d615d6d](https://github.com/coinranking/supplies/commit/d615d6ddcccf683193f2aefabf98663f47268d22))
+* akash driver ([f28576a](https://github.com/coinranking/supplies/commit/f28576a526fb840ed995e2e61a031fcf9f0b2dd4))
+* banano driver ([09e982e](https://github.com/coinranking/supplies/commit/09e982eb2324890823c80f85a4a46cba141b610e))
+* bbscoin driver ([9411f00](https://github.com/coinranking/supplies/commit/9411f00ec1aa2747a8dc3a8ecb11c0b8354e9945))
+* digital note driver ([33e90ef](https://github.com/coinranking/supplies/commit/33e90ef507661acb78df98bc165b5168eb02aeda))
+* fix description fot bbscoin ([e469b12](https://github.com/coinranking/supplies/commit/e469b121076075c1ca712b169fb28bc5011305dc))
+* reef finance driver ([8eee1e1](https://github.com/coinranking/supplies/commit/8eee1e1324819fee323e00d3af61063ab6e9dc17))
+* x42 driver ([c849f15](https://github.com/coinranking/supplies/commit/c849f156462cb26517c3af813af8b4232c9580ce))
+
 # [2.52.0](https://github.com/coinranking/supplies/compare/v2.51.0...v2.52.0) (2021-05-19)
 
 
