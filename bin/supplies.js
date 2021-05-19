@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const program = require('commander');
-const { nock, defaultOptions } = require('../tests/helpers/nock.js');
+const { nock, defaultOptions } = require('../tests/helpers/nock');
 const supplies = require('../lib/supplies');
 
 const coinsDir = path.join(__dirname, '..', 'tests', 'coins');
