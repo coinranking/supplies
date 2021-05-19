@@ -1,3 +1,10 @@
+# [2.52.0](https://github.com/coinranking/supplies/compare/v2.51.0...v2.52.0) (2021-05-19)
+
+
+### Features
+
+* Near driver ([4e0938f](https://github.com/coinranking/supplies/commit/4e0938f45d2e42961ec9cce3c20b274f0b39f9bb))
+
 # [2.51.0](https://github.com/coinranking/supplies/compare/v2.50.0...v2.51.0) (2021-04-29)
 
 
