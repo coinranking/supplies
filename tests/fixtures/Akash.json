@@ -1,0 +1,204 @@
+[
+    {
+        "scope": "https://public-lcd2.akash.vitwit.com:443",
+        "method": "GET",
+        "path": "/supply/summary",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "0",
+            "result": {
+                "supply": {
+                    "vesting": {
+                        "bonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "75173503453161"
+                            }
+                        ],
+                        "unbonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "2084145390839"
+                            }
+                        ]
+                    },
+                    "available": {
+                        "bonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "30767072288947"
+                            }
+                        ],
+                        "unbonded": [
+                            {
+                                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                                "amount": "16263241"
+                            },
+                            {
+                                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                                "amount": "500"
+                            },
+                            {
+                                "denom": "uakt",
+                                "amount": "19208708569536"
+                            }
+                        ]
+                    },
+                    "circulating": [
+                        {
+                            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                            "amount": "16263241"
+                        },
+                        {
+                            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                            "amount": "500"
+                        },
+                        {
+                            "denom": "uakt",
+                            "amount": "57529376883850"
+                        }
+                    ],
+                    "total": [
+                        {
+                            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                            "amount": "16263241"
+                        },
+                        {
+                            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                            "amount": "500"
+                        },
+                        {
+                            "denom": "uakt",
+                            "amount": "135497037562979"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 10 May 2021 16:11:07 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "985",
+            "Connection",
+            "keep-alive",
+            "X-Server-Time",
+            "1620663052",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://public-lcd2.akash.vitwit.com:443",
+        "method": "GET",
+        "path": "/supply/summary",
+        "body": "",
+        "status": 200,
+        "response": {
+            "height": "0",
+            "result": {
+                "supply": {
+                    "vesting": {
+                        "bonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "75173503453161"
+                            }
+                        ],
+                        "unbonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "2084145390839"
+                            }
+                        ]
+                    },
+                    "available": {
+                        "bonded": [
+                            {
+                                "denom": "uakt",
+                                "amount": "30767072288947"
+                            }
+                        ],
+                        "unbonded": [
+                            {
+                                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                                "amount": "16263241"
+                            },
+                            {
+                                "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                                "amount": "500"
+                            },
+                            {
+                                "denom": "uakt",
+                                "amount": "19208708569536"
+                            }
+                        ]
+                    },
+                    "circulating": [
+                        {
+                            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                            "amount": "16263241"
+                        },
+                        {
+                            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                            "amount": "500"
+                        },
+                        {
+                            "denom": "uakt",
+                            "amount": "57529376883850"
+                        }
+                    ],
+                    "total": [
+                        {
+                            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                            "amount": "16263241"
+                        },
+                        {
+                            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+                            "amount": "500"
+                        },
+                        {
+                            "denom": "uakt",
+                            "amount": "135497037562979"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Mon, 10 May 2021 16:11:23 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "985",
+            "Connection",
+            "keep-alive",
+            "X-Server-Time",
+            "1620663068",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range"
+        ],
+        "responseIsBinary": false
+    }
+]

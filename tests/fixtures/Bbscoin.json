@@ -1,0 +1,31 @@
+[
+    {
+        "scope": "http://mine.bbscoin.click:80",
+        "method": "GET",
+        "path": "/circulation/bbscoin/precision/",
+        "body": "",
+        "status": 200,
+        "response": 108079202682.11116,
+        "rawHeaders": [
+            "Date",
+            "Mon, 10 May 2021 16:34:44 GMT",
+            "Server",
+            "Apache/2.4.46 (Ubuntu)",
+            "Upgrade",
+            "h2,h2c",
+            "Connection",
+            "Upgrade, close",
+            "Cache-Control",
+            "max-age=0, no-cache, no-store, must-revalidate",
+            "Pragma",
+            "no-cache",
+            "Expires",
+            "Wed, 11 Jan 1984 05:00:00 GMT",
+            "Content-Length",
+            "21",
+            "Content-Type",
+            "text/plain"
+        ],
+        "responseIsBinary": false
+    }
+]

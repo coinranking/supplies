@@ -1,0 +1,26 @@
+[
+    {
+        "scope": "https://explorer.near.org:443",
+        "method": "GET",
+        "path": "/api/circulating-supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "timestamp": 1620604800,
+            "circulating_supply_in_yoctonear": "372406368000000000000000000000000"
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Date",
+            "Mon, 10 May 2021 14:44:07 GMT",
+            "Etag",
+            "\"5e-NjbwsE3/5pdqgyL7wf4DLQsT1Lc\"",
+            "Server",
+            "Render",
+            "Vary",
+            "96"
+        ],
+        "responseIsBinary": false
+    }
+]

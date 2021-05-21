@@ -1,0 +1,86 @@
+[
+    {
+        "scope": "http://xdn-explorer.com:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 301,
+        "response": "",
+        "rawHeaders": [
+            "Location",
+            "https://xdn-explorer.com/ext/getmoneysupply",
+            "Date",
+            "Mon, 10 May 2021 17:31:05 GMT",
+            "Connection",
+            "keep-alive",
+            "Transfer-Encoding",
+            "chunked"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://xdn-explorer.com:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 5040750541.033234,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "ETag",
+            "\"-330698845\"",
+            "Date",
+            "Mon, 10 May 2021 17:31:05 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://xdn-explorer.com:80",
+        "method": "GET",
+        "path": "/ext/getbalance/dGQNH28uxmhu4HBFvKNW26jnhsig66xm2R",
+        "body": "",
+        "status": 301,
+        "response": "",
+        "rawHeaders": [
+            "Location",
+            "https://xdn-explorer.com/ext/getbalance/dGQNH28uxmhu4HBFvKNW26jnhsig66xm2R",
+            "Date",
+            "Mon, 10 May 2021 17:31:06 GMT",
+            "Connection",
+            "keep-alive",
+            "Transfer-Encoding",
+            "chunked"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://xdn-explorer.com:443",
+        "method": "GET",
+        "path": "/ext/getbalance/dGQNH28uxmhu4HBFvKNW26jnhsig66xm2R",
+        "body": "",
+        "status": 200,
+        "response": 351337100,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "9",
+            "ETag",
+            "\"-416684557\"",
+            "Date",
+            "Mon, 10 May 2021 17:31:07 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
