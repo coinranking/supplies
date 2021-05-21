@@ -1,0 +1,29 @@
+[
+    {
+        "scope": "http://143.198.76.15:80",
+        "method": "GET",
+        "path": "/circulating",
+        "body": "",
+        "status": 200,
+        "response": {
+            "supply": 188480748973.99683
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.17.10 (Ubuntu)",
+            "Date",
+            "Fri, 21 May 2021 15:46:45 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "29",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"1d-uLWs0doCSY+Pq7/lRbh7YoCjrLQ\""
+        ],
+        "responseIsBinary": false
+    }
+]
