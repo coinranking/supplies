@@ -1,3 +1,11 @@
+# [2.54.0](https://github.com/coinranking/supplies/compare/v2.53.0...v2.54.0) (2021-05-27)
+
+
+### Features
+
+* add description to helium driver ([cd7557f](https://github.com/coinranking/supplies/commit/cd7557f44ef16240b8097eadda224a8572257505))
+* helium driver ([c16ec5c](https://github.com/coinranking/supplies/commit/c16ec5c8fbef4aaabd849267969b614e1158df46))
+
 # [2.53.0](https://github.com/coinranking/supplies/compare/v2.52.0...v2.53.0) (2021-05-19)
 
 
