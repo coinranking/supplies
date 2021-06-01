@@ -1,0 +1,45 @@
+[
+    {
+        "scope": "https://xchscan.com:443",
+        "method": "GET",
+        "path": "/api/circulating-supply",
+        "body": "",
+        "status": 200,
+        "response": {
+            "xch": 738977.836550411
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 01 Jun 2021 18:59:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "24",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "\"18-vXXL+VBNTekjNCh+zHts10kRQBM\"",
+            "Vary",
+            "Accept-Encoding",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "0a6a8b2cb00000fc61af982000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v2?s=ZmRqr8DHWSJg4t5RQewiX%2BOe807LjnxxoM%2B6KLg7qC4v4dTdh3JdGua77CV8VKIF1gB1b4DaGesjA7TY65Vda%2BhliWvdhG%2F48nfsgHBO4xT%2BOTcquV6tlYc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "658aae277bf2fc61-ZAG",
+            "alt-svc",
+            "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400"
+        ],
+        "responseIsBinary": false
+    }
+]
