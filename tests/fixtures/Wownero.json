@@ -1,0 +1,34 @@
+[
+    {
+        "scope": "https://explore.wownero.com:443",
+        "method": "GET",
+        "path": "/api/emission",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "blk_no": 318559,
+                "coinbase": 4832896733178538000,
+                "fee": 1620454628257000
+            },
+            "status": "success"
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Fri, 21 May 2021 16:45:27 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "99",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "Content-Type"
+        ],
+        "responseIsBinary": false
+    }
+]

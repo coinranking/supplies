@@ -1,0 +1,29 @@
+[
+    {
+        "scope": "https://chain.review:443",
+        "method": "GET",
+        "path": "/api/db/fix/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": "7938475671.890871",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Tue, 01 Jun 2021 17:42:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "19",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "W/\"13-CfbHm8sAVpG0xmuiVJO7CCaDx+o\""
+        ],
+        "responseIsBinary": false
+    }
+]

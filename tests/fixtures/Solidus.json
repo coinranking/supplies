@@ -1,0 +1,94 @@
+[
+    {
+        "scope": "http://explorer.solidus.finance:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 301,
+        "response": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.14.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Tue, 01 Jun 2021 17:53:16 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "194",
+            "Connection",
+            "keep-alive",
+            "Location",
+            "https://explorer.solidus.finance/ext/getmoneysupply"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.solidus.finance:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 709307.13664918,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Tue, 01 Jun 2021 17:53:16 GMT",
+            "Content-Type",
+            "text/plain",
+            "Content-Length",
+            "15",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://explorer.solidus.finance:80",
+        "method": "GET",
+        "path": "/ext/getbalance/SimEHyX1LauaCNoE7KCNiD8JHJzUVWhdKP",
+        "body": "",
+        "status": 301,
+        "response": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.14.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Tue, 01 Jun 2021 17:53:16 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "194",
+            "Connection",
+            "keep-alive",
+            "Location",
+            "https://explorer.solidus.finance/ext/getbalance/SimEHyX1LauaCNoE7KCNiD8JHJzUVWhdKP"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.solidus.finance:443",
+        "method": "GET",
+        "path": "/ext/getbalance/SimEHyX1LauaCNoE7KCNiD8JHJzUVWhdKP",
+        "body": "",
+        "status": 200,
+        "response": 97313.9999096,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0 (Ubuntu)",
+            "Date",
+            "Tue, 01 Jun 2021 17:53:16 GMT",
+            "Content-Type",
+            "text/plain",
+            "Content-Length",
+            "13",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express"
+        ],
+        "responseIsBinary": false
+    }
+]
