@@ -1,3 +1,19 @@
+# [2.57.0](https://github.com/coinranking/supplies/compare/v2.56.0...v2.57.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* **BitcoinVirtualGold:** remove the blockchain ([d8cf814](https://github.com/coinranking/supplies/commit/d8cf8146ffeaf3d6a6ca6cf5afe678844ad1df00))
+
+
+### Features
+
+* add description to planet-finance driver ([d284572](https://github.com/coinranking/supplies/commit/d284572f153c99bdaedaba4237d2e146b08290d0))
+* bitcoin virtual gold driver ([e55de7d](https://github.com/coinranking/supplies/commit/e55de7d60e46d55097402f9d9ad59b4a7466e0e7))
+* chia driver ([ee9cdd3](https://github.com/coinranking/supplies/commit/ee9cdd392e41d249cc53097ca8c0de2f8df36c1e))
+* chia network upgrade with total supply ([ca014ed](https://github.com/coinranking/supplies/commit/ca014ed4a258dcd2d7e0af1ae10040bda294010b))
+* planet-finance driver ([81b1b6f](https://github.com/coinranking/supplies/commit/81b1b6fa683325505c9bbe951c6d099e7471cffe))
+
 # [2.56.0](https://github.com/coinranking/supplies/compare/v2.55.0...v2.56.0) (2021-06-03)
 
 
