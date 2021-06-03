@@ -1,3 +1,13 @@
+# [2.56.0](https://github.com/coinranking/supplies/compare/v2.55.0...v2.56.0) (2021-06-03)
+
+
+### Features
+
+* checoin driver ([5e248ba](https://github.com/coinranking/supplies/commit/5e248ba4f1074ec569fab668b21f398bf3a10929))
+* fix network driver ([7c257ad](https://github.com/coinranking/supplies/commit/7c257adedf5338885e0abd9dff3071e2dc741aa0))
+* solidus driver ([34735c0](https://github.com/coinranking/supplies/commit/34735c0ffecee6221e55609323c7c10dcfd1702f))
+* wownero driver ([72f889c](https://github.com/coinranking/supplies/commit/72f889cce68bb2d38d442706e4a2ae706d04f917))
+
 # [2.55.0](https://github.com/coinranking/supplies/compare/v2.54.0...v2.55.0) (2021-06-03)
 
 
