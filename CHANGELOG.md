@@ -1,3 +1,10 @@
+# [2.58.0](https://github.com/coinranking/supplies/compare/v2.57.0...v2.58.0) (2021-06-03)
+
+
+### Features
+
+* algorand driver upgrades ([ca1d6aa](https://github.com/coinranking/supplies/commit/ca1d6aa0d8b780c6fbe9ed089266478414493323))
+
 # [2.57.0](https://github.com/coinranking/supplies/compare/v2.56.0...v2.57.0) (2021-06-03)
 
 
