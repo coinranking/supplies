@@ -1,3 +1,15 @@
+# [2.55.0](https://github.com/coinranking/supplies/compare/v2.54.0...v2.55.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* **Ecomi:** remove the blockchain ([6dfb25e](https://github.com/coinranking/supplies/commit/6dfb25e60bc6aec6f8d600a070af8d8ecbffbf8a))
+
+
+### Features
+
+* ecomi driver ([417403f](https://github.com/coinranking/supplies/commit/417403ffbe2f9cd3c5e79e990cde7ed7c5977894))
+
 # [2.54.0](https://github.com/coinranking/supplies/compare/v2.53.0...v2.54.0) (2021-05-27)
 
 
