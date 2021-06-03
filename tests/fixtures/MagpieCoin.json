@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "scope": "http://explorer.magpiecoin.org:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 9576723896.37328,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "17",
+            "ETag",
+            "W/\"11-bHgYbirdea0UKB7r80iBqUYKmU4\"",
+            "Date",
+            "Thu, 03 Jun 2021 19:45:15 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
