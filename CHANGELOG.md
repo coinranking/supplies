@@ -1,3 +1,56 @@
+# [2.58.0](https://github.com/coinranking/supplies/compare/v2.57.0...v2.58.0) (2021-06-03)
+
+
+### Features
+
+* algorand driver upgrades ([ca1d6aa](https://github.com/coinranking/supplies/commit/ca1d6aa0d8b780c6fbe9ed089266478414493323))
+
+# [2.57.0](https://github.com/coinranking/supplies/compare/v2.56.0...v2.57.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* **BitcoinVirtualGold:** remove the blockchain ([d8cf814](https://github.com/coinranking/supplies/commit/d8cf8146ffeaf3d6a6ca6cf5afe678844ad1df00))
+
+
+### Features
+
+* add description to planet-finance driver ([d284572](https://github.com/coinranking/supplies/commit/d284572f153c99bdaedaba4237d2e146b08290d0))
+* bitcoin virtual gold driver ([e55de7d](https://github.com/coinranking/supplies/commit/e55de7d60e46d55097402f9d9ad59b4a7466e0e7))
+* chia driver ([ee9cdd3](https://github.com/coinranking/supplies/commit/ee9cdd392e41d249cc53097ca8c0de2f8df36c1e))
+* chia network upgrade with total supply ([ca014ed](https://github.com/coinranking/supplies/commit/ca014ed4a258dcd2d7e0af1ae10040bda294010b))
+* planet-finance driver ([81b1b6f](https://github.com/coinranking/supplies/commit/81b1b6fa683325505c9bbe951c6d099e7471cffe))
+
+# [2.56.0](https://github.com/coinranking/supplies/compare/v2.55.0...v2.56.0) (2021-06-03)
+
+
+### Features
+
+* checoin driver ([5e248ba](https://github.com/coinranking/supplies/commit/5e248ba4f1074ec569fab668b21f398bf3a10929))
+* fix network driver ([7c257ad](https://github.com/coinranking/supplies/commit/7c257adedf5338885e0abd9dff3071e2dc741aa0))
+* solidus driver ([34735c0](https://github.com/coinranking/supplies/commit/34735c0ffecee6221e55609323c7c10dcfd1702f))
+* wownero driver ([72f889c](https://github.com/coinranking/supplies/commit/72f889cce68bb2d38d442706e4a2ae706d04f917))
+
+# [2.55.0](https://github.com/coinranking/supplies/compare/v2.54.0...v2.55.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* **Ecomi:** remove the blockchain ([6dfb25e](https://github.com/coinranking/supplies/commit/6dfb25e60bc6aec6f8d600a070af8d8ecbffbf8a))
+
+
+### Features
+
+* ecomi driver ([417403f](https://github.com/coinranking/supplies/commit/417403ffbe2f9cd3c5e79e990cde7ed7c5977894))
+
+# [2.54.0](https://github.com/coinranking/supplies/compare/v2.53.0...v2.54.0) (2021-05-27)
+
+
+### Features
+
+* add description to helium driver ([cd7557f](https://github.com/coinranking/supplies/commit/cd7557f44ef16240b8097eadda224a8572257505))
+* helium driver ([c16ec5c](https://github.com/coinranking/supplies/commit/c16ec5c8fbef4aaabd849267969b614e1158df46))
+
 # [2.53.0](https://github.com/coinranking/supplies/compare/v2.52.0...v2.53.0) (2021-05-19)
 
 
