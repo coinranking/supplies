@@ -1,3 +1,12 @@
+# [2.59.0](https://github.com/coinranking/supplies/compare/v2.58.0...v2.59.0) (2021-06-04)
+
+
+### Features
+
+* magpie coin driver ([cc6c0a4](https://github.com/coinranking/supplies/commit/cc6c0a457c7a13513c3cb5658435e25fed4bd70b))
+* magpie coin upgrade balances ([b2df61f](https://github.com/coinranking/supplies/commit/b2df61f0e1053628326f8dba8fb180c4f4166b36))
+* upgrade magprie coin with total supply ([45bc9d7](https://github.com/coinranking/supplies/commit/45bc9d74fc450485017b941321df13b6241e3083))
+
 # [2.58.0](https://github.com/coinranking/supplies/compare/v2.57.0...v2.58.0) (2021-06-03)
 
 
