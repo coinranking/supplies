@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://explorer.magpiecoin.org:80",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 9577107896.385973,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "18",
+            "ETag",
+            "W/\"12-fCmrlx+imD2diQQsXRCbqTXl66c\"",
+            "Date",
+            "Thu, 03 Jun 2021 19:59:33 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://explorer.magpiecoin.org:80",
+        "method": "GET",
+        "path": "/ext/getbalance/Mc9JsFZmJ6qGinCrFZhpdgtuHTbBroqydt",
+        "body": "",
+        "status": 200,
+        "response": 340864592,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "9",
+            "ETag",
+            "W/\"9-EmYXOMHduXCbA/9PJR7BmQNOAv4\"",
+            "Date",
+            "Thu, 03 Jun 2021 19:59:34 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
