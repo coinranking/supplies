@@ -1,0 +1,38 @@
+[
+    {
+        "scope": "https://hexvisionpublicapi.azurewebsites.net:443",
+        "method": "GET",
+        "path": "/api/TotalSupply",
+        "body": "",
+        "status": 200,
+        "response": "633599582589.54640023",
+        "rawHeaders": [
+            "Content-Length",
+            "144",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Vary",
+            "Accept-Encoding",
+            "Date"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://hexvisionpublicapi.azurewebsites.net:443",
+        "method": "GET",
+        "path": "/api/CirculatingSupply",
+        "body": "",
+        "status": 200,
+        "response": "571727001368.82949595",
+        "rawHeaders": [
+            "Content-Length",
+            "144",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Vary",
+            "Accept-Encoding",
+            "Date"
+        ],
+        "responseIsBinary": false
+    }
+]
