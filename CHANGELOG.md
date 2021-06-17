@@ -1,3 +1,15 @@
+# [2.60.0](https://github.com/coinranking/supplies/compare/v2.59.0...v2.60.0) (2021-06-17)
+
+
+### Bug Fixes
+
+* **hex:** fixture missed a header and subtracted the origin addresses ([d619860](https://github.com/coinranking/supplies/commit/d6198600002f54ae48d6c2755d84b28b0bf49f94))
+
+
+### Features
+
+* hex driver ([e614088](https://github.com/coinranking/supplies/commit/e61408876c0c9919ec78573bbf100333f62b2cbf))
+
 # [2.59.0](https://github.com/coinranking/supplies/compare/v2.58.0...v2.59.0) (2021-06-04)
 
 
