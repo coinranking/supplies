@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "https://tmmtoken.com:443",
+        "method": "GET",
+        "path": "/api/index.php?para=circulatingSupply",
+        "body": "",
+        "status": 200,
+        "response": 2424087.8,
+        "rawHeaders": [
+            "date",
+            "Tue, 22 Jun 2021 17:40:58 GMT",
+            "server",
+            "Apache",
+            "x-powered-by",
+            "PHP/7.2.34",
+            "accept-ranges",
+            "none",
+            "vary",
+            "Accept-Encoding",
+            "content-length",
+            "29"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://tmmtoken.com:443",
+        "method": "GET",
+        "path": "/api/index.php?para=totalSupply",
+        "body": "",
+        "status": 200,
+        "response": 5000000,
+        "rawHeaders": [
+            "date",
+            "Tue, 22 Jun 2021 17:40:58 GMT",
+            "server",
+            "Apache",
+            "x-powered-by",
+            "PHP/7.2.34",
+            "accept-ranges",
+            "none",
+            "vary",
+            "Accept-Encoding",
+            "content-length",
+            "23"
+        ],
+        "responseIsBinary": false
+    }
+]
