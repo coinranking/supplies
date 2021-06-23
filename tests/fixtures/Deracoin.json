@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "http://deracoin-explorer.com:3001",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 6024465.2917,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "13",
+            "ETag",
+            "W/\"d-T9wrrpY+K3mBMZlkccwBVB5mvZM\"",
+            "Date",
+            "Wed, 23 Jun 2021 18:36:08 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "http://deracoin-explorer.com:3001",
+        "method": "GET",
+        "path": "/ext/getbalance/DU6SxukQDz6hFVLEsSQChrS59vwNQzqSrd",
+        "body": "",
+        "status": 200,
+        "response": 1700,
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "4",
+            "ETag",
+            "W/\"4-HBzr+zKD6lW0KxErplV1C4ZEP+U\"",
+            "Date",
+            "Wed, 23 Jun 2021 18:36:08 GMT",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
