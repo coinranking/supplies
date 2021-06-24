@@ -1,0 +1,52 @@
+[
+    {
+        "scope": "https://explorer.ergon.network:443",
+        "method": "GET",
+        "path": "/ext/getmoneysupply",
+        "body": "",
+        "status": 200,
+        "response": 1.04996514,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Wed, 23 Jun 2021 18:28:06 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "11",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"b-LlFKzbFfmxvyQf68KeS03N3wGo0\""
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.ergon.network:443",
+        "method": "GET",
+        "path": "/ext/getbalance/ergon:qq9n52zdwja0rk4gx8msnpy3hxmc8eu0cy7l86e37z",
+        "body": "",
+        "status": 200,
+        "response": 0.48430502,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Wed, 23 Jun 2021 18:28:07 GMT",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "10",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"a-uBM48FUhSX2Rjig0widQMf0Pqgs\""
+        ],
+        "responseIsBinary": false
+    }
+]
