@@ -1,3 +1,17 @@
+# [2.61.0](https://github.com/coinranking/supplies/compare/v2.60.0...v2.61.0) (2021-06-24)
+
+
+### Bug Fixes
+
+* cpcoin supports definitions ([30c7f86](https://github.com/coinranking/supplies/commit/30c7f8638aa90d5fb1613e5e82f0bd5f9623c30b))
+* simplify the CPCoin driver ([0b7e135](https://github.com/coinranking/supplies/commit/0b7e135883f8a00ab8825b78c427241cb8d8cd61))
+
+
+### Features
+
+* cpcoin driver ([ca83e94](https://github.com/coinranking/supplies/commit/ca83e94004a1ee08e67c170fa7bfbedf69dae09f))
+* TzStats driver upgrade ([7ececfb](https://github.com/coinranking/supplies/commit/7ececfbcf9ce8f4025b24c40dad1245074626b2b))
+
 # [2.60.0](https://github.com/coinranking/supplies/compare/v2.59.0...v2.60.0) (2021-06-17)
 
 
