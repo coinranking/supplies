@@ -1,3 +1,10 @@
+# [2.62.0](https://github.com/coinranking/supplies/compare/v2.61.0...v2.62.0) (2021-06-24)
+
+
+### Features
+
+* agenor driver ([1597b7c](https://github.com/coinranking/supplies/commit/1597b7c8e0f53d299739cc50c9f674690572f944))
+
 # [2.61.0](https://github.com/coinranking/supplies/compare/v2.60.0...v2.61.0) (2021-06-24)
 
 
