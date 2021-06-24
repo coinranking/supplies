@@ -1,0 +1,48 @@
+[
+    {
+        "scope": "https://explorer.havenprotocol.org:443",
+        "method": "GET",
+        "path": "/api/emission",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": {
+                "blk_no": 883611,
+                "coinbase": 15235602880112240000,
+                "fee": 142553911798369920
+            },
+            "status": "success"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 23 Jun 2021 19:06:04 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "access-control-allow-headers",
+            "Content-Type",
+            "access-control-allow-origin",
+            "*",
+            "strict-transport-security",
+            "max-age=63072000",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "0adbdcf53b0000912da13f8000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v2?s=%2FmrKza16Nt6ttrfPHayOkH8GU%2B3gYFCeKpvIZOyPcFxY%2FwjqlHZe17u4b1DJSQsAdhcTNwOz3XnLvbPwbnzh8RUBbdvJl8ubEZ6cCc%2BV%2BVlz6AoAZYplGEBlvvRuX9L%2B5sr2ljv45Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "663ffdcecfe0912d-ZAG"
+        ],
+        "responseIsBinary": false
+    }
+]
