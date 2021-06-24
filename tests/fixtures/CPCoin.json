@@ -1,0 +1,62 @@
+[
+    {
+        "scope": "https://supply.cpcoin.io:443",
+        "method": "GET",
+        "path": "/totalsupply",
+        "body": "",
+        "status": 200,
+        "response": 250000000,
+        "rawHeaders": [
+            "Date",
+            "Thu, 24 Jun 2021 12:18:32 GMT",
+            "Server",
+            "Apache",
+            "Cache-Control",
+            "no-cache, private",
+            "Set-Cookie",
+            "XSRF-TOKEN=eyJpdiI6Ildsa2lLa2tEYUxrWk1IeWlFR0pKT1E9PSIsInZhbHVlIjoiT3hGWmIyaktDN0sybWxKYXZsRVZGN3RnbW9xYVpFa3hGRXl2OS96bzhjNzlnWnFJc2o4Q1BGbmU1MktpVU44SVFEdFRRSFZrUjArTTU3akdIUlBxV0pkSGFyekl6SFphbFlDd0NqOEk0MjFtL3ZUaTRtTG1BUWtRaHZDOFQyem0iLCJtYWMiOiJmNWM5MWU2OTI2ZDdjMjJjNjQzYTQwYWU5Njg3NmU1NjBlYjAyZjY2Yjg3NzQwNTE0M2FiZjkzMWZmOGNkZmFlIn0%3D; expires=Thu, 24-Jun-2021 14:18:32 GMT; Max-Age=7200; path=/; samesite=lax",
+            "Set-Cookie",
+            "supply_cpcoin_session=eyJpdiI6ImhqVXpLRDRkYTFkUHVId0J1WkxieUE9PSIsInZhbHVlIjoicCtzOFE0cnYvU0FOMHVqZDh5TTgzS0hDMmpXWTFFZUFrODVGTThDU2MySC8vV3Rrd2tUNitHdkd0ejZ2bFRyd2dZbnRWaU1GTlQzTlIyVHFYMEpPd2xpMVN5RFpjV2Nmei9VUGdORzQyUGN1cXZKak5kc1M2SDlaZCtITlc4MDIiLCJtYWMiOiJiOTFiMGQ5MTdlODE5MTA5MTJkMzQ2M2E0YTJiZDIwY2JlZTQyOWVjZmRmN2MwMGViYTNkZWJlZWJmOWRmZDIxIn0%3D; expires=Thu, 24-Jun-2021 14:18:32 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+            "Upgrade",
+            "h2,h2c",
+            "Connection",
+            "Upgrade, Keep-Alive",
+            "Vary",
+            "27",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Content-Type",
+            "text/html; charset=UTF-8"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://explorer.cpcoin.io:443",
+        "method": "GET",
+        "path": "/assets/supply-circ.html",
+        "body": "",
+        "status": 200,
+        "response": 23658763,
+        "rawHeaders": [
+            "Server",
+            "nginx/1.18.0 (Ubuntu)",
+            "Date",
+            "Thu, 24 Jun 2021 12:18:32 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Content-Length",
+            "11",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Accept-Ranges",
+            "bytes",
+            "ETag",
+            "W/\"b-oSIVzR5LYi6Zv1dhKiA5OvBVauQ\""
+        ],
+        "responseIsBinary": false
+    }
+]
