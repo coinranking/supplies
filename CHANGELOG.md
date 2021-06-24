@@ -1,3 +1,20 @@
+# [2.63.0](https://github.com/coinranking/supplies/compare/v2.62.0...v2.63.0) (2021-06-24)
+
+
+### Bug Fixes
+
+* **PrcyCoin:** typo and max was not loaded ([9a99b8c](https://github.com/coinranking/supplies/commit/9a99b8c2e3e631e9b6a59553aa7cc00bf23aebd6))
+
+
+### Features
+
+* cryptoid fastcoin implementation ([18acbff](https://github.com/coinranking/supplies/commit/18acbffc94a35679514800395ecfac8d17b68a83))
+* deracoin driver ([937b1dd](https://github.com/coinranking/supplies/commit/937b1dd5ac36d20b6bb7c1a26f4544ab455df925))
+* ergon driver ([5b7cd17](https://github.com/coinranking/supplies/commit/5b7cd172650e0468dc5870ba17719e5a5ba08965))
+* haven driver ([9146ae4](https://github.com/coinranking/supplies/commit/9146ae47c9b3b4641cd56320da1fbd2ac28d0ea4))
+* prcy coin upgrade ([8ed9faa](https://github.com/coinranking/supplies/commit/8ed9faa5a2b0f79e2426fc22994279cdf2fcf00e))
+* tron making machine driver ([68ce9ee](https://github.com/coinranking/supplies/commit/68ce9ee56811550e27b6bd8e9c2ef35966f45de2))
+
 # [2.62.0](https://github.com/coinranking/supplies/compare/v2.61.0...v2.62.0) (2021-06-24)
 
 
