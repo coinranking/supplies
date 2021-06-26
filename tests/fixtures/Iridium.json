@@ -1,0 +1,25 @@
+[
+    {
+        "scope": "https://explorer.ird.cash:443",
+        "method": "GET",
+        "path": "/issued",
+        "body": "",
+        "status": 200,
+        "response": 23186664.19090296,
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Sat, 26 Jun 2021 20:27:24 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding"
+        ],
+        "responseIsBinary": false
+    }
+]
