@@ -1,0 +1,56 @@
+[
+    {
+        "scope": "https://www.alturanft.com:443",
+        "method": "GET",
+        "path": "/api/totalcoins",
+        "body": "",
+        "status": 200,
+        "response": 990000000,
+        "rawHeaders": [
+            "Server",
+            "Cowboy",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "9",
+            "Etag",
+            "W/\"9-ZnChs3U7h6V1JF7MZ+iJumolU+s\"",
+            "Date",
+            "Sat, 26 Jun 2021 20:38:10 GMT",
+            "Via",
+            "1.1 vegur"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://www.alturanft.com:443",
+        "method": "GET",
+        "path": "/api/circulatingcoins",
+        "body": "",
+        "status": 200,
+        "response": 450000000,
+        "rawHeaders": [
+            "Server",
+            "Cowboy",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Content-Length",
+            "9",
+            "Etag",
+            "W/\"9-6jU4hAkzhAKRrTvbDydEI5q2/lk\"",
+            "Date",
+            "Sat, 26 Jun 2021 20:38:10 GMT",
+            "Via",
+            "1.1 vegur"
+        ],
+        "responseIsBinary": false
+    }
+]
