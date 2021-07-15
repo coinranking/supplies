@@ -1,3 +1,13 @@
+# [2.64.0](https://github.com/coinranking/supplies/compare/v2.63.0...v2.64.0) (2021-07-15)
+
+
+### Features
+
+* altura driver ([e9a88bc](https://github.com/coinranking/supplies/commit/e9a88bc0fff78ab56e8fc8452e2bf454fc544aa4))
+* iridium driver ([df37e14](https://github.com/coinranking/supplies/commit/df37e14cebc010861744c647bf6f4711408881e2))
+* Mina driver ([0c89141](https://github.com/coinranking/supplies/commit/0c89141867c2707d30d7046ff8efb8d853a56f91))
+* rito driver ([ff944a1](https://github.com/coinranking/supplies/commit/ff944a1419d75171669450248c138ecd6b5777a6))
+
 # [2.63.0](https://github.com/coinranking/supplies/compare/v2.62.0...v2.63.0) (2021-06-24)
 
 
