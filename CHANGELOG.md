@@ -1,3 +1,10 @@
+# [2.65.0](https://github.com/coinranking/supplies/compare/v2.64.0...v2.65.0) (2021-07-31)
+
+
+### Features
+
+* support for clover finance ([54c8c2f](https://github.com/coinranking/supplies/commit/54c8c2fc7c37e940892541cf936789e83b181f66))
+
 # [2.64.0](https://github.com/coinranking/supplies/compare/v2.63.0...v2.64.0) (2021-07-15)
 
 
