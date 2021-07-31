@@ -1,0 +1,56 @@
+[
+    {
+        "scope": "https://tx-api.clover.finance:443",
+        "method": "GET",
+        "path": "/api/clv/totalSupply",
+        "body": "",
+        "status": 200,
+        "response": 1000000000,
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "s-maxage=1, max-age=1",
+            "Content-Length",
+            "10",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Date",
+            "Sat, 31 Jul 2021 13:54:36 GMT",
+            "Etag",
+            "W/\"a-JjJJ1ImYuy3UeV4MgM0YHZtR75I\"",
+            "Server",
+            "Caddy",
+            "X-Powered-By",
+            "Express"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://tx-api.clover.finance:443",
+        "method": "GET",
+        "path": "/api/clv/circulatingSupply",
+        "body": "",
+        "status": 200,
+        "response": 128777777.78,
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "s-maxage=1, max-age=1",
+            "Content-Length",
+            "12",
+            "Content-Type",
+            "text/html; charset=utf-8",
+            "Date",
+            "Sat, 31 Jul 2021 13:54:36 GMT",
+            "Etag",
+            "W/\"c-76UbtAhc/zahrkRjMtQcS9G1VOY\"",
+            "Server",
+            "Caddy",
+            "X-Powered-By",
+            "Express"
+        ],
+        "responseIsBinary": false
+    }
+]
