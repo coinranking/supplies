@@ -1,3 +1,10 @@
+# [2.66.0](https://github.com/coinranking/supplies/compare/v2.65.0...v2.66.0) (2021-08-13)
+
+
+### Features
+
+* add support for terra tokens ([30b2498](https://github.com/coinranking/supplies/commit/30b2498f84eac521590650d77fb0d4e7d1e8734a))
+
 # [2.65.0](https://github.com/coinranking/supplies/compare/v2.64.0...v2.65.0) (2021-07-31)
 
 
