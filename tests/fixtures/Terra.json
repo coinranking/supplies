@@ -6,49 +6,123 @@
         "body": "",
         "status": 200,
         "response": {
-            "height": "3535119",
+            "height": "4121397",
             "result": [
                 {
+                    "denom": "uaud",
+                    "amount": "1865133255"
+                },
+                {
+                    "denom": "ucad",
+                    "amount": "115109169"
+                },
+                {
+                    "denom": "uchf",
+                    "amount": "15330059368"
+                },
+                {
+                    "denom": "ucny",
+                    "amount": "1004064633"
+                },
+                {
+                    "denom": "udkk",
+                    "amount": "1863898333"
+                },
+                {
+                    "denom": "ueur",
+                    "amount": "8384101074"
+                },
+                {
+                    "denom": "ugbp",
+                    "amount": "531502035"
+                },
+                {
+                    "denom": "uhkd",
+                    "amount": "402951410"
+                },
+                {
+                    "denom": "uinr",
+                    "amount": "2851607224"
+                },
+                {
+                    "denom": "ujpy",
+                    "amount": "290881546026"
+                },
+                {
                     "denom": "ukrw",
-                    "amount": "76691935500553888"
+                    "amount": "43599032572400276"
                 },
                 {
                     "denom": "uluna",
-                    "amount": "997406401052736"
+                    "amount": "993390374673786"
                 },
                 {
                     "denom": "umnt",
-                    "amount": "150030516301363"
+                    "amount": "1960146075221006"
+                },
+                {
+                    "denom": "unok",
+                    "amount": "42813504"
                 },
                 {
                     "denom": "usdr",
-                    "amount": "956743815759137"
+                    "amount": "716469527190944"
+                },
+                {
+                    "denom": "usek",
+                    "amount": "1688212443"
+                },
+                {
+                    "denom": "usgd",
+                    "amount": "113927482"
+                },
+                {
+                    "denom": "uthb",
+                    "amount": "14572822613"
                 },
                 {
                     "denom": "uusd",
-                    "amount": "1694849183674"
+                    "amount": "2100184420851578"
                 }
             ]
         },
         "rawHeaders": [
             "Date",
-            "Fri, 11 Sep 2020 16:23:26 GMT",
+            "Fri, 13 Aug 2021 13:40:23 GMT",
             "Content-Type",
             "application/json",
-            "Content-Length",
-            "252",
+            "Transfer-Encoding",
+            "chunked",
             "Connection",
             "keep-alive",
-            "Server",
-            "nginx/1.16.1",
-            "X-Server-Time",
-            "1599841406",
             "X-Frame-Options",
             "SAMEORIGIN",
             "X-XSS-Protection",
             "1; mode=block",
             "X-Content-Type-Options",
-            "nosniff"
+            "nosniff",
+            "X-Dns-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Set-Cookie",
+            "__cfruid=cf3c104df74e656e39443ae5d840dd81cb15a62e-1628862023; path=/; domain=.terra.dev; HttpOnly; Secure; SameSite=None",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "67e25adb0b64540f-LHR"
         ],
         "responseIsBinary": false
     },
@@ -59,49 +133,117 @@
         "body": "",
         "status": 200,
         "response": {
-            "height": "3535119",
+            "height": "4121397",
             "result": [
                 {
+                    "denom": "uaud",
+                    "amount": "3058777"
+                },
+                {
+                    "denom": "ucad",
+                    "amount": "1891508"
+                },
+                {
+                    "denom": "uchf",
+                    "amount": "4649375"
+                },
+                {
+                    "denom": "ucny",
+                    "amount": "2229715"
+                },
+                {
+                    "denom": "udkk",
+                    "amount": "1488200"
+                },
+                {
+                    "denom": "ueur",
+                    "amount": "7472440"
+                },
+                {
+                    "denom": "ugbp",
+                    "amount": "1451777"
+                },
+                {
+                    "denom": "uhkd",
+                    "amount": "1551082"
+                },
+                {
+                    "denom": "uinr",
+                    "amount": "30194500"
+                },
+                {
+                    "denom": "ujpy",
+                    "amount": "82902571"
+                },
+                {
                     "denom": "ukrw",
-                    "amount": "240417379171608"
+                    "amount": "673367123009166"
                 },
                 {
                     "denom": "uluna",
-                    "amount": "452366868250448"
+                    "amount": "327607670947220"
                 },
                 {
                     "denom": "umnt",
-                    "amount": "169481449733"
+                    "amount": "15329191269913"
                 },
                 {
                     "denom": "usdr",
-                    "amount": "943916686467490"
+                    "amount": "711002115305823"
+                },
+                {
+                    "denom": "usek",
+                    "amount": "4868652"
+                },
+                {
+                    "denom": "usgd",
+                    "amount": "150575"
+                },
+                {
+                    "denom": "uthb",
+                    "amount": "117058618"
                 },
                 {
                     "denom": "uusd",
-                    "amount": "293447965"
+                    "amount": "640684062032"
                 }
             ]
         },
         "rawHeaders": [
             "Date",
-            "Fri, 11 Sep 2020 16:23:27 GMT",
+            "Fri, 13 Aug 2021 13:40:23 GMT",
             "Content-Type",
             "application/json",
-            "Content-Length",
-            "334",
+            "Transfer-Encoding",
+            "chunked",
             "Connection",
             "keep-alive",
-            "Server",
-            "nginx/1.16.1",
-            "X-Server-Time",
-            "1599841407",
             "X-Frame-Options",
             "SAMEORIGIN",
             "X-XSS-Protection",
             "1; mode=block",
             "X-Content-Type-Options",
-            "nosniff"
+            "nosniff",
+            "X-Dns-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+            "Access-Control-Expose-Headers",
+            "Content-Length,Content-Range",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "67e25addeca02cb5-LHR"
         ],
         "responseIsBinary": false
     }
