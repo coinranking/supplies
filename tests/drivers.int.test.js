@@ -124,7 +124,7 @@ drivers.forEach((driverName) => {
         }
       }
 
-      if (driver.supports.balances) {
+      if (driver.supports.balances || driver.supports.nativeBalances) {
         if (typeof nativeCoin === 'undefined') {
           throw new Error('The driver supports balances but there is no json file in the coins directory');
         }
@@ -225,7 +225,7 @@ drivers.forEach((driverName) => {
             }
           }
 
-          if (driver.supports.balances) {
+          if (driver.supports.balances || driver.supports.tokenBalances) {
             if (Array.isArray(token.modifiers) === false || token.modifiers.length === 0) {
               throw new Error('Token should have modifiers');
             }
