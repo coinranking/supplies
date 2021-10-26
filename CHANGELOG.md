@@ -1,3 +1,10 @@
+# [2.67.0](https://github.com/coinranking/supplies/compare/v2.66.0...v2.67.0) (2021-10-26)
+
+
+### Features
+
+* Polygonscan driver ([ab19496](https://github.com/coinranking/supplies/commit/ab194966cbcca0dc808f19a2bd699fd1ec04c108))
+
 # [2.66.0](https://github.com/coinranking/supplies/compare/v2.65.0...v2.66.0) (2021-08-13)
 
 
