@@ -1,6 +1,6 @@
 [
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -31,7 +31,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Headers",
@@ -50,7 +50,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -81,7 +81,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "60387361ec5740dd-LHR",
             "Access-Control-Allow-Origin",
@@ -102,7 +102,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -133,7 +133,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=daa208fd9fb763d666b78cd07adba91561608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=daa208fd9fb763d666b78cd07adba91561608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "603873638b944057-LHR",
             "Access-Control-Allow-Origin",
@@ -154,7 +154,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -185,7 +185,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "603873677d054057-LHR",
             "Access-Control-Allow-Origin",
@@ -206,7 +206,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -237,7 +237,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Headers",
@@ -256,7 +256,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -287,7 +287,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Headers",
@@ -306,7 +306,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -337,7 +337,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "Access-Control-Allow-Origin",
             "*",
             "Access-Control-Allow-Headers",
@@ -356,7 +356,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -387,7 +387,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "603873677d054057-LHR",
             "Access-Control-Allow-Origin",
@@ -408,7 +408,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -439,7 +439,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d27f708a381693c6694d015d3e4454a8b1608289966; expires=Sun, 17-Jan-21 11:12:46 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "60387361ec5740dd-LHR",
             "Access-Control-Allow-Origin",
@@ -460,7 +460,7 @@
         "responseIsBinary": false
     },
     {
-        "scope": "https://eth.coinranking.com:443",
+        "scope": "https://cloudflare-eth.com:443",
         "method": "POST",
         "path": "/",
         "body": {
@@ -491,7 +491,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.eth.coinranking.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d7e0c78060ef552e6e09900bfb16e43161608289967; expires=Sun, 17-Jan-21 11:12:47 GMT; path=/; domain=.cloudflare-eth.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Ray",
             "603873677d054057-LHR",
             "Access-Control-Allow-Origin",
