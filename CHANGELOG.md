@@ -1,3 +1,10 @@
+## [2.67.1](https://github.com/coinranking/supplies/compare/v2.67.0...v2.67.1) (2022-04-04)
+
+
+### Bug Fixes
+
+* **web3eth:** use Cloudflare ETH gateway ([24c32be](https://github.com/coinranking/supplies/commit/24c32beb078a8bb49adef2b9bd6703545fa4239e))
+
 # [2.67.0](https://github.com/coinranking/supplies/compare/v2.66.0...v2.67.0) (2021-10-26)
 
 
