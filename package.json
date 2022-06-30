@@ -45,7 +45,7 @@
     "commander": "^9.1.0",
     "node-cache": "^5.1.2",
     "request": "^2.88.2",
-    "socket.io-client": "4.4.1",
+    "socket.io-client": "4.5.1",
     "uuid": "^8.3.2",
     "web3": "^1.7.1"
   },
