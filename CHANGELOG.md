@@ -1,3 +1,10 @@
+## [2.67.2](https://github.com/coinranking/supplies/compare/v2.67.1...v2.67.2) (2022-11-07)
+
+
+### Bug Fixes
+
+* getSupplyDash example requires a blockchain because it is a multi-chain driver ([d831aec](https://github.com/coinranking/supplies/commit/d831aecdc2ea52c061833e4cb684855adf207a41))
+
 ## [2.67.1](https://github.com/coinranking/supplies/compare/v2.67.0...v2.67.1) (2022-04-04)
 
 
