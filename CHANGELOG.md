@@ -1,3 +1,10 @@
+## [2.67.3](https://github.com/coinranking/supplies/compare/v2.67.2...v2.67.3) (2022-11-10)
+
+
+### Bug Fixes
+
+* remove broken neoscan driver ([049dc0b](https://github.com/coinranking/supplies/commit/049dc0b5c14d92f623e4a7b9fff3adc00791e150))
+
 ## [2.67.2](https://github.com/coinranking/supplies/compare/v2.67.1...v2.67.2) (2022-11-07)
 
 
