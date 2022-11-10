@@ -1,3 +1,12 @@
+## [2.67.4](https://github.com/coinranking/supplies/compare/v2.67.3...v2.67.4) (2022-11-10)
+
+
+### Bug Fixes
+
+* remove broken cardano driver ([5be9542](https://github.com/coinranking/supplies/commit/5be95423cc9ebd90147debf40ff88a6e404133d8))
+* remove broken dia-ethereum-classic driver ([db4078c](https://github.com/coinranking/supplies/commit/db4078c060f30f32f322adc9f3e98475b2cf1e37))
+* remove broken dogechain driver ([55fcf10](https://github.com/coinranking/supplies/commit/55fcf1019eedb160fcac9461e3fb3f2f6a56a4db))
+
 ## [2.67.3](https://github.com/coinranking/supplies/compare/v2.67.2...v2.67.3) (2022-11-10)
 
 
