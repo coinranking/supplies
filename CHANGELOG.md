@@ -1,3 +1,10 @@
+## [2.67.5](https://github.com/coinranking/supplies/compare/v2.67.4...v2.67.5) (2022-11-16)
+
+
+### Bug Fixes
+
+* give bscscan even more time to react ([f0ebfdd](https://github.com/coinranking/supplies/commit/f0ebfdd9c61a58671bf5d69d199c97c3f46df5ed))
+
 ## [2.67.4](https://github.com/coinranking/supplies/compare/v2.67.3...v2.67.4) (2022-11-10)
 
 
