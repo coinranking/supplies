@@ -8,15 +8,15 @@
         "response": {
             "status": "1",
             "message": "OK",
-            "result": "1054999999998559533938826"
+            "result": "604999999990848502805915"
         },
         "rawHeaders": [
             "Server",
-            "nginx",
+            "nginx/1.18.0 (Ubuntu)",
             "Date",
-            "Thu, 29 Apr 2021 16:00:55 GMT",
+            "Thu, 12 Jan 2023 09:41:16 GMT",
             "Content-Type",
-            "177",
+            "175",
             "Connection",
             "keep-alive",
             "Cache-Control",
@@ -43,15 +43,15 @@
         "response": {
             "status": "1",
             "message": "OK",
-            "result": "71325429118221810900417"
+            "result": "26174153494428119852076"
         },
         "rawHeaders": [
             "Server",
-            "nginx",
+            "nginx/1.18.0 (Ubuntu)",
             "Date",
-            "Thu, 29 Apr 2021 16:00:55 GMT",
+            "Thu, 12 Jan 2023 09:41:17 GMT",
             "Content-Type",
-            "180",
+            "181",
             "Connection",
             "keep-alive",
             "Cache-Control",

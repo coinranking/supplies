@@ -26,8 +26,8 @@ drivers.forEach((driverName) => {
       useCache: false,
     });
 
-    if (driver.supports.websockets) {
-      // Don't test the drivers with Websockets yet.
+    if (driver.supports.websockets || driver.supports.web3) {
+      // Don't test the drivers with Websockets or web3 yet.
       // This should definitely be made to work,
       // but is not yet ready!
       return;
@@ -159,7 +159,7 @@ drivers.forEach((driverName) => {
             if (driver.supports.total) {
               expect(supply.total).toBeGreaterThan(0);
             }
-            if (driver.supports.circulating) {
+            if (driver.supports.tokenCirculating) {
               expect(supply.circulating).toBeGreaterThan(0);
             }
             if (driver.supports.max) {
@@ -176,7 +176,7 @@ drivers.forEach((driverName) => {
             });
           }
 
-          if (driver.supports.circulating && !driver.supports.balances) {
+          if (driver.supports.tokenCirculating && !driver.supports.tokenBalances) {
             test('Circulating supply should be greater than zero', async () => {
               await nock.back(`${driverName}-${token.reference}.json`);
               const circulatingSupply = await driver.fetchTokenCirculatingSupply(

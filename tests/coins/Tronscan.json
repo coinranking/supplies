@@ -1,5 +1,8 @@
 [
   {
+    "modifiers": []
+  },
+  {
     "reference": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
     "modifiers": [
       "TAUN6FwrnwwmaEqYcckffC7wYmbaS6cBiX"
@@ -7,13 +10,8 @@
   },
   {
     "reference": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-    "modifiers": []
-  },
-  {
-    "modifiers": []
-  },
-  {
-    "reference": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-    "modifiers": []
+    "modifiers": [
+      "TAUN6FwrnwwmaEqYcckffC7wYmbaS6cBiX"
+    ]
   }
 ]

@@ -47,7 +47,7 @@
     "request": "^2.88.2",
     "socket.io-client": "4.5.3",
     "uuid": "^9.0.0",
-    "web3": "^1.7.1"
+    "web3": "^1.8.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
