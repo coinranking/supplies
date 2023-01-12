@@ -1,3 +1,10 @@
+## [2.67.6](https://github.com/coinranking/supplies/compare/v2.67.5...v2.67.6) (2023-01-12)
+
+
+### Bug Fixes
+
+* some support options were not correct ([d9c0483](https://github.com/coinranking/supplies/commit/d9c048335c5863f6fda5602dd51bbce79b077a2f))
+
 ## [2.67.5](https://github.com/coinranking/supplies/compare/v2.67.4...v2.67.5) (2022-11-16)
 
 
