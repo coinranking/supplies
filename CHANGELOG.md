@@ -1,3 +1,10 @@
+## [2.68.1](https://github.com/coinranking/supplies/compare/v2.68.0...v2.68.1) (2023-07-21)
+
+
+### Bug Fixes
+
+* **web3eth:** convert token balances to number ([2eab148](https://github.com/coinranking/supplies/commit/2eab148850037d2c7a6672f545def5827a44ed9a))
+
 # [2.68.0](https://github.com/coinranking/supplies/compare/v2.67.6...v2.68.0) (2023-07-21)
 
 
