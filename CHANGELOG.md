@@ -1,3 +1,10 @@
+# [2.68.0](https://github.com/coinranking/supplies/compare/v2.67.6...v2.68.0) (2023-07-21)
+
+
+### Features
+
+* remove unused code and update the web3 package ([d9b5b19](https://github.com/coinranking/supplies/commit/d9b5b195a46a3ce88c7f50f7729ba9cde4600732))
+
 ## [2.67.6](https://github.com/coinranking/supplies/compare/v2.67.5...v2.67.6) (2023-01-12)
 
 
