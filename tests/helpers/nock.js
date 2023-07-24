@@ -40,7 +40,14 @@ const maskSecret = (secret) => (scope) => {
     scope.response = maskSecretInString(secret)(scope.response);
   }
   scope.path = maskSecretInString(secret)(scope.path);
-  scope.body = maskSecretInString(secret)(scope.body);
+  if (typeof scope.body === 'string') {
+    scope.body = maskSecretInString(secret)(scope.body);
+  } else if (typeof scope.body === 'object') {
+    scope.body = JSON.stringify(scope.body);
+    scope.body = maskSecretInString(secret)(scope.body);
+    scope.body = JSON.parse(scope.body);
+  }
+
   return scope;
 };
 
