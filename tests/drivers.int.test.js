@@ -26,13 +26,6 @@ drivers.forEach((driverName) => {
       useCache: false,
     });
 
-    if (driver.supports.websockets || driver.supports.web3) {
-      // Don't test the drivers with Websockets or web3 yet.
-      // This should definitely be made to work,
-      // but is not yet ready!
-      return;
-    }
-
     // Set a secret to avoid an error from being thrown while testing
     if (driver.supports.secret) {
       driver.secret = 'maskedSecret';
