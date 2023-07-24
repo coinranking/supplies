@@ -1,3 +1,10 @@
+## [2.68.2](https://github.com/coinranking/supplies/compare/v2.68.1...v2.68.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* **web3eth:** switch to bitquery to get the supply for Ethereum tokens ([bd1d935](https://github.com/coinranking/supplies/commit/bd1d935a13508c4dd45cb9578d86ab478a99450f))
+
 ## [2.68.1](https://github.com/coinranking/supplies/compare/v2.68.0...v2.68.1) (2023-07-21)
 
 
