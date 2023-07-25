@@ -4,18 +4,49 @@
         "method": "POST",
         "path": "/",
         "body": {
-            "query": "\n          query ($token: String!) {\n            supply: ethereum(network: ethereum) {\n              mint: transfers(\n                currency: {is: $token}\n                sender: {is: \"0x0000000000000000000000000000000000000000\"}\n              ) {\n                amount(calculate: sum)\n              }\n            }\n          }\n        ",
+            "query": "\n          query($token: String!) {\n            ethereum(network: ethereum) {\n              address(address: {is: $token}) {\n                smartContract {\n                  attributes {\n                    name\n                    value\n                  }\n                }\n              }\n            }\n          }\n        ",
             "variables": {
-                "token": "0xf26c30dd13950d4f04429bdac5473433cf5d4d5a"
+                "token": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
             }
         },
         "status": 200,
         "response": {
             "data": {
-                "supply": {
-                    "mint": [
+                "ethereum": {
+                    "address": [
                         {
-                            "amount": 210690000000000
+                            "smartContract": {
+                                "attributes": [
+                                    {
+                                        "name": "mintingFinished",
+                                        "value": "false"
+                                    },
+                                    {
+                                        "name": "name",
+                                        "value": "Decentraland MANA"
+                                    },
+                                    {
+                                        "name": "totalSupply",
+                                        "value": "2193179327320146244857883456"
+                                    },
+                                    {
+                                        "name": "decimals",
+                                        "value": "18"
+                                    },
+                                    {
+                                        "name": "paused",
+                                        "value": "false"
+                                    },
+                                    {
+                                        "name": "owner",
+                                        "value": "0xa66d83716c7cfe425b44d0f7ef92de263468fb3d"
+                                    },
+                                    {
+                                        "name": "symbol",
+                                        "value": "MANA"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -25,7 +56,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 24 Jul 2023 08:51:28 GMT",
+            "Tue, 25 Jul 2023 05:29:07 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -44,20 +75,22 @@
             "none",
             "referrer-policy",
             "strict-origin-when-cross-origin",
+            "x-query-cached",
+            "true",
             "access-control-expose-headers",
             "X-GraphQL-Requested, X-GraphQL-Query-ID",
             "x-graphql-query-id",
-            "3rcewozpAeYWVYNC",
+            "7g9TkEnyYY9X1o4R",
             "x-graphql-requested",
-            "true",
+            "false",
             "etag",
-            "W/\"106420faeaae4db04faedfbb55960d3b\"",
+            "W/\"e7439639b04b485e2303e4dc71b70787\"",
             "cache-control",
             "max-age=0, private, must-revalidate",
             "x-request-id",
-            "b47762d6-560a-4602-8b5d-a0287fe739d9",
+            "54073d0e-91ea-4a8d-803f-1d56f7d30dec",
             "x-runtime",
-            "0.212142",
+            "0.003052",
             "vary",
             "Origin",
             "vary",
@@ -74,10 +107,10 @@
         "method": "POST",
         "path": "/",
         "body": {
-            "query": "\n          query ($address: String, $token: String) {\n            balance: ethereum (network: ethereum) {\n              address(address: {is: $address}) {\n                balances(currency: {is: $token}) {\n                  value\n                }\n              }\n            }\n          }\n        ",
+            "query": "\n          query ($address: String!, $token: String!) {\n            balance: ethereum (network: ethereum) {\n              address(address: {is: $address}) {\n                balances(currency: {is: $token}) {\n                  value\n                }\n              }\n            }\n          }\n        ",
             "variables": {
-                "token": "0xf26c30dd13950d4f04429bdac5473433cf5d4d5a",
-                "address": "0xa86c7040EF1C50F3a779010a904c4aB2B50c1A8b"
+                "token": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+                "address": "0x51d903f5bE1337a882E06383a1385f8CaA21fD83"
             }
         },
         "status": 200,
@@ -86,11 +119,7 @@
                 "balance": {
                     "address": [
                         {
-                            "balances": [
-                                {
-                                    "value": 88871066005721.6
-                                }
-                            ]
+                            "balances": null
                         }
                     ]
                 }
@@ -100,7 +129,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 24 Jul 2023 08:51:29 GMT",
+            "Tue, 25 Jul 2023 05:29:08 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -119,20 +148,22 @@
             "none",
             "referrer-policy",
             "strict-origin-when-cross-origin",
+            "x-query-cached",
+            "true",
             "access-control-expose-headers",
             "X-GraphQL-Requested, X-GraphQL-Query-ID",
             "x-graphql-query-id",
-            "nRPJKJzQgQBWywu2",
+            "Xjsxrnb4zZ1pPt9K",
             "x-graphql-requested",
-            "true",
+            "false",
             "etag",
-            "W/\"08b7e001e580b4eab0a9a1867fae6a2c\"",
+            "W/\"622758fe011bd564c3ce171c9a645331\"",
             "cache-control",
             "max-age=0, private, must-revalidate",
             "x-request-id",
-            "cf3c14ee-7cc5-4a55-b26a-ef71384194a2",
+            "605b1c2e-3a6a-4c50-83fa-27dbdbea6067",
             "x-runtime",
-            "0.343052",
+            "0.002931",
             "vary",
             "Origin",
             "vary",
