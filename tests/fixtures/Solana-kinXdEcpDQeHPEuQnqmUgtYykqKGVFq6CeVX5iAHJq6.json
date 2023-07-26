@@ -1,0 +1,286 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query ($token: String!) {\n              supply: solana(network: solana) {\n                mint: transfers(\n                  currency: {is: $token}\n                  transferType: {is: mint}\n                  senderAddress: {is: \"\"}\n                ) {\n                  amount(calculate: sum)\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "supply": {
+                    "mint": [
+                        {
+                            "amount": 10000000000000
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 07:41:36 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "uCE9vvyddruFVCPE",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"4215f9e641e008dafad878f1bd9166bd\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "75104f2a-c599-4571-b44b-c0f0bf5072cd",
+            "x-runtime",
+            "0.142006",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query ($token: String!) {\n              supply: solana(network: solana) {\n                burned: transfers(\n                  currency: {is: $token}\n                  transferType: {is: burn}\n                  receiverAddress: {is: \"\"}\n                ) {\n                  amount(calculate: sum)\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "supply": {
+                    "burned": [
+                        {
+                            "amount": 1101694923.89171
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 07:41:37 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "iR5d9Jb2uPn2HrV9",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"ec571e959bddb06d09df43896bfa29c9\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "ef0c8b26-0c95-425a-bc4c-19ef635e4482",
+            "x-runtime",
+            "0.041246",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query ($token: String!) {\n              supply: solana(network: solana) {\n                mint: transfers(\n                  currency: {is: $token}\n                  transferType: {is: mint}\n                  senderAddress: {is: \"\"}\n                ) {\n                  amount(calculate: sum)\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "supply": {
+                    "mint": [
+                        {
+                            "amount": 10000000000000
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 07:41:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "x-query-cached",
+            "true",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "DaNCUhQ2JarsMc4D",
+            "x-graphql-requested",
+            "false",
+            "etag",
+            "W/\"4215f9e641e008dafad878f1bd9166bd\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "cc5eb60b-cfd4-4b75-959a-a2e22f250588",
+            "x-runtime",
+            "0.004083",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query ($token: String!) {\n              supply: solana(network: solana) {\n                burned: transfers(\n                  currency: {is: $token}\n                  transferType: {is: burn}\n                  receiverAddress: {is: \"\"}\n                ) {\n                  amount(calculate: sum)\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "supply": {
+                    "burned": [
+                        {
+                            "amount": 1101694923.89171
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 07:41:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "x-query-cached",
+            "true",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "kUfdNGC95EWhZex8",
+            "x-graphql-requested",
+            "false",
+            "etag",
+            "W/\"ec571e959bddb06d09df43896bfa29c9\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "7b647303-d2ce-4c10-b29b-fab7950a076c",
+            "x-runtime",
+            "0.002994",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
