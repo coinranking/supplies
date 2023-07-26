@@ -1,3 +1,10 @@
+# [2.69.0](https://github.com/coinranking/supplies/compare/v2.68.2...v2.69.0) (2023-07-25)
+
+
+### Features
+
+* **web3eth:** total supply of contract ([d3e58ca](https://github.com/coinranking/supplies/commit/d3e58cabf9a7446501f0d277df7dadfd1e3e4ce9))
+
 ## [2.68.2](https://github.com/coinranking/supplies/compare/v2.68.1...v2.68.2) (2023-07-24)
 
 
