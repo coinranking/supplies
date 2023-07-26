@@ -1,3 +1,11 @@
+## [2.69.1](https://github.com/coinranking/supplies/compare/v2.69.0...v2.69.1) (2023-07-26)
+
+
+### Bug Fixes
+
+* **web3eth:** modifiers with negative balance ([5874d33](https://github.com/coinranking/supplies/commit/5874d33423e19f999ece278b911ff294d6dc8604))
+* **web3eth:** modifiers with negative balance ([d3a9731](https://github.com/coinranking/supplies/commit/d3a9731ca117abf51d3794b5c2dcb652979f7a63))
+
 # [2.69.0](https://github.com/coinranking/supplies/compare/v2.68.2...v2.69.0) (2023-07-25)
 
 
