@@ -1,3 +1,10 @@
+# [2.70.0](https://github.com/coinranking/supplies/compare/v2.69.1...v2.70.0) (2023-07-26)
+
+
+### Features
+
+* **solana:** add support for tokens ([29b683b](https://github.com/coinranking/supplies/commit/29b683b7db818ca62c9657a556934da71ee0f086))
+
 ## [2.69.1](https://github.com/coinranking/supplies/compare/v2.69.0...v2.69.1) (2023-07-26)
 
 
