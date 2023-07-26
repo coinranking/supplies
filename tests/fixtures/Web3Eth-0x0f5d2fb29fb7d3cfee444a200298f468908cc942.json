@@ -1,0 +1,176 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query($token: String!) {\n              ethereum(network: ethereum) {\n                address(address: {is: $token}) {\n                  smartContract {\n                    attributes {\n                      name\n                      value\n                    }\n                  }\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "ethereum": {
+                    "address": [
+                        {
+                            "smartContract": {
+                                "attributes": [
+                                    {
+                                        "name": "mintingFinished",
+                                        "value": "false"
+                                    },
+                                    {
+                                        "name": "name",
+                                        "value": "Decentraland MANA"
+                                    },
+                                    {
+                                        "name": "totalSupply",
+                                        "value": "2193179327320146244857883456"
+                                    },
+                                    {
+                                        "name": "decimals",
+                                        "value": "18"
+                                    },
+                                    {
+                                        "name": "paused",
+                                        "value": "false"
+                                    },
+                                    {
+                                        "name": "owner",
+                                        "value": "0xa66d83716c7cfe425b44d0f7ef92de263468fb3d"
+                                    },
+                                    {
+                                        "name": "symbol",
+                                        "value": "MANA"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 05:56:13 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "x-query-cached",
+            "true",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "HHArygq2aiRqc7Lh",
+            "x-graphql-requested",
+            "false",
+            "etag",
+            "W/\"e7439639b04b485e2303e4dc71b70787\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "af2f70f0-046e-49a9-8cfb-0d461235cb44",
+            "x-runtime",
+            "0.003686",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n            query ($address: String!, $token: String!) {\n              balance: ethereum (network: ethereum) {\n                address(address: {is: $address}) {\n                  balances(currency: {is: $token}) {\n                    value\n                  }\n                }\n              }\n            }\n          ",
+            "variables": {
+                "token": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+                "address": "0x51d903f5bE1337a882E06383a1385f8CaA21fD83"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "balance": {
+                    "address": [
+                        {
+                            "balances": null
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 26 Jul 2023 05:56:15 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "zDiMHkpzsGAWihj8",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"622758fe011bd564c3ce171c9a645331\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "d5accd0d-d7b7-4cfe-90cd-89cfcdce022e",
+            "x-runtime",
+            "0.572931",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
