@@ -1,3 +1,10 @@
+## [2.70.1](https://github.com/coinranking/supplies/compare/v2.70.0...v2.70.1) (2023-07-31)
+
+
+### Bug Fixes
+
+* **web3eth:** when the decimals are not set in the contract ([3bfcfff](https://github.com/coinranking/supplies/commit/3bfcfff4ade64348b179bbeeaf6119f48e2a2da4))
+
 # [2.70.0](https://github.com/coinranking/supplies/compare/v2.69.1...v2.70.0) (2023-07-26)
 
 
