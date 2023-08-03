@@ -2,19 +2,21 @@
     {
         "scope": "https://api.polygonscan.com:443",
         "method": "GET",
-        "path": "/api?module=stats&action=maticsupply",
+        "path": "/api?module=stats&action=maticsupply&apikey=maskedSecret",
         "body": "",
         "status": 200,
         "response": {
             "status": "1",
             "message": "OK",
-            "result": "6720693342900000000000000000"
+            "result": "9319469069284930000000000000"
         },
         "rawHeaders": [
+            "Server",
+            "nginx",
             "Date",
-            "Mon, 18 Oct 2021 15:52:33 GMT",
+            "Thu, 03 Aug 2023 04:09:02 GMT",
             "Content-Type",
-            "171",
+            "175",
             "Connection",
             "keep-alive",
             "Cache-Control",
@@ -28,19 +30,7 @@
             "Access-Control-Allow-Methods",
             "GET, POST, OPTIONS",
             "X-Frame-Options",
-            "SAMEORIGIN",
-            "CF-Cache-Status",
-            "DYNAMIC",
-            "Expect-CT",
-            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-            "Report-To",
-            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=5MJ%2FoTDbHUngOElnkFoe2o%2BKKRWcRbGDVKmBU9Pi1YEkORM%2BQq%2FgI94%2BRELZIlzYuwuBXdvf9U7eeC%2BsyDJklXIk%2FB1vOQgaiBiZ7kvMxNcQgYeAcJ231uONU0sjlpwgYh1W4uo%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
-            "NEL",
-            "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
-            "Server",
-            "cloudflare",
-            "CF-RAY",
-            "6a02ef372d0941f4-AMS"
+            "SAMEORIGIN"
         ],
         "responseIsBinary": false
     }
