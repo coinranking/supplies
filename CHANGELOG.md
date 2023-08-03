@@ -1,3 +1,10 @@
+## [2.70.2](https://github.com/coinranking/supplies/compare/v2.70.1...v2.70.2) (2023-08-03)
+
+
+### Bug Fixes
+
+* **polygonscan:** use apikey ([9abb5cf](https://github.com/coinranking/supplies/commit/9abb5cf5e216e0b7a4e8772db8f4ad61866a66d3))
+
 ## [2.70.1](https://github.com/coinranking/supplies/compare/v2.70.0...v2.70.1) (2023-07-31)
 
 
