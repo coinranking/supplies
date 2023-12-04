@@ -1,3 +1,10 @@
+## [2.70.3](https://github.com/coinranking/supplies/compare/v2.70.2...v2.70.3) (2023-12-04)
+
+
+### Bug Fixes
+
+* **solana:** use the decimals for solana tokens ([42a261e](https://github.com/coinranking/supplies/commit/42a261eb30c37da5166a65dc66bdddad844953dc))
+
 ## [2.70.2](https://github.com/coinranking/supplies/compare/v2.70.1...v2.70.2) (2023-08-03)
 
 
