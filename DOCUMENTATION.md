@@ -105,7 +105,7 @@ Fetch the balance on a specific address.
 <a name="Driver.fetchTokenTotalSupply"></a>
 
 ### Driver.fetchTokenTotalSupply ⇒ <code>number</code>
-Fetch the total supply of an token.
+Fetch the total supply of a token.
 
 **Kind**: static namespace of [<code>Driver</code>](#Driver)  
 **Returns**: <code>number</code> - Total amount of a token.  
@@ -128,7 +128,7 @@ such as methods to fetch total, circulating and max supply.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| [coin] | [<code>Coin</code>](#Coin) | The getSupply method gets called with an [coin instance](#Coin). |
+| [coin] | [<code>Coin</code>](#Coin) | The getSupply method gets called with a [coin instance](#Coin). |
 
 <a name="SupplyModifier"></a>
 
@@ -140,7 +140,7 @@ such as methods to fetch total, circulating and max supply.
 | --- | --- | --- |
 | options | <code>object</code> | The parameters of the supply modifier |
 | options.reference | <code>string</code> | A unique identifier. An address that holds a balance. |
-| options.balance | <code>number</code> | The balance of the adress. |
+| options.balance | <code>number</code> | The balance of the address. |
 
 <a name="new_SupplyModifier_new"></a>
 
@@ -162,8 +162,8 @@ supply modifiers result in the 'circulating supply'. Also see [Supply](#Supply).
 | --- | --- | --- |
 | options | <code>object</code> | The parameters of the supply. |
 | options.total | <code>number</code> | The amount of coins that is currently available on the blockchain, through either mining   or pre-mined. |
-| options.circulating | <code>number</code> | The total amount of coins, minus coins that are withold from the public. Coins can be withold   by means of burning, escrowing or being pre-mined and undistributed. The circulating supply is   fetched directly from a source or calculated by fetching modifiers, see options.modifiers in   [Coin](#Coin). |
-| options.max | <code>number</code> | In contrast to the total supply, the max supply is not only the currently available supply,   but also the amount of coins that can be reached in the future. It's relevance differs per   blockchain. E.g. Bitcoin has a fixed maximum supply of 21 million coins, upon which all it's   coins are mined. Ethereum can also be mined, but for now there is an indefinite amount and   thus no max supply. Other blockchains come pre-mined or might be completely mined already,   which means the max supply equals the total supply. |
+| options.circulating | <code>number</code> | The total amount of coins, minus coins that are withheld from the public. Coins can be withheld   by means of burning, escrowing or being pre-mined and undistributed. The circulating supply is   fetched directly from a source or calculated by fetching modifiers, see options.modifiers in   [Coin](#Coin). |
+| options.max | <code>number</code> | In contrast to the total supply, the max supply is not only the currently available supply,   but also the amount of coins that can be reached in the future. Its relevance differs per   blockchain. E.g. Bitcoin has a fixed maximum supply of 21 million coins, upon which all its   coins are mined. Ethereum can also be mined, but for now there is an indefinite amount and   thus no max supply. Other blockchains come pre-mined or might be completely mined already,   which means the max supply equals the total supply. |
 | options.modifiers | [<code>Array.&lt;SupplyModifier&gt;</code>](#SupplyModifier) | Consists of a list of suply modifiers. See [SupplyModifier](#SupplyModifier). |
 
 <a name="new_Supply_new"></a>
