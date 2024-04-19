@@ -1,3 +1,10 @@
+# [2.71.0](https://github.com/coinranking/supplies/compare/v2.70.3...v2.71.0) (2024-04-19)
+
+
+### Features
+
+* lower the rate of the bitquery driver ([8084ae7](https://github.com/coinranking/supplies/commit/8084ae7b0681ab01ebd867d464f6f920e590e0d5))
+
 ## [2.70.3](https://github.com/coinranking/supplies/compare/v2.70.2...v2.70.3) (2023-12-04)
 
 
