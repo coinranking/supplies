@@ -1,3 +1,10 @@
+# [2.72.0](https://github.com/coinranking/supplies/compare/v2.71.0...v2.72.0) (2024-10-31)
+
+
+### Features
+
+* add basescan driver ([5c3dd49](https://github.com/coinranking/supplies/commit/5c3dd49e369d18d5bf47dce9adf96806ac95e817))
+
 # [2.71.0](https://github.com/coinranking/supplies/compare/v2.70.3...v2.71.0) (2024-04-19)
 
 
